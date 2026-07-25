@@ -1,0 +1,74 @@
+{
+  "status": "exploratory strict-inductive reanalysis of previously inspected data",
+  "features": 54,
+  "latent_features": 16,
+  "fusion_features": 70,
+  "classes": [
+    "air",
+    "alcohol",
+    "acetone"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 400,
+  "experiments": [
+    "elastic-net"
+  ],
+  "splits": [
+    "SI1_train_I_D1_val_D2_test_D3plus",
+    "SI2_train_I_D1_val_D2_3_test_D4plus",
+    "SI3_train_I_D1_2_val_D3_5_test_D6plus",
+    "SI4_train_I_D1_3_val_D4_5_test_D6plus"
+  ],
+  "test_boundary": "target test features and labels excluded from training, alignment, validation, and model selection",
+  "selection_metric_order": [
+    "validation macro-F1",
+    "validation balanced accuracy",
+    "validation accuracy"
+  ],
+  "probability_ensemble": {
+    "alpha_grid": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "formula": "alpha*p_raw + (1-alpha)*p_fusion"
+  },
+  "target_weighted": {
+    "beta_grid": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "formula": "Ls + beta*Lt + domain losses"
+  },
+  "elastic_net": {
+    "C_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "l1_ratio_grid": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "solver": "saga"
+  },
+  "CDAN_C_DANN_fixed": {
+    "alignment_strength": 0.2,
+    "centroid_strength": 0.2
+  },
+  "sources": {
+    "soft_voting": "scikit-learn VotingClassifier weighted predict_proba mechanism",
+    "elastic_net": "scikit-learn LogisticRegression penalty=elasticnet, solver=saga",
+    "target_weighting": "PyTorch cross-entropy domain-specific losses"
+  }
+}

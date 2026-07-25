@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="700" viewBox="0 0 1320 700">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="42" font-family="Arial" font-size="26" font-weight="700" fill="#111827">Deep CORAL-UDA Scientific Workflow</text>
+<text x="40" y="68" font-family="Arial" font-size="14" fill="#4b5563">Independent CORAL experiment. Original MLP/DANN/CDAN/C-DANN scripts are not modified.</text>
+<line x1="250" y1="150" x2="300" y2="150" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="250" y1="150" x2="300" y2="320" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="530" y1="150" x2="590" y2="150" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="530" y1="320" x2="590" y2="150" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="820" y1="150" x2="870" y2="118" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="820" y1="150" x2="870" y2="270" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="1090" y1="118" x2="1130" y2="118" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="1090" y1="270" x2="1130" y2="270" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="1205" y1="164" x2="980" y2="410" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="1205" y1="326" x2="980" y2="410" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<line x1="1090" y1="460" x2="1130" y2="460" stroke="#334155" stroke-width="1.8" marker-end="url(#arrow)"/>
+<rect x="40" y="90" width="210" height="120" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="54" y="118" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Feature table</text>
+<text x="54" y="145" font-family="Arial" font-size="13" fill="#1f2937">x in R^54</text>
+<text x="54" y="172" font-family="Arial" font-size="12" fill="#64748b">source/target split membership known</text>
+<rect x="300" y="90" width="230" height="120" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="314" y="118" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Source branch</text>
+<text x="314" y="145" font-family="Arial" font-size="13" fill="#1f2937">x_s: n_s x 54</text>
+<text x="314" y="172" font-family="Arial" font-size="12" fill="#64748b">uses gas labels y_s for CE</text>
+<rect x="300" y="260" width="230" height="120" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="314" y="288" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Target branch</text>
+<text x="314" y="315" font-family="Arial" font-size="13" fill="#1f2937">x_t: n_t x 54</text>
+<text x="314" y="342" font-family="Arial" font-size="12" fill="#64748b">no target gas labels used</text>
+<rect x="590" y="90" width="230" height="120" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="604" y="118" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Shared MLP feature extractor</text>
+<text x="604" y="145" font-family="Arial" font-size="13" fill="#1f2937">G_f: R^54 -&gt; R^16</text>
+<text x="604" y="172" font-family="Arial" font-size="12" fill="#64748b">same weights for source and target</text>
+<rect x="870" y="72" width="220" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="884" y="100" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Classifier head</text>
+<text x="884" y="127" font-family="Arial" font-size="13" fill="#1f2937">G_y: R^16 -&gt; R^3</text>
+<text x="884" y="154" font-family="Arial" font-size="12" fill="#64748b">source labels y_s only</text>
+<rect x="870" y="214" width="220" height="112" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="884" y="242" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">CORAL alignment</text>
+<text x="884" y="269" font-family="Arial" font-size="13" fill="#1f2937">C_s,C_t in R^16 x R^16</text>
+<text x="884" y="296" font-family="Arial" font-size="12" fill="#64748b">uses domain membership: source vs target</text>
+<rect x="1130" y="72" width="150" height="92" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="1144" y="100" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Class loss</text>
+<text x="1144" y="127" font-family="Arial" font-size="13" fill="#1f2937">L_y = CE(G_y(h_s), y_s)</text>
+<text x="1144" y="154" font-family="Arial" font-size="12" fill="#64748b">labels used here</text>
+<rect x="1130" y="214" width="150" height="112" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="1144" y="242" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">CORAL loss</text>
+<text x="1144" y="269" font-family="Arial" font-size="13" fill="#1f2937">Lcoral = ||Cs-Ct||^2/(4d^2)</text>
+<text x="1144" y="296" font-family="Arial" font-size="12" fill="#64748b">no gas labels</text>
+<rect x="870" y="410" width="220" height="100" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="884" y="438" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Training objective</text>
+<text x="884" y="465" font-family="Arial" font-size="13" fill="#1f2937">L = L_y + lambda Lcoral</text>
+<text x="884" y="492" font-family="Arial" font-size="12" fill="#64748b">lambda selected only by validation policy</text>
+<rect x="1130" y="410" width="150" height="100" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="1144" y="438" font-family="Arial" font-size="15" font-weight="700" fill="#0f172a">Outputs</text>
+<text x="1144" y="465" font-family="Arial" font-size="13" fill="#1f2937">target predictions + metrics</text>
+<text x="1144" y="492" font-family="Arial" font-size="12" fill="#64748b">test labels evaluation only</text>
+<text x="40" y="575" font-family="Arial" font-size="13" fill="#374151">Label usage: source gas labels y_s train the classifier; validation labels are used only for model selection; test labels are used only after training for final metrics.</text>
+<text x="40" y="599" font-family="Arial" font-size="13" fill="#374151">Domain information usage: source/target membership is used to form h_s and h_t covariance matrices. No target gas labels enter Lcoral.</text>
+<text x="40" y="623" font-family="Arial" font-size="13" fill="#374151">Reported dimensions are from the current feature table and model architecture.</text>
+</svg>

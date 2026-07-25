@@ -1,0 +1,13 @@
+space,folder,points,kind,balanced_accuracy
+interactive_bc_no_clip_s1_s4_s5_feature_space.html,feature_space_raw,134500,raw point cloud,
+interactive_bc_no_clip_post60_group_hyperplane_s1_s4_s5.html,feature_space_raw,303,group hyperplane,0.7824074074074074
+interactive_bc_s1_s4_s5_feature_space.html,feature_space_raw_cut,134500,raw point cloud with 1-99 percentile display cut,
+interactive_bc_zero_start_s1_s4_s5_feature_space.html,feature_space_raw_cut,134500,zero-started raw point cloud with 1-99 percentile display cut,
+interactive_bc_post60_group_hyperplane_s1_s4_s5.html,feature_space_raw_cut,303,group hyperplane with 1-99 percentile display cut,0.7824074074074074
+interactive_bc_no_clip_s2_s4_s5_feature_space.html,feature_space_raw,134500,raw point cloud,
+interactive_bc_no_clip_post60_group_hyperplane_s2_s4_s5.html,feature_space_raw,303,group hyperplane,0.912037037037037
+interactive_bc_s2_s4_s5_feature_space.html,feature_space_raw_cut,134500,raw point cloud with 1-99 percentile display cut,
+interactive_bc_zero_start_s2_s4_s5_feature_space.html,feature_space_raw_cut,134500,zero-started raw point cloud with 1-99 percentile display cut,
+interactive_bc_post60_group_hyperplane_s2_s4_s5.html,feature_space_raw_cut,303,group hyperplane with 1-99 percentile display cut,0.912037037037037
+uci_norm_delta_no_clip_s1_s4_s5.html,feature_space_uci,303,UCI normDeltaR sensor feature space,0.8148148148148149
+uci_norm_delta_no_clip_s2_s4_s5.html,feature_space_uci,303,UCI normDeltaR sensor feature space,0.9074074074074074

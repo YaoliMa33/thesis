@@ -1,0 +1,193 @@
+
+===== START run_dann_multi_splits.py =====
+PyTorch 2.12.1+cpu CUDA False
+
+Partitions
+                             split                 task            partition   n                   class_counts                                                         period_days                                            label_usage
+               S1_train_I_test_all three_class_with_air         source_train  30  air:6; alcohol:12; acetone:12                                                  Period_I Day1-Day3                        labels used for classifier loss
+               S1_train_I_test_all three_class_with_air           source_val   0                                                                                                                      labels used only for model selection
+               S1_train_I_test_all three_class_with_air target_labeled_train   0                                                                                                              labels used only by semi-supervised variants
+               S1_train_I_test_all three_class_with_air        target_domain 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24 gas labels not used; features used for UDA/domain loss
+               S1_train_I_test_all three_class_with_air           target_val   0                                                                                                                      labels used only for model selection
+               S1_train_I_test_all three_class_with_air          target_test 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24                  labels used only for final evaluation
+  S2_train_I_internal_val_test_all three_class_with_air         source_train  25  air:5; alcohol:10; acetone:10                                                  Period_I Day1-Day3                        labels used for classifier loss
+  S2_train_I_internal_val_test_all three_class_with_air           source_val   5    air:1; alcohol:2; acetone:2                                                  Period_I Day1-Day3                   labels used only for model selection
+  S2_train_I_internal_val_test_all three_class_with_air target_labeled_train   0                                                                                                              labels used only by semi-supervised variants
+  S2_train_I_internal_val_test_all three_class_with_air        target_domain 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24 gas labels not used; features used for UDA/domain loss
+  S2_train_I_internal_val_test_all three_class_with_air           target_val   0                                                                                                                      labels used only for model selection
+  S2_train_I_internal_val_test_all three_class_with_air          target_test 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24                  labels used only for final evaluation
+S3_train_I_internal_20_10_test_all three_class_with_air         source_train  20    air:4; alcohol:8; acetone:8                                                  Period_I Day1-Day3                        labels used for classifier loss
+S3_train_I_internal_20_10_test_all three_class_with_air           source_val  10    air:2; alcohol:4; acetone:4                                                  Period_I Day1-Day3                   labels used only for model selection
+S3_train_I_internal_20_10_test_all three_class_with_air target_labeled_train   0                                                                                                              labels used only by semi-supervised variants
+S3_train_I_internal_20_10_test_all three_class_with_air        target_domain 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24 gas labels not used; features used for UDA/domain loss
+S3_train_I_internal_20_10_test_all three_class_with_air           target_val   0                                                                                                                      labels used only for model selection
+S3_train_I_internal_20_10_test_all three_class_with_air          target_test 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24                  labels used only for final evaluation
+               S4_train_I_val_D1_2 three_class_with_air         source_train  30  air:6; alcohol:12; acetone:12                                                  Period_I Day1-Day3                        labels used for classifier loss
+               S4_train_I_val_D1_2 three_class_with_air           source_val   0                                                                                                                      labels used only for model selection
+               S4_train_I_val_D1_2 three_class_with_air target_labeled_train   0                                                                                                              labels used only by semi-supervised variants
+               S4_train_I_val_D1_2 three_class_with_air        target_domain 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24 gas labels not used; features used for UDA/domain loss
+               S4_train_I_val_D1_2 three_class_with_air           target_val  28  air:8; alcohol:10; acetone:10                                                 Period_II Day1-Day2                   labels used only for model selection
+               S4_train_I_val_D1_2 three_class_with_air          target_test 245 air:73; alcohol:86; acetone:86 Period_II Day3-Day17; Period_III Day18-Day21; Period_IV Day22-Day24                  labels used only for final evaluation
+            S5_train_I_D1_val_D2_3 three_class_with_air         source_train  30  air:6; alcohol:12; acetone:12                                                  Period_I Day1-Day3                        labels used for classifier loss
+            S5_train_I_D1_val_D2_3 three_class_with_air           source_val   0                                                                                                                      labels used only for model selection
+            S5_train_I_D1_val_D2_3 three_class_with_air target_labeled_train  16    air:6; alcohol:5; acetone:5                                                 Period_II Day1-Day1           labels used only by semi-supervised variants
+            S5_train_I_D1_val_D2_3 three_class_with_air        target_domain 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24 gas labels not used; features used for UDA/domain loss
+            S5_train_I_D1_val_D2_3 three_class_with_air           target_val  26  air:6; alcohol:10; acetone:10                                                 Period_II Day2-Day3                   labels used only for model selection
+            S5_train_I_D1_val_D2_3 three_class_with_air          target_test 231 air:69; alcohol:81; acetone:81 Period_II Day4-Day17; Period_III Day18-Day21; Period_IV Day22-Day24                  labels used only for final evaluation
+          S6_train_I_D1_2_val_D3_5 three_class_with_air         source_train  30  air:6; alcohol:12; acetone:12                                                  Period_I Day1-Day3                        labels used for classifier loss
+          S6_train_I_D1_2_val_D3_5 three_class_with_air           source_val   0                                                                                                                      labels used only for model selection
+          S6_train_I_D1_2_val_D3_5 three_class_with_air target_labeled_train  28  air:8; alcohol:10; acetone:10                                                 Period_II Day1-Day2           labels used only by semi-supervised variants
+          S6_train_I_D1_2_val_D3_5 three_class_with_air        target_domain 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24 gas labels not used; features used for UDA/domain loss
+          S6_train_I_D1_2_val_D3_5 three_class_with_air           target_val  40 air:10; alcohol:15; acetone:15                                                 Period_II Day3-Day5                   labels used only for model selection
+          S6_train_I_D1_2_val_D3_5 three_class_with_air          target_test 205 air:63; alcohol:71; acetone:71 Period_II Day6-Day17; Period_III Day18-Day21; Period_IV Day22-Day24                  labels used only for final evaluation
+          S7_train_I_D1_3_val_D4_5 three_class_with_air         source_train  30  air:6; alcohol:12; acetone:12                                                  Period_I Day1-Day3                        labels used for classifier loss
+          S7_train_I_D1_3_val_D4_5 three_class_with_air           source_val   0                                                                                                                      labels used only for model selection
+          S7_train_I_D1_3_val_D4_5 three_class_with_air target_labeled_train  42 air:12; alcohol:15; acetone:15                                                 Period_II Day1-Day3           labels used only by semi-supervised variants
+          S7_train_I_D1_3_val_D4_5 three_class_with_air        target_domain 273 air:81; alcohol:96; acetone:96 Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24 gas labels not used; features used for UDA/domain loss
+          S7_train_I_D1_3_val_D4_5 three_class_with_air           target_val  26  air:6; alcohol:10; acetone:10                                                 Period_II Day4-Day5                   labels used only for model selection
+          S7_train_I_D1_3_val_D4_5 three_class_with_air          target_test 205 air:63; alcohol:71; acetone:71 Period_II Day6-Day17; Period_III Day18-Day21; Period_IV Day22-Day24                  labels used only for final evaluation
+
+Selected summary
+                             split                 task                    variant  lambda  seed                 classifier_label_usage               model_selection_labels  train_accuracy  validation_accuracy  test_accuracy  test_balanced_accuracy  test_macro_f1  domain_discriminator_accuracy                                                                                   judgment
+               S1_train_I_test_all three_class_with_air            MLP source only    0.00     0                     source labels only no validation; fixed hyperparameters        1.000000                  NaN       0.784615                0.786317       0.787224                       0.456106 fixed hyperparameters because the split has no validation set; metrics averaged over seeds
+               S1_train_I_test_all three_class_with_air                   DANN-UDA    0.20     0                     source labels only no validation; fixed hyperparameters        1.000000                  NaN       0.747253                0.749743       0.753800                       0.903630 fixed hyperparameters because the split has no validation set; metrics averaged over seeds
+  S2_train_I_internal_val_test_all three_class_with_air            MLP source only    0.00     0                     source labels only             source validation labels        0.872000             0.760000       0.664469                0.676157       0.645222                       0.608054    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+  S2_train_I_internal_val_test_all three_class_with_air                   DANN-UDA    0.20     0                     source labels only             source validation labels        0.944000             0.840000       0.704029                0.709028       0.701457                       0.916107    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+S3_train_I_internal_20_10_test_all three_class_with_air            MLP source only    0.00     0                     source labels only             source validation labels        0.890000             0.700000       0.654945                0.665586       0.646595                       0.554949    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+S3_train_I_internal_20_10_test_all three_class_with_air                   DANN-UDA    0.20     0                     source labels only             source validation labels        0.950000             0.720000       0.673993                0.680684       0.671827                       0.931741    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+               S4_train_I_val_D1_2 three_class_with_air            MLP source only    0.00     0                     source labels only             target validation labels        1.000000             0.892857       0.785306                0.787427       0.787432                       0.430363    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+               S4_train_I_val_D1_2 three_class_with_air                   DANN-UDA    0.05     0                     source labels only             target validation labels        1.000000             0.878571       0.782857                0.785792       0.785552                       0.900330    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+            S5_train_I_D1_val_D2_3 three_class_with_air            MLP source only    0.00     0                     source labels only             target validation labels        1.000000             0.869231       0.786147                0.788406       0.790234                       0.448185    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+            S5_train_I_D1_val_D2_3 three_class_with_air                   DANN-UDA    0.05     0                     source labels only             target validation labels        1.000000             0.884615       0.780952                0.783181       0.784584                       0.901650    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+            S5_train_I_D1_val_D2_3 three_class_with_air MLP source + target labels    0.00     0 source labels + selected target labels             target validation labels        0.991304             0.953846       0.836364                0.839435       0.836275                       0.471947    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+            S5_train_I_D1_val_D2_3 three_class_with_air                  DANN-semi    0.20     0 source labels + selected target labels             target validation labels        0.995652             0.976923       0.849351                0.850921       0.851411                       0.899670    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+          S6_train_I_D1_2_val_D3_5 three_class_with_air            MLP source only    0.00     0                     source labels only             target validation labels        0.973333             0.880000       0.740488                0.743558       0.744176                       0.499010    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+          S6_train_I_D1_2_val_D3_5 three_class_with_air                   DANN-UDA    0.20     0                     source labels only             target validation labels        0.960000             0.905000       0.697561                0.701885       0.701301                       0.903630    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+          S6_train_I_D1_2_val_D3_5 three_class_with_air MLP source + target labels    0.00     0 source labels + selected target labels             target validation labels        0.996552             0.945000       0.881951                0.882450       0.881992                       0.333333    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+          S6_train_I_D1_2_val_D3_5 three_class_with_air                  DANN-semi    0.20     0 source labels + selected target labels             target validation labels        1.000000             0.975000       0.890732                0.890424       0.890734                       0.903630    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+          S7_train_I_D1_3_val_D4_5 three_class_with_air            MLP source only    0.00     0                     source labels only             target validation labels        0.973333             0.861538       0.729756                0.733706       0.733376                       0.499010    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+          S7_train_I_D1_3_val_D4_5 three_class_with_air                   DANN-UDA    0.20     0                     source labels only             target validation labels        0.960000             0.900000       0.697561                0.701885       0.701301                       0.903630    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+          S7_train_I_D1_3_val_D4_5 three_class_with_air MLP source + target labels    0.00     0 source labels + selected target labels             target validation labels        0.991667             0.961538       0.920000                0.919905       0.921484                       0.442244    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+          S7_train_I_D1_3_val_D4_5 three_class_with_air                  DANN-semi    0.05     0 source labels + selected target labels             target validation labels        0.991667             0.976923       0.920976                0.920247       0.921875                       0.899010    lambda selected by mean validation macro-F1, balanced accuracy, and accuracy over seeds
+===== END run_dann_multi_splits.py =====
+
+===== START build_dann_interactive_report.py =====
+01/20 S1_train_I_test_all | three_class_with_air | MLP source only
+02/20 S1_train_I_test_all | three_class_with_air | DANN-UDA
+03/20 S2_train_I_internal_val_test_all | three_class_with_air | MLP source only
+04/20 S2_train_I_internal_val_test_all | three_class_with_air | DANN-UDA
+05/20 S3_train_I_internal_20_10_test_all | three_class_with_air | MLP source only
+06/20 S3_train_I_internal_20_10_test_all | three_class_with_air | DANN-UDA
+07/20 S4_train_I_val_D1_2 | three_class_with_air | MLP source only
+08/20 S4_train_I_val_D1_2 | three_class_with_air | DANN-UDA
+09/20 S5_train_I_D1_val_D2_3 | three_class_with_air | MLP source only
+10/20 S5_train_I_D1_val_D2_3 | three_class_with_air | DANN-UDA
+11/20 S5_train_I_D1_val_D2_3 | three_class_with_air | MLP source + target labels
+12/20 S5_train_I_D1_val_D2_3 | three_class_with_air | DANN-semi
+13/20 S6_train_I_D1_2_val_D3_5 | three_class_with_air | MLP source only
+14/20 S6_train_I_D1_2_val_D3_5 | three_class_with_air | DANN-UDA
+15/20 S6_train_I_D1_2_val_D3_5 | three_class_with_air | MLP source + target labels
+16/20 S6_train_I_D1_2_val_D3_5 | three_class_with_air | DANN-semi
+17/20 S7_train_I_D1_3_val_D4_5 | three_class_with_air | MLP source only
+18/20 S7_train_I_D1_3_val_D4_5 | three_class_with_air | DANN-UDA
+19/20 S7_train_I_D1_3_val_D4_5 | three_class_with_air | MLP source + target labels
+20/20 S7_train_I_D1_3_val_D4_5 | three_class_with_air | DANN-semi
+D:\thesis\figures\dann_learning\dann_interactive_report.html
+D:\thesis\tables\dann_interactive_training_curves.csv
+D:\thesis\tables\dann_interactive_feature_space.csv
+===== END build_dann_interactive_report.py =====
+
+===== START build_dann_conditional_report.py =====
+01/14 S1_train_I_test_all | three_class_with_air | C-DANN-UDA
+03/14 S2_train_I_internal_val_test_all | three_class_with_air | C-DANN-UDA
+05/14 S3_train_I_internal_20_10_test_all | three_class_with_air | C-DANN-UDA
+07/14 S4_train_I_val_D1_2 | three_class_with_air | C-DANN-UDA
+09/14 S5_train_I_D1_val_D2_3 | three_class_with_air | C-DANN-UDA
+10/14 S5_train_I_D1_val_D2_3 | three_class_with_air | C-DANN-semi
+11/14 S6_train_I_D1_2_val_D3_5 | three_class_with_air | C-DANN-UDA
+12/14 S6_train_I_D1_2_val_D3_5 | three_class_with_air | C-DANN-semi
+13/14 S7_train_I_D1_3_val_D4_5 | three_class_with_air | C-DANN-UDA
+14/14 S7_train_I_D1_3_val_D4_5 | three_class_with_air | C-DANN-semi
+
+Comparison
+                             split                 task old_variant new_variant  old_test_accuracy  new_test_accuracy  test_accuracy_delta  old_centroid_distance  new_centroid_distance  centroid_distance_delta  old_neighbor_mixing  new_neighbor_mixing  neighbor_mixing_delta
+               S1_train_I_test_all three_class_with_air    DANN-UDA  C-DANN-UDA           0.747253           0.887912             0.140659               1.158281               0.307691                -0.850591             0.157450             0.187697               0.030247
+  S2_train_I_internal_val_test_all three_class_with_air    DANN-UDA  C-DANN-UDA           0.704029           0.779487             0.075458               1.229303               0.335933                -0.893370             0.129651             0.188442               0.058791
+S3_train_I_internal_20_10_test_all three_class_with_air    DANN-UDA  C-DANN-UDA           0.673993           0.693040             0.019048               0.962686               1.002139                 0.039453             0.164985             0.139527              -0.025458
+               S4_train_I_val_D1_2 three_class_with_air    DANN-UDA  C-DANN-UDA           0.782857           0.851429             0.068571               1.068094               0.503912                -0.564183             0.159898             0.173521               0.013623
+            S5_train_I_D1_val_D2_3 three_class_with_air    DANN-UDA  C-DANN-UDA           0.780952           0.865801             0.084848               0.934859               0.503912                -0.430947             0.154555             0.173521               0.018966
+            S5_train_I_D1_val_D2_3 three_class_with_air   DANN-semi C-DANN-semi           0.849351           0.866667             0.017316               0.814412               0.538408                -0.276004             0.148978             0.152703               0.003725
+          S6_train_I_D1_2_val_D3_5 three_class_with_air    DANN-UDA  C-DANN-UDA           0.697561           0.839024             0.141463               1.300789               0.815225                -0.485564             0.161750             0.169178               0.007429
+          S6_train_I_D1_2_val_D3_5 three_class_with_air   DANN-semi C-DANN-semi           0.890732           0.925854             0.035122               0.944720               0.672002                -0.272718             0.161281             0.171797               0.010515
+          S7_train_I_D1_3_val_D4_5 three_class_with_air    DANN-UDA  C-DANN-UDA           0.697561           0.840976             0.143415               1.300789               0.212188                -1.088601             0.161750             0.173138               0.011388
+          S7_train_I_D1_3_val_D4_5 three_class_with_air   DANN-semi C-DANN-semi           0.920976           0.939512             0.018537               0.894081               0.874576                -0.019505             0.160536             0.161941               0.001405
+
+Wrote
+D:\thesis\figures\dann_learning\dann_9feature_cdann_report.html
+D:\thesis\figures\dann_learning\dann_9feature_cdann_summary.svg
+D:\thesis\tables\dann_conditional_old_vs_new_comparison.csv
+D:\thesis\tables\dann_conditional_mixing_diagnostics.csv
+===== END build_dann_conditional_report.py =====
+
+===== START run_cdan_multi_splits.py =====
+===== END run_cdan_multi_splits.py =====
+
+===== START run_cdan_hybrid_report.py =====
+S1_train_I_test_all | three_class_with_air | CDAN-UDA
+S1_train_I_test_all | three_class_with_air | CDAN+C-DANN-UDA
+S2_train_I_internal_val_test_all | three_class_with_air | CDAN-UDA
+S2_train_I_internal_val_test_all | three_class_with_air | CDAN+C-DANN-UDA
+S3_train_I_internal_20_10_test_all | three_class_with_air | CDAN-UDA
+S3_train_I_internal_20_10_test_all | three_class_with_air | CDAN+C-DANN-UDA
+S4_train_I_val_D1_2 | three_class_with_air | CDAN-UDA
+S4_train_I_val_D1_2 | three_class_with_air | CDAN+C-DANN-UDA
+S5_train_I_D1_val_D2_3 | three_class_with_air | CDAN-UDA
+S5_train_I_D1_val_D2_3 | three_class_with_air | CDAN-semi
+S5_train_I_D1_val_D2_3 | three_class_with_air | CDAN+C-DANN-UDA
+S5_train_I_D1_val_D2_3 | three_class_with_air | CDAN+C-DANN-semi
+S6_train_I_D1_2_val_D3_5 | three_class_with_air | CDAN-UDA
+S6_train_I_D1_2_val_D3_5 | three_class_with_air | CDAN-semi
+S6_train_I_D1_2_val_D3_5 | three_class_with_air | CDAN+C-DANN-UDA
+S6_train_I_D1_2_val_D3_5 | three_class_with_air | CDAN+C-DANN-semi
+S7_train_I_D1_3_val_D4_5 | three_class_with_air | CDAN-UDA
+S7_train_I_D1_3_val_D4_5 | three_class_with_air | CDAN-semi
+S7_train_I_D1_3_val_D4_5 | three_class_with_air | CDAN+C-DANN-UDA
+S7_train_I_D1_3_val_D4_5 | three_class_with_air | CDAN+C-DANN-semi
+D:\thesis\tables\cdan_hybrid_all_runs.csv
+D:\thesis\tables\cdan_hybrid_selected_summary.csv
+D:\thesis\tables\cdan_hybrid_training_curves.csv
+D:\thesis\tables\cdan_hybrid_feature_space.csv
+D:\thesis\figures\dann_learning\dann_9feature_cdann_report.html
+===== END run_cdan_hybrid_report.py =====
+
+===== START run_deep_coral_multi_splits.py =====
+S1_train_I_test_all | three_class_with_air: 2 runs
+S2_train_I_internal_val_test_all | three_class_with_air: 20 runs
+S3_train_I_internal_20_10_test_all | three_class_with_air: 20 runs
+S4_train_I_val_D1_2 | three_class_with_air: 20 runs
+S5_train_I_D1_val_D2_3 | three_class_with_air: 20 runs
+S6_train_I_D1_2_val_D3_5 | three_class_with_air: 20 runs
+S7_train_I_D1_3_val_D4_5 | three_class_with_air: 20 runs
+selected 01/14 S1_train_I_test_all | MLP source only
+selected 02/14 S1_train_I_test_all | Deep CORAL-UDA
+selected 03/14 S2_train_I_internal_val_test_all | MLP source only
+selected 04/14 S2_train_I_internal_val_test_all | Deep CORAL-UDA
+selected 05/14 S3_train_I_internal_20_10_test_all | MLP source only
+selected 06/14 S3_train_I_internal_20_10_test_all | Deep CORAL-UDA
+selected 07/14 S4_train_I_val_D1_2 | MLP source only
+selected 08/14 S4_train_I_val_D1_2 | Deep CORAL-UDA
+selected 09/14 S5_train_I_D1_val_D2_3 | MLP source only
+selected 10/14 S5_train_I_D1_val_D2_3 | Deep CORAL-UDA
+selected 11/14 S6_train_I_D1_2_val_D3_5 | MLP source only
+selected 12/14 S6_train_I_D1_2_val_D3_5 | Deep CORAL-UDA
+selected 13/14 S7_train_I_D1_3_val_D4_5 | MLP source only
+selected 14/14 S7_train_I_D1_3_val_D4_5 | Deep CORAL-UDA
+Wrote D:\thesis\tables\deep_coral_multi_split_all_runs.csv
+Wrote D:\thesis\tables\deep_coral_multi_split_selected_summary.csv
+Wrote D:\thesis\tables\deep_coral_multi_split_partitions.csv
+Wrote D:\thesis\tables\deep_coral_multi_split_training_curves.csv
+Wrote D:\thesis\tables\deep_coral_multi_split_feature_space.csv
+Wrote D:\thesis\figures\coral\deep_coral_research_flow.svg
+Wrote D:\thesis\figures\coral\deep_coral_multi_split_summary.svg
+Wrote D:\thesis\figures\coral\deep_coral_multi_split_report.html
+===== END run_deep_coral_multi_splits.py =====

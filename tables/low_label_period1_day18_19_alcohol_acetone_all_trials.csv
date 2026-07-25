@@ -1,0 +1,1501 @@
+samples_per_class,repeat,model,accuracy,train_files,test_n
+1,0,LDA,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,0,Logistic Regression,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,0,kNN,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,0,Random Forest,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,0,RBF LS-SVM,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,1,LDA,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,1,Logistic Regression,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,1,kNN,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,1,Random Forest,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,1,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,2,LDA,0.5,alcohol_o1.csv;acetone_o9.csv,14
+1,2,Logistic Regression,0.5,alcohol_o1.csv;acetone_o9.csv,14
+1,2,kNN,0.5,alcohol_o1.csv;acetone_o9.csv,14
+1,2,Random Forest,0.5,alcohol_o1.csv;acetone_o9.csv,14
+1,2,RBF LS-SVM,0.5,alcohol_o1.csv;acetone_o9.csv,14
+1,3,LDA,0.5,alcohol_o6.csv;acetone_o1.csv,14
+1,3,Logistic Regression,0.5,alcohol_o6.csv;acetone_o1.csv,14
+1,3,kNN,0.5,alcohol_o6.csv;acetone_o1.csv,14
+1,3,Random Forest,0.5714285714285714,alcohol_o6.csv;acetone_o1.csv,14
+1,3,RBF LS-SVM,0.5,alcohol_o6.csv;acetone_o1.csv,14
+1,4,LDA,0.5,alcohol_o5.csv;acetone_o2.csv,14
+1,4,Logistic Regression,0.5,alcohol_o5.csv;acetone_o2.csv,14
+1,4,kNN,0.5,alcohol_o5.csv;acetone_o2.csv,14
+1,4,Random Forest,0.5,alcohol_o5.csv;acetone_o2.csv,14
+1,4,RBF LS-SVM,0.5,alcohol_o5.csv;acetone_o2.csv,14
+1,5,LDA,0.5,alcohol_o6.csv;acetone_o5.csv,14
+1,5,Logistic Regression,0.5,alcohol_o6.csv;acetone_o5.csv,14
+1,5,kNN,0.5,alcohol_o6.csv;acetone_o5.csv,14
+1,5,Random Forest,0.5,alcohol_o6.csv;acetone_o5.csv,14
+1,5,RBF LS-SVM,0.5,alcohol_o6.csv;acetone_o5.csv,14
+1,6,LDA,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,6,Logistic Regression,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,6,kNN,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,6,Random Forest,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,6,RBF LS-SVM,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,7,LDA,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,7,Logistic Regression,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,7,kNN,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,7,Random Forest,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,7,RBF LS-SVM,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,8,LDA,0.5,alcohol_o4.csv;acetone_o10.csv,14
+1,8,Logistic Regression,0.7857142857142857,alcohol_o4.csv;acetone_o10.csv,14
+1,8,kNN,0.5,alcohol_o4.csv;acetone_o10.csv,14
+1,8,Random Forest,0.7857142857142857,alcohol_o4.csv;acetone_o10.csv,14
+1,8,RBF LS-SVM,0.7857142857142857,alcohol_o4.csv;acetone_o10.csv,14
+1,9,LDA,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,9,Logistic Regression,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,9,kNN,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,9,Random Forest,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,9,RBF LS-SVM,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,10,LDA,0.5,alcohol_o4.csv;acetone_o8.csv,14
+1,10,Logistic Regression,0.5,alcohol_o4.csv;acetone_o8.csv,14
+1,10,kNN,0.5,alcohol_o4.csv;acetone_o8.csv,14
+1,10,Random Forest,0.5,alcohol_o4.csv;acetone_o8.csv,14
+1,10,RBF LS-SVM,0.5,alcohol_o4.csv;acetone_o8.csv,14
+1,11,LDA,0.5,alcohol_o9.csv;acetone_o4.csv,14
+1,11,Logistic Regression,0.6428571428571429,alcohol_o9.csv;acetone_o4.csv,14
+1,11,kNN,0.5,alcohol_o9.csv;acetone_o4.csv,14
+1,11,Random Forest,0.6428571428571429,alcohol_o9.csv;acetone_o4.csv,14
+1,11,RBF LS-SVM,0.6428571428571429,alcohol_o9.csv;acetone_o4.csv,14
+1,12,LDA,0.5,alcohol_o5.csv;acetone_o8.csv,14
+1,12,Logistic Regression,0.6428571428571429,alcohol_o5.csv;acetone_o8.csv,14
+1,12,kNN,0.5,alcohol_o5.csv;acetone_o8.csv,14
+1,12,Random Forest,0.5714285714285714,alcohol_o5.csv;acetone_o8.csv,14
+1,12,RBF LS-SVM,0.6428571428571429,alcohol_o5.csv;acetone_o8.csv,14
+1,13,LDA,0.5,alcohol_o10.csv;acetone_o3.csv,14
+1,13,Logistic Regression,0.5,alcohol_o10.csv;acetone_o3.csv,14
+1,13,kNN,0.5,alcohol_o10.csv;acetone_o3.csv,14
+1,13,Random Forest,0.5,alcohol_o10.csv;acetone_o3.csv,14
+1,13,RBF LS-SVM,0.35714285714285715,alcohol_o10.csv;acetone_o3.csv,14
+1,14,LDA,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,14,Logistic Regression,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,14,kNN,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,14,Random Forest,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,14,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,15,LDA,0.5,alcohol_o8.csv;acetone_o9.csv,14
+1,15,Logistic Regression,0.42857142857142855,alcohol_o8.csv;acetone_o9.csv,14
+1,15,kNN,0.5,alcohol_o8.csv;acetone_o9.csv,14
+1,15,Random Forest,0.5,alcohol_o8.csv;acetone_o9.csv,14
+1,15,RBF LS-SVM,0.42857142857142855,alcohol_o8.csv;acetone_o9.csv,14
+1,16,LDA,0.5,alcohol_o7.csv;acetone_o10.csv,14
+1,16,Logistic Regression,0.5,alcohol_o7.csv;acetone_o10.csv,14
+1,16,kNN,0.5,alcohol_o7.csv;acetone_o10.csv,14
+1,16,Random Forest,0.8571428571428571,alcohol_o7.csv;acetone_o10.csv,14
+1,16,RBF LS-SVM,0.5,alcohol_o7.csv;acetone_o10.csv,14
+1,17,LDA,0.5,alcohol_o5.csv;acetone_o6.csv,14
+1,17,Logistic Regression,0.5714285714285714,alcohol_o5.csv;acetone_o6.csv,14
+1,17,kNN,0.5,alcohol_o5.csv;acetone_o6.csv,14
+1,17,Random Forest,0.5714285714285714,alcohol_o5.csv;acetone_o6.csv,14
+1,17,RBF LS-SVM,0.5714285714285714,alcohol_o5.csv;acetone_o6.csv,14
+1,18,LDA,0.5,alcohol_o9.csv;acetone_o6.csv,14
+1,18,Logistic Regression,0.5714285714285714,alcohol_o9.csv;acetone_o6.csv,14
+1,18,kNN,0.5,alcohol_o9.csv;acetone_o6.csv,14
+1,18,Random Forest,0.6428571428571429,alcohol_o9.csv;acetone_o6.csv,14
+1,18,RBF LS-SVM,0.5714285714285714,alcohol_o9.csv;acetone_o6.csv,14
+1,19,LDA,0.5,alcohol_o4.csv;acetone_o9.csv,14
+1,19,Logistic Regression,0.6428571428571429,alcohol_o4.csv;acetone_o9.csv,14
+1,19,kNN,0.5,alcohol_o4.csv;acetone_o9.csv,14
+1,19,Random Forest,0.7142857142857143,alcohol_o4.csv;acetone_o9.csv,14
+1,19,RBF LS-SVM,0.6428571428571429,alcohol_o4.csv;acetone_o9.csv,14
+1,20,LDA,0.5,alcohol_o11.csv;acetone_o9.csv,14
+1,20,Logistic Regression,0.6428571428571429,alcohol_o11.csv;acetone_o9.csv,14
+1,20,kNN,0.5,alcohol_o11.csv;acetone_o9.csv,14
+1,20,Random Forest,0.6428571428571429,alcohol_o11.csv;acetone_o9.csv,14
+1,20,RBF LS-SVM,0.6428571428571429,alcohol_o11.csv;acetone_o9.csv,14
+1,21,LDA,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,21,Logistic Regression,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,21,kNN,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,21,Random Forest,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,21,RBF LS-SVM,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,22,LDA,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,22,Logistic Regression,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,22,kNN,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,22,Random Forest,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,22,RBF LS-SVM,0.5,alcohol_o3.csv;acetone_o10.csv,14
+1,23,LDA,0.5,alcohol_o12.csv;acetone_o12.csv,14
+1,23,Logistic Regression,0.5,alcohol_o12.csv;acetone_o12.csv,14
+1,23,kNN,0.5,alcohol_o12.csv;acetone_o12.csv,14
+1,23,Random Forest,0.5,alcohol_o12.csv;acetone_o12.csv,14
+1,23,RBF LS-SVM,0.5,alcohol_o12.csv;acetone_o12.csv,14
+1,24,LDA,0.5,alcohol_o9.csv;acetone_o12.csv,14
+1,24,Logistic Regression,0.5714285714285714,alcohol_o9.csv;acetone_o12.csv,14
+1,24,kNN,0.5,alcohol_o9.csv;acetone_o12.csv,14
+1,24,Random Forest,0.5714285714285714,alcohol_o9.csv;acetone_o12.csv,14
+1,24,RBF LS-SVM,0.5714285714285714,alcohol_o9.csv;acetone_o12.csv,14
+1,25,LDA,0.5,alcohol_o12.csv;acetone_o11.csv,14
+1,25,Logistic Regression,0.5714285714285714,alcohol_o12.csv;acetone_o11.csv,14
+1,25,kNN,0.5,alcohol_o12.csv;acetone_o11.csv,14
+1,25,Random Forest,0.5714285714285714,alcohol_o12.csv;acetone_o11.csv,14
+1,25,RBF LS-SVM,0.5714285714285714,alcohol_o12.csv;acetone_o11.csv,14
+1,26,LDA,0.5,alcohol_o3.csv;acetone_o11.csv,14
+1,26,Logistic Regression,0.5,alcohol_o3.csv;acetone_o11.csv,14
+1,26,kNN,0.5,alcohol_o3.csv;acetone_o11.csv,14
+1,26,Random Forest,0.5,alcohol_o3.csv;acetone_o11.csv,14
+1,26,RBF LS-SVM,0.5,alcohol_o3.csv;acetone_o11.csv,14
+1,27,LDA,0.5,alcohol_o7.csv;acetone_o4.csv,14
+1,27,Logistic Regression,0.5,alcohol_o7.csv;acetone_o4.csv,14
+1,27,kNN,0.5,alcohol_o7.csv;acetone_o4.csv,14
+1,27,Random Forest,0.5,alcohol_o7.csv;acetone_o4.csv,14
+1,27,RBF LS-SVM,0.5,alcohol_o7.csv;acetone_o4.csv,14
+1,28,LDA,0.5,alcohol_o1.csv;acetone_o11.csv,14
+1,28,Logistic Regression,0.7857142857142857,alcohol_o1.csv;acetone_o11.csv,14
+1,28,kNN,0.5,alcohol_o1.csv;acetone_o11.csv,14
+1,28,Random Forest,0.7857142857142857,alcohol_o1.csv;acetone_o11.csv,14
+1,28,RBF LS-SVM,0.7857142857142857,alcohol_o1.csv;acetone_o11.csv,14
+1,29,LDA,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,29,Logistic Regression,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,29,kNN,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,29,Random Forest,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,29,RBF LS-SVM,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,30,LDA,0.5,alcohol_o6.csv;acetone_o10.csv,14
+1,30,Logistic Regression,0.42857142857142855,alcohol_o6.csv;acetone_o10.csv,14
+1,30,kNN,0.5,alcohol_o6.csv;acetone_o10.csv,14
+1,30,Random Forest,0.42857142857142855,alcohol_o6.csv;acetone_o10.csv,14
+1,30,RBF LS-SVM,0.42857142857142855,alcohol_o6.csv;acetone_o10.csv,14
+1,31,LDA,0.5,alcohol_o5.csv;acetone_o9.csv,14
+1,31,Logistic Regression,0.5,alcohol_o5.csv;acetone_o9.csv,14
+1,31,kNN,0.5,alcohol_o5.csv;acetone_o9.csv,14
+1,31,Random Forest,0.5,alcohol_o5.csv;acetone_o9.csv,14
+1,31,RBF LS-SVM,0.5,alcohol_o5.csv;acetone_o9.csv,14
+1,32,LDA,0.5,alcohol_o10.csv;acetone_o11.csv,14
+1,32,Logistic Regression,0.5714285714285714,alcohol_o10.csv;acetone_o11.csv,14
+1,32,kNN,0.5,alcohol_o10.csv;acetone_o11.csv,14
+1,32,Random Forest,0.5714285714285714,alcohol_o10.csv;acetone_o11.csv,14
+1,32,RBF LS-SVM,0.5714285714285714,alcohol_o10.csv;acetone_o11.csv,14
+1,33,LDA,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,33,Logistic Regression,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,33,kNN,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,33,Random Forest,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,33,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,34,LDA,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,34,Logistic Regression,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,34,kNN,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,34,Random Forest,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,34,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o3.csv,14
+1,35,LDA,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,35,Logistic Regression,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,35,kNN,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,35,Random Forest,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,35,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,36,LDA,0.5,alcohol_o2.csv;acetone_o2.csv,14
+1,36,Logistic Regression,0.5,alcohol_o2.csv;acetone_o2.csv,14
+1,36,kNN,0.5,alcohol_o2.csv;acetone_o2.csv,14
+1,36,Random Forest,0.5,alcohol_o2.csv;acetone_o2.csv,14
+1,36,RBF LS-SVM,0.5,alcohol_o2.csv;acetone_o2.csv,14
+1,37,LDA,0.5,alcohol_o6.csv;acetone_o8.csv,14
+1,37,Logistic Regression,0.42857142857142855,alcohol_o6.csv;acetone_o8.csv,14
+1,37,kNN,0.5,alcohol_o6.csv;acetone_o8.csv,14
+1,37,Random Forest,0.42857142857142855,alcohol_o6.csv;acetone_o8.csv,14
+1,37,RBF LS-SVM,0.42857142857142855,alcohol_o6.csv;acetone_o8.csv,14
+1,38,LDA,0.5,alcohol_o1.csv;acetone_o10.csv,14
+1,38,Logistic Regression,0.5,alcohol_o1.csv;acetone_o10.csv,14
+1,38,kNN,0.5,alcohol_o1.csv;acetone_o10.csv,14
+1,38,Random Forest,0.7857142857142857,alcohol_o1.csv;acetone_o10.csv,14
+1,38,RBF LS-SVM,0.5,alcohol_o1.csv;acetone_o10.csv,14
+1,39,LDA,0.5,alcohol_o1.csv;acetone_o11.csv,14
+1,39,Logistic Regression,0.7857142857142857,alcohol_o1.csv;acetone_o11.csv,14
+1,39,kNN,0.5,alcohol_o1.csv;acetone_o11.csv,14
+1,39,Random Forest,0.7857142857142857,alcohol_o1.csv;acetone_o11.csv,14
+1,39,RBF LS-SVM,0.7857142857142857,alcohol_o1.csv;acetone_o11.csv,14
+1,40,LDA,0.5,alcohol_o11.csv;acetone_o6.csv,14
+1,40,Logistic Regression,0.35714285714285715,alcohol_o11.csv;acetone_o6.csv,14
+1,40,kNN,0.5,alcohol_o11.csv;acetone_o6.csv,14
+1,40,Random Forest,0.42857142857142855,alcohol_o11.csv;acetone_o6.csv,14
+1,40,RBF LS-SVM,0.35714285714285715,alcohol_o11.csv;acetone_o6.csv,14
+1,41,LDA,0.5,alcohol_o11.csv;acetone_o3.csv,14
+1,41,Logistic Regression,0.5,alcohol_o11.csv;acetone_o3.csv,14
+1,41,kNN,0.5,alcohol_o11.csv;acetone_o3.csv,14
+1,41,Random Forest,0.5,alcohol_o11.csv;acetone_o3.csv,14
+1,41,RBF LS-SVM,0.5,alcohol_o11.csv;acetone_o3.csv,14
+1,42,LDA,0.5,alcohol_o9.csv;acetone_o3.csv,14
+1,42,Logistic Regression,0.42857142857142855,alcohol_o9.csv;acetone_o3.csv,14
+1,42,kNN,0.5,alcohol_o9.csv;acetone_o3.csv,14
+1,42,Random Forest,0.42857142857142855,alcohol_o9.csv;acetone_o3.csv,14
+1,42,RBF LS-SVM,0.42857142857142855,alcohol_o9.csv;acetone_o3.csv,14
+1,43,LDA,0.5,alcohol_o1.csv;acetone_o3.csv,14
+1,43,Logistic Regression,0.42857142857142855,alcohol_o1.csv;acetone_o3.csv,14
+1,43,kNN,0.5,alcohol_o1.csv;acetone_o3.csv,14
+1,43,Random Forest,0.5,alcohol_o1.csv;acetone_o3.csv,14
+1,43,RBF LS-SVM,0.42857142857142855,alcohol_o1.csv;acetone_o3.csv,14
+1,44,LDA,0.5,alcohol_o11.csv;acetone_o7.csv,14
+1,44,Logistic Regression,0.21428571428571427,alcohol_o11.csv;acetone_o7.csv,14
+1,44,kNN,0.5,alcohol_o11.csv;acetone_o7.csv,14
+1,44,Random Forest,0.5,alcohol_o11.csv;acetone_o7.csv,14
+1,44,RBF LS-SVM,0.21428571428571427,alcohol_o11.csv;acetone_o7.csv,14
+1,45,LDA,0.5,alcohol_o7.csv;acetone_o9.csv,14
+1,45,Logistic Regression,0.5,alcohol_o7.csv;acetone_o9.csv,14
+1,45,kNN,0.5,alcohol_o7.csv;acetone_o9.csv,14
+1,45,Random Forest,0.5714285714285714,alcohol_o7.csv;acetone_o9.csv,14
+1,45,RBF LS-SVM,0.5,alcohol_o7.csv;acetone_o9.csv,14
+1,46,LDA,0.5,alcohol_o9.csv;acetone_o1.csv,14
+1,46,Logistic Regression,0.0,alcohol_o9.csv;acetone_o1.csv,14
+1,46,kNN,0.5,alcohol_o9.csv;acetone_o1.csv,14
+1,46,Random Forest,0.07142857142857142,alcohol_o9.csv;acetone_o1.csv,14
+1,46,RBF LS-SVM,0.0,alcohol_o9.csv;acetone_o1.csv,14
+1,47,LDA,0.5,alcohol_o7.csv;acetone_o6.csv,14
+1,47,Logistic Regression,0.42857142857142855,alcohol_o7.csv;acetone_o6.csv,14
+1,47,kNN,0.5,alcohol_o7.csv;acetone_o6.csv,14
+1,47,Random Forest,0.42857142857142855,alcohol_o7.csv;acetone_o6.csv,14
+1,47,RBF LS-SVM,0.42857142857142855,alcohol_o7.csv;acetone_o6.csv,14
+1,48,LDA,0.5,alcohol_o7.csv;acetone_o5.csv,14
+1,48,Logistic Regression,0.5714285714285714,alcohol_o7.csv;acetone_o5.csv,14
+1,48,kNN,0.5,alcohol_o7.csv;acetone_o5.csv,14
+1,48,Random Forest,0.5714285714285714,alcohol_o7.csv;acetone_o5.csv,14
+1,48,RBF LS-SVM,0.5714285714285714,alcohol_o7.csv;acetone_o5.csv,14
+1,49,LDA,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,49,Logistic Regression,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,49,kNN,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,49,Random Forest,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,49,RBF LS-SVM,0.5,alcohol_o11.csv;acetone_o1.csv,14
+1,50,LDA,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,50,Logistic Regression,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,50,kNN,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,50,Random Forest,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,50,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o8.csv,14
+1,51,LDA,0.5,alcohol_o9.csv;acetone_o6.csv,14
+1,51,Logistic Regression,0.5714285714285714,alcohol_o9.csv;acetone_o6.csv,14
+1,51,kNN,0.5,alcohol_o9.csv;acetone_o6.csv,14
+1,51,Random Forest,0.6428571428571429,alcohol_o9.csv;acetone_o6.csv,14
+1,51,RBF LS-SVM,0.5714285714285714,alcohol_o9.csv;acetone_o6.csv,14
+1,52,LDA,0.5,alcohol_o12.csv;acetone_o9.csv,14
+1,52,Logistic Regression,0.5,alcohol_o12.csv;acetone_o9.csv,14
+1,52,kNN,0.5,alcohol_o12.csv;acetone_o9.csv,14
+1,52,Random Forest,0.5714285714285714,alcohol_o12.csv;acetone_o9.csv,14
+1,52,RBF LS-SVM,0.5,alcohol_o12.csv;acetone_o9.csv,14
+1,53,LDA,0.5,alcohol_o12.csv;acetone_o4.csv,14
+1,53,Logistic Regression,0.6428571428571429,alcohol_o12.csv;acetone_o4.csv,14
+1,53,kNN,0.5,alcohol_o12.csv;acetone_o4.csv,14
+1,53,Random Forest,0.5714285714285714,alcohol_o12.csv;acetone_o4.csv,14
+1,53,RBF LS-SVM,0.6428571428571429,alcohol_o12.csv;acetone_o4.csv,14
+1,54,LDA,0.5,alcohol_o6.csv;acetone_o4.csv,14
+1,54,Logistic Regression,0.5,alcohol_o6.csv;acetone_o4.csv,14
+1,54,kNN,0.5,alcohol_o6.csv;acetone_o4.csv,14
+1,54,Random Forest,0.5,alcohol_o6.csv;acetone_o4.csv,14
+1,54,RBF LS-SVM,0.5,alcohol_o6.csv;acetone_o4.csv,14
+1,55,LDA,0.5,alcohol_o1.csv;acetone_o11.csv,14
+1,55,Logistic Regression,0.7857142857142857,alcohol_o1.csv;acetone_o11.csv,14
+1,55,kNN,0.5,alcohol_o1.csv;acetone_o11.csv,14
+1,55,Random Forest,0.7857142857142857,alcohol_o1.csv;acetone_o11.csv,14
+1,55,RBF LS-SVM,0.7857142857142857,alcohol_o1.csv;acetone_o11.csv,14
+1,56,LDA,0.5,alcohol_o10.csv;acetone_o6.csv,14
+1,56,Logistic Regression,0.42857142857142855,alcohol_o10.csv;acetone_o6.csv,14
+1,56,kNN,0.5,alcohol_o10.csv;acetone_o6.csv,14
+1,56,Random Forest,0.42857142857142855,alcohol_o10.csv;acetone_o6.csv,14
+1,56,RBF LS-SVM,0.42857142857142855,alcohol_o10.csv;acetone_o6.csv,14
+1,57,LDA,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,57,Logistic Regression,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,57,kNN,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,57,Random Forest,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,57,RBF LS-SVM,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,58,LDA,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,58,Logistic Regression,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,58,kNN,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,58,Random Forest,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,58,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o5.csv,14
+1,59,LDA,0.5,alcohol_o3.csv;acetone_o9.csv,14
+1,59,Logistic Regression,0.5,alcohol_o3.csv;acetone_o9.csv,14
+1,59,kNN,0.5,alcohol_o3.csv;acetone_o9.csv,14
+1,59,Random Forest,0.5,alcohol_o3.csv;acetone_o9.csv,14
+1,59,RBF LS-SVM,0.5,alcohol_o3.csv;acetone_o9.csv,14
+1,60,LDA,0.5,alcohol_o6.csv;acetone_o12.csv,14
+1,60,Logistic Regression,0.42857142857142855,alcohol_o6.csv;acetone_o12.csv,14
+1,60,kNN,0.5,alcohol_o6.csv;acetone_o12.csv,14
+1,60,Random Forest,0.5714285714285714,alcohol_o6.csv;acetone_o12.csv,14
+1,60,RBF LS-SVM,0.42857142857142855,alcohol_o6.csv;acetone_o12.csv,14
+1,61,LDA,0.5,alcohol_o9.csv;acetone_o9.csv,14
+1,61,Logistic Regression,0.7142857142857143,alcohol_o9.csv;acetone_o9.csv,14
+1,61,kNN,0.5,alcohol_o9.csv;acetone_o9.csv,14
+1,61,Random Forest,0.7142857142857143,alcohol_o9.csv;acetone_o9.csv,14
+1,61,RBF LS-SVM,0.6428571428571429,alcohol_o9.csv;acetone_o9.csv,14
+1,62,LDA,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,62,Logistic Regression,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,62,kNN,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,62,Random Forest,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,62,RBF LS-SVM,0.5,alcohol_o11.csv;acetone_o8.csv,14
+1,63,LDA,0.5,alcohol_o9.csv;acetone_o11.csv,14
+1,63,Logistic Regression,0.5714285714285714,alcohol_o9.csv;acetone_o11.csv,14
+1,63,kNN,0.5,alcohol_o9.csv;acetone_o11.csv,14
+1,63,Random Forest,0.5,alcohol_o9.csv;acetone_o11.csv,14
+1,63,RBF LS-SVM,0.5714285714285714,alcohol_o9.csv;acetone_o11.csv,14
+1,64,LDA,0.5,alcohol_o4.csv;acetone_o9.csv,14
+1,64,Logistic Regression,0.6428571428571429,alcohol_o4.csv;acetone_o9.csv,14
+1,64,kNN,0.5,alcohol_o4.csv;acetone_o9.csv,14
+1,64,Random Forest,0.7142857142857143,alcohol_o4.csv;acetone_o9.csv,14
+1,64,RBF LS-SVM,0.6428571428571429,alcohol_o4.csv;acetone_o9.csv,14
+1,65,LDA,0.5,alcohol_o7.csv;acetone_o10.csv,14
+1,65,Logistic Regression,0.5,alcohol_o7.csv;acetone_o10.csv,14
+1,65,kNN,0.5,alcohol_o7.csv;acetone_o10.csv,14
+1,65,Random Forest,0.8571428571428571,alcohol_o7.csv;acetone_o10.csv,14
+1,65,RBF LS-SVM,0.5,alcohol_o7.csv;acetone_o10.csv,14
+1,66,LDA,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,66,Logistic Regression,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,66,kNN,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,66,Random Forest,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,66,RBF LS-SVM,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,67,LDA,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,67,Logistic Regression,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,67,kNN,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,67,Random Forest,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,67,RBF LS-SVM,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,68,LDA,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,68,Logistic Regression,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,68,kNN,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,68,Random Forest,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,68,RBF LS-SVM,0.5,alcohol_o9.csv;acetone_o2.csv,14
+1,69,LDA,0.5,alcohol_o8.csv;acetone_o2.csv,14
+1,69,Logistic Regression,0.5,alcohol_o8.csv;acetone_o2.csv,14
+1,69,kNN,0.5,alcohol_o8.csv;acetone_o2.csv,14
+1,69,Random Forest,0.5,alcohol_o8.csv;acetone_o2.csv,14
+1,69,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o2.csv,14
+1,70,LDA,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,70,Logistic Regression,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,70,kNN,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,70,Random Forest,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,70,RBF LS-SVM,0.5,alcohol_o1.csv;acetone_o12.csv,14
+1,71,LDA,0.5,alcohol_o4.csv;acetone_o2.csv,14
+1,71,Logistic Regression,0.2857142857142857,alcohol_o4.csv;acetone_o2.csv,14
+1,71,kNN,0.5,alcohol_o4.csv;acetone_o2.csv,14
+1,71,Random Forest,0.5,alcohol_o4.csv;acetone_o2.csv,14
+1,71,RBF LS-SVM,0.2857142857142857,alcohol_o4.csv;acetone_o2.csv,14
+1,72,LDA,0.5,alcohol_o5.csv;acetone_o7.csv,14
+1,72,Logistic Regression,0.9285714285714286,alcohol_o5.csv;acetone_o7.csv,14
+1,72,kNN,0.5,alcohol_o5.csv;acetone_o7.csv,14
+1,72,Random Forest,0.9285714285714286,alcohol_o5.csv;acetone_o7.csv,14
+1,72,RBF LS-SVM,0.9285714285714286,alcohol_o5.csv;acetone_o7.csv,14
+1,73,LDA,0.5,alcohol_o4.csv;acetone_o11.csv,14
+1,73,Logistic Regression,0.5,alcohol_o4.csv;acetone_o11.csv,14
+1,73,kNN,0.5,alcohol_o4.csv;acetone_o11.csv,14
+1,73,Random Forest,0.5,alcohol_o4.csv;acetone_o11.csv,14
+1,73,RBF LS-SVM,0.5,alcohol_o4.csv;acetone_o11.csv,14
+1,74,LDA,0.5,alcohol_o7.csv;acetone_o1.csv,14
+1,74,Logistic Regression,0.5,alcohol_o7.csv;acetone_o1.csv,14
+1,74,kNN,0.5,alcohol_o7.csv;acetone_o1.csv,14
+1,74,Random Forest,0.5,alcohol_o7.csv;acetone_o1.csv,14
+1,74,RBF LS-SVM,0.42857142857142855,alcohol_o7.csv;acetone_o1.csv,14
+1,75,LDA,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,75,Logistic Regression,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,75,kNN,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,75,Random Forest,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,75,RBF LS-SVM,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,76,LDA,0.5,alcohol_o6.csv;acetone_o7.csv,14
+1,76,Logistic Regression,0.07142857142857142,alcohol_o6.csv;acetone_o7.csv,14
+1,76,kNN,0.5,alcohol_o6.csv;acetone_o7.csv,14
+1,76,Random Forest,0.5,alcohol_o6.csv;acetone_o7.csv,14
+1,76,RBF LS-SVM,0.5,alcohol_o6.csv;acetone_o7.csv,14
+1,77,LDA,0.5,alcohol_o6.csv;acetone_o7.csv,14
+1,77,Logistic Regression,0.07142857142857142,alcohol_o6.csv;acetone_o7.csv,14
+1,77,kNN,0.5,alcohol_o6.csv;acetone_o7.csv,14
+1,77,Random Forest,0.5,alcohol_o6.csv;acetone_o7.csv,14
+1,77,RBF LS-SVM,0.5,alcohol_o6.csv;acetone_o7.csv,14
+1,78,LDA,0.5,alcohol_o8.csv;acetone_o1.csv,14
+1,78,Logistic Regression,0.6428571428571429,alcohol_o8.csv;acetone_o1.csv,14
+1,78,kNN,0.5,alcohol_o8.csv;acetone_o1.csv,14
+1,78,Random Forest,0.7142857142857143,alcohol_o8.csv;acetone_o1.csv,14
+1,78,RBF LS-SVM,0.5714285714285714,alcohol_o8.csv;acetone_o1.csv,14
+1,79,LDA,0.5,alcohol_o8.csv;acetone_o9.csv,14
+1,79,Logistic Regression,0.42857142857142855,alcohol_o8.csv;acetone_o9.csv,14
+1,79,kNN,0.5,alcohol_o8.csv;acetone_o9.csv,14
+1,79,Random Forest,0.5,alcohol_o8.csv;acetone_o9.csv,14
+1,79,RBF LS-SVM,0.42857142857142855,alcohol_o8.csv;acetone_o9.csv,14
+1,80,LDA,0.5,alcohol_o10.csv;acetone_o3.csv,14
+1,80,Logistic Regression,0.5,alcohol_o10.csv;acetone_o3.csv,14
+1,80,kNN,0.5,alcohol_o10.csv;acetone_o3.csv,14
+1,80,Random Forest,0.5,alcohol_o10.csv;acetone_o3.csv,14
+1,80,RBF LS-SVM,0.35714285714285715,alcohol_o10.csv;acetone_o3.csv,14
+1,81,LDA,0.5,alcohol_o6.csv;acetone_o12.csv,14
+1,81,Logistic Regression,0.42857142857142855,alcohol_o6.csv;acetone_o12.csv,14
+1,81,kNN,0.5,alcohol_o6.csv;acetone_o12.csv,14
+1,81,Random Forest,0.5714285714285714,alcohol_o6.csv;acetone_o12.csv,14
+1,81,RBF LS-SVM,0.42857142857142855,alcohol_o6.csv;acetone_o12.csv,14
+1,82,LDA,0.5,alcohol_o8.csv;acetone_o4.csv,14
+1,82,Logistic Regression,0.5,alcohol_o8.csv;acetone_o4.csv,14
+1,82,kNN,0.5,alcohol_o8.csv;acetone_o4.csv,14
+1,82,Random Forest,0.5,alcohol_o8.csv;acetone_o4.csv,14
+1,82,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o4.csv,14
+1,83,LDA,0.5,alcohol_o10.csv;acetone_o1.csv,14
+1,83,Logistic Regression,0.5,alcohol_o10.csv;acetone_o1.csv,14
+1,83,kNN,0.5,alcohol_o10.csv;acetone_o1.csv,14
+1,83,Random Forest,0.5,alcohol_o10.csv;acetone_o1.csv,14
+1,83,RBF LS-SVM,0.5,alcohol_o10.csv;acetone_o1.csv,14
+1,84,LDA,0.5,alcohol_o8.csv;acetone_o1.csv,14
+1,84,Logistic Regression,0.6428571428571429,alcohol_o8.csv;acetone_o1.csv,14
+1,84,kNN,0.5,alcohol_o8.csv;acetone_o1.csv,14
+1,84,Random Forest,0.7142857142857143,alcohol_o8.csv;acetone_o1.csv,14
+1,84,RBF LS-SVM,0.5714285714285714,alcohol_o8.csv;acetone_o1.csv,14
+1,85,LDA,0.5,alcohol_o9.csv;acetone_o4.csv,14
+1,85,Logistic Regression,0.6428571428571429,alcohol_o9.csv;acetone_o4.csv,14
+1,85,kNN,0.5,alcohol_o9.csv;acetone_o4.csv,14
+1,85,Random Forest,0.6428571428571429,alcohol_o9.csv;acetone_o4.csv,14
+1,85,RBF LS-SVM,0.6428571428571429,alcohol_o9.csv;acetone_o4.csv,14
+1,86,LDA,0.5,alcohol_o10.csv;acetone_o9.csv,14
+1,86,Logistic Regression,0.7142857142857143,alcohol_o10.csv;acetone_o9.csv,14
+1,86,kNN,0.5,alcohol_o10.csv;acetone_o9.csv,14
+1,86,Random Forest,0.7857142857142857,alcohol_o10.csv;acetone_o9.csv,14
+1,86,RBF LS-SVM,0.7142857142857143,alcohol_o10.csv;acetone_o9.csv,14
+1,87,LDA,0.5,alcohol_o2.csv;acetone_o1.csv,14
+1,87,Logistic Regression,0.5,alcohol_o2.csv;acetone_o1.csv,14
+1,87,kNN,0.5,alcohol_o2.csv;acetone_o1.csv,14
+1,87,Random Forest,0.5,alcohol_o2.csv;acetone_o1.csv,14
+1,87,RBF LS-SVM,0.5,alcohol_o2.csv;acetone_o1.csv,14
+1,88,LDA,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,88,Logistic Regression,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,88,kNN,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,88,Random Forest,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,88,RBF LS-SVM,0.5,alcohol_o2.csv;acetone_o10.csv,14
+1,89,LDA,0.5,alcohol_o12.csv;acetone_o5.csv,14
+1,89,Logistic Regression,0.42857142857142855,alcohol_o12.csv;acetone_o5.csv,14
+1,89,kNN,0.5,alcohol_o12.csv;acetone_o5.csv,14
+1,89,Random Forest,0.5714285714285714,alcohol_o12.csv;acetone_o5.csv,14
+1,89,RBF LS-SVM,0.42857142857142855,alcohol_o12.csv;acetone_o5.csv,14
+1,90,LDA,0.5,alcohol_o5.csv;acetone_o1.csv,14
+1,90,Logistic Regression,0.5,alcohol_o5.csv;acetone_o1.csv,14
+1,90,kNN,0.5,alcohol_o5.csv;acetone_o1.csv,14
+1,90,Random Forest,0.5,alcohol_o5.csv;acetone_o1.csv,14
+1,90,RBF LS-SVM,0.5,alcohol_o5.csv;acetone_o1.csv,14
+1,91,LDA,0.5,alcohol_o3.csv;acetone_o12.csv,14
+1,91,Logistic Regression,0.9285714285714286,alcohol_o3.csv;acetone_o12.csv,14
+1,91,kNN,0.5,alcohol_o3.csv;acetone_o12.csv,14
+1,91,Random Forest,0.7857142857142857,alcohol_o3.csv;acetone_o12.csv,14
+1,91,RBF LS-SVM,0.9285714285714286,alcohol_o3.csv;acetone_o12.csv,14
+1,92,LDA,0.5,alcohol_o4.csv;acetone_o4.csv,14
+1,92,Logistic Regression,0.5714285714285714,alcohol_o4.csv;acetone_o4.csv,14
+1,92,kNN,0.5,alcohol_o4.csv;acetone_o4.csv,14
+1,92,Random Forest,0.5,alcohol_o4.csv;acetone_o4.csv,14
+1,92,RBF LS-SVM,0.5714285714285714,alcohol_o4.csv;acetone_o4.csv,14
+1,93,LDA,0.5,alcohol_o3.csv;acetone_o1.csv,14
+1,93,Logistic Regression,0.5714285714285714,alcohol_o3.csv;acetone_o1.csv,14
+1,93,kNN,0.5,alcohol_o3.csv;acetone_o1.csv,14
+1,93,Random Forest,0.7857142857142857,alcohol_o3.csv;acetone_o1.csv,14
+1,93,RBF LS-SVM,0.14285714285714285,alcohol_o3.csv;acetone_o1.csv,14
+1,94,LDA,0.5,alcohol_o5.csv;acetone_o10.csv,14
+1,94,Logistic Regression,0.5,alcohol_o5.csv;acetone_o10.csv,14
+1,94,kNN,0.5,alcohol_o5.csv;acetone_o10.csv,14
+1,94,Random Forest,0.5,alcohol_o5.csv;acetone_o10.csv,14
+1,94,RBF LS-SVM,0.5,alcohol_o5.csv;acetone_o10.csv,14
+1,95,LDA,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,95,Logistic Regression,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,95,kNN,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,95,Random Forest,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,95,RBF LS-SVM,0.5,alcohol_o3.csv;acetone_o7.csv,14
+1,96,LDA,0.5,alcohol_o9.csv;acetone_o1.csv,14
+1,96,Logistic Regression,0.0,alcohol_o9.csv;acetone_o1.csv,14
+1,96,kNN,0.5,alcohol_o9.csv;acetone_o1.csv,14
+1,96,Random Forest,0.07142857142857142,alcohol_o9.csv;acetone_o1.csv,14
+1,96,RBF LS-SVM,0.0,alcohol_o9.csv;acetone_o1.csv,14
+1,97,LDA,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,97,Logistic Regression,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,97,kNN,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,97,Random Forest,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,97,RBF LS-SVM,0.5,alcohol_o8.csv;acetone_o7.csv,14
+1,98,LDA,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,98,Logistic Regression,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,98,kNN,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,98,Random Forest,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,98,RBF LS-SVM,0.5,alcohol_o12.csv;acetone_o7.csv,14
+1,99,LDA,0.5,alcohol_o11.csv;acetone_o12.csv,14
+1,99,Logistic Regression,0.21428571428571427,alcohol_o11.csv;acetone_o12.csv,14
+1,99,kNN,0.5,alcohol_o11.csv;acetone_o12.csv,14
+1,99,Random Forest,0.5714285714285714,alcohol_o11.csv;acetone_o12.csv,14
+1,99,RBF LS-SVM,0.21428571428571427,alcohol_o11.csv;acetone_o12.csv,14
+2,0,LDA,0.5,alcohol_o2.csv;alcohol_o7.csv;acetone_o3.csv;acetone_o8.csv,14
+2,0,Logistic Regression,0.5,alcohol_o2.csv;alcohol_o7.csv;acetone_o3.csv;acetone_o8.csv,14
+2,0,kNN,0.5,alcohol_o2.csv;alcohol_o7.csv;acetone_o3.csv;acetone_o8.csv,14
+2,0,Random Forest,0.5,alcohol_o2.csv;alcohol_o7.csv;acetone_o3.csv;acetone_o8.csv,14
+2,0,RBF LS-SVM,0.5,alcohol_o2.csv;alcohol_o7.csv;acetone_o3.csv;acetone_o8.csv,14
+2,1,LDA,0.5,alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+2,1,Logistic Regression,0.5,alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+2,1,kNN,0.7857142857142857,alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+2,1,Random Forest,0.5714285714285714,alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+2,1,RBF LS-SVM,0.5,alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+2,2,LDA,0.5,alcohol_o10.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv,14
+2,2,Logistic Regression,0.5,alcohol_o10.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv,14
+2,2,kNN,0.5,alcohol_o10.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv,14
+2,2,Random Forest,0.6428571428571429,alcohol_o10.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv,14
+2,2,RBF LS-SVM,0.5,alcohol_o10.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv,14
+2,3,LDA,0.5,alcohol_o12.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv,14
+2,3,Logistic Regression,0.5,alcohol_o12.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv,14
+2,3,kNN,0.5,alcohol_o12.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv,14
+2,3,Random Forest,0.5,alcohol_o12.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv,14
+2,3,RBF LS-SVM,0.5,alcohol_o12.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv,14
+2,4,LDA,0.5,alcohol_o9.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o11.csv,14
+2,4,Logistic Regression,0.5714285714285714,alcohol_o9.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o11.csv,14
+2,4,kNN,0.7857142857142857,alcohol_o9.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o11.csv,14
+2,4,Random Forest,0.7857142857142857,alcohol_o9.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o11.csv,14
+2,4,RBF LS-SVM,0.5,alcohol_o9.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o11.csv,14
+2,5,LDA,0.5,alcohol_o7.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o5.csv,14
+2,5,Logistic Regression,0.5,alcohol_o7.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o5.csv,14
+2,5,kNN,0.8571428571428571,alcohol_o7.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o5.csv,14
+2,5,Random Forest,0.5,alcohol_o7.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o5.csv,14
+2,5,RBF LS-SVM,0.5,alcohol_o7.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o5.csv,14
+2,6,LDA,0.8571428571428571,alcohol_o3.csv;alcohol_o4.csv;acetone_o4.csv;acetone_o6.csv,14
+2,6,Logistic Regression,0.7857142857142857,alcohol_o3.csv;alcohol_o4.csv;acetone_o4.csv;acetone_o6.csv,14
+2,6,kNN,0.5714285714285714,alcohol_o3.csv;alcohol_o4.csv;acetone_o4.csv;acetone_o6.csv,14
+2,6,Random Forest,0.6428571428571429,alcohol_o3.csv;alcohol_o4.csv;acetone_o4.csv;acetone_o6.csv,14
+2,6,RBF LS-SVM,0.9285714285714286,alcohol_o3.csv;alcohol_o4.csv;acetone_o4.csv;acetone_o6.csv,14
+2,7,LDA,1.0,alcohol_o4.csv;alcohol_o2.csv;acetone_o12.csv;acetone_o10.csv,14
+2,7,Logistic Regression,0.7857142857142857,alcohol_o4.csv;alcohol_o2.csv;acetone_o12.csv;acetone_o10.csv,14
+2,7,kNN,0.5,alcohol_o4.csv;alcohol_o2.csv;acetone_o12.csv;acetone_o10.csv,14
+2,7,Random Forest,0.6428571428571429,alcohol_o4.csv;alcohol_o2.csv;acetone_o12.csv;acetone_o10.csv,14
+2,7,RBF LS-SVM,1.0,alcohol_o4.csv;alcohol_o2.csv;acetone_o12.csv;acetone_o10.csv,14
+2,8,LDA,0.7142857142857143,alcohol_o5.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o4.csv,14
+2,8,Logistic Regression,0.7857142857142857,alcohol_o5.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o4.csv,14
+2,8,kNN,0.5,alcohol_o5.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o4.csv,14
+2,8,Random Forest,0.7142857142857143,alcohol_o5.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o4.csv,14
+2,8,RBF LS-SVM,0.7142857142857143,alcohol_o5.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o4.csv,14
+2,9,LDA,0.5,alcohol_o5.csv;alcohol_o1.csv;acetone_o9.csv;acetone_o2.csv,14
+2,9,Logistic Regression,0.5,alcohol_o5.csv;alcohol_o1.csv;acetone_o9.csv;acetone_o2.csv,14
+2,9,kNN,0.5,alcohol_o5.csv;alcohol_o1.csv;acetone_o9.csv;acetone_o2.csv,14
+2,9,Random Forest,0.9285714285714286,alcohol_o5.csv;alcohol_o1.csv;acetone_o9.csv;acetone_o2.csv,14
+2,9,RBF LS-SVM,0.5,alcohol_o5.csv;alcohol_o1.csv;acetone_o9.csv;acetone_o2.csv,14
+2,10,LDA,0.35714285714285715,alcohol_o7.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o3.csv,14
+2,10,Logistic Regression,0.35714285714285715,alcohol_o7.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o3.csv,14
+2,10,kNN,0.5714285714285714,alcohol_o7.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o3.csv,14
+2,10,Random Forest,0.42857142857142855,alcohol_o7.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o3.csv,14
+2,10,RBF LS-SVM,0.35714285714285715,alcohol_o7.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o3.csv,14
+2,11,LDA,0.5,alcohol_o7.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+2,11,Logistic Regression,0.5,alcohol_o7.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+2,11,kNN,0.5,alcohol_o7.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+2,11,Random Forest,0.5,alcohol_o7.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+2,11,RBF LS-SVM,0.5,alcohol_o7.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+2,12,LDA,0.5,alcohol_o11.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o7.csv,14
+2,12,Logistic Regression,0.5,alcohol_o11.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o7.csv,14
+2,12,kNN,0.5,alcohol_o11.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o7.csv,14
+2,12,Random Forest,0.6428571428571429,alcohol_o11.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o7.csv,14
+2,12,RBF LS-SVM,0.5,alcohol_o11.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o7.csv,14
+2,13,LDA,0.5,alcohol_o12.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o7.csv,14
+2,13,Logistic Regression,0.5,alcohol_o12.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o7.csv,14
+2,13,kNN,0.6428571428571429,alcohol_o12.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o7.csv,14
+2,13,Random Forest,0.7857142857142857,alcohol_o12.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o7.csv,14
+2,13,RBF LS-SVM,0.5,alcohol_o12.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o7.csv,14
+2,14,LDA,0.42857142857142855,alcohol_o10.csv;alcohol_o8.csv;acetone_o7.csv;acetone_o4.csv,14
+2,14,Logistic Regression,0.42857142857142855,alcohol_o10.csv;alcohol_o8.csv;acetone_o7.csv;acetone_o4.csv,14
+2,14,kNN,0.5,alcohol_o10.csv;alcohol_o8.csv;acetone_o7.csv;acetone_o4.csv,14
+2,14,Random Forest,0.5714285714285714,alcohol_o10.csv;alcohol_o8.csv;acetone_o7.csv;acetone_o4.csv,14
+2,14,RBF LS-SVM,0.42857142857142855,alcohol_o10.csv;alcohol_o8.csv;acetone_o7.csv;acetone_o4.csv,14
+2,15,LDA,0.35714285714285715,alcohol_o10.csv;alcohol_o7.csv;acetone_o5.csv;acetone_o2.csv,14
+2,15,Logistic Regression,0.35714285714285715,alcohol_o10.csv;alcohol_o7.csv;acetone_o5.csv;acetone_o2.csv,14
+2,15,kNN,0.5714285714285714,alcohol_o10.csv;alcohol_o7.csv;acetone_o5.csv;acetone_o2.csv,14
+2,15,Random Forest,0.6428571428571429,alcohol_o10.csv;alcohol_o7.csv;acetone_o5.csv;acetone_o2.csv,14
+2,15,RBF LS-SVM,0.35714285714285715,alcohol_o10.csv;alcohol_o7.csv;acetone_o5.csv;acetone_o2.csv,14
+2,16,LDA,0.5,alcohol_o1.csv;alcohol_o7.csv;acetone_o1.csv;acetone_o3.csv,14
+2,16,Logistic Regression,0.5,alcohol_o1.csv;alcohol_o7.csv;acetone_o1.csv;acetone_o3.csv,14
+2,16,kNN,0.7142857142857143,alcohol_o1.csv;alcohol_o7.csv;acetone_o1.csv;acetone_o3.csv,14
+2,16,Random Forest,0.5,alcohol_o1.csv;alcohol_o7.csv;acetone_o1.csv;acetone_o3.csv,14
+2,16,RBF LS-SVM,0.5,alcohol_o1.csv;alcohol_o7.csv;acetone_o1.csv;acetone_o3.csv,14
+2,17,LDA,0.6428571428571429,alcohol_o4.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv,14
+2,17,Logistic Regression,0.6428571428571429,alcohol_o4.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv,14
+2,17,kNN,0.5,alcohol_o4.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv,14
+2,17,Random Forest,0.6428571428571429,alcohol_o4.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv,14
+2,17,RBF LS-SVM,0.7142857142857143,alcohol_o4.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv,14
+2,18,LDA,0.5,alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o12.csv,14
+2,18,Logistic Regression,0.5,alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o12.csv,14
+2,18,kNN,0.5,alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o12.csv,14
+2,18,Random Forest,0.6428571428571429,alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o12.csv,14
+2,18,RBF LS-SVM,0.5,alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o12.csv,14
+2,19,LDA,0.35714285714285715,alcohol_o8.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv,14
+2,19,Logistic Regression,0.42857142857142855,alcohol_o8.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv,14
+2,19,kNN,0.5,alcohol_o8.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv,14
+2,19,Random Forest,0.42857142857142855,alcohol_o8.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv,14
+2,19,RBF LS-SVM,0.42857142857142855,alcohol_o8.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv,14
+2,20,LDA,0.5,alcohol_o11.csv;alcohol_o4.csv;acetone_o7.csv;acetone_o4.csv,14
+2,20,Logistic Regression,0.5714285714285714,alcohol_o11.csv;alcohol_o4.csv;acetone_o7.csv;acetone_o4.csv,14
+2,20,kNN,0.5714285714285714,alcohol_o11.csv;alcohol_o4.csv;acetone_o7.csv;acetone_o4.csv,14
+2,20,Random Forest,0.7142857142857143,alcohol_o11.csv;alcohol_o4.csv;acetone_o7.csv;acetone_o4.csv,14
+2,20,RBF LS-SVM,0.6428571428571429,alcohol_o11.csv;alcohol_o4.csv;acetone_o7.csv;acetone_o4.csv,14
+2,21,LDA,0.8571428571428571,alcohol_o12.csv;alcohol_o9.csv;acetone_o12.csv;acetone_o9.csv,14
+2,21,Logistic Regression,0.7142857142857143,alcohol_o12.csv;alcohol_o9.csv;acetone_o12.csv;acetone_o9.csv,14
+2,21,kNN,0.5714285714285714,alcohol_o12.csv;alcohol_o9.csv;acetone_o12.csv;acetone_o9.csv,14
+2,21,Random Forest,0.6428571428571429,alcohol_o12.csv;alcohol_o9.csv;acetone_o12.csv;acetone_o9.csv,14
+2,21,RBF LS-SVM,0.9285714285714286,alcohol_o12.csv;alcohol_o9.csv;acetone_o12.csv;acetone_o9.csv,14
+2,22,LDA,1.0,alcohol_o10.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o3.csv,14
+2,22,Logistic Regression,1.0,alcohol_o10.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o3.csv,14
+2,22,kNN,0.5,alcohol_o10.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o3.csv,14
+2,22,Random Forest,0.9285714285714286,alcohol_o10.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o3.csv,14
+2,22,RBF LS-SVM,1.0,alcohol_o10.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o3.csv,14
+2,23,LDA,0.5,alcohol_o2.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv,14
+2,23,Logistic Regression,0.5714285714285714,alcohol_o2.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv,14
+2,23,kNN,0.5,alcohol_o2.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv,14
+2,23,Random Forest,0.6428571428571429,alcohol_o2.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv,14
+2,23,RBF LS-SVM,0.5,alcohol_o2.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv,14
+2,24,LDA,0.5,alcohol_o1.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o7.csv,14
+2,24,Logistic Regression,0.5,alcohol_o1.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o7.csv,14
+2,24,kNN,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o7.csv,14
+2,24,Random Forest,0.6428571428571429,alcohol_o1.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o7.csv,14
+2,24,RBF LS-SVM,0.5,alcohol_o1.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o7.csv,14
+2,25,LDA,0.8571428571428571,alcohol_o10.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o7.csv,14
+2,25,Logistic Regression,0.9285714285714286,alcohol_o10.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o7.csv,14
+2,25,kNN,0.5,alcohol_o10.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o7.csv,14
+2,25,Random Forest,0.5714285714285714,alcohol_o10.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o7.csv,14
+2,25,RBF LS-SVM,1.0,alcohol_o10.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o7.csv,14
+2,26,LDA,0.5,alcohol_o3.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o3.csv,14
+2,26,Logistic Regression,0.5,alcohol_o3.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o3.csv,14
+2,26,kNN,0.7142857142857143,alcohol_o3.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o3.csv,14
+2,26,Random Forest,0.5,alcohol_o3.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o3.csv,14
+2,26,RBF LS-SVM,0.5,alcohol_o3.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o3.csv,14
+2,27,LDA,0.7142857142857143,alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+2,27,Logistic Regression,0.7142857142857143,alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+2,27,kNN,0.5,alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+2,27,Random Forest,0.6428571428571429,alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+2,27,RBF LS-SVM,0.6428571428571429,alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+2,28,LDA,0.5714285714285714,alcohol_o6.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o3.csv,14
+2,28,Logistic Regression,0.5714285714285714,alcohol_o6.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o3.csv,14
+2,28,kNN,0.7142857142857143,alcohol_o6.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o3.csv,14
+2,28,Random Forest,0.6428571428571429,alcohol_o6.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o3.csv,14
+2,28,RBF LS-SVM,0.5,alcohol_o6.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o3.csv,14
+2,29,LDA,1.0,alcohol_o8.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o5.csv,14
+2,29,Logistic Regression,0.6428571428571429,alcohol_o8.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o5.csv,14
+2,29,kNN,0.6428571428571429,alcohol_o8.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o5.csv,14
+2,29,Random Forest,0.7142857142857143,alcohol_o8.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o5.csv,14
+2,29,RBF LS-SVM,0.8571428571428571,alcohol_o8.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o5.csv,14
+2,30,LDA,0.6428571428571429,alcohol_o2.csv;alcohol_o11.csv;acetone_o5.csv;acetone_o4.csv,14
+2,30,Logistic Regression,0.5714285714285714,alcohol_o2.csv;alcohol_o11.csv;acetone_o5.csv;acetone_o4.csv,14
+2,30,kNN,0.5,alcohol_o2.csv;alcohol_o11.csv;acetone_o5.csv;acetone_o4.csv,14
+2,30,Random Forest,0.5714285714285714,alcohol_o2.csv;alcohol_o11.csv;acetone_o5.csv;acetone_o4.csv,14
+2,30,RBF LS-SVM,0.5714285714285714,alcohol_o2.csv;alcohol_o11.csv;acetone_o5.csv;acetone_o4.csv,14
+2,31,LDA,0.6428571428571429,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o2.csv,14
+2,31,Logistic Regression,0.7142857142857143,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o2.csv,14
+2,31,kNN,0.5,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o2.csv,14
+2,31,Random Forest,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o2.csv,14
+2,31,RBF LS-SVM,0.7142857142857143,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o2.csv,14
+2,32,LDA,0.5,alcohol_o8.csv;alcohol_o3.csv;acetone_o7.csv;acetone_o1.csv,14
+2,32,Logistic Regression,0.5,alcohol_o8.csv;alcohol_o3.csv;acetone_o7.csv;acetone_o1.csv,14
+2,32,kNN,0.5,alcohol_o8.csv;alcohol_o3.csv;acetone_o7.csv;acetone_o1.csv,14
+2,32,Random Forest,0.5,alcohol_o8.csv;alcohol_o3.csv;acetone_o7.csv;acetone_o1.csv,14
+2,32,RBF LS-SVM,0.5,alcohol_o8.csv;alcohol_o3.csv;acetone_o7.csv;acetone_o1.csv,14
+2,33,LDA,0.5,alcohol_o8.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o3.csv,14
+2,33,Logistic Regression,0.5,alcohol_o8.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o3.csv,14
+2,33,kNN,0.7142857142857143,alcohol_o8.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o3.csv,14
+2,33,Random Forest,0.5,alcohol_o8.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o3.csv,14
+2,33,RBF LS-SVM,0.5,alcohol_o8.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o3.csv,14
+2,34,LDA,0.5,alcohol_o9.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o5.csv,14
+2,34,Logistic Regression,0.5,alcohol_o9.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o5.csv,14
+2,34,kNN,0.5,alcohol_o9.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o5.csv,14
+2,34,Random Forest,0.7142857142857143,alcohol_o9.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o5.csv,14
+2,34,RBF LS-SVM,0.5714285714285714,alcohol_o9.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o5.csv,14
+2,35,LDA,0.5,alcohol_o8.csv;alcohol_o5.csv;acetone_o2.csv;acetone_o12.csv,14
+2,35,Logistic Regression,0.5,alcohol_o8.csv;alcohol_o5.csv;acetone_o2.csv;acetone_o12.csv,14
+2,35,kNN,0.5,alcohol_o8.csv;alcohol_o5.csv;acetone_o2.csv;acetone_o12.csv,14
+2,35,Random Forest,0.5,alcohol_o8.csv;alcohol_o5.csv;acetone_o2.csv;acetone_o12.csv,14
+2,35,RBF LS-SVM,0.5,alcohol_o8.csv;alcohol_o5.csv;acetone_o2.csv;acetone_o12.csv,14
+2,36,LDA,0.7142857142857143,alcohol_o3.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o4.csv,14
+2,36,Logistic Regression,0.6428571428571429,alcohol_o3.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o4.csv,14
+2,36,kNN,0.6428571428571429,alcohol_o3.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o4.csv,14
+2,36,Random Forest,0.8571428571428571,alcohol_o3.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o4.csv,14
+2,36,RBF LS-SVM,0.6428571428571429,alcohol_o3.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o4.csv,14
+2,37,LDA,0.5,alcohol_o2.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o2.csv,14
+2,37,Logistic Regression,0.5,alcohol_o2.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o2.csv,14
+2,37,kNN,0.5,alcohol_o2.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o2.csv,14
+2,37,Random Forest,0.5,alcohol_o2.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o2.csv,14
+2,37,RBF LS-SVM,0.5,alcohol_o2.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o2.csv,14
+2,38,LDA,0.6428571428571429,alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+2,38,Logistic Regression,0.7142857142857143,alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+2,38,kNN,0.7142857142857143,alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+2,38,Random Forest,0.6428571428571429,alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+2,38,RBF LS-SVM,0.6428571428571429,alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+2,39,LDA,0.42857142857142855,alcohol_o7.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o12.csv,14
+2,39,Logistic Regression,0.42857142857142855,alcohol_o7.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o12.csv,14
+2,39,kNN,0.5,alcohol_o7.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o12.csv,14
+2,39,Random Forest,0.7857142857142857,alcohol_o7.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o12.csv,14
+2,39,RBF LS-SVM,0.35714285714285715,alcohol_o7.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o12.csv,14
+2,40,LDA,0.5,alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+2,40,Logistic Regression,0.5,alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+2,40,kNN,0.6428571428571429,alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+2,40,Random Forest,0.5,alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+2,40,RBF LS-SVM,0.5,alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+2,41,LDA,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+2,41,Logistic Regression,0.8571428571428571,alcohol_o8.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+2,41,kNN,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+2,41,Random Forest,0.6428571428571429,alcohol_o8.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+2,41,RBF LS-SVM,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+2,42,LDA,0.5,alcohol_o9.csv;alcohol_o1.csv;acetone_o12.csv;acetone_o1.csv,14
+2,42,Logistic Regression,0.5,alcohol_o9.csv;alcohol_o1.csv;acetone_o12.csv;acetone_o1.csv,14
+2,42,kNN,0.5714285714285714,alcohol_o9.csv;alcohol_o1.csv;acetone_o12.csv;acetone_o1.csv,14
+2,42,Random Forest,0.7142857142857143,alcohol_o9.csv;alcohol_o1.csv;acetone_o12.csv;acetone_o1.csv,14
+2,42,RBF LS-SVM,0.5,alcohol_o9.csv;alcohol_o1.csv;acetone_o12.csv;acetone_o1.csv,14
+2,43,LDA,0.7857142857142857,alcohol_o2.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o5.csv,14
+2,43,Logistic Regression,0.7857142857142857,alcohol_o2.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o5.csv,14
+2,43,kNN,0.6428571428571429,alcohol_o2.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o5.csv,14
+2,43,Random Forest,0.7142857142857143,alcohol_o2.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o5.csv,14
+2,43,RBF LS-SVM,0.8571428571428571,alcohol_o2.csv;alcohol_o12.csv;acetone_o9.csv;acetone_o5.csv,14
+2,44,LDA,0.5714285714285714,alcohol_o4.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o2.csv,14
+2,44,Logistic Regression,0.6428571428571429,alcohol_o4.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o2.csv,14
+2,44,kNN,0.5,alcohol_o4.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o2.csv,14
+2,44,Random Forest,0.7857142857142857,alcohol_o4.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o2.csv,14
+2,44,RBF LS-SVM,0.6428571428571429,alcohol_o4.csv;alcohol_o5.csv;acetone_o5.csv;acetone_o2.csv,14
+2,45,LDA,0.5,alcohol_o7.csv;alcohol_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+2,45,Logistic Regression,0.5,alcohol_o7.csv;alcohol_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+2,45,kNN,0.5,alcohol_o7.csv;alcohol_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+2,45,Random Forest,0.5,alcohol_o7.csv;alcohol_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+2,45,RBF LS-SVM,0.5,alcohol_o7.csv;alcohol_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+2,46,LDA,0.8571428571428571,alcohol_o10.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv,14
+2,46,Logistic Regression,0.8571428571428571,alcohol_o10.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv,14
+2,46,kNN,0.5,alcohol_o10.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv,14
+2,46,Random Forest,0.9285714285714286,alcohol_o10.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv,14
+2,46,RBF LS-SVM,1.0,alcohol_o10.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv,14
+2,47,LDA,0.5,alcohol_o4.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o3.csv,14
+2,47,Logistic Regression,0.5714285714285714,alcohol_o4.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o3.csv,14
+2,47,kNN,0.5714285714285714,alcohol_o4.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o3.csv,14
+2,47,Random Forest,0.8571428571428571,alcohol_o4.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o3.csv,14
+2,47,RBF LS-SVM,0.5,alcohol_o4.csv;alcohol_o1.csv;acetone_o4.csv;acetone_o3.csv,14
+2,48,LDA,0.6428571428571429,alcohol_o10.csv;alcohol_o4.csv;acetone_o5.csv;acetone_o4.csv,14
+2,48,Logistic Regression,0.6428571428571429,alcohol_o10.csv;alcohol_o4.csv;acetone_o5.csv;acetone_o4.csv,14
+2,48,kNN,0.5,alcohol_o10.csv;alcohol_o4.csv;acetone_o5.csv;acetone_o4.csv,14
+2,48,Random Forest,0.5714285714285714,alcohol_o10.csv;alcohol_o4.csv;acetone_o5.csv;acetone_o4.csv,14
+2,48,RBF LS-SVM,0.6428571428571429,alcohol_o10.csv;alcohol_o4.csv;acetone_o5.csv;acetone_o4.csv,14
+2,49,LDA,0.5,alcohol_o7.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv,14
+2,49,Logistic Regression,0.35714285714285715,alcohol_o7.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv,14
+2,49,kNN,0.5,alcohol_o7.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv,14
+2,49,Random Forest,0.6428571428571429,alcohol_o7.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv,14
+2,49,RBF LS-SVM,0.42857142857142855,alcohol_o7.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv,14
+2,50,LDA,0.7857142857142857,alcohol_o3.csv;alcohol_o12.csv;acetone_o6.csv;acetone_o2.csv,14
+2,50,Logistic Regression,0.7857142857142857,alcohol_o3.csv;alcohol_o12.csv;acetone_o6.csv;acetone_o2.csv,14
+2,50,kNN,0.5,alcohol_o3.csv;alcohol_o12.csv;acetone_o6.csv;acetone_o2.csv,14
+2,50,Random Forest,0.5714285714285714,alcohol_o3.csv;alcohol_o12.csv;acetone_o6.csv;acetone_o2.csv,14
+2,50,RBF LS-SVM,0.8571428571428571,alcohol_o3.csv;alcohol_o12.csv;acetone_o6.csv;acetone_o2.csv,14
+2,51,LDA,0.5,alcohol_o1.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o5.csv,14
+2,51,Logistic Regression,0.5,alcohol_o1.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o5.csv,14
+2,51,kNN,0.7142857142857143,alcohol_o1.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o5.csv,14
+2,51,Random Forest,0.6428571428571429,alcohol_o1.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o5.csv,14
+2,51,RBF LS-SVM,0.5,alcohol_o1.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o5.csv,14
+2,52,LDA,1.0,alcohol_o9.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o4.csv,14
+2,52,Logistic Regression,0.7857142857142857,alcohol_o9.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o4.csv,14
+2,52,kNN,0.6428571428571429,alcohol_o9.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o4.csv,14
+2,52,Random Forest,0.7142857142857143,alcohol_o9.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o4.csv,14
+2,52,RBF LS-SVM,0.6428571428571429,alcohol_o9.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o4.csv,14
+2,53,LDA,0.7857142857142857,alcohol_o2.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o2.csv,14
+2,53,Logistic Regression,0.8571428571428571,alcohol_o2.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o2.csv,14
+2,53,kNN,0.5,alcohol_o2.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o2.csv,14
+2,53,Random Forest,0.9285714285714286,alcohol_o2.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o2.csv,14
+2,53,RBF LS-SVM,1.0,alcohol_o2.csv;alcohol_o12.csv;acetone_o10.csv;acetone_o2.csv,14
+2,54,LDA,0.5,alcohol_o2.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o3.csv,14
+2,54,Logistic Regression,0.5,alcohol_o2.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o3.csv,14
+2,54,kNN,0.5,alcohol_o2.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o3.csv,14
+2,54,Random Forest,0.5,alcohol_o2.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o3.csv,14
+2,54,RBF LS-SVM,0.5,alcohol_o2.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o3.csv,14
+2,55,LDA,0.6428571428571429,alcohol_o6.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o12.csv,14
+2,55,Logistic Regression,0.6428571428571429,alcohol_o6.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o12.csv,14
+2,55,kNN,0.6428571428571429,alcohol_o6.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o12.csv,14
+2,55,Random Forest,0.6428571428571429,alcohol_o6.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o12.csv,14
+2,55,RBF LS-SVM,0.6428571428571429,alcohol_o6.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o12.csv,14
+2,56,LDA,0.35714285714285715,alcohol_o8.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv,14
+2,56,Logistic Regression,0.35714285714285715,alcohol_o8.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv,14
+2,56,kNN,0.5714285714285714,alcohol_o8.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv,14
+2,56,Random Forest,0.5714285714285714,alcohol_o8.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv,14
+2,56,RBF LS-SVM,0.35714285714285715,alcohol_o8.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv,14
+2,57,LDA,0.5,alcohol_o5.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o10.csv,14
+2,57,Logistic Regression,0.5,alcohol_o5.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o10.csv,14
+2,57,kNN,0.5714285714285714,alcohol_o5.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o10.csv,14
+2,57,Random Forest,0.8571428571428571,alcohol_o5.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o10.csv,14
+2,57,RBF LS-SVM,0.5,alcohol_o5.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o10.csv,14
+2,58,LDA,0.7857142857142857,alcohol_o3.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o8.csv,14
+2,58,Logistic Regression,0.7142857142857143,alcohol_o3.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o8.csv,14
+2,58,kNN,0.5,alcohol_o3.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o8.csv,14
+2,58,Random Forest,0.5714285714285714,alcohol_o3.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o8.csv,14
+2,58,RBF LS-SVM,0.7142857142857143,alcohol_o3.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o8.csv,14
+2,59,LDA,0.6428571428571429,alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o1.csv,14
+2,59,Logistic Regression,0.6428571428571429,alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o1.csv,14
+2,59,kNN,0.5,alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o1.csv,14
+2,59,Random Forest,0.5,alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o1.csv,14
+2,59,RBF LS-SVM,0.5714285714285714,alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o1.csv,14
+2,60,LDA,0.5,alcohol_o8.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o3.csv,14
+2,60,Logistic Regression,0.5,alcohol_o8.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o3.csv,14
+2,60,kNN,0.5,alcohol_o8.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o3.csv,14
+2,60,Random Forest,0.5,alcohol_o8.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o3.csv,14
+2,60,RBF LS-SVM,0.5,alcohol_o8.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o3.csv,14
+2,61,LDA,0.5,alcohol_o9.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o4.csv,14
+2,61,Logistic Regression,0.5,alcohol_o9.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o4.csv,14
+2,61,kNN,0.5,alcohol_o9.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o4.csv,14
+2,61,Random Forest,0.7857142857142857,alcohol_o9.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o4.csv,14
+2,61,RBF LS-SVM,0.5,alcohol_o9.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o4.csv,14
+2,62,LDA,0.5,alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o10.csv,14
+2,62,Logistic Regression,0.5714285714285714,alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o10.csv,14
+2,62,kNN,0.5,alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o10.csv,14
+2,62,Random Forest,0.8571428571428571,alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o10.csv,14
+2,62,RBF LS-SVM,0.6428571428571429,alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o10.csv,14
+2,63,LDA,0.8571428571428571,alcohol_o9.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o11.csv,14
+2,63,Logistic Regression,0.7142857142857143,alcohol_o9.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o11.csv,14
+2,63,kNN,0.7142857142857143,alcohol_o9.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o11.csv,14
+2,63,Random Forest,0.7142857142857143,alcohol_o9.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o11.csv,14
+2,63,RBF LS-SVM,0.8571428571428571,alcohol_o9.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o11.csv,14
+2,64,LDA,0.8571428571428571,alcohol_o2.csv;alcohol_o10.csv;acetone_o6.csv;acetone_o2.csv,14
+2,64,Logistic Regression,0.8571428571428571,alcohol_o2.csv;alcohol_o10.csv;acetone_o6.csv;acetone_o2.csv,14
+2,64,kNN,0.5714285714285714,alcohol_o2.csv;alcohol_o10.csv;acetone_o6.csv;acetone_o2.csv,14
+2,64,Random Forest,0.7857142857142857,alcohol_o2.csv;alcohol_o10.csv;acetone_o6.csv;acetone_o2.csv,14
+2,64,RBF LS-SVM,0.8571428571428571,alcohol_o2.csv;alcohol_o10.csv;acetone_o6.csv;acetone_o2.csv,14
+2,65,LDA,1.0,alcohol_o1.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o2.csv,14
+2,65,Logistic Regression,1.0,alcohol_o1.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o2.csv,14
+2,65,kNN,0.5,alcohol_o1.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o2.csv,14
+2,65,Random Forest,1.0,alcohol_o1.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o2.csv,14
+2,65,RBF LS-SVM,1.0,alcohol_o1.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o2.csv,14
+2,66,LDA,0.5,alcohol_o3.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+2,66,Logistic Regression,0.5,alcohol_o3.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+2,66,kNN,0.5,alcohol_o3.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+2,66,Random Forest,0.8571428571428571,alcohol_o3.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+2,66,RBF LS-SVM,0.5714285714285714,alcohol_o3.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+2,67,LDA,0.5,alcohol_o1.csv;alcohol_o3.csv;acetone_o1.csv;acetone_o7.csv,14
+2,67,Logistic Regression,0.5,alcohol_o1.csv;alcohol_o3.csv;acetone_o1.csv;acetone_o7.csv,14
+2,67,kNN,0.5,alcohol_o1.csv;alcohol_o3.csv;acetone_o1.csv;acetone_o7.csv,14
+2,67,Random Forest,0.5,alcohol_o1.csv;alcohol_o3.csv;acetone_o1.csv;acetone_o7.csv,14
+2,67,RBF LS-SVM,0.5,alcohol_o1.csv;alcohol_o3.csv;acetone_o1.csv;acetone_o7.csv,14
+2,68,LDA,0.5,alcohol_o10.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o3.csv,14
+2,68,Logistic Regression,0.5,alcohol_o10.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o3.csv,14
+2,68,kNN,0.5,alcohol_o10.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o3.csv,14
+2,68,Random Forest,0.5,alcohol_o10.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o3.csv,14
+2,68,RBF LS-SVM,0.5,alcohol_o10.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o3.csv,14
+2,69,LDA,0.6428571428571429,alcohol_o12.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o5.csv,14
+2,69,Logistic Regression,0.6428571428571429,alcohol_o12.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o5.csv,14
+2,69,kNN,0.6428571428571429,alcohol_o12.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o5.csv,14
+2,69,Random Forest,0.6428571428571429,alcohol_o12.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o5.csv,14
+2,69,RBF LS-SVM,0.6428571428571429,alcohol_o12.csv;alcohol_o4.csv;acetone_o6.csv;acetone_o5.csv,14
+2,70,LDA,0.5,alcohol_o12.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o1.csv,14
+2,70,Logistic Regression,0.5,alcohol_o12.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o1.csv,14
+2,70,kNN,0.5,alcohol_o12.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o1.csv,14
+2,70,Random Forest,0.8571428571428571,alcohol_o12.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o1.csv,14
+2,70,RBF LS-SVM,0.8571428571428571,alcohol_o12.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o1.csv,14
+2,71,LDA,0.42857142857142855,alcohol_o9.csv;alcohol_o6.csv;acetone_o3.csv;acetone_o10.csv,14
+2,71,Logistic Regression,0.42857142857142855,alcohol_o9.csv;alcohol_o6.csv;acetone_o3.csv;acetone_o10.csv,14
+2,71,kNN,0.5714285714285714,alcohol_o9.csv;alcohol_o6.csv;acetone_o3.csv;acetone_o10.csv,14
+2,71,Random Forest,0.42857142857142855,alcohol_o9.csv;alcohol_o6.csv;acetone_o3.csv;acetone_o10.csv,14
+2,71,RBF LS-SVM,0.42857142857142855,alcohol_o9.csv;alcohol_o6.csv;acetone_o3.csv;acetone_o10.csv,14
+2,72,LDA,0.5714285714285714,alcohol_o10.csv;alcohol_o7.csv;acetone_o11.csv;acetone_o4.csv,14
+2,72,Logistic Regression,0.7142857142857143,alcohol_o10.csv;alcohol_o7.csv;acetone_o11.csv;acetone_o4.csv,14
+2,72,kNN,0.7142857142857143,alcohol_o10.csv;alcohol_o7.csv;acetone_o11.csv;acetone_o4.csv,14
+2,72,Random Forest,0.8571428571428571,alcohol_o10.csv;alcohol_o7.csv;acetone_o11.csv;acetone_o4.csv,14
+2,72,RBF LS-SVM,0.7142857142857143,alcohol_o10.csv;alcohol_o7.csv;acetone_o11.csv;acetone_o4.csv,14
+2,73,LDA,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o2.csv,14
+2,73,Logistic Regression,0.5,alcohol_o8.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o2.csv,14
+2,73,kNN,0.7142857142857143,alcohol_o8.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o2.csv,14
+2,73,Random Forest,0.6428571428571429,alcohol_o8.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o2.csv,14
+2,73,RBF LS-SVM,0.5,alcohol_o8.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o2.csv,14
+2,74,LDA,0.6428571428571429,alcohol_o4.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,74,Logistic Regression,0.6428571428571429,alcohol_o4.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,74,kNN,0.7142857142857143,alcohol_o4.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,74,Random Forest,0.7142857142857143,alcohol_o4.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,74,RBF LS-SVM,0.6428571428571429,alcohol_o4.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,75,LDA,0.5,alcohol_o5.csv;alcohol_o12.csv;acetone_o1.csv;acetone_o7.csv,14
+2,75,Logistic Regression,0.5,alcohol_o5.csv;alcohol_o12.csv;acetone_o1.csv;acetone_o7.csv,14
+2,75,kNN,0.5,alcohol_o5.csv;alcohol_o12.csv;acetone_o1.csv;acetone_o7.csv,14
+2,75,Random Forest,0.5,alcohol_o5.csv;alcohol_o12.csv;acetone_o1.csv;acetone_o7.csv,14
+2,75,RBF LS-SVM,0.5,alcohol_o5.csv;alcohol_o12.csv;acetone_o1.csv;acetone_o7.csv,14
+2,76,LDA,0.5714285714285714,alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv,14
+2,76,Logistic Regression,0.5714285714285714,alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv,14
+2,76,kNN,0.5714285714285714,alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv,14
+2,76,Random Forest,0.5714285714285714,alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv,14
+2,76,RBF LS-SVM,0.5714285714285714,alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv,14
+2,77,LDA,0.5,alcohol_o5.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o7.csv,14
+2,77,Logistic Regression,0.5,alcohol_o5.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o7.csv,14
+2,77,kNN,0.5,alcohol_o5.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o7.csv,14
+2,77,Random Forest,0.42857142857142855,alcohol_o5.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o7.csv,14
+2,77,RBF LS-SVM,0.6428571428571429,alcohol_o5.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o7.csv,14
+2,78,LDA,0.6428571428571429,alcohol_o9.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o6.csv,14
+2,78,Logistic Regression,0.6428571428571429,alcohol_o9.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o6.csv,14
+2,78,kNN,0.5714285714285714,alcohol_o9.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o6.csv,14
+2,78,Random Forest,0.6428571428571429,alcohol_o9.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o6.csv,14
+2,78,RBF LS-SVM,0.6428571428571429,alcohol_o9.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o6.csv,14
+2,79,LDA,0.5,alcohol_o4.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o7.csv,14
+2,79,Logistic Regression,0.5714285714285714,alcohol_o4.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o7.csv,14
+2,79,kNN,0.5,alcohol_o4.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o7.csv,14
+2,79,Random Forest,0.8571428571428571,alcohol_o4.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o7.csv,14
+2,79,RBF LS-SVM,0.7857142857142857,alcohol_o4.csv;alcohol_o9.csv;acetone_o10.csv;acetone_o7.csv,14
+2,80,LDA,0.7857142857142857,alcohol_o5.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o10.csv,14
+2,80,Logistic Regression,0.7142857142857143,alcohol_o5.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o10.csv,14
+2,80,kNN,0.6428571428571429,alcohol_o5.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o10.csv,14
+2,80,Random Forest,0.7857142857142857,alcohol_o5.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o10.csv,14
+2,80,RBF LS-SVM,0.7142857142857143,alcohol_o5.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o10.csv,14
+2,81,LDA,0.5,alcohol_o7.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+2,81,Logistic Regression,0.5,alcohol_o7.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+2,81,kNN,0.5714285714285714,alcohol_o7.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+2,81,Random Forest,0.5,alcohol_o7.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+2,81,RBF LS-SVM,0.5,alcohol_o7.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+2,82,LDA,0.6428571428571429,alcohol_o4.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o12.csv,14
+2,82,Logistic Regression,0.7142857142857143,alcohol_o4.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o12.csv,14
+2,82,kNN,0.5714285714285714,alcohol_o4.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o12.csv,14
+2,82,Random Forest,0.6428571428571429,alcohol_o4.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o12.csv,14
+2,82,RBF LS-SVM,0.6428571428571429,alcohol_o4.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o12.csv,14
+2,83,LDA,0.5714285714285714,alcohol_o9.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o11.csv,14
+2,83,Logistic Regression,0.5714285714285714,alcohol_o9.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o11.csv,14
+2,83,kNN,0.5,alcohol_o9.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o11.csv,14
+2,83,Random Forest,0.6428571428571429,alcohol_o9.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o11.csv,14
+2,83,RBF LS-SVM,0.5714285714285714,alcohol_o9.csv;alcohol_o7.csv;acetone_o10.csv;acetone_o11.csv,14
+2,84,LDA,0.6428571428571429,alcohol_o7.csv;alcohol_o9.csv;acetone_o6.csv;acetone_o12.csv,14
+2,84,Logistic Regression,0.7142857142857143,alcohol_o7.csv;alcohol_o9.csv;acetone_o6.csv;acetone_o12.csv,14
+2,84,kNN,0.5714285714285714,alcohol_o7.csv;alcohol_o9.csv;acetone_o6.csv;acetone_o12.csv,14
+2,84,Random Forest,0.6428571428571429,alcohol_o7.csv;alcohol_o9.csv;acetone_o6.csv;acetone_o12.csv,14
+2,84,RBF LS-SVM,0.7857142857142857,alcohol_o7.csv;alcohol_o9.csv;acetone_o6.csv;acetone_o12.csv,14
+2,85,LDA,0.8571428571428571,alcohol_o7.csv;alcohol_o6.csv;acetone_o1.csv;acetone_o8.csv,14
+2,85,Logistic Regression,0.5714285714285714,alcohol_o7.csv;alcohol_o6.csv;acetone_o1.csv;acetone_o8.csv,14
+2,85,kNN,0.5,alcohol_o7.csv;alcohol_o6.csv;acetone_o1.csv;acetone_o8.csv,14
+2,85,Random Forest,0.5,alcohol_o7.csv;alcohol_o6.csv;acetone_o1.csv;acetone_o8.csv,14
+2,85,RBF LS-SVM,0.5,alcohol_o7.csv;alcohol_o6.csv;acetone_o1.csv;acetone_o8.csv,14
+2,86,LDA,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,86,Logistic Regression,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,86,kNN,0.7142857142857143,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,86,Random Forest,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,86,RBF LS-SVM,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o11.csv,14
+2,87,LDA,0.5714285714285714,alcohol_o3.csv;alcohol_o9.csv;acetone_o1.csv;acetone_o5.csv,14
+2,87,Logistic Regression,0.5714285714285714,alcohol_o3.csv;alcohol_o9.csv;acetone_o1.csv;acetone_o5.csv,14
+2,87,kNN,0.7142857142857143,alcohol_o3.csv;alcohol_o9.csv;acetone_o1.csv;acetone_o5.csv,14
+2,87,Random Forest,0.6428571428571429,alcohol_o3.csv;alcohol_o9.csv;acetone_o1.csv;acetone_o5.csv,14
+2,87,RBF LS-SVM,0.5714285714285714,alcohol_o3.csv;alcohol_o9.csv;acetone_o1.csv;acetone_o5.csv,14
+2,88,LDA,0.5714285714285714,alcohol_o5.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o8.csv,14
+2,88,Logistic Regression,0.5,alcohol_o5.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o8.csv,14
+2,88,kNN,0.7857142857142857,alcohol_o5.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o8.csv,14
+2,88,Random Forest,0.6428571428571429,alcohol_o5.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o8.csv,14
+2,88,RBF LS-SVM,0.5714285714285714,alcohol_o5.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o8.csv,14
+2,89,LDA,1.0,alcohol_o5.csv;alcohol_o1.csv;acetone_o2.csv;acetone_o3.csv,14
+2,89,Logistic Regression,1.0,alcohol_o5.csv;alcohol_o1.csv;acetone_o2.csv;acetone_o3.csv,14
+2,89,kNN,0.5,alcohol_o5.csv;alcohol_o1.csv;acetone_o2.csv;acetone_o3.csv,14
+2,89,Random Forest,0.6428571428571429,alcohol_o5.csv;alcohol_o1.csv;acetone_o2.csv;acetone_o3.csv,14
+2,89,RBF LS-SVM,0.7142857142857143,alcohol_o5.csv;alcohol_o1.csv;acetone_o2.csv;acetone_o3.csv,14
+2,90,LDA,0.5,alcohol_o12.csv;alcohol_o8.csv;acetone_o1.csv;acetone_o8.csv,14
+2,90,Logistic Regression,0.6428571428571429,alcohol_o12.csv;alcohol_o8.csv;acetone_o1.csv;acetone_o8.csv,14
+2,90,kNN,0.42857142857142855,alcohol_o12.csv;alcohol_o8.csv;acetone_o1.csv;acetone_o8.csv,14
+2,90,Random Forest,0.5,alcohol_o12.csv;alcohol_o8.csv;acetone_o1.csv;acetone_o8.csv,14
+2,90,RBF LS-SVM,0.9285714285714286,alcohol_o12.csv;alcohol_o8.csv;acetone_o1.csv;acetone_o8.csv,14
+2,91,LDA,0.5714285714285714,alcohol_o5.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+2,91,Logistic Regression,0.5714285714285714,alcohol_o5.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+2,91,kNN,0.7142857142857143,alcohol_o5.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+2,91,Random Forest,0.5714285714285714,alcohol_o5.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+2,91,RBF LS-SVM,0.5714285714285714,alcohol_o5.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+2,92,LDA,0.7142857142857143,alcohol_o7.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv,14
+2,92,Logistic Regression,0.7857142857142857,alcohol_o7.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv,14
+2,92,kNN,0.6428571428571429,alcohol_o7.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv,14
+2,92,Random Forest,0.5714285714285714,alcohol_o7.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv,14
+2,92,RBF LS-SVM,0.8571428571428571,alcohol_o7.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv,14
+2,93,LDA,0.5714285714285714,alcohol_o10.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o12.csv,14
+2,93,Logistic Regression,0.6428571428571429,alcohol_o10.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o12.csv,14
+2,93,kNN,0.5,alcohol_o10.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o12.csv,14
+2,93,Random Forest,0.7142857142857143,alcohol_o10.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o12.csv,14
+2,93,RBF LS-SVM,0.6428571428571429,alcohol_o10.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o12.csv,14
+2,94,LDA,0.5,alcohol_o10.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o3.csv,14
+2,94,Logistic Regression,0.5,alcohol_o10.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o3.csv,14
+2,94,kNN,0.7142857142857143,alcohol_o10.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o3.csv,14
+2,94,Random Forest,0.5,alcohol_o10.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o3.csv,14
+2,94,RBF LS-SVM,0.5,alcohol_o10.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o3.csv,14
+2,95,LDA,0.7142857142857143,alcohol_o2.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o10.csv,14
+2,95,Logistic Regression,0.7142857142857143,alcohol_o2.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o10.csv,14
+2,95,kNN,0.7857142857142857,alcohol_o2.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o10.csv,14
+2,95,Random Forest,0.7142857142857143,alcohol_o2.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o10.csv,14
+2,95,RBF LS-SVM,0.7142857142857143,alcohol_o2.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o10.csv,14
+2,96,LDA,0.5,alcohol_o4.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv,14
+2,96,Logistic Regression,0.5,alcohol_o4.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv,14
+2,96,kNN,0.6428571428571429,alcohol_o4.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv,14
+2,96,Random Forest,0.5714285714285714,alcohol_o4.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv,14
+2,96,RBF LS-SVM,0.5,alcohol_o4.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv,14
+2,97,LDA,0.5,alcohol_o3.csv;alcohol_o12.csv;acetone_o12.csv;acetone_o2.csv,14
+2,97,Logistic Regression,0.5,alcohol_o3.csv;alcohol_o12.csv;acetone_o12.csv;acetone_o2.csv,14
+2,97,kNN,0.5,alcohol_o3.csv;alcohol_o12.csv;acetone_o12.csv;acetone_o2.csv,14
+2,97,Random Forest,0.7857142857142857,alcohol_o3.csv;alcohol_o12.csv;acetone_o12.csv;acetone_o2.csv,14
+2,97,RBF LS-SVM,0.5,alcohol_o3.csv;alcohol_o12.csv;acetone_o12.csv;acetone_o2.csv,14
+2,98,LDA,0.5714285714285714,alcohol_o12.csv;alcohol_o11.csv;acetone_o1.csv;acetone_o5.csv,14
+2,98,Logistic Regression,0.5714285714285714,alcohol_o12.csv;alcohol_o11.csv;acetone_o1.csv;acetone_o5.csv,14
+2,98,kNN,0.5,alcohol_o12.csv;alcohol_o11.csv;acetone_o1.csv;acetone_o5.csv,14
+2,98,Random Forest,0.5,alcohol_o12.csv;alcohol_o11.csv;acetone_o1.csv;acetone_o5.csv,14
+2,98,RBF LS-SVM,0.5714285714285714,alcohol_o12.csv;alcohol_o11.csv;acetone_o1.csv;acetone_o5.csv,14
+2,99,LDA,0.5,alcohol_o9.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+2,99,Logistic Regression,0.5,alcohol_o9.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+2,99,kNN,0.42857142857142855,alcohol_o9.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+2,99,Random Forest,0.5,alcohol_o9.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+2,99,RBF LS-SVM,0.5,alcohol_o9.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o11.csv,14
+3,0,LDA,0.9285714285714286,alcohol_o12.csv;alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o9.csv;acetone_o8.csv,14
+3,0,Logistic Regression,1.0,alcohol_o12.csv;alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o9.csv;acetone_o8.csv,14
+3,0,kNN,0.8571428571428571,alcohol_o12.csv;alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o9.csv;acetone_o8.csv,14
+3,0,Random Forest,0.5714285714285714,alcohol_o12.csv;alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o9.csv;acetone_o8.csv,14
+3,0,RBF LS-SVM,0.8571428571428571,alcohol_o12.csv;alcohol_o10.csv;alcohol_o2.csv;acetone_o2.csv;acetone_o9.csv;acetone_o8.csv,14
+3,1,LDA,0.5,alcohol_o2.csv;alcohol_o12.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o9.csv;acetone_o2.csv,14
+3,1,Logistic Regression,0.5,alcohol_o2.csv;alcohol_o12.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o9.csv;acetone_o2.csv,14
+3,1,kNN,0.9285714285714286,alcohol_o2.csv;alcohol_o12.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o9.csv;acetone_o2.csv,14
+3,1,Random Forest,1.0,alcohol_o2.csv;alcohol_o12.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o9.csv;acetone_o2.csv,14
+3,1,RBF LS-SVM,0.5,alcohol_o2.csv;alcohol_o12.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o9.csv;acetone_o2.csv,14
+3,2,LDA,0.5,alcohol_o3.csv;alcohol_o8.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o10.csv;acetone_o7.csv,14
+3,2,Logistic Regression,0.5714285714285714,alcohol_o3.csv;alcohol_o8.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o10.csv;acetone_o7.csv,14
+3,2,kNN,0.42857142857142855,alcohol_o3.csv;alcohol_o8.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o10.csv;acetone_o7.csv,14
+3,2,Random Forest,0.5,alcohol_o3.csv;alcohol_o8.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o10.csv;acetone_o7.csv,14
+3,2,RBF LS-SVM,0.5714285714285714,alcohol_o3.csv;alcohol_o8.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o10.csv;acetone_o7.csv,14
+3,3,LDA,0.7857142857142857,alcohol_o5.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o7.csv;acetone_o11.csv,14
+3,3,Logistic Regression,0.8571428571428571,alcohol_o5.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o7.csv;acetone_o11.csv,14
+3,3,kNN,0.7857142857142857,alcohol_o5.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o7.csv;acetone_o11.csv,14
+3,3,Random Forest,0.5714285714285714,alcohol_o5.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o7.csv;acetone_o11.csv,14
+3,3,RBF LS-SVM,0.7142857142857143,alcohol_o5.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o2.csv;acetone_o7.csv;acetone_o11.csv,14
+3,4,LDA,0.5,alcohol_o11.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,4,Logistic Regression,0.5714285714285714,alcohol_o11.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,4,kNN,0.9285714285714286,alcohol_o11.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,4,Random Forest,0.8571428571428571,alcohol_o11.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,4,RBF LS-SVM,0.5714285714285714,alcohol_o11.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,5,LDA,0.5,alcohol_o7.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o10.csv;acetone_o5.csv,14
+3,5,Logistic Regression,0.5714285714285714,alcohol_o7.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o10.csv;acetone_o5.csv,14
+3,5,kNN,0.6428571428571429,alcohol_o7.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o10.csv;acetone_o5.csv,14
+3,5,Random Forest,0.5,alcohol_o7.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o10.csv;acetone_o5.csv,14
+3,5,RBF LS-SVM,0.5714285714285714,alcohol_o7.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o2.csv;acetone_o10.csv;acetone_o5.csv,14
+3,6,LDA,0.5714285714285714,alcohol_o8.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o7.csv,14
+3,6,Logistic Regression,0.5714285714285714,alcohol_o8.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o7.csv,14
+3,6,kNN,0.5,alcohol_o8.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o7.csv,14
+3,6,Random Forest,0.6428571428571429,alcohol_o8.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o7.csv,14
+3,6,RBF LS-SVM,0.9285714285714286,alcohol_o8.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o7.csv,14
+3,7,LDA,0.5,alcohol_o9.csv;alcohol_o6.csv;alcohol_o1.csv;acetone_o7.csv;acetone_o1.csv;acetone_o6.csv,14
+3,7,Logistic Regression,0.5,alcohol_o9.csv;alcohol_o6.csv;alcohol_o1.csv;acetone_o7.csv;acetone_o1.csv;acetone_o6.csv,14
+3,7,kNN,0.5,alcohol_o9.csv;alcohol_o6.csv;alcohol_o1.csv;acetone_o7.csv;acetone_o1.csv;acetone_o6.csv,14
+3,7,Random Forest,0.7857142857142857,alcohol_o9.csv;alcohol_o6.csv;alcohol_o1.csv;acetone_o7.csv;acetone_o1.csv;acetone_o6.csv,14
+3,7,RBF LS-SVM,0.5,alcohol_o9.csv;alcohol_o6.csv;alcohol_o1.csv;acetone_o7.csv;acetone_o1.csv;acetone_o6.csv,14
+3,8,LDA,0.6428571428571429,alcohol_o6.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+3,8,Logistic Regression,0.5714285714285714,alcohol_o6.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+3,8,kNN,0.5,alcohol_o6.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+3,8,Random Forest,0.5,alcohol_o6.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+3,8,RBF LS-SVM,0.5,alcohol_o6.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o8.csv;acetone_o6.csv,14
+3,9,LDA,0.9285714285714286,alcohol_o9.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o10.csv;acetone_o11.csv,14
+3,9,Logistic Regression,0.7142857142857143,alcohol_o9.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o10.csv;acetone_o11.csv,14
+3,9,kNN,0.5714285714285714,alcohol_o9.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o10.csv;acetone_o11.csv,14
+3,9,Random Forest,0.5714285714285714,alcohol_o9.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o10.csv;acetone_o11.csv,14
+3,9,RBF LS-SVM,0.7142857142857143,alcohol_o9.csv;alcohol_o5.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o10.csv;acetone_o11.csv,14
+3,10,LDA,0.5,alcohol_o4.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv;acetone_o10.csv,14
+3,10,Logistic Regression,0.5,alcohol_o4.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv;acetone_o10.csv,14
+3,10,kNN,0.5,alcohol_o4.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv;acetone_o10.csv,14
+3,10,Random Forest,0.5,alcohol_o4.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv;acetone_o10.csv,14
+3,10,RBF LS-SVM,0.5,alcohol_o4.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o3.csv;acetone_o10.csv,14
+3,11,LDA,0.6428571428571429,alcohol_o1.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o11.csv;acetone_o9.csv,14
+3,11,Logistic Regression,0.5714285714285714,alcohol_o1.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o11.csv;acetone_o9.csv,14
+3,11,kNN,0.9285714285714286,alcohol_o1.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o11.csv;acetone_o9.csv,14
+3,11,Random Forest,0.8571428571428571,alcohol_o1.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o11.csv;acetone_o9.csv,14
+3,11,RBF LS-SVM,0.5714285714285714,alcohol_o1.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o11.csv;acetone_o9.csv,14
+3,12,LDA,0.5714285714285714,alcohol_o8.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o5.csv;acetone_o8.csv,14
+3,12,Logistic Regression,0.5,alcohol_o8.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o5.csv;acetone_o8.csv,14
+3,12,kNN,0.7142857142857143,alcohol_o8.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o5.csv;acetone_o8.csv,14
+3,12,Random Forest,0.8571428571428571,alcohol_o8.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o5.csv;acetone_o8.csv,14
+3,12,RBF LS-SVM,0.5,alcohol_o8.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o4.csv;acetone_o5.csv;acetone_o8.csv,14
+3,13,LDA,0.7857142857142857,alcohol_o2.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o2.csv;acetone_o7.csv,14
+3,13,Logistic Regression,0.5714285714285714,alcohol_o2.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o2.csv;acetone_o7.csv,14
+3,13,kNN,0.5714285714285714,alcohol_o2.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o2.csv;acetone_o7.csv,14
+3,13,Random Forest,0.5,alcohol_o2.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o2.csv;acetone_o7.csv,14
+3,13,RBF LS-SVM,0.5,alcohol_o2.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o2.csv;acetone_o7.csv,14
+3,14,LDA,0.7142857142857143,alcohol_o5.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o6.csv;acetone_o2.csv;acetone_o11.csv,14
+3,14,Logistic Regression,0.8571428571428571,alcohol_o5.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o6.csv;acetone_o2.csv;acetone_o11.csv,14
+3,14,kNN,0.7142857142857143,alcohol_o5.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o6.csv;acetone_o2.csv;acetone_o11.csv,14
+3,14,Random Forest,0.6428571428571429,alcohol_o5.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o6.csv;acetone_o2.csv;acetone_o11.csv,14
+3,14,RBF LS-SVM,0.8571428571428571,alcohol_o5.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o6.csv;acetone_o2.csv;acetone_o11.csv,14
+3,15,LDA,0.7142857142857143,alcohol_o5.csv;alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,15,Logistic Regression,0.7142857142857143,alcohol_o5.csv;alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,15,kNN,0.5,alcohol_o5.csv;alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,15,Random Forest,0.5714285714285714,alcohol_o5.csv;alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,15,RBF LS-SVM,0.7142857142857143,alcohol_o5.csv;alcohol_o11.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,16,LDA,0.42857142857142855,alcohol_o2.csv;alcohol_o11.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o7.csv;acetone_o5.csv,14
+3,16,Logistic Regression,0.5714285714285714,alcohol_o2.csv;alcohol_o11.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o7.csv;acetone_o5.csv,14
+3,16,kNN,0.6428571428571429,alcohol_o2.csv;alcohol_o11.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o7.csv;acetone_o5.csv,14
+3,16,Random Forest,0.5714285714285714,alcohol_o2.csv;alcohol_o11.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o7.csv;acetone_o5.csv,14
+3,16,RBF LS-SVM,0.7142857142857143,alcohol_o2.csv;alcohol_o11.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o7.csv;acetone_o5.csv,14
+3,17,LDA,0.5,alcohol_o5.csv;alcohol_o1.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o7.csv;acetone_o9.csv,14
+3,17,Logistic Regression,0.5,alcohol_o5.csv;alcohol_o1.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o7.csv;acetone_o9.csv,14
+3,17,kNN,0.6428571428571429,alcohol_o5.csv;alcohol_o1.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o7.csv;acetone_o9.csv,14
+3,17,Random Forest,0.6428571428571429,alcohol_o5.csv;alcohol_o1.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o7.csv;acetone_o9.csv,14
+3,17,RBF LS-SVM,0.5,alcohol_o5.csv;alcohol_o1.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o7.csv;acetone_o9.csv,14
+3,18,LDA,0.6428571428571429,alcohol_o7.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,18,Logistic Regression,0.5,alcohol_o7.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,18,kNN,0.5,alcohol_o7.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,18,Random Forest,0.6428571428571429,alcohol_o7.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,18,RBF LS-SVM,0.5,alcohol_o7.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o2.csv;acetone_o3.csv,14
+3,19,LDA,0.5,alcohol_o3.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o6.csv;acetone_o11.csv;acetone_o8.csv,14
+3,19,Logistic Regression,0.5,alcohol_o3.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o6.csv;acetone_o11.csv;acetone_o8.csv,14
+3,19,kNN,0.5714285714285714,alcohol_o3.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o6.csv;acetone_o11.csv;acetone_o8.csv,14
+3,19,Random Forest,0.5,alcohol_o3.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o6.csv;acetone_o11.csv;acetone_o8.csv,14
+3,19,RBF LS-SVM,0.5,alcohol_o3.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o6.csv;acetone_o11.csv;acetone_o8.csv,14
+3,20,LDA,0.7142857142857143,alcohol_o5.csv;alcohol_o3.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o1.csv;acetone_o8.csv,14
+3,20,Logistic Regression,0.5714285714285714,alcohol_o5.csv;alcohol_o3.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o1.csv;acetone_o8.csv,14
+3,20,kNN,0.5,alcohol_o5.csv;alcohol_o3.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o1.csv;acetone_o8.csv,14
+3,20,Random Forest,0.5,alcohol_o5.csv;alcohol_o3.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o1.csv;acetone_o8.csv,14
+3,20,RBF LS-SVM,0.7857142857142857,alcohol_o5.csv;alcohol_o3.csv;alcohol_o7.csv;acetone_o4.csv;acetone_o1.csv;acetone_o8.csv,14
+3,21,LDA,1.0,alcohol_o12.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o8.csv;acetone_o2.csv,14
+3,21,Logistic Regression,1.0,alcohol_o12.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o8.csv;acetone_o2.csv,14
+3,21,kNN,0.5,alcohol_o12.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o8.csv;acetone_o2.csv,14
+3,21,Random Forest,0.6428571428571429,alcohol_o12.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o8.csv;acetone_o2.csv,14
+3,21,RBF LS-SVM,0.9285714285714286,alcohol_o12.csv;alcohol_o4.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o8.csv;acetone_o2.csv,14
+3,22,LDA,0.5,alcohol_o10.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv;acetone_o6.csv,14
+3,22,Logistic Regression,0.5,alcohol_o10.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv;acetone_o6.csv,14
+3,22,kNN,0.6428571428571429,alcohol_o10.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv;acetone_o6.csv,14
+3,22,Random Forest,0.6428571428571429,alcohol_o10.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv;acetone_o6.csv,14
+3,22,RBF LS-SVM,0.5,alcohol_o10.csv;alcohol_o3.csv;alcohol_o6.csv;acetone_o5.csv;acetone_o7.csv;acetone_o6.csv,14
+3,23,LDA,0.5,alcohol_o12.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,23,Logistic Regression,0.5,alcohol_o12.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,23,kNN,0.6428571428571429,alcohol_o12.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,23,Random Forest,0.5,alcohol_o12.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,23,RBF LS-SVM,0.5,alcohol_o12.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,24,LDA,0.5714285714285714,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o3.csv;acetone_o12.csv,14
+3,24,Logistic Regression,0.5714285714285714,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o3.csv;acetone_o12.csv,14
+3,24,kNN,0.6428571428571429,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o3.csv;acetone_o12.csv,14
+3,24,Random Forest,0.5,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o3.csv;acetone_o12.csv,14
+3,24,RBF LS-SVM,0.5714285714285714,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o1.csv;acetone_o3.csv;acetone_o12.csv,14
+3,25,LDA,0.5714285714285714,alcohol_o5.csv;alcohol_o8.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o6.csv;acetone_o1.csv,14
+3,25,Logistic Regression,0.5714285714285714,alcohol_o5.csv;alcohol_o8.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o6.csv;acetone_o1.csv,14
+3,25,kNN,0.5,alcohol_o5.csv;alcohol_o8.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o6.csv;acetone_o1.csv,14
+3,25,Random Forest,0.6428571428571429,alcohol_o5.csv;alcohol_o8.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o6.csv;acetone_o1.csv,14
+3,25,RBF LS-SVM,0.5714285714285714,alcohol_o5.csv;alcohol_o8.csv;alcohol_o6.csv;acetone_o12.csv;acetone_o6.csv;acetone_o1.csv,14
+3,26,LDA,0.6428571428571429,alcohol_o5.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o3.csv;acetone_o5.csv,14
+3,26,Logistic Regression,0.7142857142857143,alcohol_o5.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o3.csv;acetone_o5.csv,14
+3,26,kNN,0.6428571428571429,alcohol_o5.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o3.csv;acetone_o5.csv,14
+3,26,Random Forest,0.5,alcohol_o5.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o3.csv;acetone_o5.csv,14
+3,26,RBF LS-SVM,0.7857142857142857,alcohol_o5.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o3.csv;acetone_o5.csv,14
+3,27,LDA,0.7142857142857143,alcohol_o11.csv;alcohol_o5.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o1.csv;acetone_o8.csv,14
+3,27,Logistic Regression,0.9285714285714286,alcohol_o11.csv;alcohol_o5.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o1.csv;acetone_o8.csv,14
+3,27,kNN,0.5,alcohol_o11.csv;alcohol_o5.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o1.csv;acetone_o8.csv,14
+3,27,Random Forest,0.5,alcohol_o11.csv;alcohol_o5.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o1.csv;acetone_o8.csv,14
+3,27,RBF LS-SVM,1.0,alcohol_o11.csv;alcohol_o5.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o1.csv;acetone_o8.csv,14
+3,28,LDA,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o11.csv;acetone_o1.csv,14
+3,28,Logistic Regression,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o11.csv;acetone_o1.csv,14
+3,28,kNN,0.6428571428571429,alcohol_o8.csv;alcohol_o3.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o11.csv;acetone_o1.csv,14
+3,28,Random Forest,0.8571428571428571,alcohol_o8.csv;alcohol_o3.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o11.csv;acetone_o1.csv,14
+3,28,RBF LS-SVM,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o11.csv;acetone_o1.csv,14
+3,29,LDA,0.5714285714285714,alcohol_o4.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o8.csv;acetone_o11.csv,14
+3,29,Logistic Regression,0.6428571428571429,alcohol_o4.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o8.csv;acetone_o11.csv,14
+3,29,kNN,0.6428571428571429,alcohol_o4.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o8.csv;acetone_o11.csv,14
+3,29,Random Forest,0.6428571428571429,alcohol_o4.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o8.csv;acetone_o11.csv,14
+3,29,RBF LS-SVM,0.5,alcohol_o4.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o10.csv;acetone_o8.csv;acetone_o11.csv,14
+3,30,LDA,0.5,alcohol_o1.csv;alcohol_o4.csv;alcohol_o12.csv;acetone_o3.csv;acetone_o7.csv;acetone_o5.csv,14
+3,30,Logistic Regression,0.5,alcohol_o1.csv;alcohol_o4.csv;alcohol_o12.csv;acetone_o3.csv;acetone_o7.csv;acetone_o5.csv,14
+3,30,kNN,0.6428571428571429,alcohol_o1.csv;alcohol_o4.csv;alcohol_o12.csv;acetone_o3.csv;acetone_o7.csv;acetone_o5.csv,14
+3,30,Random Forest,0.5,alcohol_o1.csv;alcohol_o4.csv;alcohol_o12.csv;acetone_o3.csv;acetone_o7.csv;acetone_o5.csv,14
+3,30,RBF LS-SVM,0.5,alcohol_o1.csv;alcohol_o4.csv;alcohol_o12.csv;acetone_o3.csv;acetone_o7.csv;acetone_o5.csv,14
+3,31,LDA,0.5,alcohol_o11.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv;acetone_o12.csv,14
+3,31,Logistic Regression,0.5,alcohol_o11.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv;acetone_o12.csv,14
+3,31,kNN,0.5714285714285714,alcohol_o11.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv;acetone_o12.csv,14
+3,31,Random Forest,0.8571428571428571,alcohol_o11.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv;acetone_o12.csv,14
+3,31,RBF LS-SVM,0.5,alcohol_o11.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o7.csv;acetone_o12.csv,14
+3,32,LDA,0.6428571428571429,alcohol_o7.csv;alcohol_o5.csv;alcohol_o10.csv;acetone_o10.csv;acetone_o12.csv;acetone_o2.csv,14
+3,32,Logistic Regression,0.5714285714285714,alcohol_o7.csv;alcohol_o5.csv;alcohol_o10.csv;acetone_o10.csv;acetone_o12.csv;acetone_o2.csv,14
+3,32,kNN,0.5714285714285714,alcohol_o7.csv;alcohol_o5.csv;alcohol_o10.csv;acetone_o10.csv;acetone_o12.csv;acetone_o2.csv,14
+3,32,Random Forest,0.7142857142857143,alcohol_o7.csv;alcohol_o5.csv;alcohol_o10.csv;acetone_o10.csv;acetone_o12.csv;acetone_o2.csv,14
+3,32,RBF LS-SVM,0.8571428571428571,alcohol_o7.csv;alcohol_o5.csv;alcohol_o10.csv;acetone_o10.csv;acetone_o12.csv;acetone_o2.csv,14
+3,33,LDA,0.7142857142857143,alcohol_o1.csv;alcohol_o12.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+3,33,Logistic Regression,0.7142857142857143,alcohol_o1.csv;alcohol_o12.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+3,33,kNN,0.9285714285714286,alcohol_o1.csv;alcohol_o12.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+3,33,Random Forest,0.8571428571428571,alcohol_o1.csv;alcohol_o12.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+3,33,RBF LS-SVM,0.7142857142857143,alcohol_o1.csv;alcohol_o12.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o8.csv;acetone_o6.csv,14
+3,34,LDA,0.42857142857142855,alcohol_o7.csv;alcohol_o6.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv;acetone_o8.csv,14
+3,34,Logistic Regression,0.42857142857142855,alcohol_o7.csv;alcohol_o6.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv;acetone_o8.csv,14
+3,34,kNN,0.6428571428571429,alcohol_o7.csv;alcohol_o6.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv;acetone_o8.csv,14
+3,34,Random Forest,0.5,alcohol_o7.csv;alcohol_o6.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv;acetone_o8.csv,14
+3,34,RBF LS-SVM,0.5714285714285714,alcohol_o7.csv;alcohol_o6.csv;alcohol_o8.csv;acetone_o9.csv;acetone_o1.csv;acetone_o8.csv,14
+3,35,LDA,0.7142857142857143,alcohol_o12.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv;acetone_o12.csv,14
+3,35,Logistic Regression,0.7857142857142857,alcohol_o12.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv;acetone_o12.csv,14
+3,35,kNN,0.5,alcohol_o12.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv;acetone_o12.csv,14
+3,35,Random Forest,0.7142857142857143,alcohol_o12.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv;acetone_o12.csv,14
+3,35,RBF LS-SVM,0.7857142857142857,alcohol_o12.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o8.csv;acetone_o2.csv;acetone_o12.csv,14
+3,36,LDA,0.5,alcohol_o9.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o6.csv;acetone_o7.csv,14
+3,36,Logistic Regression,0.5714285714285714,alcohol_o9.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o6.csv;acetone_o7.csv,14
+3,36,kNN,0.5,alcohol_o9.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o6.csv;acetone_o7.csv,14
+3,36,Random Forest,0.5,alcohol_o9.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o6.csv;acetone_o7.csv,14
+3,36,RBF LS-SVM,0.6428571428571429,alcohol_o9.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o10.csv;acetone_o6.csv;acetone_o7.csv,14
+3,37,LDA,1.0,alcohol_o4.csv;alcohol_o11.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o12.csv;acetone_o2.csv,14
+3,37,Logistic Regression,1.0,alcohol_o4.csv;alcohol_o11.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o12.csv;acetone_o2.csv,14
+3,37,kNN,0.5,alcohol_o4.csv;alcohol_o11.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o12.csv;acetone_o2.csv,14
+3,37,Random Forest,0.7142857142857143,alcohol_o4.csv;alcohol_o11.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o12.csv;acetone_o2.csv,14
+3,37,RBF LS-SVM,0.9285714285714286,alcohol_o4.csv;alcohol_o11.csv;alcohol_o9.csv;acetone_o3.csv;acetone_o12.csv;acetone_o2.csv,14
+3,38,LDA,0.6428571428571429,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o3.csv;acetone_o9.csv,14
+3,38,Logistic Regression,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o3.csv;acetone_o9.csv,14
+3,38,kNN,0.5714285714285714,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o3.csv;acetone_o9.csv,14
+3,38,Random Forest,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o3.csv;acetone_o9.csv,14
+3,38,RBF LS-SVM,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o11.csv;acetone_o3.csv;acetone_o9.csv,14
+3,39,LDA,0.8571428571428571,alcohol_o12.csv;alcohol_o11.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv;acetone_o3.csv,14
+3,39,Logistic Regression,0.7142857142857143,alcohol_o12.csv;alcohol_o11.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv;acetone_o3.csv,14
+3,39,kNN,0.5714285714285714,alcohol_o12.csv;alcohol_o11.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv;acetone_o3.csv,14
+3,39,Random Forest,0.5,alcohol_o12.csv;alcohol_o11.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv;acetone_o3.csv,14
+3,39,RBF LS-SVM,0.7857142857142857,alcohol_o12.csv;alcohol_o11.csv;alcohol_o4.csv;acetone_o1.csv;acetone_o5.csv;acetone_o3.csv,14
+3,40,LDA,0.35714285714285715,alcohol_o6.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o2.csv;acetone_o1.csv;acetone_o10.csv,14
+3,40,Logistic Regression,0.35714285714285715,alcohol_o6.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o2.csv;acetone_o1.csv;acetone_o10.csv,14
+3,40,kNN,0.21428571428571427,alcohol_o6.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o2.csv;acetone_o1.csv;acetone_o10.csv,14
+3,40,Random Forest,0.5714285714285714,alcohol_o6.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o2.csv;acetone_o1.csv;acetone_o10.csv,14
+3,40,RBF LS-SVM,0.5,alcohol_o6.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o2.csv;acetone_o1.csv;acetone_o10.csv,14
+3,41,LDA,0.7142857142857143,alcohol_o2.csv;alcohol_o4.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o2.csv;acetone_o1.csv,14
+3,41,Logistic Regression,0.7142857142857143,alcohol_o2.csv;alcohol_o4.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o2.csv;acetone_o1.csv,14
+3,41,kNN,0.5,alcohol_o2.csv;alcohol_o4.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o2.csv;acetone_o1.csv,14
+3,41,Random Forest,1.0,alcohol_o2.csv;alcohol_o4.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o2.csv;acetone_o1.csv,14
+3,41,RBF LS-SVM,1.0,alcohol_o2.csv;alcohol_o4.csv;alcohol_o10.csv;acetone_o11.csv;acetone_o2.csv;acetone_o1.csv,14
+3,42,LDA,1.0,alcohol_o5.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,42,Logistic Regression,0.6428571428571429,alcohol_o5.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,42,kNN,0.7857142857142857,alcohol_o5.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,42,Random Forest,0.6428571428571429,alcohol_o5.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,42,RBF LS-SVM,0.9285714285714286,alcohol_o5.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,43,LDA,0.5714285714285714,alcohol_o7.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv;acetone_o4.csv,14
+3,43,Logistic Regression,0.5,alcohol_o7.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv;acetone_o4.csv,14
+3,43,kNN,0.5,alcohol_o7.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv;acetone_o4.csv,14
+3,43,Random Forest,0.5714285714285714,alcohol_o7.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv;acetone_o4.csv,14
+3,43,RBF LS-SVM,0.5,alcohol_o7.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o2.csv;acetone_o4.csv,14
+3,44,LDA,0.5714285714285714,alcohol_o9.csv;alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o10.csv;acetone_o5.csv,14
+3,44,Logistic Regression,0.8571428571428571,alcohol_o9.csv;alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o10.csv;acetone_o5.csv,14
+3,44,kNN,0.7857142857142857,alcohol_o9.csv;alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o10.csv;acetone_o5.csv,14
+3,44,Random Forest,0.8571428571428571,alcohol_o9.csv;alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o10.csv;acetone_o5.csv,14
+3,44,RBF LS-SVM,0.8571428571428571,alcohol_o9.csv;alcohol_o6.csv;alcohol_o3.csv;acetone_o6.csv;acetone_o10.csv;acetone_o5.csv,14
+3,45,LDA,1.0,alcohol_o7.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+3,45,Logistic Regression,0.6428571428571429,alcohol_o7.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+3,45,kNN,0.6428571428571429,alcohol_o7.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+3,45,Random Forest,0.6428571428571429,alcohol_o7.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+3,45,RBF LS-SVM,0.5714285714285714,alcohol_o7.csv;alcohol_o8.csv;alcohol_o9.csv;acetone_o4.csv;acetone_o6.csv;acetone_o8.csv,14
+3,46,LDA,0.5,alcohol_o12.csv;alcohol_o6.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv;acetone_o5.csv,14
+3,46,Logistic Regression,0.5,alcohol_o12.csv;alcohol_o6.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv;acetone_o5.csv,14
+3,46,kNN,0.5714285714285714,alcohol_o12.csv;alcohol_o6.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv;acetone_o5.csv,14
+3,46,Random Forest,0.7857142857142857,alcohol_o12.csv;alcohol_o6.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv;acetone_o5.csv,14
+3,46,RBF LS-SVM,0.5714285714285714,alcohol_o12.csv;alcohol_o6.csv;alcohol_o11.csv;acetone_o10.csv;acetone_o2.csv;acetone_o5.csv,14
+3,47,LDA,0.5,alcohol_o5.csv;alcohol_o9.csv;alcohol_o12.csv;acetone_o4.csv;acetone_o1.csv;acetone_o2.csv,14
+3,47,Logistic Regression,0.5,alcohol_o5.csv;alcohol_o9.csv;alcohol_o12.csv;acetone_o4.csv;acetone_o1.csv;acetone_o2.csv,14
+3,47,kNN,0.5,alcohol_o5.csv;alcohol_o9.csv;alcohol_o12.csv;acetone_o4.csv;acetone_o1.csv;acetone_o2.csv,14
+3,47,Random Forest,0.7857142857142857,alcohol_o5.csv;alcohol_o9.csv;alcohol_o12.csv;acetone_o4.csv;acetone_o1.csv;acetone_o2.csv,14
+3,47,RBF LS-SVM,0.5,alcohol_o5.csv;alcohol_o9.csv;alcohol_o12.csv;acetone_o4.csv;acetone_o1.csv;acetone_o2.csv,14
+3,48,LDA,0.5,alcohol_o5.csv;alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o12.csv;acetone_o7.csv,14
+3,48,Logistic Regression,0.5,alcohol_o5.csv;alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o12.csv;acetone_o7.csv,14
+3,48,kNN,0.5,alcohol_o5.csv;alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o12.csv;acetone_o7.csv,14
+3,48,Random Forest,0.7857142857142857,alcohol_o5.csv;alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o12.csv;acetone_o7.csv,14
+3,48,RBF LS-SVM,0.6428571428571429,alcohol_o5.csv;alcohol_o11.csv;alcohol_o3.csv;acetone_o5.csv;acetone_o12.csv;acetone_o7.csv,14
+3,49,LDA,0.5,alcohol_o7.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o9.csv;acetone_o12.csv,14
+3,49,Logistic Regression,0.7142857142857143,alcohol_o7.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o9.csv;acetone_o12.csv,14
+3,49,kNN,0.5714285714285714,alcohol_o7.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o9.csv;acetone_o12.csv,14
+3,49,Random Forest,0.7142857142857143,alcohol_o7.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o9.csv;acetone_o12.csv,14
+3,49,RBF LS-SVM,0.5714285714285714,alcohol_o7.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o4.csv;acetone_o9.csv;acetone_o12.csv,14
+3,50,LDA,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+3,50,Logistic Regression,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+3,50,kNN,0.5714285714285714,alcohol_o11.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+3,50,Random Forest,0.7142857142857143,alcohol_o11.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+3,50,RBF LS-SVM,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o9.csv;acetone_o4.csv;acetone_o2.csv,14
+3,51,LDA,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o10.csv;acetone_o9.csv;acetone_o4.csv,14
+3,51,Logistic Regression,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o10.csv;acetone_o9.csv;acetone_o4.csv,14
+3,51,kNN,0.7142857142857143,alcohol_o8.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o10.csv;acetone_o9.csv;acetone_o4.csv,14
+3,51,Random Forest,0.7142857142857143,alcohol_o8.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o10.csv;acetone_o9.csv;acetone_o4.csv,14
+3,51,RBF LS-SVM,0.5714285714285714,alcohol_o8.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o10.csv;acetone_o9.csv;acetone_o4.csv,14
+3,52,LDA,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o12.csv;acetone_o5.csv,14
+3,52,Logistic Regression,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o12.csv;acetone_o5.csv,14
+3,52,kNN,0.5714285714285714,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o12.csv;acetone_o5.csv,14
+3,52,Random Forest,0.6428571428571429,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o12.csv;acetone_o5.csv,14
+3,52,RBF LS-SVM,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o8.csv;acetone_o6.csv;acetone_o12.csv;acetone_o5.csv,14
+3,53,LDA,0.7857142857142857,alcohol_o12.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv;acetone_o10.csv,14
+3,53,Logistic Regression,0.5714285714285714,alcohol_o12.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv;acetone_o10.csv,14
+3,53,kNN,0.6428571428571429,alcohol_o12.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv;acetone_o10.csv,14
+3,53,Random Forest,0.5714285714285714,alcohol_o12.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv;acetone_o10.csv,14
+3,53,RBF LS-SVM,0.5714285714285714,alcohol_o12.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o9.csv;acetone_o8.csv;acetone_o10.csv,14
+3,54,LDA,0.5714285714285714,alcohol_o3.csv;alcohol_o1.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o7.csv;acetone_o10.csv,14
+3,54,Logistic Regression,0.5714285714285714,alcohol_o3.csv;alcohol_o1.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o7.csv;acetone_o10.csv,14
+3,54,kNN,0.7857142857142857,alcohol_o3.csv;alcohol_o1.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o7.csv;acetone_o10.csv,14
+3,54,Random Forest,0.5,alcohol_o3.csv;alcohol_o1.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o7.csv;acetone_o10.csv,14
+3,54,RBF LS-SVM,0.5,alcohol_o3.csv;alcohol_o1.csv;alcohol_o10.csv;acetone_o3.csv;acetone_o7.csv;acetone_o10.csv,14
+3,55,LDA,0.8571428571428571,alcohol_o4.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o12.csv;acetone_o9.csv;acetone_o6.csv,14
+3,55,Logistic Regression,0.7857142857142857,alcohol_o4.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o12.csv;acetone_o9.csv;acetone_o6.csv,14
+3,55,kNN,0.7857142857142857,alcohol_o4.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o12.csv;acetone_o9.csv;acetone_o6.csv,14
+3,55,Random Forest,0.6428571428571429,alcohol_o4.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o12.csv;acetone_o9.csv;acetone_o6.csv,14
+3,55,RBF LS-SVM,0.8571428571428571,alcohol_o4.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o12.csv;acetone_o9.csv;acetone_o6.csv,14
+3,56,LDA,0.8571428571428571,alcohol_o9.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o3.csv;acetone_o2.csv,14
+3,56,Logistic Regression,0.8571428571428571,alcohol_o9.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o3.csv;acetone_o2.csv,14
+3,56,kNN,0.5714285714285714,alcohol_o9.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o3.csv;acetone_o2.csv,14
+3,56,Random Forest,0.7857142857142857,alcohol_o9.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o3.csv;acetone_o2.csv,14
+3,56,RBF LS-SVM,0.8571428571428571,alcohol_o9.csv;alcohol_o1.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o3.csv;acetone_o2.csv,14
+3,57,LDA,0.5714285714285714,alcohol_o7.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o6.csv,14
+3,57,Logistic Regression,0.7142857142857143,alcohol_o7.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o6.csv,14
+3,57,kNN,0.7142857142857143,alcohol_o7.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o6.csv,14
+3,57,Random Forest,0.7142857142857143,alcohol_o7.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o6.csv,14
+3,57,RBF LS-SVM,0.7142857142857143,alcohol_o7.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o6.csv,14
+3,58,LDA,0.9285714285714286,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o8.csv;acetone_o1.csv;acetone_o6.csv,14
+3,58,Logistic Regression,1.0,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o8.csv;acetone_o1.csv;acetone_o6.csv,14
+3,58,kNN,0.7142857142857143,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o8.csv;acetone_o1.csv;acetone_o6.csv,14
+3,58,Random Forest,0.5,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o8.csv;acetone_o1.csv;acetone_o6.csv,14
+3,58,RBF LS-SVM,1.0,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o8.csv;acetone_o1.csv;acetone_o6.csv,14
+3,59,LDA,0.5,alcohol_o5.csv;alcohol_o1.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o5.csv;acetone_o4.csv,14
+3,59,Logistic Regression,0.5,alcohol_o5.csv;alcohol_o1.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o5.csv;acetone_o4.csv,14
+3,59,kNN,0.5,alcohol_o5.csv;alcohol_o1.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o5.csv;acetone_o4.csv,14
+3,59,Random Forest,0.7142857142857143,alcohol_o5.csv;alcohol_o1.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o5.csv;acetone_o4.csv,14
+3,59,RBF LS-SVM,0.5,alcohol_o5.csv;alcohol_o1.csv;alcohol_o9.csv;acetone_o7.csv;acetone_o5.csv;acetone_o4.csv,14
+3,60,LDA,0.5,alcohol_o7.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o8.csv;acetone_o4.csv,14
+3,60,Logistic Regression,0.5,alcohol_o7.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o8.csv;acetone_o4.csv,14
+3,60,kNN,0.5714285714285714,alcohol_o7.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o8.csv;acetone_o4.csv,14
+3,60,Random Forest,0.5714285714285714,alcohol_o7.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o8.csv;acetone_o4.csv,14
+3,60,RBF LS-SVM,0.5,alcohol_o7.csv;alcohol_o10.csv;alcohol_o5.csv;acetone_o10.csv;acetone_o8.csv;acetone_o4.csv,14
+3,61,LDA,0.5714285714285714,alcohol_o2.csv;alcohol_o9.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o12.csv;acetone_o8.csv,14
+3,61,Logistic Regression,0.5714285714285714,alcohol_o2.csv;alcohol_o9.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o12.csv;acetone_o8.csv,14
+3,61,kNN,0.5,alcohol_o2.csv;alcohol_o9.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o12.csv;acetone_o8.csv,14
+3,61,Random Forest,0.7142857142857143,alcohol_o2.csv;alcohol_o9.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o12.csv;acetone_o8.csv,14
+3,61,RBF LS-SVM,0.5714285714285714,alcohol_o2.csv;alcohol_o9.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o12.csv;acetone_o8.csv,14
+3,62,LDA,0.5714285714285714,alcohol_o4.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+3,62,Logistic Regression,0.6428571428571429,alcohol_o4.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+3,62,kNN,0.7857142857142857,alcohol_o4.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+3,62,Random Forest,0.7857142857142857,alcohol_o4.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+3,62,RBF LS-SVM,0.5,alcohol_o4.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o3.csv;acetone_o4.csv;acetone_o6.csv,14
+3,63,LDA,0.7857142857142857,alcohol_o2.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o8.csv;acetone_o1.csv,14
+3,63,Logistic Regression,0.7857142857142857,alcohol_o2.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o8.csv;acetone_o1.csv,14
+3,63,kNN,0.5714285714285714,alcohol_o2.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o8.csv;acetone_o1.csv,14
+3,63,Random Forest,0.7857142857142857,alcohol_o2.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o8.csv;acetone_o1.csv,14
+3,63,RBF LS-SVM,0.8571428571428571,alcohol_o2.csv;alcohol_o12.csv;alcohol_o4.csv;acetone_o12.csv;acetone_o8.csv;acetone_o1.csv,14
+3,64,LDA,0.42857142857142855,alcohol_o8.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,64,Logistic Regression,0.5714285714285714,alcohol_o8.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,64,kNN,0.8571428571428571,alcohol_o8.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,64,Random Forest,0.6428571428571429,alcohol_o8.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,64,RBF LS-SVM,0.5714285714285714,alcohol_o8.csv;alcohol_o1.csv;alcohol_o4.csv;acetone_o11.csv;acetone_o10.csv;acetone_o1.csv,14
+3,65,LDA,0.5,alcohol_o2.csv;alcohol_o7.csv;alcohol_o4.csv;acetone_o3.csv;acetone_o6.csv;acetone_o10.csv,14
+3,65,Logistic Regression,0.5,alcohol_o2.csv;alcohol_o7.csv;alcohol_o4.csv;acetone_o3.csv;acetone_o6.csv;acetone_o10.csv,14
+3,65,kNN,0.5714285714285714,alcohol_o2.csv;alcohol_o7.csv;alcohol_o4.csv;acetone_o3.csv;acetone_o6.csv;acetone_o10.csv,14
+3,65,Random Forest,0.5714285714285714,alcohol_o2.csv;alcohol_o7.csv;alcohol_o4.csv;acetone_o3.csv;acetone_o6.csv;acetone_o10.csv,14
+3,65,RBF LS-SVM,0.5,alcohol_o2.csv;alcohol_o7.csv;alcohol_o4.csv;acetone_o3.csv;acetone_o6.csv;acetone_o10.csv,14
+3,66,LDA,0.8571428571428571,alcohol_o3.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv;acetone_o4.csv,14
+3,66,Logistic Regression,0.6428571428571429,alcohol_o3.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv;acetone_o4.csv,14
+3,66,kNN,0.8571428571428571,alcohol_o3.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv;acetone_o4.csv,14
+3,66,Random Forest,0.7142857142857143,alcohol_o3.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv;acetone_o4.csv,14
+3,66,RBF LS-SVM,0.7142857142857143,alcohol_o3.csv;alcohol_o10.csv;alcohol_o6.csv;acetone_o11.csv;acetone_o10.csv;acetone_o4.csv,14
+3,67,LDA,0.5,alcohol_o9.csv;alcohol_o8.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o11.csv;acetone_o1.csv,14
+3,67,Logistic Regression,0.5,alcohol_o9.csv;alcohol_o8.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o11.csv;acetone_o1.csv,14
+3,67,kNN,0.5,alcohol_o9.csv;alcohol_o8.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o11.csv;acetone_o1.csv,14
+3,67,Random Forest,1.0,alcohol_o9.csv;alcohol_o8.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o11.csv;acetone_o1.csv,14
+3,67,RBF LS-SVM,0.5,alcohol_o9.csv;alcohol_o8.csv;alcohol_o10.csv;acetone_o2.csv;acetone_o11.csv;acetone_o1.csv,14
+3,68,LDA,0.5,alcohol_o4.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o4.csv;acetone_o7.csv,14
+3,68,Logistic Regression,0.5714285714285714,alcohol_o4.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o4.csv;acetone_o7.csv,14
+3,68,kNN,0.6428571428571429,alcohol_o4.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o4.csv;acetone_o7.csv,14
+3,68,Random Forest,0.7142857142857143,alcohol_o4.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o4.csv;acetone_o7.csv,14
+3,68,RBF LS-SVM,0.6428571428571429,alcohol_o4.csv;alcohol_o2.csv;alcohol_o5.csv;acetone_o11.csv;acetone_o4.csv;acetone_o7.csv,14
+3,69,LDA,0.7142857142857143,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+3,69,Logistic Regression,0.7142857142857143,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+3,69,kNN,0.9285714285714286,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+3,69,Random Forest,0.7857142857142857,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+3,69,RBF LS-SVM,0.7142857142857143,alcohol_o6.csv;alcohol_o1.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o12.csv;acetone_o10.csv,14
+3,70,LDA,0.8571428571428571,alcohol_o1.csv;alcohol_o6.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o8.csv,14
+3,70,Logistic Regression,0.8571428571428571,alcohol_o1.csv;alcohol_o6.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o8.csv,14
+3,70,kNN,0.7142857142857143,alcohol_o1.csv;alcohol_o6.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o8.csv,14
+3,70,Random Forest,0.5,alcohol_o1.csv;alcohol_o6.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o8.csv,14
+3,70,RBF LS-SVM,0.7857142857142857,alcohol_o1.csv;alcohol_o6.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o10.csv;acetone_o8.csv,14
+3,71,LDA,0.5,alcohol_o10.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+3,71,Logistic Regression,0.5,alcohol_o10.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+3,71,kNN,0.5714285714285714,alcohol_o10.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+3,71,Random Forest,0.6428571428571429,alcohol_o10.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+3,71,RBF LS-SVM,0.5,alcohol_o10.csv;alcohol_o3.csv;alcohol_o1.csv;acetone_o3.csv;acetone_o5.csv;acetone_o10.csv,14
+3,72,LDA,0.7142857142857143,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o8.csv;acetone_o12.csv,14
+3,72,Logistic Regression,0.6428571428571429,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o8.csv;acetone_o12.csv,14
+3,72,kNN,0.5714285714285714,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o8.csv;acetone_o12.csv,14
+3,72,Random Forest,0.7857142857142857,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o8.csv;acetone_o12.csv,14
+3,72,RBF LS-SVM,0.5714285714285714,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o3.csv;acetone_o8.csv;acetone_o12.csv,14
+3,73,LDA,0.7857142857142857,alcohol_o10.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv;acetone_o8.csv,14
+3,73,Logistic Regression,0.7142857142857143,alcohol_o10.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv;acetone_o8.csv,14
+3,73,kNN,0.7142857142857143,alcohol_o10.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv;acetone_o8.csv,14
+3,73,Random Forest,0.9285714285714286,alcohol_o10.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv;acetone_o8.csv,14
+3,73,RBF LS-SVM,0.5714285714285714,alcohol_o10.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o12.csv;acetone_o6.csv;acetone_o8.csv,14
+3,74,LDA,0.7857142857142857,alcohol_o12.csv;alcohol_o8.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o9.csv;acetone_o7.csv,14
+3,74,Logistic Regression,0.7857142857142857,alcohol_o12.csv;alcohol_o8.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o9.csv;acetone_o7.csv,14
+3,74,kNN,0.6428571428571429,alcohol_o12.csv;alcohol_o8.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o9.csv;acetone_o7.csv,14
+3,74,Random Forest,0.5,alcohol_o12.csv;alcohol_o8.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o9.csv;acetone_o7.csv,14
+3,74,RBF LS-SVM,0.6428571428571429,alcohol_o12.csv;alcohol_o8.csv;alcohol_o11.csv;acetone_o3.csv;acetone_o9.csv;acetone_o7.csv,14
+3,75,LDA,0.9285714285714286,alcohol_o2.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o9.csv;acetone_o11.csv,14
+3,75,Logistic Regression,0.9285714285714286,alcohol_o2.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o9.csv;acetone_o11.csv,14
+3,75,kNN,0.7857142857142857,alcohol_o2.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o9.csv;acetone_o11.csv,14
+3,75,Random Forest,0.7142857142857143,alcohol_o2.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o9.csv;acetone_o11.csv,14
+3,75,RBF LS-SVM,0.9285714285714286,alcohol_o2.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o4.csv;acetone_o9.csv;acetone_o11.csv,14
+3,76,LDA,0.7142857142857143,alcohol_o1.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o10.csv;acetone_o5.csv;acetone_o9.csv,14
+3,76,Logistic Regression,0.7857142857142857,alcohol_o1.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o10.csv;acetone_o5.csv;acetone_o9.csv,14
+3,76,kNN,0.7857142857142857,alcohol_o1.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o10.csv;acetone_o5.csv;acetone_o9.csv,14
+3,76,Random Forest,0.8571428571428571,alcohol_o1.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o10.csv;acetone_o5.csv;acetone_o9.csv,14
+3,76,RBF LS-SVM,0.7142857142857143,alcohol_o1.csv;alcohol_o8.csv;alcohol_o4.csv;acetone_o10.csv;acetone_o5.csv;acetone_o9.csv,14
+3,77,LDA,0.8571428571428571,alcohol_o8.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o10.csv;acetone_o8.csv;acetone_o12.csv,14
+3,77,Logistic Regression,0.7142857142857143,alcohol_o8.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o10.csv;acetone_o8.csv;acetone_o12.csv,14
+3,77,kNN,0.7857142857142857,alcohol_o8.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o10.csv;acetone_o8.csv;acetone_o12.csv,14
+3,77,Random Forest,0.6428571428571429,alcohol_o8.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o10.csv;acetone_o8.csv;acetone_o12.csv,14
+3,77,RBF LS-SVM,0.5714285714285714,alcohol_o8.csv;alcohol_o7.csv;alcohol_o3.csv;acetone_o10.csv;acetone_o8.csv;acetone_o12.csv,14
+3,78,LDA,0.7857142857142857,alcohol_o4.csv;alcohol_o10.csv;alcohol_o11.csv;acetone_o12.csv;acetone_o11.csv;acetone_o10.csv,14
+3,78,Logistic Regression,0.8571428571428571,alcohol_o4.csv;alcohol_o10.csv;alcohol_o11.csv;acetone_o12.csv;acetone_o11.csv;acetone_o10.csv,14
+3,78,kNN,0.7857142857142857,alcohol_o4.csv;alcohol_o10.csv;alcohol_o11.csv;acetone_o12.csv;acetone_o11.csv;acetone_o10.csv,14
+3,78,Random Forest,0.6428571428571429,alcohol_o4.csv;alcohol_o10.csv;alcohol_o11.csv;acetone_o12.csv;acetone_o11.csv;acetone_o10.csv,14
+3,78,RBF LS-SVM,1.0,alcohol_o4.csv;alcohol_o10.csv;alcohol_o11.csv;acetone_o12.csv;acetone_o11.csv;acetone_o10.csv,14
+3,79,LDA,0.7142857142857143,alcohol_o6.csv;alcohol_o4.csv;alcohol_o8.csv;acetone_o8.csv;acetone_o2.csv;acetone_o9.csv,14
+3,79,Logistic Regression,0.7142857142857143,alcohol_o6.csv;alcohol_o4.csv;alcohol_o8.csv;acetone_o8.csv;acetone_o2.csv;acetone_o9.csv,14
+3,79,kNN,0.7857142857142857,alcohol_o6.csv;alcohol_o4.csv;alcohol_o8.csv;acetone_o8.csv;acetone_o2.csv;acetone_o9.csv,14
+3,79,Random Forest,0.5714285714285714,alcohol_o6.csv;alcohol_o4.csv;alcohol_o8.csv;acetone_o8.csv;acetone_o2.csv;acetone_o9.csv,14
+3,79,RBF LS-SVM,0.5714285714285714,alcohol_o6.csv;alcohol_o4.csv;alcohol_o8.csv;acetone_o8.csv;acetone_o2.csv;acetone_o9.csv,14
+3,80,LDA,1.0,alcohol_o8.csv;alcohol_o9.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o9.csv;acetone_o11.csv,14
+3,80,Logistic Regression,0.7857142857142857,alcohol_o8.csv;alcohol_o9.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o9.csv;acetone_o11.csv,14
+3,80,kNN,0.5714285714285714,alcohol_o8.csv;alcohol_o9.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o9.csv;acetone_o11.csv,14
+3,80,Random Forest,0.5,alcohol_o8.csv;alcohol_o9.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o9.csv;acetone_o11.csv,14
+3,80,RBF LS-SVM,0.7857142857142857,alcohol_o8.csv;alcohol_o9.csv;alcohol_o11.csv;acetone_o8.csv;acetone_o9.csv;acetone_o11.csv,14
+3,81,LDA,0.5,alcohol_o3.csv;alcohol_o8.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o7.csv;acetone_o8.csv,14
+3,81,Logistic Regression,0.5,alcohol_o3.csv;alcohol_o8.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o7.csv;acetone_o8.csv,14
+3,81,kNN,0.5714285714285714,alcohol_o3.csv;alcohol_o8.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o7.csv;acetone_o8.csv,14
+3,81,Random Forest,0.5,alcohol_o3.csv;alcohol_o8.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o7.csv;acetone_o8.csv,14
+3,81,RBF LS-SVM,0.5,alcohol_o3.csv;alcohol_o8.csv;alcohol_o2.csv;acetone_o6.csv;acetone_o7.csv;acetone_o8.csv,14
+3,82,LDA,0.7857142857142857,alcohol_o1.csv;alcohol_o10.csv;alcohol_o9.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,82,Logistic Regression,0.7857142857142857,alcohol_o1.csv;alcohol_o10.csv;alcohol_o9.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,82,kNN,0.9285714285714286,alcohol_o1.csv;alcohol_o10.csv;alcohol_o9.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,82,Random Forest,0.6428571428571429,alcohol_o1.csv;alcohol_o10.csv;alcohol_o9.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,82,RBF LS-SVM,0.9285714285714286,alcohol_o1.csv;alcohol_o10.csv;alcohol_o9.csv;acetone_o9.csv;acetone_o12.csv;acetone_o11.csv,14
+3,83,LDA,0.5714285714285714,alcohol_o2.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+3,83,Logistic Regression,0.5714285714285714,alcohol_o2.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+3,83,kNN,0.5,alcohol_o2.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+3,83,Random Forest,0.7142857142857143,alcohol_o2.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+3,83,RBF LS-SVM,0.5714285714285714,alcohol_o2.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o4.csv;acetone_o12.csv;acetone_o3.csv,14
+3,84,LDA,0.5,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o8.csv;acetone_o4.csv,14
+3,84,Logistic Regression,0.5,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o8.csv;acetone_o4.csv,14
+3,84,kNN,0.9285714285714286,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o8.csv;acetone_o4.csv,14
+3,84,Random Forest,0.7142857142857143,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o8.csv;acetone_o4.csv,14
+3,84,RBF LS-SVM,0.5,alcohol_o1.csv;alcohol_o4.csv;alcohol_o3.csv;acetone_o11.csv;acetone_o8.csv;acetone_o4.csv,14
+3,85,LDA,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+3,85,Logistic Regression,0.7142857142857143,alcohol_o1.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+3,85,kNN,0.7142857142857143,alcohol_o1.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+3,85,Random Forest,0.5,alcohol_o1.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+3,85,RBF LS-SVM,0.8571428571428571,alcohol_o1.csv;alcohol_o5.csv;alcohol_o7.csv;acetone_o2.csv;acetone_o6.csv;acetone_o10.csv,14
+3,86,LDA,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o2.csv;acetone_o10.csv;acetone_o1.csv;acetone_o2.csv,14
+3,86,Logistic Regression,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o2.csv;acetone_o10.csv;acetone_o1.csv;acetone_o2.csv,14
+3,86,kNN,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o2.csv;acetone_o10.csv;acetone_o1.csv;acetone_o2.csv,14
+3,86,Random Forest,0.9285714285714286,alcohol_o11.csv;alcohol_o7.csv;alcohol_o2.csv;acetone_o10.csv;acetone_o1.csv;acetone_o2.csv,14
+3,86,RBF LS-SVM,0.5,alcohol_o11.csv;alcohol_o7.csv;alcohol_o2.csv;acetone_o10.csv;acetone_o1.csv;acetone_o2.csv,14
+3,87,LDA,0.7857142857142857,alcohol_o4.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o10.csv,14
+3,87,Logistic Regression,0.7857142857142857,alcohol_o4.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o10.csv,14
+3,87,kNN,0.6428571428571429,alcohol_o4.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o10.csv,14
+3,87,Random Forest,0.8571428571428571,alcohol_o4.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o10.csv,14
+3,87,RBF LS-SVM,0.7857142857142857,alcohol_o4.csv;alcohol_o3.csv;alcohol_o11.csv;acetone_o9.csv;acetone_o5.csv;acetone_o10.csv,14
+3,88,LDA,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o2.csv;acetone_o11.csv;acetone_o3.csv,14
+3,88,Logistic Regression,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o2.csv;acetone_o11.csv;acetone_o3.csv,14
+3,88,kNN,0.7857142857142857,alcohol_o1.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o2.csv;acetone_o11.csv;acetone_o3.csv,14
+3,88,Random Forest,0.5,alcohol_o1.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o2.csv;acetone_o11.csv;acetone_o3.csv,14
+3,88,RBF LS-SVM,0.5714285714285714,alcohol_o1.csv;alcohol_o5.csv;alcohol_o6.csv;acetone_o2.csv;acetone_o11.csv;acetone_o3.csv,14
+3,89,LDA,0.6428571428571429,alcohol_o8.csv;alcohol_o1.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o11.csv;acetone_o5.csv,14
+3,89,Logistic Regression,0.7857142857142857,alcohol_o8.csv;alcohol_o1.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o11.csv;acetone_o5.csv,14
+3,89,kNN,0.6428571428571429,alcohol_o8.csv;alcohol_o1.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o11.csv;acetone_o5.csv,14
+3,89,Random Forest,0.7142857142857143,alcohol_o8.csv;alcohol_o1.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o11.csv;acetone_o5.csv,14
+3,89,RBF LS-SVM,0.7857142857142857,alcohol_o8.csv;alcohol_o1.csv;alcohol_o3.csv;acetone_o2.csv;acetone_o11.csv;acetone_o5.csv,14
+3,90,LDA,0.5,alcohol_o7.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o2.csv;acetone_o8.csv,14
+3,90,Logistic Regression,0.5,alcohol_o7.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o2.csv;acetone_o8.csv,14
+3,90,kNN,0.5,alcohol_o7.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o2.csv;acetone_o8.csv,14
+3,90,Random Forest,0.9285714285714286,alcohol_o7.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o2.csv;acetone_o8.csv,14
+3,90,RBF LS-SVM,0.9285714285714286,alcohol_o7.csv;alcohol_o6.csv;alcohol_o10.csv;acetone_o1.csv;acetone_o2.csv;acetone_o8.csv,14
+3,91,LDA,0.7142857142857143,alcohol_o4.csv;alcohol_o12.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o5.csv;acetone_o2.csv,14
+3,91,Logistic Regression,0.7142857142857143,alcohol_o4.csv;alcohol_o12.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o5.csv;acetone_o2.csv,14
+3,91,kNN,0.6428571428571429,alcohol_o4.csv;alcohol_o12.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o5.csv;acetone_o2.csv,14
+3,91,Random Forest,0.5714285714285714,alcohol_o4.csv;alcohol_o12.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o5.csv;acetone_o2.csv,14
+3,91,RBF LS-SVM,0.5714285714285714,alcohol_o4.csv;alcohol_o12.csv;alcohol_o2.csv;acetone_o8.csv;acetone_o5.csv;acetone_o2.csv,14
+3,92,LDA,0.5,alcohol_o9.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o7.csv;acetone_o12.csv;acetone_o9.csv,14
+3,92,Logistic Regression,0.5,alcohol_o9.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o7.csv;acetone_o12.csv;acetone_o9.csv,14
+3,92,kNN,0.5,alcohol_o9.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o7.csv;acetone_o12.csv;acetone_o9.csv,14
+3,92,Random Forest,0.7857142857142857,alcohol_o9.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o7.csv;acetone_o12.csv;acetone_o9.csv,14
+3,92,RBF LS-SVM,0.5,alcohol_o9.csv;alcohol_o2.csv;alcohol_o11.csv;acetone_o7.csv;acetone_o12.csv;acetone_o9.csv,14
+3,93,LDA,0.7857142857142857,alcohol_o2.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o8.csv;acetone_o9.csv;acetone_o12.csv,14
+3,93,Logistic Regression,0.7857142857142857,alcohol_o2.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o8.csv;acetone_o9.csv;acetone_o12.csv,14
+3,93,kNN,0.9285714285714286,alcohol_o2.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o8.csv;acetone_o9.csv;acetone_o12.csv,14
+3,93,Random Forest,0.8571428571428571,alcohol_o2.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o8.csv;acetone_o9.csv;acetone_o12.csv,14
+3,93,RBF LS-SVM,0.7857142857142857,alcohol_o2.csv;alcohol_o5.csv;alcohol_o4.csv;acetone_o8.csv;acetone_o9.csv;acetone_o12.csv,14
+3,94,LDA,0.8571428571428571,alcohol_o4.csv;alcohol_o3.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o8.csv;acetone_o11.csv,14
+3,94,Logistic Regression,0.7857142857142857,alcohol_o4.csv;alcohol_o3.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o8.csv;acetone_o11.csv,14
+3,94,kNN,0.8571428571428571,alcohol_o4.csv;alcohol_o3.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o8.csv;acetone_o11.csv,14
+3,94,Random Forest,0.8571428571428571,alcohol_o4.csv;alcohol_o3.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o8.csv;acetone_o11.csv,14
+3,94,RBF LS-SVM,0.7142857142857143,alcohol_o4.csv;alcohol_o3.csv;alcohol_o8.csv;acetone_o12.csv;acetone_o8.csv;acetone_o11.csv,14
+3,95,LDA,0.5,alcohol_o10.csv;alcohol_o1.csv;alcohol_o12.csv;acetone_o7.csv;acetone_o10.csv;acetone_o12.csv,14
+3,95,Logistic Regression,0.5,alcohol_o10.csv;alcohol_o1.csv;alcohol_o12.csv;acetone_o7.csv;acetone_o10.csv;acetone_o12.csv,14
+3,95,kNN,0.5,alcohol_o10.csv;alcohol_o1.csv;alcohol_o12.csv;acetone_o7.csv;acetone_o10.csv;acetone_o12.csv,14
+3,95,Random Forest,0.9285714285714286,alcohol_o10.csv;alcohol_o1.csv;alcohol_o12.csv;acetone_o7.csv;acetone_o10.csv;acetone_o12.csv,14
+3,95,RBF LS-SVM,0.5,alcohol_o10.csv;alcohol_o1.csv;alcohol_o12.csv;acetone_o7.csv;acetone_o10.csv;acetone_o12.csv,14
+3,96,LDA,0.5714285714285714,alcohol_o1.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o3.csv;acetone_o12.csv,14
+3,96,Logistic Regression,0.7142857142857143,alcohol_o1.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o3.csv;acetone_o12.csv,14
+3,96,kNN,0.9285714285714286,alcohol_o1.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o3.csv;acetone_o12.csv,14
+3,96,Random Forest,0.7142857142857143,alcohol_o1.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o3.csv;acetone_o12.csv,14
+3,96,RBF LS-SVM,0.6428571428571429,alcohol_o1.csv;alcohol_o4.csv;alcohol_o5.csv;acetone_o9.csv;acetone_o3.csv;acetone_o12.csv,14
+3,97,LDA,0.5,alcohol_o10.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,97,Logistic Regression,0.5,alcohol_o10.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,97,kNN,0.6428571428571429,alcohol_o10.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,97,Random Forest,0.6428571428571429,alcohol_o10.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,97,RBF LS-SVM,0.5,alcohol_o10.csv;alcohol_o4.csv;alcohol_o6.csv;acetone_o8.csv;acetone_o10.csv;acetone_o6.csv,14
+3,98,LDA,0.5,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o5.csv;acetone_o12.csv,14
+3,98,Logistic Regression,0.5714285714285714,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o5.csv;acetone_o12.csv,14
+3,98,kNN,0.5714285714285714,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o5.csv;acetone_o12.csv,14
+3,98,Random Forest,0.6428571428571429,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o5.csv;acetone_o12.csv,14
+3,98,RBF LS-SVM,0.5,alcohol_o1.csv;alcohol_o12.csv;alcohol_o7.csv;acetone_o7.csv;acetone_o5.csv;acetone_o12.csv,14
+3,99,LDA,0.6428571428571429,alcohol_o5.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o5.csv;acetone_o3.csv;acetone_o6.csv,14
+3,99,Logistic Regression,0.6428571428571429,alcohol_o5.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o5.csv;acetone_o3.csv;acetone_o6.csv,14
+3,99,kNN,0.6428571428571429,alcohol_o5.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o5.csv;acetone_o3.csv;acetone_o6.csv,14
+3,99,Random Forest,0.7142857142857143,alcohol_o5.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o5.csv;acetone_o3.csv;acetone_o6.csv,14
+3,99,RBF LS-SVM,0.5,alcohol_o5.csv;alcohol_o3.csv;alcohol_o10.csv;acetone_o5.csv;acetone_o3.csv;acetone_o6.csv,14

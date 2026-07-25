@@ -1,0 +1,559 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1264" height="927" viewBox="0 0 1264 927">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="32" font-family="Arial" font-size="22" font-weight="700">DANN Multi-split Results for E-nose Drift Adaptation</text>
+<text x="24" y="56" font-family="Arial" font-size="13" fill="#555">Target gas labels are never used in DANN-UDA training. Semi variants use selected target-day labels for classifier calibration. Domain accuracy closer to 0.5 means more domain-invariant features.</text>
+<rect x="24" y="84" width="54" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="29" y="104" font-family="Arial" font-size="10" font-weight="700">Split</text>
+<rect x="78" y="84" width="92" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="83" y="104" font-family="Arial" font-size="10" font-weight="700">Task</text>
+<rect x="170" y="84" width="145" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="175" y="104" font-family="Arial" font-size="10" font-weight="700">Variant</text>
+<rect x="315" y="84" width="48" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="320" y="104" font-family="Arial" font-size="10" font-weight="700">Lam</text>
+<rect x="363" y="84" width="58" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="368" y="104" font-family="Arial" font-size="10" font-weight="700">Train</text>
+<rect x="421" y="84" width="58" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="426" y="104" font-family="Arial" font-size="10" font-weight="700">Val</text>
+<rect x="479" y="84" width="58" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="484" y="104" font-family="Arial" font-size="10" font-weight="700">Test</text>
+<rect x="537" y="84" width="58" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="542" y="104" font-family="Arial" font-size="10" font-weight="700">BA</text>
+<rect x="595" y="84" width="58" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="600" y="104" font-family="Arial" font-size="10" font-weight="700">F1</text>
+<rect x="653" y="84" width="58" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="658" y="104" font-family="Arial" font-size="10" font-weight="700">Gap</text>
+<rect x="711" y="84" width="58" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="716" y="104" font-family="Arial" font-size="10" font-weight="700">Dom</text>
+<rect x="769" y="84" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="774" y="104" font-family="Arial" font-size="10" font-weight="700">Label usage</text>
+<rect x="979" y="84" width="245" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="984" y="104" font-family="Arial" font-size="10" font-weight="700">Judgment</text>
+<rect x="24" y="115" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="135" font-family="Arial" font-size="9">S1</text>
+<rect x="78" y="115" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="135" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="115" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="135" font-family="Arial" font-size="9">MLP source only</text>
+<rect x="315" y="115" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="135" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="115" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="135" font-family="Arial" font-size="9">1.000+/-0.000</text>
+<rect x="421" y="115" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="135" font-family="Arial" font-size="9">NA</text>
+<rect x="479" y="115" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="135" font-family="Arial" font-size="9">0.785+/-0.031</text>
+<rect x="537" y="115" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="135" font-family="Arial" font-size="9">0.786+/-0.029</text>
+<rect x="595" y="115" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="135" font-family="Arial" font-size="9">0.787+/-0.031</text>
+<rect x="653" y="115" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="135" font-family="Arial" font-size="9">0.215+/-0.031</text>
+<rect x="711" y="115" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="135" font-family="Arial" font-size="9">0.456+/-0.276</text>
+<rect x="769" y="115" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="135" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="115" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="135" font-family="Arial" font-size="9">fixed hyperparameters because the spli</text>
+<rect x="24" y="146" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="166" font-family="Arial" font-size="9">S1</text>
+<rect x="78" y="146" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="166" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="146" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="166" font-family="Arial" font-size="9">DANN-UDA</text>
+<rect x="315" y="146" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="166" font-family="Arial" font-size="9">0.200</text>
+<rect x="363" y="146" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="166" font-family="Arial" font-size="9">1.000+/-0.000</text>
+<rect x="421" y="146" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="166" font-family="Arial" font-size="9">NA</text>
+<rect x="479" y="146" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="166" font-family="Arial" font-size="9">0.747+/-0.042</text>
+<rect x="537" y="146" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="166" font-family="Arial" font-size="9">0.750+/-0.041</text>
+<rect x="595" y="146" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="166" font-family="Arial" font-size="9">0.754+/-0.039</text>
+<rect x="653" y="146" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="166" font-family="Arial" font-size="9">0.253+/-0.042</text>
+<rect x="711" y="146" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="166" font-family="Arial" font-size="9">0.904+/-0.006</text>
+<rect x="769" y="146" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="166" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="146" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="166" font-family="Arial" font-size="9">fixed hyperparameters because the spli</text>
+<rect x="24" y="177" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="197" font-family="Arial" font-size="9">S2</text>
+<rect x="78" y="177" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="197" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="177" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="197" font-family="Arial" font-size="9">MLP source only</text>
+<rect x="315" y="177" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="197" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="177" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="197" font-family="Arial" font-size="9">0.872+/-0.033</text>
+<rect x="421" y="177" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="197" font-family="Arial" font-size="9">0.760+/-0.089</text>
+<rect x="479" y="177" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="197" font-family="Arial" font-size="9">0.664+/-0.037</text>
+<rect x="537" y="177" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="197" font-family="Arial" font-size="9">0.676+/-0.034</text>
+<rect x="595" y="177" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="197" font-family="Arial" font-size="9">0.645+/-0.049</text>
+<rect x="653" y="177" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="197" font-family="Arial" font-size="9">0.208+/-0.036</text>
+<rect x="711" y="177" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="197" font-family="Arial" font-size="9">0.608+/-0.306</text>
+<rect x="769" y="177" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="197" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="177" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="197" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="208" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="228" font-family="Arial" font-size="9">S2</text>
+<rect x="78" y="208" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="228" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="208" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="228" font-family="Arial" font-size="9">DANN-UDA</text>
+<rect x="315" y="208" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="228" font-family="Arial" font-size="9">0.200</text>
+<rect x="363" y="208" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="228" font-family="Arial" font-size="9">0.944+/-0.078</text>
+<rect x="421" y="208" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="228" font-family="Arial" font-size="9">0.840+/-0.089</text>
+<rect x="479" y="208" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="228" font-family="Arial" font-size="9">0.704+/-0.062</text>
+<rect x="537" y="208" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="228" font-family="Arial" font-size="9">0.709+/-0.059</text>
+<rect x="595" y="208" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="228" font-family="Arial" font-size="9">0.701+/-0.069</text>
+<rect x="653" y="208" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="228" font-family="Arial" font-size="9">0.240+/-0.052</text>
+<rect x="711" y="208" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="228" font-family="Arial" font-size="9">0.916+/-0.004</text>
+<rect x="769" y="208" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="228" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="208" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="228" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="239" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="259" font-family="Arial" font-size="9">S3</text>
+<rect x="78" y="239" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="259" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="239" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="259" font-family="Arial" font-size="9">MLP source only</text>
+<rect x="315" y="239" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="259" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="239" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="259" font-family="Arial" font-size="9">0.890+/-0.055</text>
+<rect x="421" y="239" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="259" font-family="Arial" font-size="9">0.700+/-0.000</text>
+<rect x="479" y="239" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="259" font-family="Arial" font-size="9">0.655+/-0.054</text>
+<rect x="537" y="239" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="259" font-family="Arial" font-size="9">0.666+/-0.054</text>
+<rect x="595" y="239" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="259" font-family="Arial" font-size="9">0.647+/-0.053</text>
+<rect x="653" y="239" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="259" font-family="Arial" font-size="9">0.235+/-0.018</text>
+<rect x="711" y="239" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="259" font-family="Arial" font-size="9">0.555+/-0.321</text>
+<rect x="769" y="239" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="259" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="239" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="259" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="270" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="290" font-family="Arial" font-size="9">S3</text>
+<rect x="78" y="270" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="290" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="270" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="290" font-family="Arial" font-size="9">DANN-UDA</text>
+<rect x="315" y="270" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="290" font-family="Arial" font-size="9">0.200</text>
+<rect x="363" y="270" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="290" font-family="Arial" font-size="9">0.950+/-0.061</text>
+<rect x="421" y="270" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="290" font-family="Arial" font-size="9">0.720+/-0.045</text>
+<rect x="479" y="270" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="290" font-family="Arial" font-size="9">0.674+/-0.044</text>
+<rect x="537" y="270" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="290" font-family="Arial" font-size="9">0.681+/-0.045</text>
+<rect x="595" y="270" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="290" font-family="Arial" font-size="9">0.672+/-0.041</text>
+<rect x="653" y="270" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="290" font-family="Arial" font-size="9">0.276+/-0.057</text>
+<rect x="711" y="270" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="290" font-family="Arial" font-size="9">0.932+/-0.005</text>
+<rect x="769" y="270" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="290" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="270" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="290" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="301" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="321" font-family="Arial" font-size="9">S4</text>
+<rect x="78" y="301" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="321" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="301" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="321" font-family="Arial" font-size="9">MLP source only</text>
+<rect x="315" y="301" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="321" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="301" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="321" font-family="Arial" font-size="9">1.000+/-0.000</text>
+<rect x="421" y="301" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="321" font-family="Arial" font-size="9">0.893+/-0.036</text>
+<rect x="479" y="301" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="321" font-family="Arial" font-size="9">0.785+/-0.014</text>
+<rect x="537" y="301" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="321" font-family="Arial" font-size="9">0.787+/-0.013</text>
+<rect x="595" y="301" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="321" font-family="Arial" font-size="9">0.787+/-0.015</text>
+<rect x="653" y="301" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="321" font-family="Arial" font-size="9">0.215+/-0.014</text>
+<rect x="711" y="301" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="321" font-family="Arial" font-size="9">0.430+/-0.288</text>
+<rect x="769" y="301" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="321" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="301" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="321" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="332" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="352" font-family="Arial" font-size="9">S4</text>
+<rect x="78" y="332" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="352" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="332" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="352" font-family="Arial" font-size="9">DANN-UDA</text>
+<rect x="315" y="332" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="352" font-family="Arial" font-size="9">0.050</text>
+<rect x="363" y="332" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="352" font-family="Arial" font-size="9">1.000+/-0.000</text>
+<rect x="421" y="332" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="352" font-family="Arial" font-size="9">0.879+/-0.074</text>
+<rect x="479" y="332" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="352" font-family="Arial" font-size="9">0.783+/-0.030</text>
+<rect x="537" y="332" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="352" font-family="Arial" font-size="9">0.786+/-0.028</text>
+<rect x="595" y="332" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="352" font-family="Arial" font-size="9">0.786+/-0.029</text>
+<rect x="653" y="332" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="352" font-family="Arial" font-size="9">0.217+/-0.030</text>
+<rect x="711" y="332" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="352" font-family="Arial" font-size="9">0.900+/-0.007</text>
+<rect x="769" y="332" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="352" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="332" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="352" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="363" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="383" font-family="Arial" font-size="9">S5</text>
+<rect x="78" y="363" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="383" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="363" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="383" font-family="Arial" font-size="9">MLP source only</text>
+<rect x="315" y="363" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="383" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="363" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="383" font-family="Arial" font-size="9">1.000+/-0.000</text>
+<rect x="421" y="363" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="383" font-family="Arial" font-size="9">0.869+/-0.064</text>
+<rect x="479" y="363" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="383" font-family="Arial" font-size="9">0.786+/-0.023</text>
+<rect x="537" y="363" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="383" font-family="Arial" font-size="9">0.788+/-0.022</text>
+<rect x="595" y="363" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="383" font-family="Arial" font-size="9">0.790+/-0.022</text>
+<rect x="653" y="363" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="383" font-family="Arial" font-size="9">0.214+/-0.023</text>
+<rect x="711" y="363" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="383" font-family="Arial" font-size="9">0.448+/-0.282</text>
+<rect x="769" y="363" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="383" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="363" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="383" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="394" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="414" font-family="Arial" font-size="9">S5</text>
+<rect x="78" y="394" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="414" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="394" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="414" font-family="Arial" font-size="9">DANN-UDA</text>
+<rect x="315" y="394" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="414" font-family="Arial" font-size="9">0.050</text>
+<rect x="363" y="394" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="414" font-family="Arial" font-size="9">1.000+/-0.000</text>
+<rect x="421" y="394" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="414" font-family="Arial" font-size="9">0.885+/-0.038</text>
+<rect x="479" y="394" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="414" font-family="Arial" font-size="9">0.781+/-0.027</text>
+<rect x="537" y="394" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="414" font-family="Arial" font-size="9">0.783+/-0.026</text>
+<rect x="595" y="394" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="414" font-family="Arial" font-size="9">0.785+/-0.025</text>
+<rect x="653" y="394" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="414" font-family="Arial" font-size="9">0.219+/-0.027</text>
+<rect x="711" y="394" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="414" font-family="Arial" font-size="9">0.902+/-0.008</text>
+<rect x="769" y="394" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="414" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="394" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="414" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="425" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="445" font-family="Arial" font-size="9">S5</text>
+<rect x="78" y="425" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="445" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="425" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="445" font-family="Arial" font-size="9">MLP source + target labels</text>
+<rect x="315" y="425" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="445" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="425" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="445" font-family="Arial" font-size="9">0.991+/-0.019</text>
+<rect x="421" y="425" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="445" font-family="Arial" font-size="9">0.954+/-0.017</text>
+<rect x="479" y="425" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="445" font-family="Arial" font-size="9">0.836+/-0.014</text>
+<rect x="537" y="425" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="445" font-family="Arial" font-size="9">0.839+/-0.013</text>
+<rect x="595" y="425" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="445" font-family="Arial" font-size="9">0.836+/-0.014</text>
+<rect x="653" y="425" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="445" font-family="Arial" font-size="9">0.155+/-0.029</text>
+<rect x="711" y="425" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="445" font-family="Arial" font-size="9">0.472+/-0.263</text>
+<rect x="769" y="425" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="445" font-family="Arial" font-size="9">source labels + selected target labels</text>
+<rect x="979" y="425" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="445" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="456" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="476" font-family="Arial" font-size="9">S5</text>
+<rect x="78" y="456" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="476" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="456" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="476" font-family="Arial" font-size="9">DANN-semi</text>
+<rect x="315" y="456" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="476" font-family="Arial" font-size="9">0.200</text>
+<rect x="363" y="456" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="476" font-family="Arial" font-size="9">0.996+/-0.010</text>
+<rect x="421" y="456" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="476" font-family="Arial" font-size="9">0.977+/-0.021</text>
+<rect x="479" y="456" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="476" font-family="Arial" font-size="9">0.849+/-0.020</text>
+<rect x="537" y="456" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="476" font-family="Arial" font-size="9">0.851+/-0.018</text>
+<rect x="595" y="456" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="476" font-family="Arial" font-size="9">0.851+/-0.021</text>
+<rect x="653" y="456" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="476" font-family="Arial" font-size="9">0.146+/-0.017</text>
+<rect x="711" y="456" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="476" font-family="Arial" font-size="9">0.900+/-0.007</text>
+<rect x="769" y="456" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="476" font-family="Arial" font-size="9">source labels + selected target labels</text>
+<rect x="979" y="456" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="476" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="487" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="507" font-family="Arial" font-size="9">S6</text>
+<rect x="78" y="487" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="507" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="487" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="507" font-family="Arial" font-size="9">MLP source only</text>
+<rect x="315" y="487" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="507" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="487" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="507" font-family="Arial" font-size="9">0.973+/-0.060</text>
+<rect x="421" y="487" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="507" font-family="Arial" font-size="9">0.880+/-0.033</text>
+<rect x="479" y="487" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="507" font-family="Arial" font-size="9">0.740+/-0.044</text>
+<rect x="537" y="487" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="507" font-family="Arial" font-size="9">0.744+/-0.042</text>
+<rect x="595" y="487" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="507" font-family="Arial" font-size="9">0.744+/-0.048</text>
+<rect x="653" y="487" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="507" font-family="Arial" font-size="9">0.233+/-0.045</text>
+<rect x="711" y="487" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="507" font-family="Arial" font-size="9">0.499+/-0.266</text>
+<rect x="769" y="487" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="507" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="487" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="507" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="518" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="538" font-family="Arial" font-size="9">S6</text>
+<rect x="78" y="518" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="538" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="518" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="538" font-family="Arial" font-size="9">DANN-UDA</text>
+<rect x="315" y="518" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="538" font-family="Arial" font-size="9">0.200</text>
+<rect x="363" y="518" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="538" font-family="Arial" font-size="9">0.960+/-0.089</text>
+<rect x="421" y="518" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="538" font-family="Arial" font-size="9">0.905+/-0.011</text>
+<rect x="479" y="518" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="538" font-family="Arial" font-size="9">0.698+/-0.008</text>
+<rect x="537" y="518" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="538" font-family="Arial" font-size="9">0.702+/-0.008</text>
+<rect x="595" y="518" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="538" font-family="Arial" font-size="9">0.701+/-0.006</text>
+<rect x="653" y="518" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="538" font-family="Arial" font-size="9">0.262+/-0.095</text>
+<rect x="711" y="518" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="538" font-family="Arial" font-size="9">0.904+/-0.004</text>
+<rect x="769" y="518" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="538" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="518" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="538" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="549" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="569" font-family="Arial" font-size="9">S6</text>
+<rect x="78" y="549" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="569" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="549" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="569" font-family="Arial" font-size="9">MLP source + target labels</text>
+<rect x="315" y="549" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="569" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="549" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="569" font-family="Arial" font-size="9">0.997+/-0.008</text>
+<rect x="421" y="549" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="569" font-family="Arial" font-size="9">0.945+/-0.041</text>
+<rect x="479" y="549" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="569" font-family="Arial" font-size="9">0.882+/-0.047</text>
+<rect x="537" y="549" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="569" font-family="Arial" font-size="9">0.882+/-0.046</text>
+<rect x="595" y="549" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="569" font-family="Arial" font-size="9">0.882+/-0.048</text>
+<rect x="653" y="549" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="569" font-family="Arial" font-size="9">0.115+/-0.045</text>
+<rect x="711" y="549" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="569" font-family="Arial" font-size="9">0.333+/-0.329</text>
+<rect x="769" y="549" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="569" font-family="Arial" font-size="9">source labels + selected target labels</text>
+<rect x="979" y="549" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="569" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="580" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="600" font-family="Arial" font-size="9">S6</text>
+<rect x="78" y="580" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="600" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="580" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="600" font-family="Arial" font-size="9">DANN-semi</text>
+<rect x="315" y="580" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="600" font-family="Arial" font-size="9">0.200</text>
+<rect x="363" y="580" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="600" font-family="Arial" font-size="9">1.000+/-0.000</text>
+<rect x="421" y="580" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="600" font-family="Arial" font-size="9">0.975+/-0.018</text>
+<rect x="479" y="580" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="600" font-family="Arial" font-size="9">0.891+/-0.019</text>
+<rect x="537" y="580" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="600" font-family="Arial" font-size="9">0.890+/-0.019</text>
+<rect x="595" y="580" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="600" font-family="Arial" font-size="9">0.891+/-0.020</text>
+<rect x="653" y="580" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="600" font-family="Arial" font-size="9">0.109+/-0.019</text>
+<rect x="711" y="580" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="600" font-family="Arial" font-size="9">0.904+/-0.007</text>
+<rect x="769" y="580" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="600" font-family="Arial" font-size="9">source labels + selected target labels</text>
+<rect x="979" y="580" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="600" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="611" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="631" font-family="Arial" font-size="9">S7</text>
+<rect x="78" y="611" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="631" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="611" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="631" font-family="Arial" font-size="9">MLP source only</text>
+<rect x="315" y="611" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="631" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="611" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="631" font-family="Arial" font-size="9">0.973+/-0.060</text>
+<rect x="421" y="611" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="631" font-family="Arial" font-size="9">0.862+/-0.034</text>
+<rect x="479" y="611" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="631" font-family="Arial" font-size="9">0.730+/-0.037</text>
+<rect x="537" y="611" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="631" font-family="Arial" font-size="9">0.734+/-0.035</text>
+<rect x="595" y="611" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="631" font-family="Arial" font-size="9">0.733+/-0.040</text>
+<rect x="653" y="611" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="631" font-family="Arial" font-size="9">0.244+/-0.046</text>
+<rect x="711" y="611" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="631" font-family="Arial" font-size="9">0.499+/-0.266</text>
+<rect x="769" y="611" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="631" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="611" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="631" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="642" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="662" font-family="Arial" font-size="9">S7</text>
+<rect x="78" y="642" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="662" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="642" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="662" font-family="Arial" font-size="9">DANN-UDA</text>
+<rect x="315" y="642" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="662" font-family="Arial" font-size="9">0.200</text>
+<rect x="363" y="642" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="662" font-family="Arial" font-size="9">0.960+/-0.089</text>
+<rect x="421" y="642" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="662" font-family="Arial" font-size="9">0.900+/-0.021</text>
+<rect x="479" y="642" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="662" font-family="Arial" font-size="9">0.698+/-0.008</text>
+<rect x="537" y="642" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="662" font-family="Arial" font-size="9">0.702+/-0.008</text>
+<rect x="595" y="642" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="662" font-family="Arial" font-size="9">0.701+/-0.006</text>
+<rect x="653" y="642" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="662" font-family="Arial" font-size="9">0.262+/-0.095</text>
+<rect x="711" y="642" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="662" font-family="Arial" font-size="9">0.904+/-0.004</text>
+<rect x="769" y="642" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="662" font-family="Arial" font-size="9">source labels only</text>
+<rect x="979" y="642" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="662" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="673" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="693" font-family="Arial" font-size="9">S7</text>
+<rect x="78" y="673" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="693" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="673" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="693" font-family="Arial" font-size="9">MLP source + target labels</text>
+<rect x="315" y="673" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="693" font-family="Arial" font-size="9">0.000</text>
+<rect x="363" y="673" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="693" font-family="Arial" font-size="9">0.992+/-0.019</text>
+<rect x="421" y="673" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="693" font-family="Arial" font-size="9">0.962+/-0.000</text>
+<rect x="479" y="673" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="693" font-family="Arial" font-size="9">0.920+/-0.009</text>
+<rect x="537" y="673" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="693" font-family="Arial" font-size="9">0.920+/-0.009</text>
+<rect x="595" y="673" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="693" font-family="Arial" font-size="9">0.921+/-0.009</text>
+<rect x="653" y="673" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="693" font-family="Arial" font-size="9">0.072+/-0.016</text>
+<rect x="711" y="673" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="693" font-family="Arial" font-size="9">0.442+/-0.260</text>
+<rect x="769" y="673" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="693" font-family="Arial" font-size="9">source labels + selected target labels</text>
+<rect x="979" y="673" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="693" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<rect x="24" y="704" width="54" height="31" fill="white" stroke="#d8dee8"/>
+<text x="29" y="724" font-family="Arial" font-size="9">S7</text>
+<rect x="78" y="704" width="92" height="31" fill="white" stroke="#d8dee8"/>
+<text x="83" y="724" font-family="Arial" font-size="9">3-class</text>
+<rect x="170" y="704" width="145" height="31" fill="white" stroke="#d8dee8"/>
+<text x="175" y="724" font-family="Arial" font-size="9">DANN-semi</text>
+<rect x="315" y="704" width="48" height="31" fill="white" stroke="#d8dee8"/>
+<text x="320" y="724" font-family="Arial" font-size="9">0.050</text>
+<rect x="363" y="704" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="368" y="724" font-family="Arial" font-size="9">0.992+/-0.019</text>
+<rect x="421" y="704" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="426" y="724" font-family="Arial" font-size="9">0.977+/-0.021</text>
+<rect x="479" y="704" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="484" y="724" font-family="Arial" font-size="9">0.921+/-0.005</text>
+<rect x="537" y="704" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="542" y="724" font-family="Arial" font-size="9">0.920+/-0.005</text>
+<rect x="595" y="704" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="600" y="724" font-family="Arial" font-size="9">0.922+/-0.005</text>
+<rect x="653" y="704" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="658" y="724" font-family="Arial" font-size="9">0.071+/-0.014</text>
+<rect x="711" y="704" width="58" height="31" fill="white" stroke="#d8dee8"/>
+<text x="716" y="724" font-family="Arial" font-size="9">0.899+/-0.004</text>
+<rect x="769" y="704" width="210" height="31" fill="white" stroke="#d8dee8"/>
+<text x="774" y="724" font-family="Arial" font-size="9">source labels + selected target labels</text>
+<rect x="979" y="704" width="245" height="31" fill="white" stroke="#d8dee8"/>
+<text x="984" y="724" font-family="Arial" font-size="9">lambda selected by mean validation mac</text>
+<text x="24" y="759" font-family="Arial" font-size="12" fill="#555">S1: Period I labels train; no validation; all Period II/III labels used only for final evaluation.</text>
+<text x="24" y="777" font-family="Arial" font-size="12" fill="#555">S2: Period I train/validation holdout 25/5; all Period II/III labels used only for final evaluation.</text>
+<text x="24" y="795" font-family="Arial" font-size="12" fill="#555">S3: Period I train/validation holdout 20/10; all Period II/III labels used only for final evaluation.</text>
+<text x="24" y="813" font-family="Arial" font-size="12" fill="#555">S4: Period I train; Day1-2 validation; Day3-19 test.</text>
+<text x="24" y="831" font-family="Arial" font-size="12" fill="#555">S5: Period I + Day1 target labels train; Day2-3 validation; Day4-19 test.</text>
+<text x="24" y="849" font-family="Arial" font-size="12" fill="#555">S6: Period I + Day1-2 target labels train; Day3-5 validation; Day6-19 test.</text>
+<text x="24" y="867" font-family="Arial" font-size="12" fill="#555">S7: Period I + Day1-3 target labels train; Day4-5 validation; Day6-19 test.</text>
+<text x="24" y="885" font-family="Arial" font-size="12" fill="#555">UDA variants use Period II/III target features without gas labels for domain loss in every split.</text>
+</svg>

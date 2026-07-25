@@ -1,0 +1,67 @@
+{
+  "feature_sets": {
+    "54D": "D:\\thesis\\tables\\manifest_baseline_as_air_features.csv",
+    "48D": "D:\\thesis\\tables\\paper8_48d_s1_s7\\paper8_48d_features.csv"
+  },
+  "classes": [
+    "air",
+    "alcohol",
+    "acetone"
+  ],
+  "splits": [
+    "S1_train_I_test_all",
+    "S2_train_I_internal_val_test_all",
+    "S3_train_I_internal_20_10_test_all",
+    "S4_train_I_val_D1_2",
+    "S5_train_I_D1_val_D2_3",
+    "S6_train_I_D1_2_val_D3_5",
+    "S7_train_I_D1_3_val_D4_5"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 400,
+  "evaluation_interval": 10,
+  "optimizer": "Adam",
+  "learning_rate": 0.01,
+  "weight_decay": 0.0001,
+  "opensource_core": [
+    "source-only",
+    "dann",
+    "deep-coral",
+    "mk-mmd",
+    "cdan"
+  ],
+  "project_extensions": [
+    "c-dann",
+    "cdan+c-dann",
+    "mk-mmd+lc",
+    "mk-mmd+cdan",
+    "mk-mmd+lc+cdan",
+    "mk-mmd+c-dann",
+    "mk-mmd+cdan+c-dann"
+  ],
+  "representations": [
+    "bottleneck16"
+  ],
+  "heads": [
+    "linear",
+    "mlp"
+  ],
+  "refit_after_validation_epoch_selection": true,
+  "transductive_protocol": "target-domain test features may enter alignment without gas labels",
+  "test_labels": "evaluation only; never used for selection or training",
+  "upstream": {
+    "TLlib": "https://github.com/thuml/Transfer-Learning-Library",
+    "CORAL": "https://github.com/VisionLearningGroup/CORAL"
+  },
+  "hybrid_objectives": {
+    "mk-mmd+cdan": "L_cls + L_mkmmd + L_cdan",
+    "mk-mmd+c-dann": "L_cls + L_mkmmd + L_dann + 0.1*L_centroid",
+    "mk-mmd+cdan+c-dann": "L_cls + L_mkmmd + L_cdan + L_dann + 0.1*L_centroid"
+  }
+}

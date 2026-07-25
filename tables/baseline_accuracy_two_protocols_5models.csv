@@ -1,0 +1,11 @@
+protocol,model,params,train_days,validation_days,test_days,validation_accuracy,validation_balanced_accuracy,validation_macro_f1,test_accuracy,test_balanced_accuracy,test_macro_f1
+P1_train_1_15_test_16_17,LDA,shrinkage=0.1,Day1-Day15,,Day16-Day17,,,,1.0,1.0,1.0
+P2_train_1_10_val_11_15_test_16_17,LDA,shrinkage=0.1,Day1-Day10,Day11-Day15,Day16-Day17,0.8909090909090909,0.875,0.8925729442970822,1.0,1.0,1.0
+P1_train_1_15_test_16_17,Logistic Regression,l2=0.001,Day1-Day15,,Day16-Day17,,,,1.0,1.0,1.0
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,l2=0.001,Day1-Day10,Day11-Day15,Day16-Day17,0.8909090909090909,0.875,0.8874431493027318,1.0,1.0,1.0
+P1_train_1_15_test_16_17,kNN,k=7;weighted=False,Day1-Day15,,Day16-Day17,,,,1.0,1.0,1.0
+P2_train_1_10_val_11_15_test_16_17,kNN,k=7;weighted=False,Day1-Day10,Day11-Day15,Day16-Day17,0.8909090909090909,0.875,0.8756238508011558,1.0,1.0,1.0
+P1_train_1_15_test_16_17,Random Forest,max_depth=4;min_leaf=1,Day1-Day15,,Day16-Day17,,,,1.0,1.0,1.0
+P2_train_1_10_val_11_15_test_16_17,Random Forest,max_depth=4;min_leaf=1,Day1-Day10,Day11-Day15,Day16-Day17,0.9272727272727272,0.9166666666666666,0.9153439153439153,1.0,1.0,1.0
+P1_train_1_15_test_16_17,RBF LS-SVM,gamma_mult=0.5;c_value=100.0,Day1-Day15,,Day16-Day17,,,,1.0,1.0,1.0
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,gamma_mult=0.5;c_value=100.0,Day1-Day10,Day11-Day15,Day16-Day17,1.0,1.0,1.0,1.0,1.0,1.0

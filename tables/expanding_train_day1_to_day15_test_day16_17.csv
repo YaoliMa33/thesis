@@ -1,0 +1,76 @@
+train_end_day,train_days,train_n,train_class_counts,test_days,test_n,test_class_counts,model,params,test_accuracy,test_balanced_accuracy,test_macro_f1
+Day1,Day1-Day1,11,"air:1, alcohol:5, acetone:5",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,0.5714285714285714,0.5666666666666667,0.5416666666666666
+Day1,Day1-Day1,11,"air:1, alcohol:5, acetone:5",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,0.6428571428571429,0.6666666666666666,0.5307936507936507
+Day1,Day1-Day1,11,"air:1, alcohol:5, acetone:5",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,0.35714285714285715,0.3333333333333333,0.17543859649122806
+Day1,Day1-Day1,11,"air:1, alcohol:5, acetone:5",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,0.6785714285714286,0.7000000000000001,0.6238244514106583
+Day1,Day1-Day1,11,"air:1, alcohol:5, acetone:5",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,0.8214285714285714,0.8333333333333334,0.8137254901960783
+Day2,Day1-Day2,24,"air:4, alcohol:10, acetone:10",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,0.9642857142857143,0.9666666666666667,0.9628482972136223
+Day2,Day1-Day2,24,"air:4, alcohol:10, acetone:10",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,0.8214285714285714,0.8333333333333334,0.8095238095238094
+Day2,Day1-Day2,24,"air:4, alcohol:10, acetone:10",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,0.6428571428571429,0.6666666666666666,0.6000000000000001
+Day2,Day1-Day2,24,"air:4, alcohol:10, acetone:10",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,0.75,0.7666666666666666,0.744201680672269
+Day2,Day1-Day2,24,"air:4, alcohol:10, acetone:10",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,0.9642857142857143,0.9666666666666667,0.9628482972136223
+Day3,Day1-Day3,36,"air:6, alcohol:15, acetone:15",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day3,Day1-Day3,36,"air:6, alcohol:15, acetone:15",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,0.9642857142857143,0.9666666666666667,0.9628482972136223
+Day3,Day1-Day3,36,"air:6, alcohol:15, acetone:15",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,0.9642857142857143,0.9666666666666667,0.9628482972136223
+Day3,Day1-Day3,36,"air:6, alcohol:15, acetone:15",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,0.8214285714285714,0.8333333333333334,0.8222222222222223
+Day3,Day1-Day3,36,"air:6, alcohol:15, acetone:15",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day4,Day1-Day4,48,"air:8, alcohol:20, acetone:20",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day4,Day1-Day4,48,"air:8, alcohol:20, acetone:20",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day4,Day1-Day4,48,"air:8, alcohol:20, acetone:20",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day4,Day1-Day4,48,"air:8, alcohol:20, acetone:20",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day4,Day1-Day4,48,"air:8, alcohol:20, acetone:20",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day5,Day1-Day5,63,"air:11, alcohol:26, acetone:26",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day5,Day1-Day5,63,"air:11, alcohol:26, acetone:26",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day5,Day1-Day5,63,"air:11, alcohol:26, acetone:26",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day5,Day1-Day5,63,"air:11, alcohol:26, acetone:26",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day5,Day1-Day5,63,"air:11, alcohol:26, acetone:26",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day6,Day1-Day6,77,"air:13, alcohol:32, acetone:32",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day6,Day1-Day6,77,"air:13, alcohol:32, acetone:32",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day6,Day1-Day6,77,"air:13, alcohol:32, acetone:32",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day6,Day1-Day6,77,"air:13, alcohol:32, acetone:32",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,0.9642857142857143,0.9666666666666667,0.9665831244778613
+Day6,Day1-Day6,77,"air:13, alcohol:32, acetone:32",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day7,Day1-Day7,83,"air:13, alcohol:35, acetone:35",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day7,Day1-Day7,83,"air:13, alcohol:35, acetone:35",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day7,Day1-Day7,83,"air:13, alcohol:35, acetone:35",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day7,Day1-Day7,83,"air:13, alcohol:35, acetone:35",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day7,Day1-Day7,83,"air:13, alcohol:35, acetone:35",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day8,Day1-Day8,91,"air:15, alcohol:38, acetone:38",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day8,Day1-Day8,91,"air:15, alcohol:38, acetone:38",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day8,Day1-Day8,91,"air:15, alcohol:38, acetone:38",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day8,Day1-Day8,91,"air:15, alcohol:38, acetone:38",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day8,Day1-Day8,91,"air:15, alcohol:38, acetone:38",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day9,Day1-Day9,103,"air:17, alcohol:43, acetone:43",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day9,Day1-Day9,103,"air:17, alcohol:43, acetone:43",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day9,Day1-Day9,103,"air:17, alcohol:43, acetone:43",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day9,Day1-Day9,103,"air:17, alcohol:43, acetone:43",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day9,Day1-Day9,103,"air:17, alcohol:43, acetone:43",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day10,Day1-Day10,113,"air:19, alcohol:47, acetone:47",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day10,Day1-Day10,113,"air:19, alcohol:47, acetone:47",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day10,Day1-Day10,113,"air:19, alcohol:47, acetone:47",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day10,Day1-Day10,113,"air:19, alcohol:47, acetone:47",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day10,Day1-Day10,113,"air:19, alcohol:47, acetone:47",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day11,Day1-Day11,123,"air:21, alcohol:51, acetone:51",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day11,Day1-Day11,123,"air:21, alcohol:51, acetone:51",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day11,Day1-Day11,123,"air:21, alcohol:51, acetone:51",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day11,Day1-Day11,123,"air:21, alcohol:51, acetone:51",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day11,Day1-Day11,123,"air:21, alcohol:51, acetone:51",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day12,Day1-Day12,133,"air:23, alcohol:55, acetone:55",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day12,Day1-Day12,133,"air:23, alcohol:55, acetone:55",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day12,Day1-Day12,133,"air:23, alcohol:55, acetone:55",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day12,Day1-Day12,133,"air:23, alcohol:55, acetone:55",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day12,Day1-Day12,133,"air:23, alcohol:55, acetone:55",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day13,Day1-Day13,142,"air:28, alcohol:57, acetone:57",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day13,Day1-Day13,142,"air:28, alcohol:57, acetone:57",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day13,Day1-Day13,142,"air:28, alcohol:57, acetone:57",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day13,Day1-Day13,142,"air:28, alcohol:57, acetone:57",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day13,Day1-Day13,142,"air:28, alcohol:57, acetone:57",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day14,Day1-Day14,154,"air:34, alcohol:60, acetone:60",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day14,Day1-Day14,154,"air:34, alcohol:60, acetone:60",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day14,Day1-Day14,154,"air:34, alcohol:60, acetone:60",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day14,Day1-Day14,154,"air:34, alcohol:60, acetone:60",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day14,Day1-Day14,154,"air:34, alcohol:60, acetone:60",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0
+Day15,Day1-Day15,168,"air:42, alcohol:63, acetone:63",Day16-Day17,28,"air:8, alcohol:10, acetone:10",LDA,shrinkage=0.1,1.0,1.0,1.0
+Day15,Day1-Day15,168,"air:42, alcohol:63, acetone:63",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Logistic Regression,l2=0.001,1.0,1.0,1.0
+Day15,Day1-Day15,168,"air:42, alcohol:63, acetone:63",Day16-Day17,28,"air:8, alcohol:10, acetone:10",kNN,k=7;weighted=False,1.0,1.0,1.0
+Day15,Day1-Day15,168,"air:42, alcohol:63, acetone:63",Day16-Day17,28,"air:8, alcohol:10, acetone:10",Random Forest,max_depth=4;min_leaf=1,1.0,1.0,1.0
+Day15,Day1-Day15,168,"air:42, alcohol:63, acetone:63",Day16-Day17,28,"air:8, alcohol:10, acetone:10",RBF LS-SVM,gamma_mult=0.5;c_value=100.0,1.0,1.0,1.0

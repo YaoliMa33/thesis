@@ -1,0 +1,16 @@
+train_period,test_period,model,train_n,test_n,test_class_counts,accuracy,macro_f1
+Period_I,Period_II,LDA,24,146,"alcohol:73, acetone:73",0.6438356164383562,0.5920911240060176
+Period_I,Period_II,Logistic Regression,24,146,"alcohol:73, acetone:73",0.7808219178082192,0.7724527566725112
+Period_I,Period_II,kNN,24,146,"alcohol:73, acetone:73",0.6438356164383562,0.6432330827067669
+Period_I,Period_II,Random Forest,24,146,"alcohol:73, acetone:73",0.5616438356164384,0.5260701967944816
+Period_I,Period_II,RBF LS-SVM,24,146,"alcohol:73, acetone:73",0.8082191780821918,0.8028929604628736
+Period_I,Period_III,LDA,24,14,"alcohol:7, acetone:7",0.5,0.3333333333333333
+Period_I,Period_III,Logistic Regression,24,14,"alcohol:7, acetone:7",1.0,1.0
+Period_I,Period_III,kNN,24,14,"alcohol:7, acetone:7",0.6428571428571429,0.5906432748538012
+Period_I,Period_III,Random Forest,24,14,"alcohol:7, acetone:7",0.6428571428571429,0.6256684491978609
+Period_I,Period_III,RBF LS-SVM,24,14,"alcohol:7, acetone:7",0.9285714285714286,0.9282051282051282
+Period_I,Period_II_III,LDA,24,160,"alcohol:80, acetone:80",0.63125,0.5732175957321759
+Period_I,Period_II_III,Logistic Regression,24,160,"alcohol:80, acetone:80",0.8,0.7936814958091554
+Period_I,Period_II_III,kNN,24,160,"alcohol:80, acetone:80",0.64375,0.6437360834407594
+Period_I,Period_II_III,Random Forest,24,160,"alcohol:80, acetone:80",0.56875,0.5443852915686518
+Period_I,Period_II_III,RBF LS-SVM,24,160,"alcohol:80, acetone:80",0.81875,0.8142142142142142

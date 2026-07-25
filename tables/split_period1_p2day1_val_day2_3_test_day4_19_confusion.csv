@@ -1,0 +1,46 @@
+model,true_label,predicted_label,count
+LDA,air,air,30
+LDA,air,alcohol,13
+LDA,air,acetone,9
+LDA,alcohol,air,1
+LDA,alcohol,alcohol,60
+LDA,alcohol,acetone,4
+LDA,acetone,air,6
+LDA,acetone,alcohol,17
+LDA,acetone,acetone,42
+Logistic Regression,air,air,44
+Logistic Regression,air,alcohol,8
+Logistic Regression,air,acetone,0
+Logistic Regression,alcohol,air,0
+Logistic Regression,alcohol,alcohol,65
+Logistic Regression,alcohol,acetone,0
+Logistic Regression,acetone,air,17
+Logistic Regression,acetone,alcohol,10
+Logistic Regression,acetone,acetone,38
+kNN,air,air,28
+kNN,air,alcohol,20
+kNN,air,acetone,4
+kNN,alcohol,air,5
+kNN,alcohol,alcohol,35
+kNN,alcohol,acetone,25
+kNN,acetone,air,5
+kNN,acetone,alcohol,16
+kNN,acetone,acetone,44
+Random Forest,air,air,52
+Random Forest,air,alcohol,0
+Random Forest,air,acetone,0
+Random Forest,alcohol,air,14
+Random Forest,alcohol,alcohol,50
+Random Forest,alcohol,acetone,1
+Random Forest,acetone,air,21
+Random Forest,acetone,alcohol,31
+Random Forest,acetone,acetone,13
+RBF LS-SVM,air,air,31
+RBF LS-SVM,air,alcohol,17
+RBF LS-SVM,air,acetone,4
+RBF LS-SVM,alcohol,air,0
+RBF LS-SVM,alcohol,alcohol,63
+RBF LS-SVM,alcohol,acetone,2
+RBF LS-SVM,acetone,air,1
+RBF LS-SVM,acetone,alcohol,19
+RBF LS-SVM,acetone,acetone,45

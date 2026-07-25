@@ -1,0 +1,7 @@
+sensor,mean_importance_all_minus_without,mean_delta_without_minus_all,models_where_removal_hurts,models_where_removal_helps,worst_drop,best_gain_from_removal
+s2,0.03500000000000003,-0.03500000000000003,3,0,0.07500000000000007,0.0
+s3,0.006666666666666665,-0.006666666666666665,1,0,0.033333333333333326,0.0
+s1,0.0,0.0,0,0,0.0,0.0
+s4,0.0,0.0,0,0,0.0,0.0
+s5,0.0,0.0,0,0,0.0,0.0
+s6,0.0,0.0,0,0,0.0,0.0

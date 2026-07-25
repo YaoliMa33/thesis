@@ -1,0 +1,121 @@
+﻿representation,from_day,to_day,from_day_num,to_day_num,gas,drift_distance,angle_to_acetone_minus_alcohol_deg,projection_on_acetone_minus_alcohol,interpretation
+raw6_post60_centroid_zscore,Day1,Day2,1,2,air,0.9813619473240635,66.5535537552524,0.3904758015808154,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day1,Day2,1,2,alcohol,3.2274575332338906,93.56423216314866,-0.20064287796759833,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day1,Day2,1,2,acetone,4.5366054481135585,132.38546766092648,-3.058194081875011,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day1,Day2,1,2,balanced_all_available_gases,2.1292020175691198,116.68281612076979,-0.9561203860872646,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day2,Day3,2,3,air,0.2643951686317873,150.01745550173877,-0.22901319683061339,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day2,Day3,2,3,alcohol,0.9999986311733057,121.32927395459767,-0.5199548983172425,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day2,Day3,2,3,acetone,1.2151348839860459,156.774531843975,-1.1166605231405102,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day2,Day3,2,3,balanced_all_available_gases,0.7494654407537621,146.07405948691763,-0.621876206096122,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day3,Day4,3,4,air,0.21395467769977516,115.15663205923651,-0.0909509126607609,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day3,Day4,3,4,alcohol,0.5752381346819816,77.21220218361556,0.12732367853673487,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day3,Day4,3,4,acetone,0.7596959683299156,143.677934189329,-0.6120872131856763,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day3,Day4,3,4,balanced_all_available_gases,0.3486138550363016,123.39992181385605,-0.1919048157699008,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day4,Day5,4,5,air,0.671784098375882,76.68742600575786,0.15468722549302566,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day4,Day5,4,5,alcohol,1.355928022619216,93.07811837125283,-0.07280989270730998,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day4,Day5,4,5,acetone,2.080393812778169,69.53454461520182,0.7273942638580121,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day4,Day5,4,5,balanced_all_available_gases,0.8845598855619021,72.24411904836772,0.2697571988812426,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day5,Day6,5,6,air,1.1495093227255855,97.50121397356328,-0.15006522203215922,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day5,Day6,5,6,alcohol,0.7171664244651094,87.14079181755481,0.035773614936960435,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day5,Day6,5,6,acetone,1.5580585156378683,126.13886262237244,-0.9188560752760111,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day5,Day6,5,6,balanced_all_available_gases,0.8065749787537874,115.27536230594642,-0.3443825607904033,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day6,Day7,6,7,air,1.0767483281025034,90.42919853128114,-0.008065768244097271,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day6,Day7,6,7,alcohol,1.1090159898879732,74.41228630634639,0.29800732113830036,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day6,Day7,6,7,acetone,0.6611943179129416,108.17027379735279,-0.20618816635053183,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day6,Day7,6,7,balanced_all_available_gases,0.3618671993965169,85.57527484495695,0.02791779551455708,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day7,Day8,7,8,air,0.730768985582733,83.84812948220926,0.07831228327137121,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day7,Day8,7,8,alcohol,1.144957769002753,115.98596923770003,-0.5016644306793974,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day7,Day8,7,8,acetone,1.4921694043710572,149.4186410344083,-1.2846199758764678,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day7,Day8,7,8,balanced_all_available_gases,0.7395641801289441,140.3368470277594,-0.5693240410948313,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day8,Day9,8,9,air,0.34451105531869874,73.81363385126546,0.09603679437022056,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day8,Day9,8,9,alcohol,1.301801373489042,46.44942015191544,0.8969341907053664,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day8,Day9,8,9,acetone,0.3433223072949399,118.56170733186799,-0.16414410004204824,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day8,Day9,8,9,balanced_all_available_gases,0.529153781726843,58.52621540467138,0.27627562834451286,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day9,Day10,9,10,air,1.2949123271115988,78.59929301824818,0.2559645894813222,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day9,Day10,9,10,alcohol,1.0286339236094493,66.3920175306524,0.411943915807694,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day9,Day10,9,10,acetone,1.124898791664778,76.37123565207149,0.2650599467553581,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day9,Day10,9,10,balanced_all_available_gases,1.01426861488595,72.14467633491167,0.31098948401479143,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day10,Day11,10,11,air,1.4967510828354804,123.20862277551886,-0.8197543235684525,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day10,Day11,10,11,alcohol,0.47335600365363867,87.71392366096647,0.01888168503619575,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day10,Day11,10,11,acetone,0.9319568140042845,110.31858234204579,-0.323612509187812,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day10,Day11,10,11,balanced_all_available_gases,0.8132557628180793,117.4451029721874,-0.37482838257335627,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day11,Day12,11,12,air,0.8266567660339078,101.2179863802038,-0.16081969585433295,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day11,Day12,11,12,alcohol,1.759860551611539,57.46665549997595,0.9464360166469682,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day11,Day12,11,12,acetone,1.4368658067146205,47.412671786314625,0.972345992890764,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day11,Day12,11,12,balanced_all_available_gases,0.8677680400985321,47.52400968988431,0.5859874378944664,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day12,Day13,12,13,air,0.2406945961043955,113.37969518401255,-0.09551306178889879,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day12,Day13,12,13,alcohol,1.3748466984970582,67.07288485586477,0.5355850821627393,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day12,Day13,12,13,acetone,0.6840541275252257,120.04934232198461,-0.34253711054945446,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day12,Day13,12,13,balanced_all_available_gases,0.2807178248114367,83.34930277731615,0.03251163660812867,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day13,Day14,13,14,air,0.28999780222537386,90.17476653323777,-0.0008845648384786895,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day13,Day14,13,14,alcohol,1.4132470909712678,62.33696174298018,0.6561293263906312,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day13,Day14,13,14,acetone,1.3514284247650243,112.79319387412639,-0.5235515833499138,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day13,Day14,13,14,balanced_all_available_gases,0.7630933209536287,86.70218092015469,0.04389772606741285,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day14,Day15,14,15,air,0.795158990393454,98.36353248681968,-0.115658537954444,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day14,Day15,14,15,balanced_all_available_gases,0.795158990393454,98.36353248681968,-0.115658537954444,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day15,Day16,15,16,air,1.0807072028062004,,,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day15,Day16,15,16,balanced_all_available_gases,1.0807072028062004,,,overall balanced day shift relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day16,Day17,16,17,air,0.9237360615086807,109.5175106436982,-0.3086155368513329,projection relative to acetone-minus-alcohol axis
+raw6_post60_centroid_zscore,Day16,Day17,16,17,alcohol,1.9840099529404311,89.84460309393943,0.005381000710971695,positive means movement toward acetone side
+raw6_post60_centroid_zscore,Day16,Day17,16,17,acetone,1.0206000963973376,78.47467588946556,0.20391695147484717,negative means movement toward alcohol side
+raw6_post60_centroid_zscore,Day16,Day17,16,17,balanced_all_available_gases,1.1429617657125455,91.6598030934712,-0.03310586155517137,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day1,Day2,1,2,air,2.670703071274459,92.00939479609285,-0.09364384052282337,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day1,Day2,1,2,alcohol,3.118159266929218,96.48474944591862,-0.3521610048375981,positive means movement toward acetone side
+uci48_features_zscore,Day1,Day2,1,2,acetone,9.775337593084943,150.4645134898115,-8.505037783995904,negative means movement toward alcohol side
+uci48_features_zscore,Day1,Day2,1,2,balanced_all_available_gases,4.39225576392653,132.78816454833495,-2.9836142097854417,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day2,Day3,2,3,air,1.476464271024272,76.68353911087736,0.3400730097502153,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day2,Day3,2,3,alcohol,2.0680651490900224,92.40321654403066,-0.0867175777934984,positive means movement toward acetone side
+uci48_features_zscore,Day2,Day3,2,3,acetone,4.053286694977378,128.86260934594455,-2.5432552068945817,negative means movement toward alcohol side
+uci48_features_zscore,Day2,Day3,2,3,balanced_all_available_gases,1.9418738492900012,113.14590209148714,-0.7632999249792882,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day3,Day4,3,4,air,4.827047340583482,107.89372574700847,-1.4831219300535534,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day3,Day4,3,4,alcohol,2.3347213042908295,87.29190491870906,0.11030992977135833,positive means movement toward acetone side
+uci48_features_zscore,Day3,Day4,3,4,acetone,1.757735483325237,125.88406458643898,-1.0302914521948634,negative means movement toward alcohol side
+uci48_features_zscore,Day3,Day4,3,4,balanced_all_available_gases,2.227501876372886,111.07631658948998,-0.8010344841590195,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day4,Day5,4,5,air,4.735940002611976,63.21961217253575,2.1338818870957903,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day4,Day5,4,5,alcohol,3.5913610600746564,70.54013158809306,1.1964494556909775,positive means movement toward acetone side
+uci48_features_zscore,Day4,Day5,4,5,acetone,5.4420106932683785,69.64458129803863,1.892963430272451,negative means movement toward alcohol side
+uci48_features_zscore,Day4,Day5,4,5,balanced_all_available_gases,2.985807523811201,54.32937781687334,1.7410982576864065,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day5,Day6,5,6,air,1.6955063856333334,98.82477306126242,-0.2601128970367362,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day5,Day6,5,6,alcohol,1.87588972941438,97.51797795382272,-0.24543630207082834,positive means movement toward acetone side
+uci48_features_zscore,Day5,Day6,5,6,acetone,4.566153251816095,135.43249290552825,-3.2530377497220164,negative means movement toward alcohol side
+uci48_features_zscore,Day5,Day6,5,6,balanced_all_available_gases,1.9339348252562,130.37824355004895,-1.252862316276527,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day6,Day7,6,7,air,2.0906672426281414,88.26468178579583,0.06331039290516521,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day6,Day7,6,7,alcohol,4.039999977438857,75.52567398975737,1.0097824653386422,positive means movement toward acetone side
+uci48_features_zscore,Day6,Day7,6,7,acetone,2.301909156320501,94.31330169310199,-0.1731271162795079,negative means movement toward alcohol side
+uci48_features_zscore,Day6,Day7,6,7,balanced_all_available_gases,1.7555448344933362,80.16097620151851,0.2999885806547665,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day7,Day8,7,8,air,1.3547278159623797,100.75296213621553,-0.25275810856163755,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day7,Day8,7,8,alcohol,2.8946414805242013,62.26387561326735,1.3471666795916482,positive means movement toward acetone side
+uci48_features_zscore,Day7,Day8,7,8,acetone,5.421023019240281,68.40572382023248,1.9951081366302614,negative means movement toward alcohol side
+uci48_features_zscore,Day7,Day8,7,8,balanced_all_available_gases,2.506046935688225,65.73600249889378,1.0298389025534243,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day8,Day9,8,9,air,2.9470485117522616,84.50225347868835,0.28234670647407323,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day8,Day9,8,9,alcohol,6.657248104818405,54.94194845250861,3.823963913889317,positive means movement toward acetone side
+uci48_features_zscore,Day8,Day9,8,9,acetone,3.158023644550976,126.48224917746346,-1.877677850636509,negative means movement toward alcohol side
+uci48_features_zscore,Day8,Day9,8,9,balanced_all_available_gases,2.5863809573458565,73.30800656365851,0.7428775899089606,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day9,Day10,9,10,air,5.36697717477209,79.49100541006997,0.9788823213842844,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day9,Day10,9,10,alcohol,6.835328084720512,71.96620463080234,2.1160665976996214,positive means movement toward acetone side
+uci48_features_zscore,Day9,Day10,9,10,acetone,4.316716311585728,123.5799524530314,-2.387576136465566,negative means movement toward alcohol side
+uci48_features_zscore,Day9,Day10,9,10,balanced_all_available_gases,3.802218717842543,86.4445761192669,0.23579092753944653,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day10,Day11,10,11,air,6.285113262564915,87.01923266693197,0.3268305404328856,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day10,Day11,10,11,alcohol,5.458790904086168,91.96473933539005,-0.1871516456272342,positive means movement toward acetone side
+uci48_features_zscore,Day10,Day11,10,11,acetone,6.687804984852067,100.69756073196334,-1.2414223436334093,negative means movement toward alcohol side
+uci48_features_zscore,Day10,Day11,10,11,balanced_all_available_gases,5.014663708537176,94.19980394711592,-0.3672478162759193,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day11,Day12,11,12,air,3.508662646966353,101.78062420817753,-0.7163461627775565,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day11,Day12,11,12,alcohol,4.915769130978404,57.32131962712551,2.654157260540248,positive means movement toward acetone side
+uci48_features_zscore,Day11,Day12,11,12,acetone,6.991085237922134,70.57633650053828,2.3248900109665236,negative means movement toward alcohol side
+uci48_features_zscore,Day11,Day12,11,12,balanced_all_available_gases,3.7775421227747343,67.90495406565664,1.420900369576405,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day12,Day13,12,13,air,2.6905947955188427,82.43193867280905,0.35436164359334843,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day12,Day13,12,13,alcohol,5.77514281087024,94.29442608000684,-0.4324526099154166,positive means movement toward acetone side
+uci48_features_zscore,Day12,Day13,12,13,acetone,7.300356807857494,132.052890658678,-4.889898205786094,negative means movement toward alcohol side
+uci48_features_zscore,Day12,Day13,12,13,balanced_all_available_gases,4.604911082098176,111.07657097081231,-1.6559963907027206,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day13,Day14,13,14,air,2.56155884356532,103.9522163931649,-0.6176241207716235,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day13,Day14,13,14,alcohol,4.502901538545413,98.0703570112334,-0.6321578746544787,positive means movement toward acetone side
+uci48_features_zscore,Day13,Day14,13,14,acetone,5.845142346947524,121.54283079761395,-3.057803217579265,negative means movement toward alcohol side
+uci48_features_zscore,Day13,Day14,13,14,balanced_all_available_gases,3.2698780126255693,116.04760877044374,-1.4358617376684557,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day14,Day15,14,15,air,3.1099685261816012,118.81482841658594,-1.4989440304997665,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day14,Day15,14,15,balanced_all_available_gases,3.1099685261816012,118.81482841658594,-1.4989440304997665,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day15,Day16,15,16,air,1.86597887211363,,,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day15,Day16,15,16,balanced_all_available_gases,1.86597887211363,,,overall balanced day shift relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day16,Day17,16,17,air,2.0966456851478115,67.6562862055758,0.7970648857994324,projection relative to acetone-minus-alcohol axis
+uci48_features_zscore,Day16,Day17,16,17,alcohol,3.204322858216675,79.25154842122947,0.597598154732774,positive means movement toward acetone side
+uci48_features_zscore,Day16,Day17,16,17,acetone,5.230232659503681,79.59329900835948,0.9447587719404448,negative means movement toward alcohol side
+uci48_features_zscore,Day16,Day17,16,17,balanced_all_available_gases,2.5181915437610987,71.96068214007573,0.7798072708242171,overall balanced day shift relative to acetone-minus-alcohol axis

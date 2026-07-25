@@ -1,0 +1,61 @@
+test_period,model,true_label,predicted_label,count
+Period_II,LDA,alcohol,alcohol,73
+Period_II,LDA,alcohol,acetone,0
+Period_II,LDA,acetone,alcohol,52
+Period_II,LDA,acetone,acetone,21
+Period_II,Logistic Regression,alcohol,alcohol,71
+Period_II,Logistic Regression,alcohol,acetone,2
+Period_II,Logistic Regression,acetone,alcohol,30
+Period_II,Logistic Regression,acetone,acetone,43
+Period_II,kNN,alcohol,alcohol,50
+Period_II,kNN,alcohol,acetone,23
+Period_II,kNN,acetone,alcohol,29
+Period_II,kNN,acetone,acetone,44
+Period_II,Random Forest,alcohol,alcohol,61
+Period_II,Random Forest,alcohol,acetone,12
+Period_II,Random Forest,acetone,alcohol,52
+Period_II,Random Forest,acetone,acetone,21
+Period_II,RBF LS-SVM,alcohol,alcohol,71
+Period_II,RBF LS-SVM,alcohol,acetone,2
+Period_II,RBF LS-SVM,acetone,alcohol,26
+Period_II,RBF LS-SVM,acetone,acetone,47
+Period_III,LDA,alcohol,alcohol,7
+Period_III,LDA,alcohol,acetone,0
+Period_III,LDA,acetone,alcohol,7
+Period_III,LDA,acetone,acetone,0
+Period_III,Logistic Regression,alcohol,alcohol,7
+Period_III,Logistic Regression,alcohol,acetone,0
+Period_III,Logistic Regression,acetone,alcohol,0
+Period_III,Logistic Regression,acetone,acetone,7
+Period_III,kNN,alcohol,alcohol,2
+Period_III,kNN,alcohol,acetone,5
+Period_III,kNN,acetone,alcohol,0
+Period_III,kNN,acetone,acetone,7
+Period_III,Random Forest,alcohol,alcohol,3
+Period_III,Random Forest,alcohol,acetone,4
+Period_III,Random Forest,acetone,alcohol,1
+Period_III,Random Forest,acetone,acetone,6
+Period_III,RBF LS-SVM,alcohol,alcohol,7
+Period_III,RBF LS-SVM,alcohol,acetone,0
+Period_III,RBF LS-SVM,acetone,alcohol,1
+Period_III,RBF LS-SVM,acetone,acetone,6
+Period_II_III,LDA,alcohol,alcohol,80
+Period_II_III,LDA,alcohol,acetone,0
+Period_II_III,LDA,acetone,alcohol,59
+Period_II_III,LDA,acetone,acetone,21
+Period_II_III,Logistic Regression,alcohol,alcohol,78
+Period_II_III,Logistic Regression,alcohol,acetone,2
+Period_II_III,Logistic Regression,acetone,alcohol,30
+Period_II_III,Logistic Regression,acetone,acetone,50
+Period_II_III,kNN,alcohol,alcohol,52
+Period_II_III,kNN,alcohol,acetone,28
+Period_II_III,kNN,acetone,alcohol,29
+Period_II_III,kNN,acetone,acetone,51
+Period_II_III,Random Forest,alcohol,alcohol,64
+Period_II_III,Random Forest,alcohol,acetone,16
+Period_II_III,Random Forest,acetone,alcohol,53
+Period_II_III,Random Forest,acetone,acetone,27
+Period_II_III,RBF LS-SVM,alcohol,alcohol,78
+Period_II_III,RBF LS-SVM,alcohol,acetone,2
+Period_II_III,RBF LS-SVM,acetone,alcohol,27
+Period_II_III,RBF LS-SVM,acetone,acetone,53

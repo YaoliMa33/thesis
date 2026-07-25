@@ -1,0 +1,29 @@
+{
+  "interpretation": "post-hoc Logistic Regression probe on frozen 16D DA features; not part of DA training",
+  "architectures": [
+    "two-layer"
+  ],
+  "methods": [
+    "dann",
+    "cdan",
+    "c-dann",
+    "mk-mmd",
+    "deep-coral",
+    "cdan+c-dann"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "logistic": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "max_iter": 2000
+  },
+  "checkpointing": "save after every seed and skip completed keys on resume",
+  "test_policy": "evaluation-only"
+}

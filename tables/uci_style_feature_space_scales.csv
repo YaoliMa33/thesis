@@ -1,0 +1,16 @@
+﻿feature_space,feature,raw_min,raw_max,display_min,display_max,padding,method
+uci_deltaR_s2_s3_s5,deltaR_s2,0.0,92.0,-2.76,94.76,2.76,full min/max linear scaling with 3% padding; no clipping
+uci_deltaR_s2_s3_s5,deltaR_s3,0.0,7.0,-0.21,7.21,0.21,full min/max linear scaling with 3% padding; no clipping
+uci_deltaR_s2_s3_s5,deltaR_s5,0.0,66.0,-1.98,67.98,1.98,full min/max linear scaling with 3% padding; no clipping
+uci_normDeltaR_s2_s3_s5,normDeltaR_s2,0.0,0.39478544269418797,-0.011843563280825638,0.4066290059750136,0.011843563280825638,full min/max linear scaling with 3% padding; no clipping
+uci_normDeltaR_s2_s3_s5,normDeltaR_s3,0.0,0.04313796869311976,-0.0012941390607935927,0.044432107753913354,0.0012941390607935927,full min/max linear scaling with 3% padding; no clipping
+uci_normDeltaR_s2_s3_s5,normDeltaR_s5,0.0,1.7601430339705681,-0.052804291019117044,1.8129473249896852,0.052804291019117044,full min/max linear scaling with 3% padding; no clipping
+uci_riseEMA001_s2_s3_s5,riseEMA_a0.001_s2,0.0,0.09004755821379214,-0.002701426746413764,0.0927489849602059,0.002701426746413764,full min/max linear scaling with 3% padding; no clipping
+uci_riseEMA001_s2_s3_s5,riseEMA_a0.001_s3,0.0,0.006931522779505818,-0.00020794568338517453,0.007139468462890992,0.00020794568338517453,full min/max linear scaling with 3% padding; no clipping
+uci_riseEMA001_s2_s3_s5,riseEMA_a0.001_s5,0.0,0.06425261356880436,-0.0019275784070641308,0.0661801919758685,0.0019275784070641308,full min/max linear scaling with 3% padding; no clipping
+uci_recEMA001_s2_s3_s5,recEMA_a0.001_s2,-0.04128792231918827,-4.934526274190734e-06,-0.04252641195297569,0.0012335551075132317,0.0012384896337874225,full min/max linear scaling with 3% padding; no clipping
+uci_recEMA001_s2_s3_s5,recEMA_a0.001_s3,-0.00392138344147776,0.0,-0.004039024944722093,0.0001176415032443328,0.0001176415032443328,full min/max linear scaling with 3% padding; no clipping
+uci_recEMA001_s2_s3_s5,recEMA_a0.001_s5,-0.020638474410677267,-1.960770210735754e-06,-0.021257569819891263,0.0006171346390032602,0.000619095409213996,full min/max linear scaling with 3% padding; no clipping
+uci_s2_riseEMA_bank,riseEMA_a0.1_s2,0.0,4.36877314018002,-0.13106319420540058,4.49983633438542,0.13106319420540058,full min/max linear scaling with 3% padding; no clipping
+uci_s2_riseEMA_bank,riseEMA_a0.01_s2,0.0,0.8195675840460594,-0.024587027521381782,0.8441546115674412,0.024587027521381782,full min/max linear scaling with 3% padding; no clipping
+uci_s2_riseEMA_bank,riseEMA_a0.001_s2,0.0,0.09004755821379214,-0.002701426746413764,0.0927489849602059,0.002701426746413764,full min/max linear scaling with 3% padding; no clipping

@@ -1,0 +1,37 @@
+axis,display_min,display_max,method,space
+x,-6.79,91.79,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_s1_s4_s5_feature_space.html
+y,-13.69,116.69,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_s1_s4_s5_feature_space.html
+z,-7.5,151.5,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_s1_s4_s5_feature_space.html
+x,-2.0294905629579993,18.032523130847142,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_post60_group_hyperplane_s1_s4_s5.html
+y,-5.225010286636921,44.74836572683554,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_post60_group_hyperplane_s1_s4_s5.html
+z,-2.14234248911743,24.3472148257516,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_post60_group_hyperplane_s1_s4_s5.html
+x,-1.0,26.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_s1_s4_s5_feature_space.html
+y,-4.0,30.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_s1_s4_s5_feature_space.html
+z,-1.0,24.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_s1_s4_s5_feature_space.html
+x,-2.0,26.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_zero_start_s1_s4_s5_feature_space.html
+y,-4.0,30.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_zero_start_s1_s4_s5_feature_space.html
+z,-2.0,24.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_zero_start_s1_s4_s5_feature_space.html
+x,-1.0573029045643154,15.228864032713956,"1st-99th percentile clipping, then min/max scaling",interactive_bc_post60_group_hyperplane_s1_s4_s5.html
+y,-2.6745940396725167,22.95873053100009,"1st-99th percentile clipping, then min/max scaling",interactive_bc_post60_group_hyperplane_s1_s4_s5.html
+z,-1.0267634854771783,12.601576763485488,"1st-99th percentile clipping, then min/max scaling",interactive_bc_post60_group_hyperplane_s1_s4_s5.html
+x,-11.54,113.54,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_s2_s4_s5_feature_space.html
+y,-13.69,116.69,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_s2_s4_s5_feature_space.html
+z,-7.5,151.5,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_s2_s4_s5_feature_space.html
+x,-4.826271115817983,37.89583829580375,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_post60_group_hyperplane_s2_s4_s5.html
+y,-5.225010286636921,44.74836572683554,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_post60_group_hyperplane_s2_s4_s5.html
+z,-2.14234248911743,24.3472148257516,full min/max scaling with 3% padding; no clipping,interactive_bc_no_clip_post60_group_hyperplane_s2_s4_s5.html
+x,-3.0,35.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_s2_s4_s5_feature_space.html
+y,-4.0,30.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_s2_s4_s5_feature_space.html
+z,-1.0,24.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_s2_s4_s5_feature_space.html
+x,-4.0,35.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_zero_start_s2_s4_s5_feature_space.html
+y,-4.0,30.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_zero_start_s2_s4_s5_feature_space.html
+z,-2.0,24.0,"1st-99th percentile clipping, then min/max scaling",interactive_bc_zero_start_s2_s4_s5_feature_space.html
+x,-2.3741962836009383,23.351950207468906,"1st-99th percentile clipping, then min/max scaling",interactive_bc_post60_group_hyperplane_s2_s4_s5.html
+y,-2.6745940396725167,22.95873053100009,"1st-99th percentile clipping, then min/max scaling",interactive_bc_post60_group_hyperplane_s2_s4_s5.html
+z,-1.0267634854771783,12.601576763485488,"1st-99th percentile clipping, then min/max scaling",interactive_bc_post60_group_hyperplane_s2_s4_s5.html
+x,-0.054,1.854,full min/max scaling with 3% padding; no clipping,uci_norm_delta_no_clip_s1_s4_s5.html
+y,-0.010450925181013678,0.5194211584875301,full min/max scaling with 3% padding; no clipping,uci_norm_delta_no_clip_s1_s4_s5.html
+z,-0.10534883720930233,3.6169767441860463,full min/max scaling with 3% padding; no clipping,uci_norm_delta_no_clip_s1_s4_s5.html
+x,-0.012323651452282156,0.4231120331950207,full min/max scaling with 3% padding; no clipping,uci_norm_delta_no_clip_s2_s4_s5.html
+y,-0.010450925181013678,0.5194211584875301,full min/max scaling with 3% padding; no clipping,uci_norm_delta_no_clip_s2_s4_s5.html
+z,-0.10534883720930233,3.6169767441860463,full min/max scaling with 3% padding; no clipping,uci_norm_delta_no_clip_s2_s4_s5.html

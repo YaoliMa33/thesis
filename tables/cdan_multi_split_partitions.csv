@@ -1,0 +1,43 @@
+split,task,partition,n,class_counts,period_days,label_usage
+S1_train_I_test_all,three_class_with_air,source_train,30,air:6; alcohol:12; acetone:12,Period_I Day1-Day3,gas labels used for classifier loss L
+S1_train_I_test_all,three_class_with_air,source_val,0,,,labels used only for model selection
+S1_train_I_test_all,three_class_with_air,target_labeled_train,0,,,gas labels used only by CDAN-semi
+S1_train_I_test_all,three_class_with_air,target_domain,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,gas labels not used; features used for CDAN domain loss Ld_cdan
+S1_train_I_test_all,three_class_with_air,target_val,0,,,labels used only for model selection
+S1_train_I_test_all,three_class_with_air,target_test,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,labels used only for final evaluation
+S2_train_I_internal_val_test_all,three_class_with_air,source_train,25,air:5; alcohol:10; acetone:10,Period_I Day1-Day3,gas labels used for classifier loss L
+S2_train_I_internal_val_test_all,three_class_with_air,source_val,5,air:1; alcohol:2; acetone:2,Period_I Day1-Day3,labels used only for model selection
+S2_train_I_internal_val_test_all,three_class_with_air,target_labeled_train,0,,,gas labels used only by CDAN-semi
+S2_train_I_internal_val_test_all,three_class_with_air,target_domain,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,gas labels not used; features used for CDAN domain loss Ld_cdan
+S2_train_I_internal_val_test_all,three_class_with_air,target_val,0,,,labels used only for model selection
+S2_train_I_internal_val_test_all,three_class_with_air,target_test,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,labels used only for final evaluation
+S3_train_I_internal_20_10_test_all,three_class_with_air,source_train,20,air:4; alcohol:8; acetone:8,Period_I Day1-Day3,gas labels used for classifier loss L
+S3_train_I_internal_20_10_test_all,three_class_with_air,source_val,10,air:2; alcohol:4; acetone:4,Period_I Day1-Day3,labels used only for model selection
+S3_train_I_internal_20_10_test_all,three_class_with_air,target_labeled_train,0,,,gas labels used only by CDAN-semi
+S3_train_I_internal_20_10_test_all,three_class_with_air,target_domain,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,gas labels not used; features used for CDAN domain loss Ld_cdan
+S3_train_I_internal_20_10_test_all,three_class_with_air,target_val,0,,,labels used only for model selection
+S3_train_I_internal_20_10_test_all,three_class_with_air,target_test,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,labels used only for final evaluation
+S4_train_I_val_D1_2,three_class_with_air,source_train,30,air:6; alcohol:12; acetone:12,Period_I Day1-Day3,gas labels used for classifier loss L
+S4_train_I_val_D1_2,three_class_with_air,source_val,0,,,labels used only for model selection
+S4_train_I_val_D1_2,three_class_with_air,target_labeled_train,0,,,gas labels used only by CDAN-semi
+S4_train_I_val_D1_2,three_class_with_air,target_domain,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,gas labels not used; features used for CDAN domain loss Ld_cdan
+S4_train_I_val_D1_2,three_class_with_air,target_val,28,air:8; alcohol:10; acetone:10,Period_II Day1-Day2,labels used only for model selection
+S4_train_I_val_D1_2,three_class_with_air,target_test,245,air:73; alcohol:86; acetone:86,Period_II Day3-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,labels used only for final evaluation
+S5_train_I_D1_val_D2_3,three_class_with_air,source_train,30,air:6; alcohol:12; acetone:12,Period_I Day1-Day3,gas labels used for classifier loss L
+S5_train_I_D1_val_D2_3,three_class_with_air,source_val,0,,,labels used only for model selection
+S5_train_I_D1_val_D2_3,three_class_with_air,target_labeled_train,16,air:6; alcohol:5; acetone:5,Period_II Day1-Day1,gas labels used only by CDAN-semi
+S5_train_I_D1_val_D2_3,three_class_with_air,target_domain,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,gas labels not used; features used for CDAN domain loss Ld_cdan
+S5_train_I_D1_val_D2_3,three_class_with_air,target_val,26,air:6; alcohol:10; acetone:10,Period_II Day2-Day3,labels used only for model selection
+S5_train_I_D1_val_D2_3,three_class_with_air,target_test,231,air:69; alcohol:81; acetone:81,Period_II Day4-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,labels used only for final evaluation
+S6_train_I_D1_2_val_D3_5,three_class_with_air,source_train,30,air:6; alcohol:12; acetone:12,Period_I Day1-Day3,gas labels used for classifier loss L
+S6_train_I_D1_2_val_D3_5,three_class_with_air,source_val,0,,,labels used only for model selection
+S6_train_I_D1_2_val_D3_5,three_class_with_air,target_labeled_train,28,air:8; alcohol:10; acetone:10,Period_II Day1-Day2,gas labels used only by CDAN-semi
+S6_train_I_D1_2_val_D3_5,three_class_with_air,target_domain,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,gas labels not used; features used for CDAN domain loss Ld_cdan
+S6_train_I_D1_2_val_D3_5,three_class_with_air,target_val,40,air:10; alcohol:15; acetone:15,Period_II Day3-Day5,labels used only for model selection
+S6_train_I_D1_2_val_D3_5,three_class_with_air,target_test,205,air:63; alcohol:71; acetone:71,Period_II Day6-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,labels used only for final evaluation
+S7_train_I_D1_3_val_D4_5,three_class_with_air,source_train,30,air:6; alcohol:12; acetone:12,Period_I Day1-Day3,gas labels used for classifier loss L
+S7_train_I_D1_3_val_D4_5,three_class_with_air,source_val,0,,,labels used only for model selection
+S7_train_I_D1_3_val_D4_5,three_class_with_air,target_labeled_train,42,air:12; alcohol:15; acetone:15,Period_II Day1-Day3,gas labels used only by CDAN-semi
+S7_train_I_D1_3_val_D4_5,three_class_with_air,target_domain,273,air:81; alcohol:96; acetone:96,Period_II Day1-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,gas labels not used; features used for CDAN domain loss Ld_cdan
+S7_train_I_D1_3_val_D4_5,three_class_with_air,target_val,26,air:6; alcohol:10; acetone:10,Period_II Day4-Day5,labels used only for model selection
+S7_train_I_D1_3_val_D4_5,three_class_with_air,target_test,205,air:63; alcohol:71; acetone:71,Period_II Day6-Day17; Period_III Day18-Day21; Period_IV Day22-Day24,labels used only for final evaluation

@@ -1,0 +1,3 @@
+﻿feature_space,sensors,unit,accuracy,balanced_accuracy,alcohol_total_groups,acetone_total_groups,alcohol_correct_groups,acetone_correct_groups,alcohol_as_acetone_groups,acetone_as_alcohol_groups,alcohol_recall,acetone_recall,method
+s1_s2_s3,S1/S2/S3,one post-60s centroid per CSV trial/group,0.9726027397260274,0.9726027397260274,73,73,71,71,2,2,0.9726027397260274,0.9726027397260274,regularized Fisher LDA hyperplane fitted on post-60s group centroids
+s2_s3_s5,S2/S3/S5,one post-60s centroid per CSV trial/group,0.9657534246575342,0.9657534246575342,73,73,71,70,2,3,0.9726027397260274,0.958904109589041,regularized Fisher LDA hyperplane fitted on post-60s group centroids

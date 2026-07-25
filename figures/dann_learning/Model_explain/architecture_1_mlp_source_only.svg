@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="990" viewBox="0 0 1700 990">
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+<path d="M2,2 L10,6 L2,10 Z" fill="#374151"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="850" y="46" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">Source-only MLP Baseline</text>
+<text x="850" y="76" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#4b5563">Three-class only: air / alcohol / acetone. No domain adaptation; test labels are used only after training.</text>
+<rect x="45" y="118" width="360" height="740" rx="12" fill="#f8fafc" stroke="#d1d5db" stroke-width="1"/>
+<rect x="465" y="118" width="385" height="740" rx="12" fill="#f8fafc" stroke="#d1d5db" stroke-width="1"/>
+<rect x="905" y="118" width="355" height="740" rx="12" fill="#f8fafc" stroke="#d1d5db" stroke-width="1"/>
+<rect x="1320" y="118" width="320" height="740" rx="12" fill="#f8fafc" stroke="#d1d5db" stroke-width="1"/>
+<text x="225" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">1. Labeled Source</text>
+<text x="657" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">2. MLP Feature Layers</text>
+<text x="1082" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">3. Gas Prediction</text>
+<text x="1480" y="150" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111827">4. Evaluation</text>
+<rect x="85" y="235" width="280" height="125" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="225" y="265" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#111827">Training input</text>
+<text x="225" y="287" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#111827">X_s in R^(N_s x r)</text>
+<text x="225" y="309" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#111827">r=54, labels y_s available</text>
+<rect x="85" y="435" width="280" height="120" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+<text x="225" y="470" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">Optional validation</text>
+<text x="225" y="492" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">source/target val labels</text>
+<text x="225" y="514" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">S1 has no validation -&gt; NA</text>
+<line x1="365" y1="295" x2="520" y2="295" stroke="#0284c7" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="365" y1="495" x2="520" y2="455" stroke="#6b7280" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="7 6"/>
+<rect x="520" y="250" width="280" height="78" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<text x="660" y="280" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">Feature extractor G_f</text>
+<text x="660" y="298" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">Linear r -&gt; 32, ReLU</text>
+<text x="660" y="316" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">r = 54 in this report</text>
+<rect x="520" y="385" width="280" height="78" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="2"/>
+<text x="660" y="415" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">Dropout 0.05</text>
+<text x="660" y="437" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">Linear 32 -&gt; 16, ReLU</text>
+<rect x="520" y="540" width="280" height="88" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+<text x="660" y="573" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#111827">Latent feature</text>
+<text x="660" y="595" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#111827">h = G_f(x) in R^16</text>
+<line x1="660" y1="328" x2="660" y2="385" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="660" y1="463" x2="660" y2="540" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="800" y1="585" x2="930" y2="300" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="930" y="250" width="285" height="95" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="1072" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">Gas classifier G_y</text>
+<text x="1072" y="303" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">Linear 16 -&gt; C</text>
+<text x="1072" y="321" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">C = 3</text>
+<rect x="930" y="415" width="285" height="110" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="1072" y="453" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">Gas logits z_y</text>
+<text x="1072" y="475" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">softmax -&gt; gas probability</text>
+<text x="1072" y="497" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">prediction: air / alcohol / acetone</text>
+<line x1="1072" y1="345" x2="1072" y2="415" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="920" y="635" width="305" height="170" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="1072" y="665" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">Classification loss</text>
+<text x="1072" y="684" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">z_y = G_y(G_f(x_i))</text>
+<text x="1072" y="703" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">p_i,k = softmax(z_y)_k</text>
+<text x="1072" y="722" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">L = -1/N_cls sum_i log p_i,y_i</text>
+<text x="1072" y="741" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">labels: source labels only</text>
+<line x1="1072" y1="525" x2="1072" y2="635" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1345" y="255" width="270" height="125" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="1480" y="288" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">Test input</text>
+<text x="1480" y="310" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">X_t,test in R^(N_t x 54)</text>
+<text x="1480" y="332" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#111827">test labels hidden during training</text>
+<rect x="1345" y="425" width="270" height="90" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="2"/>
+<text x="1480" y="458" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">Predicted labels</text>
+<text x="1480" y="480" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">y_hat_t = argmax softmax(z_y)</text>
+<rect x="1345" y="585" width="270" height="135" rx="8" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+<text x="1480" y="620" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">Report metrics</text>
+<text x="1480" y="642" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">compare y_hat_t with y_t,test</text>
+<text x="1480" y="664" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">accuracy, balanced acc.</text>
+<text x="1480" y="686" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111827">macro-F1, confusion matrix</text>
+<line x1="1215" y1="470" x2="1345" y2="470" stroke="#0891b2" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1480" y1="515" x2="1480" y2="585" stroke="#059669" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="405" y="885" width="890" height="58" rx="8" fill="#f9fafb" stroke="#111827" stroke-width="2"/>
+<text x="850" y="922" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111827">Optimized objective in code: minimize L only. There is no source-target alignment term.</text>
+<rect x="70" y="615" width="310" height="98" rx="8" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+<text x="225" y="641" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">Label usage</text>
+<text x="225" y="659" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">y_s -&gt; classification loss L</text>
+<text x="225" y="677" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">validation labels -&gt; model selection</text>
+<rect x="1328" y="735" width="295" height="92" rx="8" fill="#faf5ff" stroke="#059669" stroke-width="2"/>
+<text x="1475" y="761" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">Evaluation labels</text>
+<text x="1475" y="779" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">y_t,test is used only after training</text>
+<text x="1475" y="797" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111827">metrics = f(y_hat_t, y_t,test)</text>
+<rect x="40" y="865" width="360" height="112" rx="8" fill="#f9fafb" stroke="#6b7280" stroke-width="1"/>
+<text x="220" y="889" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#374151">Training settings in code</text>
+<text x="220" y="905" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#374151">epochs=400, Adam, lr=0.01, weight_decay=1e-4</text>
+<text x="220" y="921" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#374151">seeds: 7, 11, 23; lambda: 0.05, 0.2, 0.5</text>
+<text x="220" y="937" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#374151">with validation: select by val macro-F1 / BA / acc</text>
+<text x="220" y="953" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#374151">S1 has no validation: fixed defaults; val metrics = NA</text>
+</svg>

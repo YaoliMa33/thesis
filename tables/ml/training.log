@@ -1,0 +1,25 @@
+
+===== START run_manifest_da_baseline_splits.py =====
+Rebuilt feature table from raw data: D:\thesis\tables\manifest_baseline_as_air_features.csv
+Current manifest: D:\thesis\tables\feature_space_current_manifest_samples.csv
+Traceback (most recent call last):
+  File "D:\thesis\code\training\run_manifest_da_baseline_splits.py", line 1841, in <module>
+    main()
+  File "D:\thesis\code\training\run_manifest_da_baseline_splits.py", line 1763, in main
+    rows, seed_rows, cm_rows, split_rows, partition_metric_rows, class_metric_rows, assignment_rows = evaluate_split(features, split, task_name, classes)
+                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\thesis\code\training\run_manifest_da_baseline_splits.py", line 731, in evaluate_split
+    x_val = scaler.transform(x_val_raw)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaoli\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\sklearn\utils\_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaoli\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\sklearn\preprocessing\_data.py", line 1111, in transform
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\Users\yaoli\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\sklearn\utils\validation.py", line 3038, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yaoli\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\sklearn\utils\validation.py", line 1110, in check_array
+    raise ValueError(
+ValueError: Found array with 0 sample(s) (shape=(0, 54)) while a minimum of 1 is required by StandardScaler.

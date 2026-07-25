@@ -1,0 +1,19 @@
+protocol,task,partition,n,class_counts,period_days
+A_cross_period_low_target,three_class,train,36,"air:2, alcohol:17, acetone:17",Period_I Day1-Day3; Period_II Day1-Day1
+A_cross_period_low_target,three_class,validation,24,"air:4, alcohol:10, acetone:10",Period_II Day2-Day3
+A_cross_period_low_target,three_class,test,182,"air:52, alcohol:65, acetone:65",Period_II Day4-Day17; Period_III Day18-Day19
+A_cross_period_low_target,binary_alcohol_acetone,train,34,"alcohol:17, acetone:17",Period_I Day1-Day3; Period_II Day1-Day1
+A_cross_period_low_target,binary_alcohol_acetone,validation,20,"alcohol:10, acetone:10",Period_II Day2-Day3
+A_cross_period_low_target,binary_alcohol_acetone,test,130,"alcohol:65, acetone:65",Period_II Day4-Day17; Period_III Day18-Day19
+B_newdata_temporal,three_class,train,123,"air:21, alcohol:51, acetone:51",Period_II Day1-Day10
+B_newdata_temporal,three_class,validation,31,"air:13, alcohol:9, acetone:9",Period_II Day11-Day13
+B_newdata_temporal,three_class,test,64,"air:24, alcohol:20, acetone:20",Period_II Day14-Day17; Period_III Day18-Day19
+B_newdata_temporal,binary_alcohol_acetone,train,102,"alcohol:51, acetone:51",Period_II Day1-Day10
+B_newdata_temporal,binary_alcohol_acetone,validation,18,"alcohol:9, acetone:9",Period_II Day11-Day13
+B_newdata_temporal,binary_alcohol_acetone,test,40,"alcohol:20, acetone:20",Period_II Day14-Day17; Period_III Day18-Day19
+C_recent_to_period3,three_class,train,170,"air:44, alcohol:63, acetone:63",Period_II Day1-Day15
+C_recent_to_period3,three_class,validation,28,"air:8, alcohol:10, acetone:10",Period_II Day16-Day17
+C_recent_to_period3,three_class,test,20,"air:6, alcohol:7, acetone:7",Period_III Day18-Day19
+C_recent_to_period3,binary_alcohol_acetone,train,126,"alcohol:63, acetone:63",Period_II Day1-Day14
+C_recent_to_period3,binary_alcohol_acetone,validation,20,"alcohol:10, acetone:10",Period_II Day16-Day17
+C_recent_to_period3,binary_alcohol_acetone,test,14,"alcohol:7, acetone:7",Period_III Day18-Day19

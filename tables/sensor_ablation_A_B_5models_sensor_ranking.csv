@@ -1,0 +1,13 @@
+sensor,mean_importance,models_where_removal_hurts,protocol
+s1,0.0,0,A_fixed_chronological
+s2,0.020000000000000018,2,A_fixed_chronological
+s3,0.006666666666666665,1,A_fixed_chronological
+s4,0.0,0,A_fixed_chronological
+s5,0.0,0,A_fixed_chronological
+s6,0.0,0,A_fixed_chronological
+s1,0.01865079365079365,3,B_rolling_chronological
+s2,0.02968253968253969,3,B_rolling_chronological
+s3,0.011349206349206345,3,B_rolling_chronological
+s4,0.004285714285714287,2,B_rolling_chronological
+s5,-0.0008730158730158699,3,B_rolling_chronological
+s6,-0.022619047619047622,0,B_rolling_chronological

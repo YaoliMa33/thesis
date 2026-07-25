@@ -1,0 +1,9 @@
+task,partition,n,class_counts
+three_class_with_air,source,30,air:6; alcohol:12; acetone:12
+three_class_with_air,target_cal,16,air:6; alcohol:5; acetone:5
+three_class_with_air,val,26,air:6; alcohol:10; acetone:10
+three_class_with_air,test,185,air:55; alcohol:65; acetone:65
+binary_without_air,source,24,alcohol:12; acetone:12
+binary_without_air,target_cal,10,alcohol:5; acetone:5
+binary_without_air,val,20,alcohol:10; acetone:10
+binary_without_air,test,130,alcohol:65; acetone:65

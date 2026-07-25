@@ -1,0 +1,73 @@
+experiment,split,task,partition,n,class_counts,period_days
+amplitude_only,S1_train_I_test_all,three_class_with_air,train,30,air:6; alcohol:12; acetone:12,Period_I Day1-Day3
+amplitude_only,S1_train_I_test_all,three_class_with_air,validation,0,,
+amplitude_only,S1_train_I_test_all,three_class_with_air,test,227,air:67; alcohol:80; acetone:80,Period_II Day1-Day17; Period_III Day18-Day19
+amplitude_only,S1_train_I_test_all,binary_without_air,train,24,alcohol:12; acetone:12,Period_I Day1-Day3
+amplitude_only,S1_train_I_test_all,binary_without_air,validation,0,,
+amplitude_only,S1_train_I_test_all,binary_without_air,test,160,alcohol:80; acetone:80,Period_II Day1-Day17; Period_III Day18-Day19
+amplitude_only,S2_train_I_internal_val_test_all,three_class_with_air,train,25,air:5; alcohol:10; acetone:10,Period_I Day1-Day3
+amplitude_only,S2_train_I_internal_val_test_all,three_class_with_air,validation,5,air:1; alcohol:2; acetone:2,Period_I Day1-Day3
+amplitude_only,S2_train_I_internal_val_test_all,three_class_with_air,test,227,air:67; alcohol:80; acetone:80,Period_II Day1-Day17; Period_III Day18-Day19
+amplitude_only,S2_train_I_internal_val_test_all,binary_without_air,train,20,alcohol:10; acetone:10,Period_I Day1-Day3
+amplitude_only,S2_train_I_internal_val_test_all,binary_without_air,validation,4,alcohol:2; acetone:2,Period_I Day1-Day3
+amplitude_only,S2_train_I_internal_val_test_all,binary_without_air,test,160,alcohol:80; acetone:80,Period_II Day1-Day17; Period_III Day18-Day19
+amplitude_only,S3_train_I_val_D1_2,three_class_with_air,train,30,air:6; alcohol:12; acetone:12,Period_I Day1-Day3
+amplitude_only,S3_train_I_val_D1_2,three_class_with_air,validation,28,air:8; alcohol:10; acetone:10,Period_II Day1-Day2
+amplitude_only,S3_train_I_val_D1_2,three_class_with_air,test,199,air:59; alcohol:70; acetone:70,Period_II Day3-Day17; Period_III Day18-Day19
+amplitude_only,S3_train_I_val_D1_2,binary_without_air,train,24,alcohol:12; acetone:12,Period_I Day1-Day3
+amplitude_only,S3_train_I_val_D1_2,binary_without_air,validation,20,alcohol:10; acetone:10,Period_II Day1-Day2
+amplitude_only,S3_train_I_val_D1_2,binary_without_air,test,140,alcohol:70; acetone:70,Period_II Day3-Day17; Period_III Day18-Day19
+amplitude_only,S4_train_I_D1_val_D2_3,three_class_with_air,train,46,air:12; alcohol:17; acetone:17,Period_I Day1-Day3; Period_II Day1-Day1
+amplitude_only,S4_train_I_D1_val_D2_3,three_class_with_air,validation,26,air:6; alcohol:10; acetone:10,Period_II Day2-Day3
+amplitude_only,S4_train_I_D1_val_D2_3,three_class_with_air,test,185,air:55; alcohol:65; acetone:65,Period_II Day4-Day17; Period_III Day18-Day19
+amplitude_only,S4_train_I_D1_val_D2_3,binary_without_air,train,34,alcohol:17; acetone:17,Period_I Day1-Day3; Period_II Day1-Day1
+amplitude_only,S4_train_I_D1_val_D2_3,binary_without_air,validation,20,alcohol:10; acetone:10,Period_II Day2-Day3
+amplitude_only,S4_train_I_D1_val_D2_3,binary_without_air,test,130,alcohol:65; acetone:65,Period_II Day4-Day17; Period_III Day18-Day19
+amplitude_only,S5_train_I_D1_2_val_D3_5,three_class_with_air,train,58,air:14; alcohol:22; acetone:22,Period_I Day1-Day3; Period_II Day1-Day2
+amplitude_only,S5_train_I_D1_2_val_D3_5,three_class_with_air,validation,40,air:10; alcohol:15; acetone:15,Period_II Day3-Day5
+amplitude_only,S5_train_I_D1_2_val_D3_5,three_class_with_air,test,159,air:49; alcohol:55; acetone:55,Period_II Day6-Day17; Period_III Day18-Day19
+amplitude_only,S5_train_I_D1_2_val_D3_5,binary_without_air,train,44,alcohol:22; acetone:22,Period_I Day1-Day3; Period_II Day1-Day2
+amplitude_only,S5_train_I_D1_2_val_D3_5,binary_without_air,validation,30,alcohol:15; acetone:15,Period_II Day3-Day5
+amplitude_only,S5_train_I_D1_2_val_D3_5,binary_without_air,test,110,alcohol:55; acetone:55,Period_II Day6-Day17; Period_III Day18-Day19
+amplitude_only,S6_train_I_D1_3_val_D4_5,three_class_with_air,train,72,air:18; alcohol:27; acetone:27,Period_I Day1-Day3; Period_II Day1-Day3
+amplitude_only,S6_train_I_D1_3_val_D4_5,three_class_with_air,validation,26,air:6; alcohol:10; acetone:10,Period_II Day4-Day5
+amplitude_only,S6_train_I_D1_3_val_D4_5,three_class_with_air,test,159,air:49; alcohol:55; acetone:55,Period_II Day6-Day17; Period_III Day18-Day19
+amplitude_only,S6_train_I_D1_3_val_D4_5,binary_without_air,train,54,alcohol:27; acetone:27,Period_I Day1-Day3; Period_II Day1-Day3
+amplitude_only,S6_train_I_D1_3_val_D4_5,binary_without_air,validation,20,alcohol:10; acetone:10,Period_II Day4-Day5
+amplitude_only,S6_train_I_D1_3_val_D4_5,binary_without_air,test,110,alcohol:55; acetone:55,Period_II Day6-Day17; Period_III Day18-Day19
+shape_normalized,S1_train_I_test_all,three_class_with_air,train,30,air:6; alcohol:12; acetone:12,Period_I Day1-Day3
+shape_normalized,S1_train_I_test_all,three_class_with_air,validation,0,,
+shape_normalized,S1_train_I_test_all,three_class_with_air,test,227,air:67; alcohol:80; acetone:80,Period_II Day1-Day17; Period_III Day18-Day19
+shape_normalized,S1_train_I_test_all,binary_without_air,train,24,alcohol:12; acetone:12,Period_I Day1-Day3
+shape_normalized,S1_train_I_test_all,binary_without_air,validation,0,,
+shape_normalized,S1_train_I_test_all,binary_without_air,test,160,alcohol:80; acetone:80,Period_II Day1-Day17; Period_III Day18-Day19
+shape_normalized,S2_train_I_internal_val_test_all,three_class_with_air,train,25,air:5; alcohol:10; acetone:10,Period_I Day1-Day3
+shape_normalized,S2_train_I_internal_val_test_all,three_class_with_air,validation,5,air:1; alcohol:2; acetone:2,Period_I Day1-Day3
+shape_normalized,S2_train_I_internal_val_test_all,three_class_with_air,test,227,air:67; alcohol:80; acetone:80,Period_II Day1-Day17; Period_III Day18-Day19
+shape_normalized,S2_train_I_internal_val_test_all,binary_without_air,train,20,alcohol:10; acetone:10,Period_I Day1-Day3
+shape_normalized,S2_train_I_internal_val_test_all,binary_without_air,validation,4,alcohol:2; acetone:2,Period_I Day1-Day3
+shape_normalized,S2_train_I_internal_val_test_all,binary_without_air,test,160,alcohol:80; acetone:80,Period_II Day1-Day17; Period_III Day18-Day19
+shape_normalized,S3_train_I_val_D1_2,three_class_with_air,train,30,air:6; alcohol:12; acetone:12,Period_I Day1-Day3
+shape_normalized,S3_train_I_val_D1_2,three_class_with_air,validation,28,air:8; alcohol:10; acetone:10,Period_II Day1-Day2
+shape_normalized,S3_train_I_val_D1_2,three_class_with_air,test,199,air:59; alcohol:70; acetone:70,Period_II Day3-Day17; Period_III Day18-Day19
+shape_normalized,S3_train_I_val_D1_2,binary_without_air,train,24,alcohol:12; acetone:12,Period_I Day1-Day3
+shape_normalized,S3_train_I_val_D1_2,binary_without_air,validation,20,alcohol:10; acetone:10,Period_II Day1-Day2
+shape_normalized,S3_train_I_val_D1_2,binary_without_air,test,140,alcohol:70; acetone:70,Period_II Day3-Day17; Period_III Day18-Day19
+shape_normalized,S4_train_I_D1_val_D2_3,three_class_with_air,train,46,air:12; alcohol:17; acetone:17,Period_I Day1-Day3; Period_II Day1-Day1
+shape_normalized,S4_train_I_D1_val_D2_3,three_class_with_air,validation,26,air:6; alcohol:10; acetone:10,Period_II Day2-Day3
+shape_normalized,S4_train_I_D1_val_D2_3,three_class_with_air,test,185,air:55; alcohol:65; acetone:65,Period_II Day4-Day17; Period_III Day18-Day19
+shape_normalized,S4_train_I_D1_val_D2_3,binary_without_air,train,34,alcohol:17; acetone:17,Period_I Day1-Day3; Period_II Day1-Day1
+shape_normalized,S4_train_I_D1_val_D2_3,binary_without_air,validation,20,alcohol:10; acetone:10,Period_II Day2-Day3
+shape_normalized,S4_train_I_D1_val_D2_3,binary_without_air,test,130,alcohol:65; acetone:65,Period_II Day4-Day17; Period_III Day18-Day19
+shape_normalized,S5_train_I_D1_2_val_D3_5,three_class_with_air,train,58,air:14; alcohol:22; acetone:22,Period_I Day1-Day3; Period_II Day1-Day2
+shape_normalized,S5_train_I_D1_2_val_D3_5,three_class_with_air,validation,40,air:10; alcohol:15; acetone:15,Period_II Day3-Day5
+shape_normalized,S5_train_I_D1_2_val_D3_5,three_class_with_air,test,159,air:49; alcohol:55; acetone:55,Period_II Day6-Day17; Period_III Day18-Day19
+shape_normalized,S5_train_I_D1_2_val_D3_5,binary_without_air,train,44,alcohol:22; acetone:22,Period_I Day1-Day3; Period_II Day1-Day2
+shape_normalized,S5_train_I_D1_2_val_D3_5,binary_without_air,validation,30,alcohol:15; acetone:15,Period_II Day3-Day5
+shape_normalized,S5_train_I_D1_2_val_D3_5,binary_without_air,test,110,alcohol:55; acetone:55,Period_II Day6-Day17; Period_III Day18-Day19
+shape_normalized,S6_train_I_D1_3_val_D4_5,three_class_with_air,train,72,air:18; alcohol:27; acetone:27,Period_I Day1-Day3; Period_II Day1-Day3
+shape_normalized,S6_train_I_D1_3_val_D4_5,three_class_with_air,validation,26,air:6; alcohol:10; acetone:10,Period_II Day4-Day5
+shape_normalized,S6_train_I_D1_3_val_D4_5,three_class_with_air,test,159,air:49; alcohol:55; acetone:55,Period_II Day6-Day17; Period_III Day18-Day19
+shape_normalized,S6_train_I_D1_3_val_D4_5,binary_without_air,train,54,alcohol:27; acetone:27,Period_I Day1-Day3; Period_II Day1-Day3
+shape_normalized,S6_train_I_D1_3_val_D4_5,binary_without_air,validation,20,alcohol:10; acetone:10,Period_II Day4-Day5
+shape_normalized,S6_train_I_D1_3_val_D4_5,binary_without_air,test,110,alcohol:55; acetone:55,Period_II Day6-Day17; Period_III Day18-Day19

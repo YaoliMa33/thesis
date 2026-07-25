@@ -1,0 +1,57 @@
+samples_per_class,model,true_label,predicted_label,count
+1,LDA,acetone,alcohol,700
+1,LDA,alcohol,alcohol,700
+1,Logistic Regression,acetone,acetone,354
+1,Logistic Regression,acetone,alcohol,346
+1,Logistic Regression,alcohol,acetone,342
+1,Logistic Regression,alcohol,alcohol,358
+1,RBF LS-SVM,acetone,acetone,318
+1,RBF LS-SVM,acetone,alcohol,382
+1,RBF LS-SVM,alcohol,acetone,308
+1,RBF LS-SVM,alcohol,alcohol,392
+1,Random Forest,acetone,acetone,352
+1,Random Forest,acetone,alcohol,348
+1,Random Forest,alcohol,acetone,283
+1,Random Forest,alcohol,alcohol,417
+1,kNN,acetone,alcohol,700
+1,kNN,alcohol,alcohol,700
+2,LDA,acetone,acetone,455
+2,LDA,acetone,alcohol,245
+2,LDA,alcohol,acetone,317
+2,LDA,alcohol,alcohol,383
+2,Logistic Regression,acetone,acetone,445
+2,Logistic Regression,acetone,alcohol,255
+2,Logistic Regression,alcohol,acetone,310
+2,Logistic Regression,alcohol,alcohol,390
+2,RBF LS-SVM,acetone,acetone,478
+2,RBF LS-SVM,acetone,alcohol,222
+2,RBF LS-SVM,alcohol,acetone,321
+2,RBF LS-SVM,alcohol,alcohol,379
+2,Random Forest,acetone,acetone,507
+2,Random Forest,acetone,alcohol,193
+2,Random Forest,alcohol,acetone,309
+2,Random Forest,alcohol,alcohol,391
+2,kNN,acetone,acetone,256
+2,kNN,acetone,alcohol,444
+2,kNN,alcohol,acetone,155
+2,kNN,alcohol,alcohol,545
+3,LDA,acetone,acetone,450
+3,LDA,acetone,alcohol,250
+3,LDA,alcohol,acetone,252
+3,LDA,alcohol,alcohol,448
+3,Logistic Regression,acetone,acetone,477
+3,Logistic Regression,acetone,alcohol,223
+3,Logistic Regression,alcohol,acetone,284
+3,Logistic Regression,alcohol,alcohol,416
+3,RBF LS-SVM,acetone,acetone,514
+3,RBF LS-SVM,acetone,alcohol,186
+3,RBF LS-SVM,alcohol,acetone,306
+3,RBF LS-SVM,alcohol,alcohol,394
+3,Random Forest,acetone,acetone,576
+3,Random Forest,acetone,alcohol,124
+3,Random Forest,alcohol,acetone,335
+3,Random Forest,alcohol,alcohol,365
+3,kNN,acetone,acetone,384
+3,kNN,acetone,alcohol,316
+3,kNN,alcohol,acetone,183
+3,kNN,alcohol,alcohol,517

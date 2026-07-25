@@ -1,0 +1,18 @@
+{
+  "protocol": "validation-only selection followed by from-scratch train+validation refit",
+  "validation_after_refit": "consumed; not an independent evaluation partition",
+  "test_label_usage": "evaluation only",
+  "target_feature_usage": "transductive for DANN domain loss",
+  "warning": "S4-S7 final refits use target validation labels and are not UDA",
+  "architectures": [
+    "two-layer G_f: 54->32->16",
+    "one-layer G_f: 54->16"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

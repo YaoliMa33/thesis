@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local Codex / temporary workspace state not part of the thesis package.
+.agents/
+.codex/
+.pycache/
+.tmp_pycache/
+tmp/
+thesis_out/
+thesis_report_builder/
+tools/
+training_logs/
+training_output/
+enose_data/
+
+# Older root-level scratch copies; canonical versions are under code/ or docs.
+extract_uci_style_features_and_feature_spaces.py
+generate_uci_full_feature_pca_spaces_all_sensors.py
+literature_method_inspect.py
+paper_text.txt
+pdf_extract_*.txt
+
+# Large or regenerated artifacts.
+tables/**/checkpoints/
+tables/opensource_da_48_54/predictions.csv
+*.pt
+*.pth
+*.ckpt

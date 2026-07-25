@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="614" viewBox="0 0 1800 614">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="35" y="44" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">9-feature DANN vs C-DANN Summary</text>
+<text x="35" y="78" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4b5563">Features: 9 feature families x 6 sensors = 54-dimensional input vector per trial. C-DANN adds class-conditional latent centroid alignment.</text>
+<text x="35" y="105" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#4b5563">Positive mixing delta and negative centroid delta indicate better source-target mixing in the plotted latent space.</text>
+<rect x="25" y="135" width="1750" height="38" rx="6" fill="#f3f4f6" stroke="#d1d5db"/>
+<text x="35" y="160" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Split</text>
+<text x="300" y="160" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Task</text>
+<text x="610" y="160" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Variant</text>
+<text x="815" y="160" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Test old</text>
+<text x="990" y="160" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Test C-DANN</text>
+<text x="1165" y="160" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Delta</text>
+<text x="1335" y="160" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Domain old/new</text>
+<text x="1505" y="160" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Centroid delta</text>
+<text x="1665" y="160" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#111827">Mixing delta</text>
+<rect x="25" y="181" width="1750" height="29" fill="#ffffff" stroke="#eef2f7"/>
+<text x="35" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S1_train_I_test_all</text>
+<text x="300" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-UDA -&gt; C-DANN-UDA</text>
+<text x="815" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">74.7%</text>
+<text x="990" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">88.8%</text>
+<text x="1165" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.141</text>
+<text x="1335" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">90.4% / 90.1%</text>
+<text x="1505" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-0.851</text>
+<text x="1665" y="200" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.030</text>
+<rect x="25" y="210" width="1750" height="29" fill="#f9fafb" stroke="#eef2f7"/>
+<text x="35" y="229" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S2_train_I_internal_val_test_all</text>
+<text x="300" y="229" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="229" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-UDA -&gt; C-DANN-UDA</text>
+<text x="815" y="229" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">70.4%</text>
+<text x="990" y="229" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">77.9%</text>
+<text x="1165" y="229" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.075</text>
+<text x="1335" y="229" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">91.6% / 91.6%</text>
+<text x="1505" y="229" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-0.893</text>
+<text x="1665" y="229" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.059</text>
+<rect x="25" y="239" width="1750" height="29" fill="#ffffff" stroke="#eef2f7"/>
+<text x="35" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S3_train_I_internal_20_10_test_all</text>
+<text x="300" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-UDA -&gt; C-DANN-UDA</text>
+<text x="815" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">67.4%</text>
+<text x="990" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">69.3%</text>
+<text x="1165" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.019</text>
+<text x="1335" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">93.2% / 93.2%</text>
+<text x="1505" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.039</text>
+<text x="1665" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-0.025</text>
+<rect x="25" y="268" width="1750" height="29" fill="#f9fafb" stroke="#eef2f7"/>
+<text x="35" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S4_train_I_val_D1_2</text>
+<text x="300" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-UDA -&gt; C-DANN-UDA</text>
+<text x="815" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">78.3%</text>
+<text x="990" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">85.1%</text>
+<text x="1165" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.069</text>
+<text x="1335" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">90.0% / 90.2%</text>
+<text x="1505" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-0.564</text>
+<text x="1665" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.014</text>
+<rect x="25" y="297" width="1750" height="29" fill="#ffffff" stroke="#eef2f7"/>
+<text x="35" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S5_train_I_D1_val_D2_3</text>
+<text x="300" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-UDA -&gt; C-DANN-UDA</text>
+<text x="815" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">78.1%</text>
+<text x="990" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">86.6%</text>
+<text x="1165" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.085</text>
+<text x="1335" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">90.2% / 90.1%</text>
+<text x="1505" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-0.431</text>
+<text x="1665" y="316" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.019</text>
+<rect x="25" y="326" width="1750" height="29" fill="#f9fafb" stroke="#eef2f7"/>
+<text x="35" y="345" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S5_train_I_D1_val_D2_3</text>
+<text x="300" y="345" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="345" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-semi -&gt; C-DANN-semi</text>
+<text x="815" y="345" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">84.9%</text>
+<text x="990" y="345" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">86.7%</text>
+<text x="1165" y="345" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.017</text>
+<text x="1335" y="345" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">90.0% / 89.9%</text>
+<text x="1505" y="345" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-0.276</text>
+<text x="1665" y="345" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.004</text>
+<rect x="25" y="355" width="1750" height="29" fill="#ffffff" stroke="#eef2f7"/>
+<text x="35" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S6_train_I_D1_2_val_D3_5</text>
+<text x="300" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-UDA -&gt; C-DANN-UDA</text>
+<text x="815" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">69.8%</text>
+<text x="990" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">83.9%</text>
+<text x="1165" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.141</text>
+<text x="1335" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">90.4% / 90.1%</text>
+<text x="1505" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-0.486</text>
+<text x="1665" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.007</text>
+<rect x="25" y="384" width="1750" height="29" fill="#f9fafb" stroke="#eef2f7"/>
+<text x="35" y="403" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S6_train_I_D1_2_val_D3_5</text>
+<text x="300" y="403" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="403" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-semi -&gt; C-DANN-semi</text>
+<text x="815" y="403" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">89.1%</text>
+<text x="990" y="403" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">92.6%</text>
+<text x="1165" y="403" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.035</text>
+<text x="1335" y="403" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">90.4% / 90.1%</text>
+<text x="1505" y="403" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-0.273</text>
+<text x="1665" y="403" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.011</text>
+<rect x="25" y="413" width="1750" height="29" fill="#ffffff" stroke="#eef2f7"/>
+<text x="35" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S7_train_I_D1_3_val_D4_5</text>
+<text x="300" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-UDA -&gt; C-DANN-UDA</text>
+<text x="815" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">69.8%</text>
+<text x="990" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">84.1%</text>
+<text x="1165" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.143</text>
+<text x="1335" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">90.4% / 90.1%</text>
+<text x="1505" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-1.089</text>
+<text x="1665" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.011</text>
+<rect x="25" y="442" width="1750" height="29" fill="#f9fafb" stroke="#eef2f7"/>
+<text x="35" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">S7_train_I_D1_3_val_D4_5</text>
+<text x="300" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">three_class_with_air</text>
+<text x="610" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">DANN-semi -&gt; C-DANN-semi</text>
+<text x="815" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">92.1%</text>
+<text x="990" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">94.0%</text>
+<text x="1165" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.019</text>
+<text x="1335" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">89.9% / 90.0%</text>
+<text x="1505" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">-0.020</text>
+<text x="1665" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#111827">+0.001</text>
+<text x="35" y="566" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#374151">This table reports raw deltas only; it does not apply threshold-based pass/fail labels.</text>
+</svg>

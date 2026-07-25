@@ -1,0 +1,25 @@
+protocol,split_id,partition,n,days,dates,air,alcohol,acetone
+A_fixed_chronological,A,train,113,"Day1, Day10, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9","2026-05-14, 2026-05-15, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-24, 2026-05-26, 2026-05-27",19,47,47
+A_fixed_chronological,A,validation,55,"Day11, Day12, Day13, Day14, Day15","2026-05-28, 2026-05-29, 2026-05-30, 2026-05-31, 2026-06-01",23,16,16
+A_fixed_chronological,A,test,28,"Day16, Day17","2026-06-04, 2026-06-05",8,10,10
+B_rolling_chronological,B_Day11,train,91,"Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8","2026-05-14, 2026-05-15, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-24",15,38,38
+B_rolling_chronological,B_Day11,validation,22,"Day10, Day9","2026-05-26, 2026-05-27",4,9,9
+B_rolling_chronological,B_Day11,test,10,Day11,2026-05-28,2,4,4
+B_rolling_chronological,B_Day12,train,103,"Day1, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9","2026-05-14, 2026-05-15, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-24, 2026-05-26",17,43,43
+B_rolling_chronological,B_Day12,validation,20,"Day10, Day11","2026-05-27, 2026-05-28",4,8,8
+B_rolling_chronological,B_Day12,test,10,Day12,2026-05-29,2,4,4
+B_rolling_chronological,B_Day13,train,113,"Day1, Day10, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9","2026-05-14, 2026-05-15, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-24, 2026-05-26, 2026-05-27",19,47,47
+B_rolling_chronological,B_Day13,validation,20,"Day11, Day12","2026-05-28, 2026-05-29",4,8,8
+B_rolling_chronological,B_Day13,test,9,Day13,2026-05-30,5,2,2
+B_rolling_chronological,B_Day14,train,123,"Day1, Day10, Day11, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9","2026-05-14, 2026-05-15, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-24, 2026-05-26, 2026-05-27, 2026-05-28",21,51,51
+B_rolling_chronological,B_Day14,validation,19,"Day12, Day13","2026-05-29, 2026-05-30",7,6,6
+B_rolling_chronological,B_Day14,test,12,Day14,2026-05-31,6,3,3
+B_rolling_chronological,B_Day15,train,133,"Day1, Day10, Day11, Day12, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9","2026-05-14, 2026-05-15, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-24, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29",23,55,55
+B_rolling_chronological,B_Day15,validation,21,"Day13, Day14","2026-05-30, 2026-05-31",11,5,5
+B_rolling_chronological,B_Day15,test,14,Day15,2026-06-01,8,3,3
+B_rolling_chronological,B_Day16,train,142,"Day1, Day10, Day11, Day12, Day13, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9","2026-05-14, 2026-05-15, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-24, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29, 2026-05-30",28,57,57
+B_rolling_chronological,B_Day16,validation,26,"Day14, Day15","2026-05-31, 2026-06-01",14,6,6
+B_rolling_chronological,B_Day16,test,14,Day16,2026-06-04,4,5,5
+B_rolling_chronological,B_Day17,train,154,"Day1, Day10, Day11, Day12, Day13, Day14, Day2, Day3, Day4, Day5, Day6, Day7, Day8, Day9","2026-05-14, 2026-05-15, 2026-05-19, 2026-05-20, 2026-05-21, 2026-05-22, 2026-05-23, 2026-05-24, 2026-05-26, 2026-05-27, 2026-05-28, 2026-05-29, 2026-05-30, 2026-05-31",34,60,60
+B_rolling_chronological,B_Day17,validation,28,"Day15, Day16","2026-06-01, 2026-06-04",12,8,8
+B_rolling_chronological,B_Day17,test,14,Day17,2026-06-05,4,5,5

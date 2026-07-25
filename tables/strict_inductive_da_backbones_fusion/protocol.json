@@ -1,0 +1,139 @@
+{
+  "status": "exploratory strict-inductive reanalysis of previously inspected data",
+  "classes": [
+    "air",
+    "alcohol",
+    "acetone"
+  ],
+  "features": 54,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 400,
+  "requested_experiments": [
+    "fusion-dann"
+  ],
+  "requested_splits": [
+    "SI1_train_I_D1_val_D2_test_D3plus",
+    "SI2_train_I_D1_val_D2_3_test_D4plus",
+    "SI3_train_I_D1_2_val_D3_5_test_D6plus",
+    "SI4_train_I_D1_3_val_D4_5_test_D6plus"
+  ],
+  "test_boundary": "target test features and labels excluded from all training and selection",
+  "selection": "validation selects epoch only; method strengths and LR C are fixed",
+  "fixed_strengths": {
+    "dann": {
+      "alignment": 0.2,
+      "centroid": 0.0
+    },
+    "cdan": {
+      "alignment": 0.2,
+      "centroid": 0.0
+    },
+    "c-dann": {
+      "alignment": 0.2,
+      "centroid": 0.2
+    },
+    "mk-mmd": {
+      "alignment": 0.1,
+      "centroid": 0.0
+    },
+    "deep-coral": {
+      "alignment": 0.1,
+      "centroid": 0.0
+    }
+  },
+  "LR_C": 1.0,
+  "backbones": {
+    "linear54": "identity-initialized trainable Linear(54,54)",
+    "residual54": "h=x+F(x), F:54->64->54, zero-initialized final layer",
+    "compressed16": "54->16 ReLU/Dropout feature extractor"
+  },
+  "naming": {
+    "CDAN": "T(h,g)=g outer h conditional domain discriminator",
+    "C-DANN": "project custom DANN plus class-wise centroid loss"
+  },
+  "experiments": {
+    "linear54-dann": {
+      "name": "linear54-dann",
+      "family": "noncompressive-54D",
+      "backbone": "linear54",
+      "method": "dann",
+      "probe": "latent"
+    },
+    "linear54-cdan": {
+      "name": "linear54-cdan",
+      "family": "noncompressive-54D",
+      "backbone": "linear54",
+      "method": "cdan",
+      "probe": "latent"
+    },
+    "linear54-c-dann": {
+      "name": "linear54-c-dann",
+      "family": "noncompressive-54D",
+      "backbone": "linear54",
+      "method": "c-dann",
+      "probe": "latent"
+    },
+    "residual54-dann": {
+      "name": "residual54-dann",
+      "family": "noncompressive-54D",
+      "backbone": "residual54",
+      "method": "dann",
+      "probe": "latent"
+    },
+    "residual54-cdan": {
+      "name": "residual54-cdan",
+      "family": "noncompressive-54D",
+      "backbone": "residual54",
+      "method": "cdan",
+      "probe": "latent"
+    },
+    "residual54-c-dann": {
+      "name": "residual54-c-dann",
+      "family": "noncompressive-54D",
+      "backbone": "residual54",
+      "method": "c-dann",
+      "probe": "latent"
+    },
+    "fusion-dann": {
+      "name": "fusion-dann",
+      "family": "raw-plus-latent-fusion",
+      "backbone": "compressed16",
+      "method": "dann",
+      "probe": "fusion"
+    },
+    "fusion-cdan": {
+      "name": "fusion-cdan",
+      "family": "raw-plus-latent-fusion",
+      "backbone": "compressed16",
+      "method": "cdan",
+      "probe": "fusion"
+    },
+    "fusion-c-dann": {
+      "name": "fusion-c-dann",
+      "family": "raw-plus-latent-fusion",
+      "backbone": "compressed16",
+      "method": "c-dann",
+      "probe": "fusion"
+    },
+    "fusion-mk-mmd": {
+      "name": "fusion-mk-mmd",
+      "family": "raw-plus-latent-fusion",
+      "backbone": "compressed16",
+      "method": "mk-mmd",
+      "probe": "fusion"
+    },
+    "fusion-deep-coral": {
+      "name": "fusion-deep-coral",
+      "family": "raw-plus-latent-fusion",
+      "backbone": "compressed16",
+      "method": "deep-coral",
+      "probe": "fusion"
+    }
+  }
+}

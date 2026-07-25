@@ -1,0 +1,424 @@
+split,task,partition,target_file,label,period,day,day_num,day_label,batch,sample_id
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o1.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o1
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o3.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o3
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o5.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o5
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o6.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o6
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o7.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o7
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o8.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o8
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o9.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o9
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o10.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o10
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o11.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o11
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,acetone\acetone_o12.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o12
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,air\baseline_1.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_1
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,air\baseline_3.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_3
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,air\baseline_4.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_4
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,air\baseline_5.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_5
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,air\baseline_6.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_6
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o1.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o1
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o2.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o2
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o3.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o3
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o5.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o5
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o6.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o6
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o7.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o7
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o8.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o8
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o9.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o9
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o10.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o10
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,alcohol\alcohol_o12.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o12
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,validation,acetone\acetone_o2.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o2
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,validation,acetone\acetone_o4.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o4
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,validation,air\baseline_7.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_7
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,validation,alcohol\alcohol_o4.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o4
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,validation,alcohol\alcohol_o11.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o11
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_1.csv,acetone,Period_II,Day 1,1,Period II Day 1,batch1,acetone_1
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_2.csv,acetone,Period_II,Day 1,1,Period II Day 1,batch1,acetone_2
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_3.csv,acetone,Period_II,Day 1,1,Period II Day 1,batch1,acetone_3
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_4.csv,acetone,Period_II,Day 1,1,Period II Day 1,batch1,acetone_4
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_5.csv,acetone,Period_II,Day 1,1,Period II Day 1,batch1,acetone_5
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_6.csv,acetone,Period_II,Day 2,2,Period II Day 2,batch1,acetone_6
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_7.csv,acetone,Period_II,Day 2,2,Period II Day 2,batch1,acetone_7
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_8.csv,acetone,Period_II,Day 2,2,Period II Day 2,batch1,acetone_8
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_9.csv,acetone,Period_II,Day 2,2,Period II Day 2,batch1,acetone_9
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,acetone\acetone_10.csv,acetone,Period_II,Day 2,2,Period II Day 2,batch1,acetone_10
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,air\air_1.csv,air,Period_II,Day 1,1,Period II Day 1,batch1,air_1
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,air\air_2.csv,air,Period_II,Day 1,1,Period II Day 1,batch1,air_2
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,air\air_3.csv,air,Period_II,Day 2,2,Period II Day 2,batch1,air_3
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,air\air_4.csv,air,Period_II,Day 2,2,Period II Day 2,batch1,air_4
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,air\reference_1.csv,air,Period_II,Day 1,1,Period II Day 1,batch1,reference_1
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,air\reference_2.csv,air,Period_II,Day 1,1,Period II Day 1,batch1,reference_2
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,air\reference_3.csv,air,Period_II,Day 1,1,Period II Day 1,batch1,reference_3
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,air\reference_4.csv,air,Period_II,Day 1,1,Period II Day 1,batch1,reference_4
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_1.csv,alcohol,Period_II,Day 1,1,Period II Day 1,batch1,alcohol_1
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_2.csv,alcohol,Period_II,Day 1,1,Period II Day 1,batch1,alcohol_2
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_3.csv,alcohol,Period_II,Day 1,1,Period II Day 1,batch1,alcohol_3
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_4.csv,alcohol,Period_II,Day 1,1,Period II Day 1,batch1,alcohol_4
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_5.csv,alcohol,Period_II,Day 1,1,Period II Day 1,batch1,alcohol_5
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_6.csv,alcohol,Period_II,Day 2,2,Period II Day 2,batch1,alcohol_6
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_7.csv,alcohol,Period_II,Day 2,2,Period II Day 2,batch1,alcohol_7
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_8.csv,alcohol,Period_II,Day 2,2,Period II Day 2,batch1,alcohol_8
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_9.csv,alcohol,Period_II,Day 2,2,Period II Day 2,batch1,alcohol_9
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,alcohol\alcohol_10.csv,alcohol,Period_II,Day 2,2,Period II Day 2,batch1,alcohol_10
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o1.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o1
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o3.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o3
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o5.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o5
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o6.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o6
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o7.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o7
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o8.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o8
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o9.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o9
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o10.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o10
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o11.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o11
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,acetone\acetone_o12.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o12
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,air\baseline_1.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_1
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,air\baseline_3.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_3
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,air\baseline_4.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_4
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,air\baseline_5.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_5
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,air\baseline_6.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_6
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o1.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o1
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o2.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o2
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o3.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o3
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o5.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o5
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o6.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o6
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o7.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o7
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o8.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o8
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o9.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o9
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o10.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o10
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,alcohol\alcohol_o12.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o12
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,validation,acetone\acetone_o2.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o2
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,validation,acetone\acetone_o4.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o4
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,validation,air\baseline_7.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_7
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,validation,alcohol\alcohol_o4.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o4
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,validation,alcohol\alcohol_o11.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o11
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_11.csv,acetone,Period_II,Day 3,3,Period II Day 3,batch2,acetone_11
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_12.csv,acetone,Period_II,Day 3,3,Period II Day 3,batch2,acetone_12
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_13.csv,acetone,Period_II,Day 3,3,Period II Day 3,batch2,acetone_13
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_14.csv,acetone,Period_II,Day 3,3,Period II Day 3,batch2,acetone_14
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_15.csv,acetone,Period_II,Day 3,3,Period II Day 3,batch2,acetone_15
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_16.csv,acetone,Period_II,Day 4,4,Period II Day 4,batch2,acetone_16
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_17.csv,acetone,Period_II,Day 4,4,Period II Day 4,batch2,acetone_17
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_18.csv,acetone,Period_II,Day 4,4,Period II Day 4,batch2,acetone_18
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_19.csv,acetone,Period_II,Day 4,4,Period II Day 4,batch2,acetone_19
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_20.csv,acetone,Period_II,Day 4,4,Period II Day 4,batch2,acetone_20
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_21.csv,acetone,Period_II,Day 5,5,Period II Day 5,batch2,acetone_21
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_22.csv,acetone,Period_II,Day 5,5,Period II Day 5,batch2,acetone_22
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_23.csv,acetone,Period_II,Day 5,5,Period II Day 5,batch2,acetone_23
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_24.csv,acetone,Period_II,Day 5,5,Period II Day 5,batch2,acetone_24
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_25.csv,acetone,Period_II,Day 5,5,Period II Day 5,batch2,acetone_25
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_26.csv,acetone,Period_II,Day 6,6,Period II Day 6,batch2,acetone_26
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_27.csv,acetone,Period_II,Day 6,6,Period II Day 6,batch2,acetone_27
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_28.csv,acetone,Period_II,Day 6,6,Period II Day 6,batch2,acetone_28
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_29.csv,acetone,Period_II,Day 6,6,Period II Day 6,batch2,acetone_29
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_30.csv,acetone,Period_II,Day 6,6,Period II Day 6,batch2,acetone_30
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_31.csv,acetone,Period_II,Day 6,6,Period II Day 6,batch2,acetone_31
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_32.csv,acetone,Period_II,Day 6,6,Period II Day 6,batch2,acetone_32
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_33.csv,acetone,Period_II,Day 7,7,Period II Day 7,batch2,acetone_33
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_34.csv,acetone,Period_II,Day 7,7,Period II Day 7,batch2,acetone_34
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_35.csv,acetone,Period_II,Day 7,7,Period II Day 7,batch2,acetone_35
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_36.csv,acetone,Period_II,Day 8,8,Period II Day 8,batch2,acetone_36
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_37.csv,acetone,Period_II,Day 8,8,Period II Day 8,batch2,acetone_37
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_38.csv,acetone,Period_II,Day 8,8,Period II Day 8,batch2,acetone_38
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_39.csv,acetone,Period_II,Day 9,9,Period II Day 9,batch2,acetone_39
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_40.csv,acetone,Period_II,Day 9,9,Period II Day 9,batch2,acetone_40
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_41.csv,acetone,Period_II,Day 9,9,Period II Day 9,batch2,acetone_41
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_42.csv,acetone,Period_II,Day 9,9,Period II Day 9,batch2,acetone_42
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,acetone\acetone_43.csv,acetone,Period_II,Day 9,9,Period II Day 9,batch2,acetone_43
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_5.csv,air,Period_II,Day 3,3,Period II Day 3,batch2,air_5
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_6.csv,air,Period_II,Day 3,3,Period II Day 3,batch2,air_6
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_7.csv,air,Period_II,Day 4,4,Period II Day 4,batch2,air_7
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_8.csv,air,Period_II,Day 4,4,Period II Day 4,batch2,air_8
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_9.csv,air,Period_II,Day 5,5,Period II Day 5,batch2,air_9
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_10.csv,air,Period_II,Day 5,5,Period II Day 5,batch2,air_10
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_11.csv,air,Period_II,Day 6,6,Period II Day 6,batch2,air_11
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_12.csv,air,Period_II,Day 6,6,Period II Day 6,batch2,air_12
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_13.csv,air,Period_II,Day 6,6,Period II Day 6,batch2,air_13
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_14.csv,air,Period_II,Day 8,8,Period II Day 8,batch2,air_14
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_15.csv,air,Period_II,Day 8,8,Period II Day 8,batch2,air_15
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_16.csv,air,Period_II,Day 9,9,Period II Day 9,batch2,air_16
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\air_17.csv,air,Period_II,Day 9,9,Period II Day 9,batch2,air_17
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\reference_5.csv,air,Period_II,Day 3,3,Period II Day 3,batch2,reference_5
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\reference_6.csv,air,Period_II,Day 3,3,Period II Day 3,batch2,reference_6
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\reference_7.csv,air,Period_II,Day 4,4,Period II Day 4,batch2,reference_7
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\reference_8.csv,air,Period_II,Day 4,4,Period II Day 4,batch2,reference_8
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,air\reference_9.csv,air,Period_II,Day 8,8,Period II Day 8,batch2,reference_9
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_11.csv,alcohol,Period_II,Day 3,3,Period II Day 3,batch2,alcohol_11
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_12.csv,alcohol,Period_II,Day 3,3,Period II Day 3,batch2,alcohol_12
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_13.csv,alcohol,Period_II,Day 3,3,Period II Day 3,batch2,alcohol_13
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_14.csv,alcohol,Period_II,Day 3,3,Period II Day 3,batch2,alcohol_14
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_15.csv,alcohol,Period_II,Day 3,3,Period II Day 3,batch2,alcohol_15
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_16.csv,alcohol,Period_II,Day 4,4,Period II Day 4,batch2,alcohol_16
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_17.csv,alcohol,Period_II,Day 4,4,Period II Day 4,batch2,alcohol_17
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_18.csv,alcohol,Period_II,Day 4,4,Period II Day 4,batch2,alcohol_18
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_19.csv,alcohol,Period_II,Day 4,4,Period II Day 4,batch2,alcohol_19
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_20.csv,alcohol,Period_II,Day 4,4,Period II Day 4,batch2,alcohol_20
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_21.csv,alcohol,Period_II,Day 5,5,Period II Day 5,batch2,alcohol_21
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_22.csv,alcohol,Period_II,Day 5,5,Period II Day 5,batch2,alcohol_22
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_23.csv,alcohol,Period_II,Day 5,5,Period II Day 5,batch2,alcohol_23
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_24.csv,alcohol,Period_II,Day 5,5,Period II Day 5,batch2,alcohol_24
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_25.csv,alcohol,Period_II,Day 5,5,Period II Day 5,batch2,alcohol_25
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_26.csv,alcohol,Period_II,Day 6,6,Period II Day 6,batch2,alcohol_26
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_27.csv,alcohol,Period_II,Day 6,6,Period II Day 6,batch2,alcohol_27
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_28.csv,alcohol,Period_II,Day 6,6,Period II Day 6,batch2,alcohol_28
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_29.csv,alcohol,Period_II,Day 6,6,Period II Day 6,batch2,alcohol_29
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_30.csv,alcohol,Period_II,Day 6,6,Period II Day 6,batch2,alcohol_30
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_31.csv,alcohol,Period_II,Day 6,6,Period II Day 6,batch2,alcohol_31
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_32.csv,alcohol,Period_II,Day 6,6,Period II Day 6,batch2,alcohol_32
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_33.csv,alcohol,Period_II,Day 7,7,Period II Day 7,batch2,alcohol_33
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_34.csv,alcohol,Period_II,Day 7,7,Period II Day 7,batch2,alcohol_34
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_35.csv,alcohol,Period_II,Day 7,7,Period II Day 7,batch2,alcohol_35
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_36.csv,alcohol,Period_II,Day 8,8,Period II Day 8,batch2,alcohol_36
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_37.csv,alcohol,Period_II,Day 8,8,Period II Day 8,batch2,alcohol_37
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_38.csv,alcohol,Period_II,Day 8,8,Period II Day 8,batch2,alcohol_38
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_39.csv,alcohol,Period_II,Day 9,9,Period II Day 9,batch2,alcohol_39
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_40.csv,alcohol,Period_II,Day 9,9,Period II Day 9,batch2,alcohol_40
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_41.csv,alcohol,Period_II,Day 9,9,Period II Day 9,batch2,alcohol_41
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_42.csv,alcohol,Period_II,Day 9,9,Period II Day 9,batch2,alcohol_42
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,alcohol\alcohol_43.csv,alcohol,Period_II,Day 9,9,Period II Day 9,batch2,alcohol_43
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o1.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o1
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o3.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o3
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o5.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o5
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o6.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o6
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o7.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o7
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o8.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o8
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o9.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o9
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o10.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o10
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o11.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o11
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,acetone\acetone_o12.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o12
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,air\baseline_1.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_1
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,air\baseline_3.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_3
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,air\baseline_4.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_4
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,air\baseline_5.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_5
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,air\baseline_6.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_6
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o1.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o1
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o2.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o2
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o3.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o3
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o5.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o5
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o6.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o6
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o7.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o7
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o8.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o8
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o9.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o9
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o10.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o10
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,alcohol\alcohol_o12.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o12
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,validation,acetone\acetone_o2.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o2
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,validation,acetone\acetone_o4.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o4
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,validation,air\baseline_7.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_7
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,validation,alcohol\alcohol_o4.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o4
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,validation,alcohol\alcohol_o11.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o11
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_44.csv,acetone,Period_II,Day 10,10,Period II Day 10,batch3,acetone_44
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_45.csv,acetone,Period_II,Day 10,10,Period II Day 10,batch3,acetone_45
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_46.csv,acetone,Period_II,Day 10,10,Period II Day 10,batch3,acetone_46
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_47.csv,acetone,Period_II,Day 10,10,Period II Day 10,batch3,acetone_47
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_48.csv,acetone,Period_II,Day 11,11,Period II Day 11,batch3,acetone_48
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_49.csv,acetone,Period_II,Day 11,11,Period II Day 11,batch3,acetone_49
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_50.csv,acetone,Period_II,Day 11,11,Period II Day 11,batch3,acetone_50
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_51.csv,acetone,Period_II,Day 11,11,Period II Day 11,batch3,acetone_51
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_52.csv,acetone,Period_II,Day 12,12,Period II Day 12,batch3,acetone_52
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_53.csv,acetone,Period_II,Day 12,12,Period II Day 12,batch3,acetone_53
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_54.csv,acetone,Period_II,Day 12,12,Period II Day 12,batch3,acetone_54
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_55.csv,acetone,Period_II,Day 12,12,Period II Day 12,batch3,acetone_55
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_56.csv,acetone,Period_II,Day 13,13,Period II Day 13,batch3,acetone_56
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_57.csv,acetone,Period_II,Day 13,13,Period II Day 13,batch3,acetone_57
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_58.csv,acetone,Period_II,Day 14,14,Period II Day 14,batch3,acetone_58
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_59.csv,acetone,Period_II,Day 14,14,Period II Day 14,batch3,acetone_59
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_60.csv,acetone,Period_II,Day 14,14,Period II Day 14,batch3,acetone_60
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_61.csv,acetone,Period_II,Day 15,15,Period II Day 15,batch3,acetone_61
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_62.csv,acetone,Period_II,Day 15,15,Period II Day 15,batch3,acetone_62
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_63.csv,acetone,Period_II,Day 15,15,Period II Day 15,batch3,acetone_63
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_64.csv,acetone,Period_II,Day 17,17,Period II Day 17,batch3,acetone_64
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_65.csv,acetone,Period_II,Day 17,17,Period II Day 17,batch3,acetone_65
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_66.csv,acetone,Period_II,Day 17,17,Period II Day 17,batch3,acetone_66
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_67.csv,acetone,Period_II,Day 17,17,Period II Day 17,batch3,acetone_67
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,acetone\acetone_68.csv,acetone,Period_II,Day 17,17,Period II Day 17,batch3,acetone_68
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_18.csv,air,Period_II,Day 10,10,Period II Day 10,batch3,air_18
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_19.csv,air,Period_II,Day 10,10,Period II Day 10,batch3,air_19
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_20.csv,air,Period_II,Day 11,11,Period II Day 11,batch3,air_20
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_21.csv,air,Period_II,Day 11,11,Period II Day 11,batch3,air_21
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_22.csv,air,Period_II,Day 12,12,Period II Day 12,batch3,air_22
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_23.csv,air,Period_II,Day 12,12,Period II Day 12,batch3,air_23
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_24.csv,air,Period_II,Day 13,13,Period II Day 13,batch3,air_24
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_25.csv,air,Period_II,Day 13,13,Period II Day 13,batch3,air_25
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_26.csv,air,Period_II,Day 13,13,Period II Day 13,batch3,air_26
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_27.csv,air,Period_II,Day 13,13,Period II Day 13,batch3,air_27
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_28.csv,air,Period_II,Day 13,13,Period II Day 13,batch3,air_28
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_29.csv,air,Period_II,Day 14,14,Period II Day 14,batch3,air_29
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_30.csv,air,Period_II,Day 14,14,Period II Day 14,batch3,air_30
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_31.csv,air,Period_II,Day 14,14,Period II Day 14,batch3,air_31
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_32.csv,air,Period_II,Day 14,14,Period II Day 14,batch3,air_32
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_33.csv,air,Period_II,Day 14,14,Period II Day 14,batch3,air_33
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_34.csv,air,Period_II,Day 14,14,Period II Day 14,batch3,air_34
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_35.csv,air,Period_II,Day 15,15,Period II Day 15,batch3,air_35
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_36.csv,air,Period_II,Day 15,15,Period II Day 15,batch3,air_36
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_37.csv,air,Period_II,Day 15,15,Period II Day 15,batch3,air_37
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_38.csv,air,Period_II,Day 15,15,Period II Day 15,batch3,air_38
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_39.csv,air,Period_II,Day 15,15,Period II Day 15,batch3,air_39
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_40.csv,air,Period_II,Day 15,15,Period II Day 15,batch3,air_40
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_41.csv,air,Period_II,Day 16,16,Period II Day 16,batch3,air_41
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_42.csv,air,Period_II,Day 16,16,Period II Day 16,batch3,air_42
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_43.csv,air,Period_II,Day 16,16,Period II Day 16,batch3,air_43
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_44.csv,air,Period_II,Day 16,16,Period II Day 16,batch3,air_44
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_45.csv,air,Period_II,Day 17,17,Period II Day 17,batch3,air_45
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_46.csv,air,Period_II,Day 17,17,Period II Day 17,batch3,air_46
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_47.csv,air,Period_II,Day 17,17,Period II Day 17,batch3,air_47
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,air\air_48.csv,air,Period_II,Day 17,17,Period II Day 17,batch3,air_48
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_44.csv,alcohol,Period_II,Day 10,10,Period II Day 10,batch3,alcohol_44
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_45.csv,alcohol,Period_II,Day 10,10,Period II Day 10,batch3,alcohol_45
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_46.csv,alcohol,Period_II,Day 10,10,Period II Day 10,batch3,alcohol_46
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_47.csv,alcohol,Period_II,Day 10,10,Period II Day 10,batch3,alcohol_47
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_48.csv,alcohol,Period_II,Day 11,11,Period II Day 11,batch3,alcohol_48
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_49.csv,alcohol,Period_II,Day 11,11,Period II Day 11,batch3,alcohol_49
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_50.csv,alcohol,Period_II,Day 11,11,Period II Day 11,batch3,alcohol_50
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_51.csv,alcohol,Period_II,Day 11,11,Period II Day 11,batch3,alcohol_51
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_52.csv,alcohol,Period_II,Day 12,12,Period II Day 12,batch3,alcohol_52
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_53.csv,alcohol,Period_II,Day 12,12,Period II Day 12,batch3,alcohol_53
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_54.csv,alcohol,Period_II,Day 12,12,Period II Day 12,batch3,alcohol_54
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_55.csv,alcohol,Period_II,Day 12,12,Period II Day 12,batch3,alcohol_55
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_56.csv,alcohol,Period_II,Day 13,13,Period II Day 13,batch3,alcohol_56
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_57.csv,alcohol,Period_II,Day 13,13,Period II Day 13,batch3,alcohol_57
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_58.csv,alcohol,Period_II,Day 14,14,Period II Day 14,batch3,alcohol_58
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_59.csv,alcohol,Period_II,Day 14,14,Period II Day 14,batch3,alcohol_59
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_60.csv,alcohol,Period_II,Day 14,14,Period II Day 14,batch3,alcohol_60
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_61.csv,alcohol,Period_II,Day 15,15,Period II Day 15,batch3,alcohol_61
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_62.csv,alcohol,Period_II,Day 15,15,Period II Day 15,batch3,alcohol_62
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_63.csv,alcohol,Period_II,Day 15,15,Period II Day 15,batch3,alcohol_63
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_64.csv,alcohol,Period_II,Day 17,17,Period II Day 17,batch3,alcohol_64
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_65.csv,alcohol,Period_II,Day 17,17,Period II Day 17,batch3,alcohol_65
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_66.csv,alcohol,Period_II,Day 17,17,Period II Day 17,batch3,alcohol_66
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_67.csv,alcohol,Period_II,Day 17,17,Period II Day 17,batch3,alcohol_67
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,alcohol\alcohol_68.csv,alcohol,Period_II,Day 17,17,Period II Day 17,batch3,alcohol_68
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o1.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o1
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o3.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o3
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o5.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o5
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o6.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o6
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o7.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o7
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o8.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o8
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o9.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o9
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o10.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o10
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o11.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o11
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,acetone\acetone_o12.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o12
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,air\baseline_1.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_1
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,air\baseline_3.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_3
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,air\baseline_4.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_4
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,air\baseline_5.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_5
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,air\baseline_6.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_6
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o1.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o1
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o2.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o2
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o3.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o3
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o5.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o5
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o6.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o6
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o7.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o7
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o8.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o8
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o9.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o9
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o10.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o10
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,alcohol\alcohol_o12.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o12
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,validation,acetone\acetone_o2.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o2
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,validation,acetone\acetone_o4.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o4
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,validation,air\baseline_7.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_7
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,validation,alcohol\alcohol_o4.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o4
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,validation,alcohol\alcohol_o11.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o11
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_69.csv,acetone,Period_III,Day 18,18,Period III Day 18,batch4,acetone_69
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_70.csv,acetone,Period_III,Day 18,18,Period III Day 18,batch4,acetone_70
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_71.csv,acetone,Period_III,Day 18,18,Period III Day 18,batch4,acetone_71
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_72.csv,acetone,Period_III,Day 18,18,Period III Day 18,batch4,acetone_72
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_73.csv,acetone,Period_III,Day 18,18,Period III Day 18,batch4,acetone_73
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_74.csv,acetone,Period_III,Day 19,19,Period III Day 19,batch4,acetone_74
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_75.csv,acetone,Period_III,Day 19,19,Period III Day 19,batch4,acetone_75
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_76.csv,acetone,Period_III,Day 19,19,Period III Day 19,batch4,acetone_76
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_77.csv,acetone,Period_III,Day 20,20,Period III Day 20,batch4,acetone_77
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_78.csv,acetone,Period_III,Day 20,20,Period III Day 20,batch4,acetone_78
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_79.csv,acetone,Period_III,Day 20,20,Period III Day 20,batch4,acetone_79
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_80.csv,acetone,Period_III,Day 20,20,Period III Day 20,batch4,acetone_80
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_81.csv,acetone,Period_III,Day 21,21,Period III Day 21,batch4,acetone_81
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_82.csv,acetone,Period_III,Day 21,21,Period III Day 21,batch4,acetone_82
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_83.csv,acetone,Period_III,Day 21,21,Period III Day 21,batch4,acetone_83
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,acetone\acetone_84.csv,acetone,Period_III,Day 21,21,Period III Day 21,batch4,acetone_84
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_49.csv,air,Period_III,Day 18,18,Period III Day 18,batch4,air_49
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_50.csv,air,Period_III,Day 18,18,Period III Day 18,batch4,air_50
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_51.csv,air,Period_III,Day 18,18,Period III Day 18,batch4,air_51
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_52.csv,air,Period_III,Day 18,18,Period III Day 18,batch4,air_52
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_53.csv,air,Period_III,Day 19,19,Period III Day 19,batch4,air_53
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_54.csv,air,Period_III,Day 19,19,Period III Day 19,batch4,air_54
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_55.csv,air,Period_III,Day 20,20,Period III Day 20,batch4,air_55
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_56.csv,air,Period_III,Day 20,20,Period III Day 20,batch4,air_56
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_57.csv,air,Period_III,Day 20,20,Period III Day 20,batch4,air_57
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_58.csv,air,Period_III,Day 20,20,Period III Day 20,batch4,air_58
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_59.csv,air,Period_III,Day 21,21,Period III Day 21,batch4,air_59
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_60.csv,air,Period_III,Day 21,21,Period III Day 21,batch4,air_60
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_61.csv,air,Period_III,Day 21,21,Period III Day 21,batch4,air_61
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,air\air_62.csv,air,Period_III,Day 21,21,Period III Day 21,batch4,air_62
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_69.csv,alcohol,Period_III,Day 18,18,Period III Day 18,batch4,alcohol_69
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_70.csv,alcohol,Period_III,Day 18,18,Period III Day 18,batch4,alcohol_70
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_71.csv,alcohol,Period_III,Day 18,18,Period III Day 18,batch4,alcohol_71
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_72.csv,alcohol,Period_III,Day 18,18,Period III Day 18,batch4,alcohol_72
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_73.csv,alcohol,Period_III,Day 18,18,Period III Day 18,batch4,alcohol_73
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_74.csv,alcohol,Period_III,Day 19,19,Period III Day 19,batch4,alcohol_74
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_75.csv,alcohol,Period_III,Day 19,19,Period III Day 19,batch4,alcohol_75
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_76.csv,alcohol,Period_III,Day 19,19,Period III Day 19,batch4,alcohol_76
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_77.csv,alcohol,Period_III,Day 20,20,Period III Day 20,batch4,alcohol_77
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_78.csv,alcohol,Period_III,Day 20,20,Period III Day 20,batch4,alcohol_78
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_79.csv,alcohol,Period_III,Day 20,20,Period III Day 20,batch4,alcohol_79
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_80.csv,alcohol,Period_III,Day 20,20,Period III Day 20,batch4,alcohol_80
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_81.csv,alcohol,Period_III,Day 21,21,Period III Day 21,batch4,alcohol_81
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_82.csv,alcohol,Period_III,Day 21,21,Period III Day 21,batch4,alcohol_82
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_83.csv,alcohol,Period_III,Day 21,21,Period III Day 21,batch4,alcohol_83
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,alcohol\alcohol_84.csv,alcohol,Period_III,Day 21,21,Period III Day 21,batch4,alcohol_84
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o1.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o1
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o3.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o3
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o5.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o5
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o6.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o6
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o7.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o7
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o8.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o8
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o9.csv,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,acetone_o9
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o10.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o10
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o11.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o11
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,acetone\acetone_o12.csv,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,source,acetone_o12
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,air\baseline_1.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_1
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,air\baseline_3.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_3
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,air\baseline_4.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_4
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,air\baseline_5.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_5
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,air\baseline_6.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_6
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o1.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o1
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o2.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o2
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o3.csv,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,alcohol_o3
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o5.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o5
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o6.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o6
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o7.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o7
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o8.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o8
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o9.csv,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,source,alcohol_o9
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o10.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o10
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,alcohol\alcohol_o12.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o12
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,validation,acetone\acetone_o2.csv,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,source,acetone_o2
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,validation,acetone\acetone_o4.csv,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,source,acetone_o4
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,validation,air\baseline_7.csv,air,Period_I,baseline,0,Period I baseline,source,baseline_7
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,validation,alcohol\alcohol_o4.csv,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,source,alcohol_o4
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,validation,alcohol\alcohol_o11.csv,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,source,alcohol_o11
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_85.csv,acetone,Period_IV,Day 22,22,Period IV Day 22,batch5,acetone_85
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_86.csv,acetone,Period_IV,Day 22,22,Period IV Day 22,batch5,acetone_86
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_87.csv,acetone,Period_IV,Day 22,22,Period IV Day 22,batch5,acetone_87
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_88.csv,acetone,Period_IV,Day 22,22,Period IV Day 22,batch5,acetone_88
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_89.csv,acetone,Period_IV,Day 23,23,Period IV Day 23,batch5,acetone_89
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_90.csv,acetone,Period_IV,Day 23,23,Period IV Day 23,batch5,acetone_90
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_91.csv,acetone,Period_IV,Day 23,23,Period IV Day 23,batch5,acetone_91
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_92.csv,acetone,Period_IV,Day 23,23,Period IV Day 23,batch5,acetone_92
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_93.csv,acetone,Period_IV,Day 24,24,Period IV Day 24,batch5,acetone_93
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_94.csv,acetone,Period_IV,Day 24,24,Period IV Day 24,batch5,acetone_94
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_95.csv,acetone,Period_IV,Day 24,24,Period IV Day 24,batch5,acetone_95
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,acetone\acetone_96.csv,acetone,Period_IV,Day 24,24,Period IV Day 24,batch5,acetone_96
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_63.csv,air,Period_IV,Day 22,22,Period IV Day 22,batch5,air_63
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_64.csv,air,Period_IV,Day 22,22,Period IV Day 22,batch5,air_64
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_65.csv,air,Period_IV,Day 22,22,Period IV Day 22,batch5,air_65
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_66.csv,air,Period_IV,Day 23,23,Period IV Day 23,batch5,air_66
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_67.csv,air,Period_IV,Day 23,23,Period IV Day 23,batch5,air_67
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_68.csv,air,Period_IV,Day 23,23,Period IV Day 23,batch5,air_68
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_69.csv,air,Period_IV,Day 23,23,Period IV Day 23,batch5,air_69
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_70.csv,air,Period_IV,Day 24,24,Period IV Day 24,batch5,air_70
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_71.csv,air,Period_IV,Day 24,24,Period IV Day 24,batch5,air_71
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,air\air_72.csv,air,Period_IV,Day 24,24,Period IV Day 24,batch5,air_72
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_85.csv,alcohol,Period_IV,Day 22,22,Period IV Day 22,batch5,alcohol_85
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_86.csv,alcohol,Period_IV,Day 22,22,Period IV Day 22,batch5,alcohol_86
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_87.csv,alcohol,Period_IV,Day 22,22,Period IV Day 22,batch5,alcohol_87
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_88.csv,alcohol,Period_IV,Day 22,22,Period IV Day 22,batch5,alcohol_88
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_89.csv,alcohol,Period_IV,Day 23,23,Period IV Day 23,batch5,alcohol_89
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_90.csv,alcohol,Period_IV,Day 23,23,Period IV Day 23,batch5,alcohol_90
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_91.csv,alcohol,Period_IV,Day 23,23,Period IV Day 23,batch5,alcohol_91
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_92.csv,alcohol,Period_IV,Day 23,23,Period IV Day 23,batch5,alcohol_92
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_93.csv,alcohol,Period_IV,Day 24,24,Period IV Day 24,batch5,alcohol_93
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_94.csv,alcohol,Period_IV,Day 24,24,Period IV Day 24,batch5,alcohol_94
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_95.csv,alcohol,Period_IV,Day 24,24,Period IV Day 24,batch5,alcohol_95
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,alcohol\alcohol_96.csv,alcohol,Period_IV,Day 24,24,Period IV Day 24,batch5,alcohol_96

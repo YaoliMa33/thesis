@@ -1,0 +1,31 @@
+{
+  "interpretation": "sklearn Logistic Regression probe on frozen 16D MLP representations",
+  "architectures": {
+    "one-layer": [
+      16
+    ],
+    "two-layer": [
+      32,
+      16
+    ]
+  },
+  "variants": [
+    "MLP Source-only",
+    "MLP Source+Target"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "logistic": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "max_iter": 2000
+  },
+  "checkpointing": "runs and predictions saved after every seed; reruns skip completed keys",
+  "test_policy": "test labels evaluation-only"
+}

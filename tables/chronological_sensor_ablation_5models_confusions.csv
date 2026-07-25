@@ -1,0 +1,316 @@
+model,case,true_label,predicted_label,count
+LDA,all,air,air,8
+LDA,all,air,alcohol,0
+LDA,all,air,acetone,0
+LDA,all,alcohol,air,0
+LDA,all,alcohol,alcohol,10
+LDA,all,alcohol,acetone,0
+LDA,all,acetone,air,0
+LDA,all,acetone,alcohol,0
+LDA,all,acetone,acetone,10
+LDA,without_s1,air,air,8
+LDA,without_s1,air,alcohol,0
+LDA,without_s1,air,acetone,0
+LDA,without_s1,alcohol,air,0
+LDA,without_s1,alcohol,alcohol,10
+LDA,without_s1,alcohol,acetone,0
+LDA,without_s1,acetone,air,0
+LDA,without_s1,acetone,alcohol,0
+LDA,without_s1,acetone,acetone,10
+LDA,without_s2,air,air,7
+LDA,without_s2,air,alcohol,1
+LDA,without_s2,air,acetone,0
+LDA,without_s2,alcohol,air,0
+LDA,without_s2,alcohol,alcohol,10
+LDA,without_s2,alcohol,acetone,0
+LDA,without_s2,acetone,air,0
+LDA,without_s2,acetone,alcohol,1
+LDA,without_s2,acetone,acetone,9
+LDA,without_s3,air,air,8
+LDA,without_s3,air,alcohol,0
+LDA,without_s3,air,acetone,0
+LDA,without_s3,alcohol,air,0
+LDA,without_s3,alcohol,alcohol,10
+LDA,without_s3,alcohol,acetone,0
+LDA,without_s3,acetone,air,1
+LDA,without_s3,acetone,alcohol,0
+LDA,without_s3,acetone,acetone,9
+LDA,without_s4,air,air,8
+LDA,without_s4,air,alcohol,0
+LDA,without_s4,air,acetone,0
+LDA,without_s4,alcohol,air,0
+LDA,without_s4,alcohol,alcohol,10
+LDA,without_s4,alcohol,acetone,0
+LDA,without_s4,acetone,air,0
+LDA,without_s4,acetone,alcohol,0
+LDA,without_s4,acetone,acetone,10
+LDA,without_s5,air,air,8
+LDA,without_s5,air,alcohol,0
+LDA,without_s5,air,acetone,0
+LDA,without_s5,alcohol,air,0
+LDA,without_s5,alcohol,alcohol,10
+LDA,without_s5,alcohol,acetone,0
+LDA,without_s5,acetone,air,0
+LDA,without_s5,acetone,alcohol,0
+LDA,without_s5,acetone,acetone,10
+LDA,without_s6,air,air,8
+LDA,without_s6,air,alcohol,0
+LDA,without_s6,air,acetone,0
+LDA,without_s6,alcohol,air,0
+LDA,without_s6,alcohol,alcohol,10
+LDA,without_s6,alcohol,acetone,0
+LDA,without_s6,acetone,air,0
+LDA,without_s6,acetone,alcohol,0
+LDA,without_s6,acetone,acetone,10
+Logistic Regression,all,air,air,8
+Logistic Regression,all,air,alcohol,0
+Logistic Regression,all,air,acetone,0
+Logistic Regression,all,alcohol,air,0
+Logistic Regression,all,alcohol,alcohol,10
+Logistic Regression,all,alcohol,acetone,0
+Logistic Regression,all,acetone,air,0
+Logistic Regression,all,acetone,alcohol,0
+Logistic Regression,all,acetone,acetone,10
+Logistic Regression,without_s1,air,air,8
+Logistic Regression,without_s1,air,alcohol,0
+Logistic Regression,without_s1,air,acetone,0
+Logistic Regression,without_s1,alcohol,air,0
+Logistic Regression,without_s1,alcohol,alcohol,10
+Logistic Regression,without_s1,alcohol,acetone,0
+Logistic Regression,without_s1,acetone,air,0
+Logistic Regression,without_s1,acetone,alcohol,0
+Logistic Regression,without_s1,acetone,acetone,10
+Logistic Regression,without_s2,air,air,8
+Logistic Regression,without_s2,air,alcohol,0
+Logistic Regression,without_s2,air,acetone,0
+Logistic Regression,without_s2,alcohol,air,0
+Logistic Regression,without_s2,alcohol,alcohol,10
+Logistic Regression,without_s2,alcohol,acetone,0
+Logistic Regression,without_s2,acetone,air,0
+Logistic Regression,without_s2,acetone,alcohol,0
+Logistic Regression,without_s2,acetone,acetone,10
+Logistic Regression,without_s3,air,air,8
+Logistic Regression,without_s3,air,alcohol,0
+Logistic Regression,without_s3,air,acetone,0
+Logistic Regression,without_s3,alcohol,air,0
+Logistic Regression,without_s3,alcohol,alcohol,10
+Logistic Regression,without_s3,alcohol,acetone,0
+Logistic Regression,without_s3,acetone,air,0
+Logistic Regression,without_s3,acetone,alcohol,0
+Logistic Regression,without_s3,acetone,acetone,10
+Logistic Regression,without_s4,air,air,8
+Logistic Regression,without_s4,air,alcohol,0
+Logistic Regression,without_s4,air,acetone,0
+Logistic Regression,without_s4,alcohol,air,0
+Logistic Regression,without_s4,alcohol,alcohol,10
+Logistic Regression,without_s4,alcohol,acetone,0
+Logistic Regression,without_s4,acetone,air,0
+Logistic Regression,without_s4,acetone,alcohol,0
+Logistic Regression,without_s4,acetone,acetone,10
+Logistic Regression,without_s5,air,air,8
+Logistic Regression,without_s5,air,alcohol,0
+Logistic Regression,without_s5,air,acetone,0
+Logistic Regression,without_s5,alcohol,air,0
+Logistic Regression,without_s5,alcohol,alcohol,10
+Logistic Regression,without_s5,alcohol,acetone,0
+Logistic Regression,without_s5,acetone,air,0
+Logistic Regression,without_s5,acetone,alcohol,0
+Logistic Regression,without_s5,acetone,acetone,10
+Logistic Regression,without_s6,air,air,8
+Logistic Regression,without_s6,air,alcohol,0
+Logistic Regression,without_s6,air,acetone,0
+Logistic Regression,without_s6,alcohol,air,0
+Logistic Regression,without_s6,alcohol,alcohol,10
+Logistic Regression,without_s6,alcohol,acetone,0
+Logistic Regression,without_s6,acetone,air,0
+Logistic Regression,without_s6,acetone,alcohol,0
+Logistic Regression,without_s6,acetone,acetone,10
+kNN,all,air,air,8
+kNN,all,air,alcohol,0
+kNN,all,air,acetone,0
+kNN,all,alcohol,air,0
+kNN,all,alcohol,alcohol,10
+kNN,all,alcohol,acetone,0
+kNN,all,acetone,air,0
+kNN,all,acetone,alcohol,0
+kNN,all,acetone,acetone,10
+kNN,without_s1,air,air,8
+kNN,without_s1,air,alcohol,0
+kNN,without_s1,air,acetone,0
+kNN,without_s1,alcohol,air,0
+kNN,without_s1,alcohol,alcohol,10
+kNN,without_s1,alcohol,acetone,0
+kNN,without_s1,acetone,air,0
+kNN,without_s1,acetone,alcohol,0
+kNN,without_s1,acetone,acetone,10
+kNN,without_s2,air,air,8
+kNN,without_s2,air,alcohol,0
+kNN,without_s2,air,acetone,0
+kNN,without_s2,alcohol,air,0
+kNN,without_s2,alcohol,alcohol,8
+kNN,without_s2,alcohol,acetone,2
+kNN,without_s2,acetone,air,0
+kNN,without_s2,acetone,alcohol,0
+kNN,without_s2,acetone,acetone,10
+kNN,without_s3,air,air,8
+kNN,without_s3,air,alcohol,0
+kNN,without_s3,air,acetone,0
+kNN,without_s3,alcohol,air,0
+kNN,without_s3,alcohol,alcohol,10
+kNN,without_s3,alcohol,acetone,0
+kNN,without_s3,acetone,air,0
+kNN,without_s3,acetone,alcohol,0
+kNN,without_s3,acetone,acetone,10
+kNN,without_s4,air,air,8
+kNN,without_s4,air,alcohol,0
+kNN,without_s4,air,acetone,0
+kNN,without_s4,alcohol,air,0
+kNN,without_s4,alcohol,alcohol,10
+kNN,without_s4,alcohol,acetone,0
+kNN,without_s4,acetone,air,0
+kNN,without_s4,acetone,alcohol,0
+kNN,without_s4,acetone,acetone,10
+kNN,without_s5,air,air,8
+kNN,without_s5,air,alcohol,0
+kNN,without_s5,air,acetone,0
+kNN,without_s5,alcohol,air,0
+kNN,without_s5,alcohol,alcohol,10
+kNN,without_s5,alcohol,acetone,0
+kNN,without_s5,acetone,air,0
+kNN,without_s5,acetone,alcohol,0
+kNN,without_s5,acetone,acetone,10
+kNN,without_s6,air,air,8
+kNN,without_s6,air,alcohol,0
+kNN,without_s6,air,acetone,0
+kNN,without_s6,alcohol,air,0
+kNN,without_s6,alcohol,alcohol,10
+kNN,without_s6,alcohol,acetone,0
+kNN,without_s6,acetone,air,0
+kNN,without_s6,acetone,alcohol,0
+kNN,without_s6,acetone,acetone,10
+Random Forest,all,air,air,8
+Random Forest,all,air,alcohol,0
+Random Forest,all,air,acetone,0
+Random Forest,all,alcohol,air,0
+Random Forest,all,alcohol,alcohol,10
+Random Forest,all,alcohol,acetone,0
+Random Forest,all,acetone,air,0
+Random Forest,all,acetone,alcohol,0
+Random Forest,all,acetone,acetone,10
+Random Forest,without_s1,air,air,8
+Random Forest,without_s1,air,alcohol,0
+Random Forest,without_s1,air,acetone,0
+Random Forest,without_s1,alcohol,air,0
+Random Forest,without_s1,alcohol,alcohol,10
+Random Forest,without_s1,alcohol,acetone,0
+Random Forest,without_s1,acetone,air,0
+Random Forest,without_s1,acetone,alcohol,0
+Random Forest,without_s1,acetone,acetone,10
+Random Forest,without_s2,air,air,8
+Random Forest,without_s2,air,alcohol,0
+Random Forest,without_s2,air,acetone,0
+Random Forest,without_s2,alcohol,air,0
+Random Forest,without_s2,alcohol,alcohol,9
+Random Forest,without_s2,alcohol,acetone,1
+Random Forest,without_s2,acetone,air,0
+Random Forest,without_s2,acetone,alcohol,0
+Random Forest,without_s2,acetone,acetone,10
+Random Forest,without_s3,air,air,8
+Random Forest,without_s3,air,alcohol,0
+Random Forest,without_s3,air,acetone,0
+Random Forest,without_s3,alcohol,air,0
+Random Forest,without_s3,alcohol,alcohol,10
+Random Forest,without_s3,alcohol,acetone,0
+Random Forest,without_s3,acetone,air,0
+Random Forest,without_s3,acetone,alcohol,0
+Random Forest,without_s3,acetone,acetone,10
+Random Forest,without_s4,air,air,8
+Random Forest,without_s4,air,alcohol,0
+Random Forest,without_s4,air,acetone,0
+Random Forest,without_s4,alcohol,air,0
+Random Forest,without_s4,alcohol,alcohol,10
+Random Forest,without_s4,alcohol,acetone,0
+Random Forest,without_s4,acetone,air,0
+Random Forest,without_s4,acetone,alcohol,0
+Random Forest,without_s4,acetone,acetone,10
+Random Forest,without_s5,air,air,8
+Random Forest,without_s5,air,alcohol,0
+Random Forest,without_s5,air,acetone,0
+Random Forest,without_s5,alcohol,air,0
+Random Forest,without_s5,alcohol,alcohol,10
+Random Forest,without_s5,alcohol,acetone,0
+Random Forest,without_s5,acetone,air,0
+Random Forest,without_s5,acetone,alcohol,0
+Random Forest,without_s5,acetone,acetone,10
+Random Forest,without_s6,air,air,8
+Random Forest,without_s6,air,alcohol,0
+Random Forest,without_s6,air,acetone,0
+Random Forest,without_s6,alcohol,air,0
+Random Forest,without_s6,alcohol,alcohol,10
+Random Forest,without_s6,alcohol,acetone,0
+Random Forest,without_s6,acetone,air,0
+Random Forest,without_s6,acetone,alcohol,0
+Random Forest,without_s6,acetone,acetone,10
+RBF LS-SVM,all,air,air,8
+RBF LS-SVM,all,air,alcohol,0
+RBF LS-SVM,all,air,acetone,0
+RBF LS-SVM,all,alcohol,air,0
+RBF LS-SVM,all,alcohol,alcohol,10
+RBF LS-SVM,all,alcohol,acetone,0
+RBF LS-SVM,all,acetone,air,0
+RBF LS-SVM,all,acetone,alcohol,0
+RBF LS-SVM,all,acetone,acetone,10
+RBF LS-SVM,without_s1,air,air,8
+RBF LS-SVM,without_s1,air,alcohol,0
+RBF LS-SVM,without_s1,air,acetone,0
+RBF LS-SVM,without_s1,alcohol,air,0
+RBF LS-SVM,without_s1,alcohol,alcohol,10
+RBF LS-SVM,without_s1,alcohol,acetone,0
+RBF LS-SVM,without_s1,acetone,air,0
+RBF LS-SVM,without_s1,acetone,alcohol,0
+RBF LS-SVM,without_s1,acetone,acetone,10
+RBF LS-SVM,without_s2,air,air,8
+RBF LS-SVM,without_s2,air,alcohol,0
+RBF LS-SVM,without_s2,air,acetone,0
+RBF LS-SVM,without_s2,alcohol,air,0
+RBF LS-SVM,without_s2,alcohol,alcohol,10
+RBF LS-SVM,without_s2,alcohol,acetone,0
+RBF LS-SVM,without_s2,acetone,air,0
+RBF LS-SVM,without_s2,acetone,alcohol,0
+RBF LS-SVM,without_s2,acetone,acetone,10
+RBF LS-SVM,without_s3,air,air,8
+RBF LS-SVM,without_s3,air,alcohol,0
+RBF LS-SVM,without_s3,air,acetone,0
+RBF LS-SVM,without_s3,alcohol,air,0
+RBF LS-SVM,without_s3,alcohol,alcohol,10
+RBF LS-SVM,without_s3,alcohol,acetone,0
+RBF LS-SVM,without_s3,acetone,air,0
+RBF LS-SVM,without_s3,acetone,alcohol,0
+RBF LS-SVM,without_s3,acetone,acetone,10
+RBF LS-SVM,without_s4,air,air,8
+RBF LS-SVM,without_s4,air,alcohol,0
+RBF LS-SVM,without_s4,air,acetone,0
+RBF LS-SVM,without_s4,alcohol,air,0
+RBF LS-SVM,without_s4,alcohol,alcohol,10
+RBF LS-SVM,without_s4,alcohol,acetone,0
+RBF LS-SVM,without_s4,acetone,air,0
+RBF LS-SVM,without_s4,acetone,alcohol,0
+RBF LS-SVM,without_s4,acetone,acetone,10
+RBF LS-SVM,without_s5,air,air,8
+RBF LS-SVM,without_s5,air,alcohol,0
+RBF LS-SVM,without_s5,air,acetone,0
+RBF LS-SVM,without_s5,alcohol,air,0
+RBF LS-SVM,without_s5,alcohol,alcohol,10
+RBF LS-SVM,without_s5,alcohol,acetone,0
+RBF LS-SVM,without_s5,acetone,air,0
+RBF LS-SVM,without_s5,acetone,alcohol,0
+RBF LS-SVM,without_s5,acetone,acetone,10
+RBF LS-SVM,without_s6,air,air,8
+RBF LS-SVM,without_s6,air,alcohol,0
+RBF LS-SVM,without_s6,air,acetone,0
+RBF LS-SVM,without_s6,alcohol,air,0
+RBF LS-SVM,without_s6,alcohol,alcohol,10
+RBF LS-SVM,without_s6,alcohol,acetone,0
+RBF LS-SVM,without_s6,acetone,air,0
+RBF LS-SVM,without_s6,acetone,alcohol,0
+RBF LS-SVM,without_s6,acetone,acetone,10

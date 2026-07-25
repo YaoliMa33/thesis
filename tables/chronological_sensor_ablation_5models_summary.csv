@@ -1,0 +1,31 @@
+model,sensor_removed,all_test_balanced_accuracy,test_balanced_accuracy,delta_test_balanced_accuracy_without_minus_all,importance_all_minus_without,test_macro_f1,best_params
+LDA,s1,1.0,1.0,0.0,0.0,1.0,shrinkage=0.25
+LDA,s2,1.0,0.9249999999999999,-0.07500000000000007,0.07500000000000007,0.9299308878256246,shrinkage=0.01
+LDA,s3,1.0,0.9666666666666667,-0.033333333333333326,0.033333333333333326,0.9628482972136223,shrinkage=0.1
+LDA,s4,1.0,1.0,0.0,0.0,1.0,shrinkage=0.1
+LDA,s5,1.0,1.0,0.0,0.0,1.0,shrinkage=0.05
+LDA,s6,1.0,1.0,0.0,0.0,1.0,shrinkage=0.1
+Logistic Regression,s1,1.0,1.0,0.0,0.0,1.0,l2=0.05;lr=0.08
+Logistic Regression,s2,1.0,1.0,0.0,0.0,1.0,l2=0.001;lr=0.08
+Logistic Regression,s3,1.0,1.0,0.0,0.0,1.0,l2=0.01;lr=0.08
+Logistic Regression,s4,1.0,1.0,0.0,0.0,1.0,l2=0.05;lr=0.08
+Logistic Regression,s5,1.0,1.0,0.0,0.0,1.0,l2=0.05;lr=0.08
+Logistic Regression,s6,1.0,1.0,0.0,0.0,1.0,l2=0.001;lr=0.04
+kNN,s1,1.0,1.0,0.0,0.0,1.0,k=7;distance_weighted=False
+kNN,s2,1.0,0.9333333333333332,-0.06666666666666676,0.06666666666666676,0.9326599326599326,k=5;distance_weighted=False
+kNN,s3,1.0,1.0,0.0,0.0,1.0,k=3;distance_weighted=False
+kNN,s4,1.0,1.0,0.0,0.0,1.0,k=7;distance_weighted=False
+kNN,s5,1.0,1.0,0.0,0.0,1.0,k=3;distance_weighted=True
+kNN,s6,1.0,1.0,0.0,0.0,1.0,k=3;distance_weighted=False
+Random Forest,s1,1.0,1.0,0.0,0.0,1.0,max_depth=4;min_leaf=1
+Random Forest,s2,1.0,0.9666666666666667,-0.033333333333333326,0.033333333333333326,0.9665831244778613,max_depth=4;min_leaf=1
+Random Forest,s3,1.0,1.0,0.0,0.0,1.0,max_depth=4;min_leaf=2
+Random Forest,s4,1.0,1.0,0.0,0.0,1.0,max_depth=5;min_leaf=2
+Random Forest,s5,1.0,1.0,0.0,0.0,1.0,max_depth=5;min_leaf=2
+Random Forest,s6,1.0,1.0,0.0,0.0,1.0,max_depth=4;min_leaf=3
+RBF LS-SVM,s1,1.0,1.0,0.0,0.0,1.0,gamma_mult=1.0;c_value=100.0
+RBF LS-SVM,s2,1.0,1.0,0.0,0.0,1.0,gamma_mult=2.0;c_value=10.0
+RBF LS-SVM,s3,1.0,1.0,0.0,0.0,1.0,gamma_mult=0.25;c_value=10.0
+RBF LS-SVM,s4,1.0,1.0,0.0,0.0,1.0,gamma_mult=0.25;c_value=100.0
+RBF LS-SVM,s5,1.0,1.0,0.0,0.0,1.0,gamma_mult=0.25;c_value=100.0
+RBF LS-SVM,s6,1.0,1.0,0.0,0.0,1.0,gamma_mult=0.25;c_value=100.0

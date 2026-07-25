@@ -1,0 +1,91 @@
+method_group,split,task,variant,label,centroid_distance_norm,neighbor_opposite_domain_rate,n_source,n_target
+old,S1_train_I_test_all,three_class_with_air,DANN-UDA,acetone,1.7352680462700416,0.1685185185185185,12,96
+old,S1_train_I_test_all,three_class_with_air,DANN-UDA,air,0.7772122802845846,0.11494252873563218,6,81
+old,S1_train_I_test_all,three_class_with_air,DANN-UDA,alcohol,0.9623637825139595,0.1888888888888889,12,96
+old,S1_train_I_test_all,three_class_with_air,MLP source only,acetone,1.2968476743077673,0.13333333333333333,12,96
+old,S1_train_I_test_all,three_class_with_air,MLP source only,air,1.5045514129054605,0.11954022988505746,6,81
+old,S1_train_I_test_all,three_class_with_air,MLP source only,alcohol,1.5262919342588974,0.11111111111111113,12,96
+old,S2_train_I_internal_val_test_all,three_class_with_air,DANN-UDA,acetone,1.7178988869718643,0.14629629629629629,12,96
+old,S2_train_I_internal_val_test_all,three_class_with_air,DANN-UDA,air,0.5636233771775493,0.12413793103448273,6,81
+old,S2_train_I_internal_val_test_all,three_class_with_air,DANN-UDA,alcohol,1.4063860673934663,0.11851851851851852,12,96
+old,S2_train_I_internal_val_test_all,three_class_with_air,MLP source only,acetone,1.2940632095762876,0.137037037037037,12,96
+old,S2_train_I_internal_val_test_all,three_class_with_air,MLP source only,air,1.4091443473276817,0.12873563218390804,6,81
+old,S2_train_I_internal_val_test_all,three_class_with_air,MLP source only,alcohol,1.5085033334005014,0.10185185185185185,12,96
+old,S3_train_I_internal_20_10_test_all,three_class_with_air,DANN-UDA,acetone,1.3360498221936867,0.18333333333333335,12,96
+old,S3_train_I_internal_20_10_test_all,three_class_with_air,DANN-UDA,air,1.0374428647362184,0.12643678160919536,6,81
+old,S3_train_I_internal_20_10_test_all,three_class_with_air,DANN-UDA,alcohol,0.514566754957344,0.18518518518518515,12,96
+old,S3_train_I_internal_20_10_test_all,three_class_with_air,MLP source only,acetone,0.977142430300813,0.16481481481481483,12,96
+old,S3_train_I_internal_20_10_test_all,three_class_with_air,MLP source only,air,0.594129977000493,0.11954022988505746,6,81
+old,S3_train_I_internal_20_10_test_all,three_class_with_air,MLP source only,alcohol,1.2020318660810707,0.18518518518518517,12,96
+old,S4_train_I_val_D1_2,three_class_with_air,DANN-UDA,acetone,1.7056250108268058,0.1796296296296296,12,96
+old,S4_train_I_val_D1_2,three_class_with_air,DANN-UDA,air,0.6400528109094029,0.12413793103448273,6,81
+old,S4_train_I_val_D1_2,three_class_with_air,DANN-UDA,alcohol,0.858605227545019,0.17592592592592593,12,96
+old,S4_train_I_val_D1_2,three_class_with_air,MLP source only,acetone,1.2968476743077673,0.13333333333333333,12,96
+old,S4_train_I_val_D1_2,three_class_with_air,MLP source only,air,1.5045514129054605,0.11954022988505746,6,81
+old,S4_train_I_val_D1_2,three_class_with_air,MLP source only,alcohol,1.5262919342588974,0.11111111111111113,12,96
+old,S5_train_I_D1_val_D2_3,three_class_with_air,DANN-UDA,acetone,1.3134689906278683,0.17777777777777778,12,96
+old,S5_train_I_D1_val_D2_3,three_class_with_air,DANN-UDA,air,0.6485193649820504,0.09885057471264365,6,81
+old,S5_train_I_D1_val_D2_3,three_class_with_air,DANN-UDA,alcohol,0.842589270121684,0.18703703703703703,12,96
+old,S5_train_I_D1_val_D2_3,three_class_with_air,DANN-semi,acetone,1.7034654518981782,0.17222222222222225,12,96
+old,S5_train_I_D1_val_D2_3,three_class_with_air,DANN-semi,air,0.30413357213321013,0.10804597701149424,6,81
+old,S5_train_I_D1_val_D2_3,three_class_with_air,DANN-semi,alcohol,0.43563671704178236,0.16666666666666666,12,96
+old,S5_train_I_D1_val_D2_3,three_class_with_air,MLP source + target labels,acetone,1.560484659560998,0.17037037037037037,12,96
+old,S5_train_I_D1_val_D2_3,three_class_with_air,MLP source + target labels,air,0.7389983964464863,0.10574712643678161,6,81
+old,S5_train_I_D1_val_D2_3,three_class_with_air,MLP source + target labels,alcohol,0.7154048004947585,0.1777777777777778,12,96
+old,S5_train_I_D1_val_D2_3,three_class_with_air,MLP source only,acetone,1.2968476743077677,0.13333333333333333,12,96
+old,S5_train_I_D1_val_D2_3,three_class_with_air,MLP source only,air,1.5045514129054602,0.11954022988505746,6,81
+old,S5_train_I_D1_val_D2_3,three_class_with_air,MLP source only,alcohol,1.5262919342588979,0.11111111111111113,12,96
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,DANN-UDA,acetone,1.867683826790353,0.17037037037037037,12,96
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,DANN-UDA,air,0.8990614744346824,0.12413793103448277,6,81
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,DANN-UDA,alcohol,1.1356226949691353,0.1907407407407408,12,96
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,DANN-semi,acetone,1.919121705027935,0.16481481481481483,12,96
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,DANN-semi,air,0.4831780918132222,0.1264367816091954,6,81
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,DANN-semi,alcohol,0.4318591423210076,0.1925925925925926,12,96
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP source + target labels,acetone,1.5215853498647,0.16666666666666666,12,96
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP source + target labels,air,0.7832513288201198,0.11954022988505746,6,81
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP source + target labels,alcohol,1.2360266043076653,0.16481481481481483,12,96
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP source only,acetone,1.2968476743077673,0.13333333333333333,12,96
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP source only,air,1.5045514129054605,0.11954022988505746,6,81
+old,S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP source only,alcohol,1.5262919342588974,0.11111111111111113,12,96
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,DANN-UDA,acetone,1.8676838267903528,0.17037037037037037,12,96
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,DANN-UDA,air,0.8990614744346815,0.12413793103448277,6,81
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,DANN-UDA,alcohol,1.1356226949691353,0.1907407407407408,12,96
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,DANN-semi,acetone,1.0906594959044869,0.2203703703703704,12,96
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,DANN-semi,air,0.25956353765332413,0.11494252873563214,6,81
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,DANN-semi,alcohol,1.3320194757651702,0.1462962962962963,12,96
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP source + target labels,acetone,1.0162334595051783,0.18333333333333335,12,96
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP source + target labels,air,0.34754438375587204,0.11494252873563214,6,81
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP source + target labels,alcohol,1.5096388092166457,0.14074074074074075,12,96
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP source only,acetone,1.2968476743077675,0.13333333333333333,12,96
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP source only,air,1.504551412905461,0.11954022988505746,6,81
+old,S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP source only,alcohol,1.5262919342588974,0.11111111111111113,12,96
+conditional,S1_train_I_test_all,three_class_with_air,C-DANN-UDA,acetone,0.2500136572718395,0.22592592592592597,12,96
+conditional,S1_train_I_test_all,three_class_with_air,C-DANN-UDA,air,0.6406939079843345,0.11494252873563218,6,81
+conditional,S1_train_I_test_all,three_class_with_air,C-DANN-UDA,alcohol,0.032364648625972325,0.22222222222222227,12,96
+conditional,S2_train_I_internal_val_test_all,three_class_with_air,C-DANN-UDA,acetone,0.23930909642002718,0.22592592592592592,12,96
+conditional,S2_train_I_internal_val_test_all,three_class_with_air,C-DANN-UDA,air,0.5647335837293198,0.1264367816091954,6,81
+conditional,S2_train_I_internal_val_test_all,three_class_with_air,C-DANN-UDA,alcohol,0.20375489920128745,0.21296296296296297,12,96
+conditional,S3_train_I_internal_20_10_test_all,three_class_with_air,C-DANN-UDA,acetone,1.4049507724699901,0.16481481481481483,12,96
+conditional,S3_train_I_internal_20_10_test_all,three_class_with_air,C-DANN-UDA,air,0.2613125785387924,0.12413793103448274,6,81
+conditional,S3_train_I_internal_20_10_test_all,three_class_with_air,C-DANN-UDA,alcohol,1.3401549996976965,0.12962962962962962,12,96
+conditional,S4_train_I_val_D1_2,three_class_with_air,C-DANN-UDA,acetone,0.5647630055944529,0.19814814814814816,12,96
+conditional,S4_train_I_val_D1_2,three_class_with_air,C-DANN-UDA,air,0.6060080947886927,0.10574712643678161,6,81
+conditional,S4_train_I_val_D1_2,three_class_with_air,C-DANN-UDA,alcohol,0.34096433874762916,0.21666666666666665,12,96
+conditional,S5_train_I_D1_val_D2_3,three_class_with_air,C-DANN-UDA,acetone,0.5647630055944527,0.19814814814814816,12,96
+conditional,S5_train_I_D1_val_D2_3,three_class_with_air,C-DANN-UDA,air,0.6060080947886928,0.10574712643678161,6,81
+conditional,S5_train_I_D1_val_D2_3,three_class_with_air,C-DANN-UDA,alcohol,0.3409643387476295,0.21666666666666665,12,96
+conditional,S5_train_I_D1_val_D2_3,three_class_with_air,C-DANN-semi,acetone,0.5552789265782717,0.16481481481481483,12,96
+conditional,S5_train_I_D1_val_D2_3,three_class_with_air,C-DANN-semi,air,0.5111903096037149,0.09885057471264365,6,81
+conditional,S5_train_I_D1_val_D2_3,three_class_with_air,C-DANN-semi,alcohol,0.5487553393218886,0.19444444444444448,12,96
+conditional,S6_train_I_D1_2_val_D3_5,three_class_with_air,C-DANN-UDA,acetone,0.36443179093510647,0.19259259259259257,12,96
+conditional,S6_train_I_D1_2_val_D3_5,three_class_with_air,C-DANN-UDA,air,0.6346929960362045,0.11494252873563217,6,81
+conditional,S6_train_I_D1_2_val_D3_5,three_class_with_air,C-DANN-UDA,alcohol,1.4465514796192365,0.2,12,96
+conditional,S6_train_I_D1_2_val_D3_5,three_class_with_air,C-DANN-semi,acetone,0.9436663153890882,0.22037037037037038,12,96
+conditional,S6_train_I_D1_2_val_D3_5,three_class_with_air,C-DANN-semi,air,0.7276711849337107,0.11724137931034483,6,81
+conditional,S6_train_I_D1_2_val_D3_5,three_class_with_air,C-DANN-semi,alcohol,0.3446670649155155,0.17777777777777778,12,96
+conditional,S7_train_I_D1_3_val_D4_5,three_class_with_air,C-DANN-UDA,acetone,0.055776602205725896,0.21296296296296297,12,96
+conditional,S7_train_I_D1_3_val_D4_5,three_class_with_air,C-DANN-UDA,air,0.46588131247647935,0.1379310344827586,6,81
+conditional,S7_train_I_D1_3_val_D4_5,three_class_with_air,C-DANN-UDA,alcohol,0.11490690701772924,0.1685185185185185,12,96
+conditional,S7_train_I_D1_3_val_D4_5,three_class_with_air,C-DANN-semi,acetone,1.3369463094651137,0.17777777777777778,12,96
+conditional,S7_train_I_D1_3_val_D4_5,three_class_with_air,C-DANN-semi,air,0.7006910890312819,0.10804597701149425,6,81
+conditional,S7_train_I_D1_3_val_D4_5,three_class_with_air,C-DANN-semi,alcohol,0.586090649351284,0.2,12,96

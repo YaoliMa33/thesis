@@ -1,0 +1,115 @@
+{
+  "framework": "dann",
+  "files": [
+    {
+      "file": "D:\\thesis\\tables\\dann\\cdan_hybrid_all_runs.csv",
+      "bytes": 391817,
+      "sha256": "0d939ba3d989165e1ac5c12bc013a000c276d345a0ef0572ee0146b3296abe2a"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\cdan_hybrid_feature_space.csv",
+      "bytes": 1128264,
+      "sha256": "fbf60aa748a3841f7ac1599b4129d9696b88835523ad9e054a8d5fcf79b913b8"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\cdan_hybrid_selected_summary.csv",
+      "bytes": 37205,
+      "sha256": "210fbd7e292272f9c21e6d8e86747b305e3a7f708e7c3f1f4e211a41f053f616"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\cdan_hybrid_training_curves.csv",
+      "bytes": 339986,
+      "sha256": "4ed5c691544b4ef8a393b06e3e53afc65982f8a485cf6f3a3392c75267080c7f"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\cdan_multi_split_all_runs.csv",
+      "bytes": 86396,
+      "sha256": "05b54b841831433ee16c1b435fa5899a4845161299700fac786b2a678da86e4a"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\cdan_multi_split_partitions.csv",
+      "bytes": 6703,
+      "sha256": "bf87de659abc01d8c9004a9f124f343683612408fc323ca5142e89bc782a2234"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\cdan_multi_split_selected_summary.csv",
+      "bytes": 18853,
+      "sha256": "53d719f182aff8eeb0010c581eabb661119463bef6ce707c301bae583f1574f9"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_conditional_feature_space.csv",
+      "bytes": 558904,
+      "sha256": "e373a8ea9abc77f6ff8c3726c50eba5a2c8a9338d82e74b7e99a86e88aa7d82e"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_conditional_mixing_diagnostics.csv",
+      "bytes": 10747,
+      "sha256": "5ced92ff6de94f0075eb0932c8b30ebc4d4a708a393b2b282dab52a34bb7bc8e"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_conditional_old_vs_new_comparison.csv",
+      "bytes": 3077,
+      "sha256": "f8f89697b397924811abab1dcc5c118c76cbf98c404e61ef3e79002242f5d2a3"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_conditional_selected_summary.csv",
+      "bytes": 21260,
+      "sha256": "848c898eb79127d61d569362addf915eebb5ea70037469be9e59447eec5fd44a"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_conditional_training_curves.csv",
+      "bytes": 232634,
+      "sha256": "ff6fdfa13745d08ab064981b3249d7995c743ab4f493cbb8c4267fbfce99700e"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_interactive_feature_space.csv",
+      "bytes": 1158029,
+      "sha256": "526dc8f0517ab2ae356783c0beb10777fc183035e2a20d99688ac63473b7e791"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_interactive_training_curves.csv",
+      "bytes": 397974,
+      "sha256": "c1ab77939373683e11f8c5c225771f1e51b1b249e32aeda5f68aa49cfb112ffd"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_multi_split_all_runs.csv",
+      "bytes": 113838,
+      "sha256": "0a398eca3700da2ad800688879e39bee27b6d98ec02b447553ce69fdb26b1ea1"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_multi_split_partitions.csv",
+      "bytes": 6675,
+      "sha256": "5b900e0480b28112f91b219469d87360a05d1a344bfa9b481ff22d3a5a99bf8a"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\dann_multi_split_selected_summary.csv",
+      "bytes": 36857,
+      "sha256": "1d5c485aabc2a5204c49ff2b46abb18f6cf999e7509e4bed88845da2b2f89bb0"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\deep_coral_multi_split_all_runs.csv",
+      "bytes": 68401,
+      "sha256": "5865d96fe6234910c30b4802cd6223cf35218c202c7a4c16db53864d2675f981"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\deep_coral_multi_split_feature_space.csv",
+      "bytes": 1466893,
+      "sha256": "31d9f135ac063f06b6f5a20508adb80c78f68c80193fb975e475aee2e9e1627d"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\deep_coral_multi_split_partitions.csv",
+      "bytes": 6843,
+      "sha256": "971ca3693e858c7d82583c63076905b186d982b9718bc8638dae28bda3a4e8fe"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\deep_coral_multi_split_selected_summary.csv",
+      "bytes": 8968,
+      "sha256": "8aae1884b116ead8f44a91f2b0261dc361bed96b1e98c4f9acfcc8e9983c15d3"
+    },
+    {
+      "file": "D:\\thesis\\tables\\dann\\deep_coral_multi_split_training_curves.csv",
+      "bytes": 138283,
+      "sha256": "63823f9aab1e921e95631f18a82d5d8104c053d5f54b57df7e326d9c06cb594f"
+    }
+  ]
+}

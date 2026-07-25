@@ -1,0 +1,7 @@
+protocol,task,partition,n,class_counts,period_days
+P1_plus_P2D1_2_val_D3_4_test_D5_19,three_class,train,48,"air:4, alcohol:22, acetone:22",Period_I Day1-Day3; Period_II Day1-Day2
+P1_plus_P2D1_2_val_D3_4_test_D5_19,three_class,validation,24,"air:4, alcohol:10, acetone:10",Period_II Day3-Day4
+P1_plus_P2D1_2_val_D3_4_test_D5_19,three_class,test,170,"air:50, alcohol:60, acetone:60",Period_II Day5-Day17; Period_III Day18-Day19
+P1_plus_P2D1_2_val_D3_4_test_D5_19,binary_alcohol_acetone,train,44,"alcohol:22, acetone:22",Period_I Day1-Day3; Period_II Day1-Day2
+P1_plus_P2D1_2_val_D3_4_test_D5_19,binary_alcohol_acetone,validation,20,"alcohol:10, acetone:10",Period_II Day3-Day4
+P1_plus_P2D1_2_val_D3_4_test_D5_19,binary_alcohol_acetone,test,120,"alcohol:60, acetone:60",Period_II Day5-Day17; Period_III Day18-Day19

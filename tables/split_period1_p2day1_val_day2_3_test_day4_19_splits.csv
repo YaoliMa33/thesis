@@ -1,0 +1,4 @@
+partition,n,period_day_range,air,alcohol,acetone
+train,36,Period I + Period II Day1,2,17,17
+validation,24,Period II Day2-Day3,4,10,10
+test,182,Period II Day4-Day17 + Period III Day18-Day19,52,65,65

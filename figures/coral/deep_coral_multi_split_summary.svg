@@ -1,0 +1,368 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1094" height="735" viewBox="0 0 1094 735">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="34" font-family="Arial" font-size="22" font-weight="700" fill="#111827">Deep CORAL Multi-split Results for E-nose Drift Adaptation</text>
+<text x="24" y="58" font-family="Arial" font-size="13" fill="#4b5563">Independent report: source-only MLP vs Deep CORAL-UDA. Target gas labels are not used by CORAL loss.</text>
+<rect x="24" y="84" width="50" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="29" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Split</text>
+<rect x="74" y="84" width="132" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="79" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Variant</text>
+<rect x="206" y="84" width="48" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="211" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Lam</text>
+<rect x="254" y="84" width="42" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="259" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Seed</text>
+<rect x="296" y="84" width="54" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="301" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Train</text>
+<rect x="350" y="84" width="54" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="355" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Val</text>
+<rect x="404" y="84" width="54" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="409" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Test</text>
+<rect x="458" y="84" width="54" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="463" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">BA</text>
+<rect x="512" y="84" width="54" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="517" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">F1</text>
+<rect x="566" y="84" width="64" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="571" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Lcoral</text>
+<rect x="630" y="84" width="170" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="635" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Labels</text>
+<rect x="800" y="84" width="230" height="31" fill="#eef2f7" stroke="#d8dee8"/>
+<text x="805" y="104" font-family="Arial" font-size="10" font-weight="700" fill="#1f2937">Selection</text>
+<rect x="24" y="115" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="135" font-family="Arial" font-size="9" fill="#111827">S1</text>
+<rect x="74" y="115" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="135" font-family="Arial" font-size="9" fill="#111827">MLP source only</text>
+<rect x="206" y="115" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="135" font-family="Arial" font-size="9" fill="#111827">0.000</text>
+<rect x="254" y="115" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="135" font-family="Arial" font-size="9" fill="#111827">0</text>
+<rect x="296" y="115" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="135" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="115" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="135" font-family="Arial" font-size="9" fill="#111827">NA</text>
+<rect x="404" y="115" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="135" font-family="Arial" font-size="9" fill="#111827">0.780</text>
+<rect x="458" y="115" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="135" font-family="Arial" font-size="9" fill="#111827">0.786</text>
+<rect x="512" y="115" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="135" font-family="Arial" font-size="9" fill="#111827">0.779</text>
+<rect x="566" y="115" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="135" font-family="Arial" font-size="9" fill="#111827">NA</text>
+<rect x="630" y="115" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="135" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="115" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="135" font-family="Arial" font-size="9" fill="#111827">fixed hyperparameters because the sp</text>
+<rect x="24" y="146" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="166" font-family="Arial" font-size="9" fill="#111827">S1</text>
+<rect x="74" y="146" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="166" font-family="Arial" font-size="9" fill="#111827">Deep CORAL-UDA</text>
+<rect x="206" y="146" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="166" font-family="Arial" font-size="9" fill="#111827">0.200</text>
+<rect x="254" y="146" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="166" font-family="Arial" font-size="9" fill="#111827">0</text>
+<rect x="296" y="146" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="166" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="146" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="166" font-family="Arial" font-size="9" fill="#111827">NA</text>
+<rect x="404" y="146" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="166" font-family="Arial" font-size="9" fill="#111827">0.839</text>
+<rect x="458" y="146" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="166" font-family="Arial" font-size="9" fill="#111827">0.838</text>
+<rect x="512" y="146" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="166" font-family="Arial" font-size="9" fill="#111827">0.841</text>
+<rect x="566" y="146" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="166" font-family="Arial" font-size="9" fill="#111827">0.003</text>
+<rect x="630" y="146" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="166" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="146" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="166" font-family="Arial" font-size="9" fill="#111827">fixed hyperparameters because the sp</text>
+<rect x="24" y="177" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="197" font-family="Arial" font-size="9" fill="#111827">S2</text>
+<rect x="74" y="177" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="197" font-family="Arial" font-size="9" fill="#111827">MLP source only</text>
+<rect x="206" y="177" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="197" font-family="Arial" font-size="9" fill="#111827">0.000</text>
+<rect x="254" y="177" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="197" font-family="Arial" font-size="9" fill="#111827">0</text>
+<rect x="296" y="177" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="197" font-family="Arial" font-size="9" fill="#111827">0.880</text>
+<rect x="350" y="177" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="197" font-family="Arial" font-size="9" fill="#111827">0.800</text>
+<rect x="404" y="177" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="197" font-family="Arial" font-size="9" fill="#111827">0.674</text>
+<rect x="458" y="177" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="197" font-family="Arial" font-size="9" fill="#111827">0.685</text>
+<rect x="512" y="177" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="197" font-family="Arial" font-size="9" fill="#111827">0.651</text>
+<rect x="566" y="177" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="197" font-family="Arial" font-size="9" fill="#111827">NA</text>
+<rect x="630" y="177" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="197" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="177" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="197" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="208" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="228" font-family="Arial" font-size="9" fill="#111827">S2</text>
+<rect x="74" y="208" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="228" font-family="Arial" font-size="9" fill="#111827">Deep CORAL-UDA</text>
+<rect x="206" y="208" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="228" font-family="Arial" font-size="9" fill="#111827">0.050</text>
+<rect x="254" y="208" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="228" font-family="Arial" font-size="9" fill="#111827">1</text>
+<rect x="296" y="208" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="228" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="208" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="228" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="404" y="208" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="228" font-family="Arial" font-size="9" fill="#111827">0.857</text>
+<rect x="458" y="208" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="228" font-family="Arial" font-size="9" fill="#111827">0.854</text>
+<rect x="512" y="208" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="228" font-family="Arial" font-size="9" fill="#111827">0.856</text>
+<rect x="566" y="208" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="228" font-family="Arial" font-size="9" fill="#111827">0.006</text>
+<rect x="630" y="208" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="228" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="208" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="228" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="239" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="259" font-family="Arial" font-size="9" fill="#111827">S3</text>
+<rect x="74" y="239" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="259" font-family="Arial" font-size="9" fill="#111827">MLP source only</text>
+<rect x="206" y="239" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="259" font-family="Arial" font-size="9" fill="#111827">0.000</text>
+<rect x="254" y="239" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="259" font-family="Arial" font-size="9" fill="#111827">2</text>
+<rect x="296" y="239" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="259" font-family="Arial" font-size="9" fill="#111827">0.850</text>
+<rect x="350" y="239" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="259" font-family="Arial" font-size="9" fill="#111827">0.700</text>
+<rect x="404" y="239" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="259" font-family="Arial" font-size="9" fill="#111827">0.634</text>
+<rect x="458" y="239" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="259" font-family="Arial" font-size="9" fill="#111827">0.642</text>
+<rect x="512" y="239" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="259" font-family="Arial" font-size="9" fill="#111827">0.637</text>
+<rect x="566" y="239" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="259" font-family="Arial" font-size="9" fill="#111827">NA</text>
+<rect x="630" y="239" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="259" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="239" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="259" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="270" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="290" font-family="Arial" font-size="9" fill="#111827">S3</text>
+<rect x="74" y="270" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="290" font-family="Arial" font-size="9" fill="#111827">Deep CORAL-UDA</text>
+<rect x="206" y="270" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="290" font-family="Arial" font-size="9" fill="#111827">0.050</text>
+<rect x="254" y="270" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="290" font-family="Arial" font-size="9" fill="#111827">3</text>
+<rect x="296" y="270" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="290" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="270" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="290" font-family="Arial" font-size="9" fill="#111827">0.800</text>
+<rect x="404" y="270" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="290" font-family="Arial" font-size="9" fill="#111827">0.802</text>
+<rect x="458" y="270" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="290" font-family="Arial" font-size="9" fill="#111827">0.797</text>
+<rect x="512" y="270" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="290" font-family="Arial" font-size="9" fill="#111827">0.804</text>
+<rect x="566" y="270" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="290" font-family="Arial" font-size="9" fill="#111827">0.007</text>
+<rect x="630" y="270" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="290" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="270" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="290" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="301" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="321" font-family="Arial" font-size="9" fill="#111827">S4</text>
+<rect x="74" y="301" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="321" font-family="Arial" font-size="9" fill="#111827">MLP source only</text>
+<rect x="206" y="301" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="321" font-family="Arial" font-size="9" fill="#111827">0.000</text>
+<rect x="254" y="301" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="321" font-family="Arial" font-size="9" fill="#111827">2</text>
+<rect x="296" y="301" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="321" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="301" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="321" font-family="Arial" font-size="9" fill="#111827">0.929</text>
+<rect x="404" y="301" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="321" font-family="Arial" font-size="9" fill="#111827">0.784</text>
+<rect x="458" y="301" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="321" font-family="Arial" font-size="9" fill="#111827">0.786</text>
+<rect x="512" y="301" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="321" font-family="Arial" font-size="9" fill="#111827">0.788</text>
+<rect x="566" y="301" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="321" font-family="Arial" font-size="9" fill="#111827">NA</text>
+<rect x="630" y="301" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="321" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="301" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="321" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="332" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="352" font-family="Arial" font-size="9" fill="#111827">S4</text>
+<rect x="74" y="332" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="352" font-family="Arial" font-size="9" fill="#111827">Deep CORAL-UDA</text>
+<rect x="206" y="332" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="352" font-family="Arial" font-size="9" fill="#111827">0.050</text>
+<rect x="254" y="332" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="352" font-family="Arial" font-size="9" fill="#111827">3</text>
+<rect x="296" y="332" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="352" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="332" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="352" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="404" y="332" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="352" font-family="Arial" font-size="9" fill="#111827">0.841</text>
+<rect x="458" y="332" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="352" font-family="Arial" font-size="9" fill="#111827">0.842</text>
+<rect x="512" y="332" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="352" font-family="Arial" font-size="9" fill="#111827">0.844</text>
+<rect x="566" y="332" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="352" font-family="Arial" font-size="9" fill="#111827">0.013</text>
+<rect x="630" y="332" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="352" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="332" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="352" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="363" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="383" font-family="Arial" font-size="9" fill="#111827">S5</text>
+<rect x="74" y="363" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="383" font-family="Arial" font-size="9" fill="#111827">MLP source only</text>
+<rect x="206" y="363" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="383" font-family="Arial" font-size="9" fill="#111827">0.000</text>
+<rect x="254" y="363" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="383" font-family="Arial" font-size="9" fill="#111827">2</text>
+<rect x="296" y="363" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="383" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="363" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="383" font-family="Arial" font-size="9" fill="#111827">0.923</text>
+<rect x="404" y="363" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="383" font-family="Arial" font-size="9" fill="#111827">0.779</text>
+<rect x="458" y="363" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="383" font-family="Arial" font-size="9" fill="#111827">0.782</text>
+<rect x="512" y="363" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="383" font-family="Arial" font-size="9" fill="#111827">0.786</text>
+<rect x="566" y="363" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="383" font-family="Arial" font-size="9" fill="#111827">NA</text>
+<rect x="630" y="363" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="383" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="363" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="383" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="394" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="414" font-family="Arial" font-size="9" fill="#111827">S5</text>
+<rect x="74" y="394" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="414" font-family="Arial" font-size="9" fill="#111827">Deep CORAL-UDA</text>
+<rect x="206" y="394" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="414" font-family="Arial" font-size="9" fill="#111827">0.050</text>
+<rect x="254" y="394" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="414" font-family="Arial" font-size="9" fill="#111827">2</text>
+<rect x="296" y="394" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="414" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="394" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="414" font-family="Arial" font-size="9" fill="#111827">0.962</text>
+<rect x="404" y="394" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="414" font-family="Arial" font-size="9" fill="#111827">0.810</text>
+<rect x="458" y="394" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="414" font-family="Arial" font-size="9" fill="#111827">0.810</text>
+<rect x="512" y="394" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="414" font-family="Arial" font-size="9" fill="#111827">0.814</text>
+<rect x="566" y="394" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="414" font-family="Arial" font-size="9" fill="#111827">0.010</text>
+<rect x="630" y="394" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="414" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="394" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="414" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="425" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="445" font-family="Arial" font-size="9" fill="#111827">S6</text>
+<rect x="74" y="425" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="445" font-family="Arial" font-size="9" fill="#111827">MLP source only</text>
+<rect x="206" y="425" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="445" font-family="Arial" font-size="9" fill="#111827">0.000</text>
+<rect x="254" y="425" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="445" font-family="Arial" font-size="9" fill="#111827">1</text>
+<rect x="296" y="425" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="445" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="425" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="445" font-family="Arial" font-size="9" fill="#111827">0.900</text>
+<rect x="404" y="425" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="445" font-family="Arial" font-size="9" fill="#111827">0.766</text>
+<rect x="458" y="425" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="445" font-family="Arial" font-size="9" fill="#111827">0.768</text>
+<rect x="512" y="425" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="445" font-family="Arial" font-size="9" fill="#111827">0.769</text>
+<rect x="566" y="425" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="445" font-family="Arial" font-size="9" fill="#111827">NA</text>
+<rect x="630" y="425" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="445" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="425" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="445" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="456" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="476" font-family="Arial" font-size="9" fill="#111827">S6</text>
+<rect x="74" y="456" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="476" font-family="Arial" font-size="9" fill="#111827">Deep CORAL-UDA</text>
+<rect x="206" y="456" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="476" font-family="Arial" font-size="9" fill="#111827">0.200</text>
+<rect x="254" y="456" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="476" font-family="Arial" font-size="9" fill="#111827">1</text>
+<rect x="296" y="456" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="476" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="456" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="476" font-family="Arial" font-size="9" fill="#111827">0.925</text>
+<rect x="404" y="456" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="476" font-family="Arial" font-size="9" fill="#111827">0.849</text>
+<rect x="458" y="456" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="476" font-family="Arial" font-size="9" fill="#111827">0.847</text>
+<rect x="512" y="456" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="476" font-family="Arial" font-size="9" fill="#111827">0.849</text>
+<rect x="566" y="456" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="476" font-family="Arial" font-size="9" fill="#111827">0.004</text>
+<rect x="630" y="456" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="476" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="456" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="476" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="487" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="507" font-family="Arial" font-size="9" fill="#111827">S7</text>
+<rect x="74" y="487" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="507" font-family="Arial" font-size="9" fill="#111827">MLP source only</text>
+<rect x="206" y="487" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="507" font-family="Arial" font-size="9" fill="#111827">0.000</text>
+<rect x="254" y="487" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="507" font-family="Arial" font-size="9" fill="#111827">1</text>
+<rect x="296" y="487" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="507" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="487" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="507" font-family="Arial" font-size="9" fill="#111827">0.885</text>
+<rect x="404" y="487" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="507" font-family="Arial" font-size="9" fill="#111827">0.766</text>
+<rect x="458" y="487" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="507" font-family="Arial" font-size="9" fill="#111827">0.768</text>
+<rect x="512" y="487" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="507" font-family="Arial" font-size="9" fill="#111827">0.769</text>
+<rect x="566" y="487" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="507" font-family="Arial" font-size="9" fill="#111827">NA</text>
+<rect x="630" y="487" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="507" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="487" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="507" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<rect x="24" y="518" width="50" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="538" font-family="Arial" font-size="9" fill="#111827">S7</text>
+<rect x="74" y="518" width="132" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="79" y="538" font-family="Arial" font-size="9" fill="#111827">Deep CORAL-UDA</text>
+<rect x="206" y="518" width="48" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="211" y="538" font-family="Arial" font-size="9" fill="#111827">0.200</text>
+<rect x="254" y="518" width="42" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="259" y="538" font-family="Arial" font-size="9" fill="#111827">4</text>
+<rect x="296" y="518" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="301" y="538" font-family="Arial" font-size="9" fill="#111827">1.000</text>
+<rect x="350" y="518" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="355" y="538" font-family="Arial" font-size="9" fill="#111827">0.923</text>
+<rect x="404" y="518" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="409" y="538" font-family="Arial" font-size="9" fill="#111827">0.868</text>
+<rect x="458" y="518" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="463" y="538" font-family="Arial" font-size="9" fill="#111827">0.865</text>
+<rect x="512" y="518" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="517" y="538" font-family="Arial" font-size="9" fill="#111827">0.868</text>
+<rect x="566" y="518" width="64" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="571" y="538" font-family="Arial" font-size="9" fill="#111827">0.002</text>
+<rect x="630" y="518" width="170" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="635" y="538" font-family="Arial" font-size="9" fill="#111827">source labels only</text>
+<rect x="800" y="518" width="230" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="805" y="538" font-family="Arial" font-size="9" fill="#111827">hyperparameters selected by validati</text>
+<text x="24" y="573" font-family="Arial" font-size="12" fill="#4b5563">Deep CORAL objective: L = CE(G_y(h_s), y_s) + lambda * ||C_s - C_t||_F^2 / (4*d^2).</text>
+<text x="24" y="591" font-family="Arial" font-size="12" fill="#4b5563">Input dimension: current feature columns from manifest_baseline_as_air_features.csv. Latent dimension: 16.</text>
+<text x="24" y="609" font-family="Arial" font-size="12" fill="#4b5563">All outputs are written under deep_coral_* paths and D:/thesis/figures/coral.</text>
+</svg>

@@ -1,0 +1,196 @@
+protocol,task,model,true_label,predicted_label,count
+A_cross_period_low_target,three_class,LDA,air,air,30
+A_cross_period_low_target,three_class,LDA,air,alcohol,13
+A_cross_period_low_target,three_class,LDA,air,acetone,9
+A_cross_period_low_target,three_class,LDA,alcohol,air,1
+A_cross_period_low_target,three_class,LDA,alcohol,alcohol,60
+A_cross_period_low_target,three_class,LDA,alcohol,acetone,4
+A_cross_period_low_target,three_class,LDA,acetone,air,6
+A_cross_period_low_target,three_class,LDA,acetone,alcohol,17
+A_cross_period_low_target,three_class,LDA,acetone,acetone,42
+A_cross_period_low_target,three_class,Logistic Regression,air,air,44
+A_cross_period_low_target,three_class,Logistic Regression,air,alcohol,8
+A_cross_period_low_target,three_class,Logistic Regression,air,acetone,0
+A_cross_period_low_target,three_class,Logistic Regression,alcohol,air,0
+A_cross_period_low_target,three_class,Logistic Regression,alcohol,alcohol,65
+A_cross_period_low_target,three_class,Logistic Regression,alcohol,acetone,0
+A_cross_period_low_target,three_class,Logistic Regression,acetone,air,17
+A_cross_period_low_target,three_class,Logistic Regression,acetone,alcohol,10
+A_cross_period_low_target,three_class,Logistic Regression,acetone,acetone,38
+A_cross_period_low_target,three_class,kNN,air,air,28
+A_cross_period_low_target,three_class,kNN,air,alcohol,20
+A_cross_period_low_target,three_class,kNN,air,acetone,4
+A_cross_period_low_target,three_class,kNN,alcohol,air,5
+A_cross_period_low_target,three_class,kNN,alcohol,alcohol,35
+A_cross_period_low_target,three_class,kNN,alcohol,acetone,25
+A_cross_period_low_target,three_class,kNN,acetone,air,5
+A_cross_period_low_target,three_class,kNN,acetone,alcohol,16
+A_cross_period_low_target,three_class,kNN,acetone,acetone,44
+A_cross_period_low_target,three_class,Random Forest,air,air,52
+A_cross_period_low_target,three_class,Random Forest,air,alcohol,0
+A_cross_period_low_target,three_class,Random Forest,air,acetone,0
+A_cross_period_low_target,three_class,Random Forest,alcohol,air,14
+A_cross_period_low_target,three_class,Random Forest,alcohol,alcohol,50
+A_cross_period_low_target,three_class,Random Forest,alcohol,acetone,1
+A_cross_period_low_target,three_class,Random Forest,acetone,air,21
+A_cross_period_low_target,three_class,Random Forest,acetone,alcohol,31
+A_cross_period_low_target,three_class,Random Forest,acetone,acetone,13
+A_cross_period_low_target,three_class,RBF LS-SVM,air,air,31
+A_cross_period_low_target,three_class,RBF LS-SVM,air,alcohol,17
+A_cross_period_low_target,three_class,RBF LS-SVM,air,acetone,4
+A_cross_period_low_target,three_class,RBF LS-SVM,alcohol,air,0
+A_cross_period_low_target,three_class,RBF LS-SVM,alcohol,alcohol,63
+A_cross_period_low_target,three_class,RBF LS-SVM,alcohol,acetone,2
+A_cross_period_low_target,three_class,RBF LS-SVM,acetone,air,1
+A_cross_period_low_target,three_class,RBF LS-SVM,acetone,alcohol,19
+A_cross_period_low_target,three_class,RBF LS-SVM,acetone,acetone,45
+A_cross_period_low_target,binary_alcohol_acetone,LDA,alcohol,alcohol,65
+A_cross_period_low_target,binary_alcohol_acetone,LDA,alcohol,acetone,0
+A_cross_period_low_target,binary_alcohol_acetone,LDA,acetone,alcohol,25
+A_cross_period_low_target,binary_alcohol_acetone,LDA,acetone,acetone,40
+A_cross_period_low_target,binary_alcohol_acetone,Logistic Regression,alcohol,alcohol,65
+A_cross_period_low_target,binary_alcohol_acetone,Logistic Regression,alcohol,acetone,0
+A_cross_period_low_target,binary_alcohol_acetone,Logistic Regression,acetone,alcohol,19
+A_cross_period_low_target,binary_alcohol_acetone,Logistic Regression,acetone,acetone,46
+A_cross_period_low_target,binary_alcohol_acetone,kNN,alcohol,alcohol,46
+A_cross_period_low_target,binary_alcohol_acetone,kNN,alcohol,acetone,19
+A_cross_period_low_target,binary_alcohol_acetone,kNN,acetone,alcohol,26
+A_cross_period_low_target,binary_alcohol_acetone,kNN,acetone,acetone,39
+A_cross_period_low_target,binary_alcohol_acetone,Random Forest,alcohol,alcohol,64
+A_cross_period_low_target,binary_alcohol_acetone,Random Forest,alcohol,acetone,1
+A_cross_period_low_target,binary_alcohol_acetone,Random Forest,acetone,alcohol,51
+A_cross_period_low_target,binary_alcohol_acetone,Random Forest,acetone,acetone,14
+A_cross_period_low_target,binary_alcohol_acetone,RBF LS-SVM,alcohol,alcohol,63
+A_cross_period_low_target,binary_alcohol_acetone,RBF LS-SVM,alcohol,acetone,2
+A_cross_period_low_target,binary_alcohol_acetone,RBF LS-SVM,acetone,alcohol,25
+A_cross_period_low_target,binary_alcohol_acetone,RBF LS-SVM,acetone,acetone,40
+B_newdata_temporal,three_class,LDA,air,air,23
+B_newdata_temporal,three_class,LDA,air,alcohol,0
+B_newdata_temporal,three_class,LDA,air,acetone,1
+B_newdata_temporal,three_class,LDA,alcohol,air,1
+B_newdata_temporal,three_class,LDA,alcohol,alcohol,19
+B_newdata_temporal,three_class,LDA,alcohol,acetone,0
+B_newdata_temporal,three_class,LDA,acetone,air,1
+B_newdata_temporal,three_class,LDA,acetone,alcohol,0
+B_newdata_temporal,three_class,LDA,acetone,acetone,19
+B_newdata_temporal,three_class,Logistic Regression,air,air,24
+B_newdata_temporal,three_class,Logistic Regression,air,alcohol,0
+B_newdata_temporal,three_class,Logistic Regression,air,acetone,0
+B_newdata_temporal,three_class,Logistic Regression,alcohol,air,1
+B_newdata_temporal,three_class,Logistic Regression,alcohol,alcohol,19
+B_newdata_temporal,three_class,Logistic Regression,alcohol,acetone,0
+B_newdata_temporal,three_class,Logistic Regression,acetone,air,1
+B_newdata_temporal,three_class,Logistic Regression,acetone,alcohol,0
+B_newdata_temporal,three_class,Logistic Regression,acetone,acetone,19
+B_newdata_temporal,three_class,kNN,air,air,24
+B_newdata_temporal,three_class,kNN,air,alcohol,0
+B_newdata_temporal,three_class,kNN,air,acetone,0
+B_newdata_temporal,three_class,kNN,alcohol,air,0
+B_newdata_temporal,three_class,kNN,alcohol,alcohol,20
+B_newdata_temporal,three_class,kNN,alcohol,acetone,0
+B_newdata_temporal,three_class,kNN,acetone,air,0
+B_newdata_temporal,three_class,kNN,acetone,alcohol,2
+B_newdata_temporal,three_class,kNN,acetone,acetone,18
+B_newdata_temporal,three_class,Random Forest,air,air,24
+B_newdata_temporal,three_class,Random Forest,air,alcohol,0
+B_newdata_temporal,three_class,Random Forest,air,acetone,0
+B_newdata_temporal,three_class,Random Forest,alcohol,air,2
+B_newdata_temporal,three_class,Random Forest,alcohol,alcohol,18
+B_newdata_temporal,three_class,Random Forest,alcohol,acetone,0
+B_newdata_temporal,three_class,Random Forest,acetone,air,2
+B_newdata_temporal,three_class,Random Forest,acetone,alcohol,5
+B_newdata_temporal,three_class,Random Forest,acetone,acetone,13
+B_newdata_temporal,three_class,RBF LS-SVM,air,air,24
+B_newdata_temporal,three_class,RBF LS-SVM,air,alcohol,0
+B_newdata_temporal,three_class,RBF LS-SVM,air,acetone,0
+B_newdata_temporal,three_class,RBF LS-SVM,alcohol,air,0
+B_newdata_temporal,three_class,RBF LS-SVM,alcohol,alcohol,20
+B_newdata_temporal,three_class,RBF LS-SVM,alcohol,acetone,0
+B_newdata_temporal,three_class,RBF LS-SVM,acetone,air,0
+B_newdata_temporal,three_class,RBF LS-SVM,acetone,alcohol,0
+B_newdata_temporal,three_class,RBF LS-SVM,acetone,acetone,20
+B_newdata_temporal,binary_alcohol_acetone,LDA,alcohol,alcohol,19
+B_newdata_temporal,binary_alcohol_acetone,LDA,alcohol,acetone,1
+B_newdata_temporal,binary_alcohol_acetone,LDA,acetone,alcohol,0
+B_newdata_temporal,binary_alcohol_acetone,LDA,acetone,acetone,20
+B_newdata_temporal,binary_alcohol_acetone,Logistic Regression,alcohol,alcohol,20
+B_newdata_temporal,binary_alcohol_acetone,Logistic Regression,alcohol,acetone,0
+B_newdata_temporal,binary_alcohol_acetone,Logistic Regression,acetone,alcohol,0
+B_newdata_temporal,binary_alcohol_acetone,Logistic Regression,acetone,acetone,20
+B_newdata_temporal,binary_alcohol_acetone,kNN,alcohol,alcohol,20
+B_newdata_temporal,binary_alcohol_acetone,kNN,alcohol,acetone,0
+B_newdata_temporal,binary_alcohol_acetone,kNN,acetone,alcohol,2
+B_newdata_temporal,binary_alcohol_acetone,kNN,acetone,acetone,18
+B_newdata_temporal,binary_alcohol_acetone,Random Forest,alcohol,alcohol,20
+B_newdata_temporal,binary_alcohol_acetone,Random Forest,alcohol,acetone,0
+B_newdata_temporal,binary_alcohol_acetone,Random Forest,acetone,alcohol,7
+B_newdata_temporal,binary_alcohol_acetone,Random Forest,acetone,acetone,13
+B_newdata_temporal,binary_alcohol_acetone,RBF LS-SVM,alcohol,alcohol,20
+B_newdata_temporal,binary_alcohol_acetone,RBF LS-SVM,alcohol,acetone,0
+B_newdata_temporal,binary_alcohol_acetone,RBF LS-SVM,acetone,alcohol,0
+B_newdata_temporal,binary_alcohol_acetone,RBF LS-SVM,acetone,acetone,20
+C_recent_to_period3,three_class,LDA,air,air,6
+C_recent_to_period3,three_class,LDA,air,alcohol,0
+C_recent_to_period3,three_class,LDA,air,acetone,0
+C_recent_to_period3,three_class,LDA,alcohol,air,0
+C_recent_to_period3,three_class,LDA,alcohol,alcohol,7
+C_recent_to_period3,three_class,LDA,alcohol,acetone,0
+C_recent_to_period3,three_class,LDA,acetone,air,0
+C_recent_to_period3,three_class,LDA,acetone,alcohol,0
+C_recent_to_period3,three_class,LDA,acetone,acetone,7
+C_recent_to_period3,three_class,Logistic Regression,air,air,6
+C_recent_to_period3,three_class,Logistic Regression,air,alcohol,0
+C_recent_to_period3,three_class,Logistic Regression,air,acetone,0
+C_recent_to_period3,three_class,Logistic Regression,alcohol,air,0
+C_recent_to_period3,three_class,Logistic Regression,alcohol,alcohol,7
+C_recent_to_period3,three_class,Logistic Regression,alcohol,acetone,0
+C_recent_to_period3,three_class,Logistic Regression,acetone,air,0
+C_recent_to_period3,three_class,Logistic Regression,acetone,alcohol,0
+C_recent_to_period3,three_class,Logistic Regression,acetone,acetone,7
+C_recent_to_period3,three_class,kNN,air,air,6
+C_recent_to_period3,three_class,kNN,air,alcohol,0
+C_recent_to_period3,three_class,kNN,air,acetone,0
+C_recent_to_period3,three_class,kNN,alcohol,air,0
+C_recent_to_period3,three_class,kNN,alcohol,alcohol,7
+C_recent_to_period3,three_class,kNN,alcohol,acetone,0
+C_recent_to_period3,three_class,kNN,acetone,air,0
+C_recent_to_period3,three_class,kNN,acetone,alcohol,0
+C_recent_to_period3,three_class,kNN,acetone,acetone,7
+C_recent_to_period3,three_class,Random Forest,air,air,6
+C_recent_to_period3,three_class,Random Forest,air,alcohol,0
+C_recent_to_period3,three_class,Random Forest,air,acetone,0
+C_recent_to_period3,three_class,Random Forest,alcohol,air,0
+C_recent_to_period3,three_class,Random Forest,alcohol,alcohol,7
+C_recent_to_period3,three_class,Random Forest,alcohol,acetone,0
+C_recent_to_period3,three_class,Random Forest,acetone,air,0
+C_recent_to_period3,three_class,Random Forest,acetone,alcohol,0
+C_recent_to_period3,three_class,Random Forest,acetone,acetone,7
+C_recent_to_period3,three_class,RBF LS-SVM,air,air,6
+C_recent_to_period3,three_class,RBF LS-SVM,air,alcohol,0
+C_recent_to_period3,three_class,RBF LS-SVM,air,acetone,0
+C_recent_to_period3,three_class,RBF LS-SVM,alcohol,air,0
+C_recent_to_period3,three_class,RBF LS-SVM,alcohol,alcohol,7
+C_recent_to_period3,three_class,RBF LS-SVM,alcohol,acetone,0
+C_recent_to_period3,three_class,RBF LS-SVM,acetone,air,0
+C_recent_to_period3,three_class,RBF LS-SVM,acetone,alcohol,0
+C_recent_to_period3,three_class,RBF LS-SVM,acetone,acetone,7
+C_recent_to_period3,binary_alcohol_acetone,LDA,alcohol,alcohol,7
+C_recent_to_period3,binary_alcohol_acetone,LDA,alcohol,acetone,0
+C_recent_to_period3,binary_alcohol_acetone,LDA,acetone,alcohol,0
+C_recent_to_period3,binary_alcohol_acetone,LDA,acetone,acetone,7
+C_recent_to_period3,binary_alcohol_acetone,Logistic Regression,alcohol,alcohol,7
+C_recent_to_period3,binary_alcohol_acetone,Logistic Regression,alcohol,acetone,0
+C_recent_to_period3,binary_alcohol_acetone,Logistic Regression,acetone,alcohol,0
+C_recent_to_period3,binary_alcohol_acetone,Logistic Regression,acetone,acetone,7
+C_recent_to_period3,binary_alcohol_acetone,kNN,alcohol,alcohol,7
+C_recent_to_period3,binary_alcohol_acetone,kNN,alcohol,acetone,0
+C_recent_to_period3,binary_alcohol_acetone,kNN,acetone,alcohol,0
+C_recent_to_period3,binary_alcohol_acetone,kNN,acetone,acetone,7
+C_recent_to_period3,binary_alcohol_acetone,Random Forest,alcohol,alcohol,7
+C_recent_to_period3,binary_alcohol_acetone,Random Forest,alcohol,acetone,0
+C_recent_to_period3,binary_alcohol_acetone,Random Forest,acetone,alcohol,0
+C_recent_to_period3,binary_alcohol_acetone,Random Forest,acetone,acetone,7
+C_recent_to_period3,binary_alcohol_acetone,RBF LS-SVM,alcohol,alcohol,7
+C_recent_to_period3,binary_alcohol_acetone,RBF LS-SVM,alcohol,acetone,0
+C_recent_to_period3,binary_alcohol_acetone,RBF LS-SVM,acetone,alcohol,0
+C_recent_to_period3,binary_alcohol_acetone,RBF LS-SVM,acetone,acetone,7

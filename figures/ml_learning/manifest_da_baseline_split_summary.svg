@@ -1,0 +1,1138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2930" height="1711" viewBox="0 0 2930 1711">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24" y="32" font-family="Arial" font-size="22" font-weight="700">Machine-learning Baseline Multi-split Results for Current E-nose Data</text>
+<text x="24" y="56" font-family="Arial" font-size="13" fill="#555">Three-class only. S-splits use chronological days across all available later periods; B-splits use the declared batch groups.</text>
+<text x="24" y="74" font-family="Arial" font-size="12" fill="#555">Overfitting evidence is reported as raw train, validation, and test metrics. Class-level precision/recall/F1 and all partition confusion matrices are written to CSV.</text>
+<rect x="24" y="92" width="54" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="29" y="112" font-family="Arial" font-size="10" font-weight="700">Split</text>
+<rect x="78" y="92" width="122" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="83" y="112" font-family="Arial" font-size="10" font-weight="700">Model</text>
+<rect x="200" y="92" width="420" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="205" y="112" font-family="Arial" font-size="10" font-weight="700">Best hyperparameters</text>
+<rect x="620" y="92" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="625" y="112" font-family="Arial" font-size="10" font-weight="700">Tr Acc mean +/- SD [min, max]</text>
+<rect x="830" y="92" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="835" y="112" font-family="Arial" font-size="10" font-weight="700">Tr BA mean +/- SD [min, max]</text>
+<rect x="1040" y="92" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="1045" y="112" font-family="Arial" font-size="10" font-weight="700">Tr F1 mean +/- SD [min, max]</text>
+<rect x="1250" y="92" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="1255" y="112" font-family="Arial" font-size="10" font-weight="700">Val Acc mean +/- SD [min, max]</text>
+<rect x="1460" y="92" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="1465" y="112" font-family="Arial" font-size="10" font-weight="700">Val BA mean +/- SD [min, max]</text>
+<rect x="1670" y="92" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="1675" y="112" font-family="Arial" font-size="10" font-weight="700">Val F1 mean +/- SD [min, max]</text>
+<rect x="1880" y="92" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="1885" y="112" font-family="Arial" font-size="10" font-weight="700">Test Acc mean +/- SD [min, max]</text>
+<rect x="2090" y="92" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="2095" y="112" font-family="Arial" font-size="10" font-weight="700">Test BA mean +/- SD [min, max]</text>
+<rect x="2300" y="92" width="210" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="2305" y="112" font-family="Arial" font-size="10" font-weight="700">Test F1 mean +/- SD [min, max]</text>
+<rect x="2510" y="92" width="380" height="31" fill="#f1f4f8" stroke="#d8dee8"/>
+<text x="2515" y="112" font-family="Arial" font-size="10" font-weight="700">Selection</text>
+<rect x="24" y="123" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="143" font-family="Arial" font-size="9">S1</text>
+<rect x="78" y="123" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="143" font-family="Arial" font-size="9">LDA</text>
+<rect x="200" y="123" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="143" font-family="Arial" font-size="9">shrinkage=0.1</text>
+<rect x="620" y="123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="143" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="143" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="143" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="143" font-family="Arial" font-size="9">NA</text>
+<rect x="1460" y="123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="143" font-family="Arial" font-size="9">NA</text>
+<rect x="1670" y="123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="143" font-family="Arial" font-size="9">NA</text>
+<rect x="1880" y="123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="143" font-family="Arial" font-size="9">0.608</text>
+<rect x="2090" y="123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="143" font-family="Arial" font-size="9">0.617</text>
+<rect x="2300" y="123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="143" font-family="Arial" font-size="9">0.529</text>
+<rect x="2510" y="123" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="143" font-family="Arial" font-size="9">fixed_default_no_validation</text>
+<rect x="24" y="154" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="174" font-family="Arial" font-size="9"></text>
+<rect x="78" y="154" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="174" font-family="Arial" font-size="9">Logistic Regression</text>
+<rect x="200" y="154" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="174" font-family="Arial" font-size="9">C=1.0</text>
+<rect x="620" y="154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="174" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="174" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="174" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="174" font-family="Arial" font-size="9">NA</text>
+<rect x="1460" y="154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="174" font-family="Arial" font-size="9">NA</text>
+<rect x="1670" y="154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="174" font-family="Arial" font-size="9">NA</text>
+<rect x="1880" y="154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="174" font-family="Arial" font-size="9">0.821</text>
+<rect x="2090" y="154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="174" font-family="Arial" font-size="9">0.820</text>
+<rect x="2300" y="154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="174" font-family="Arial" font-size="9">0.827</text>
+<rect x="2510" y="154" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="174" font-family="Arial" font-size="9">fixed_default_no_validation</text>
+<rect x="24" y="185" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="205" font-family="Arial" font-size="9"></text>
+<rect x="78" y="185" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="205" font-family="Arial" font-size="9">kNN</text>
+<rect x="200" y="185" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="205" font-family="Arial" font-size="9">n_neighbors=3</text>
+<rect x="620" y="185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="205" font-family="Arial" font-size="9">0.733</text>
+<rect x="830" y="185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="205" font-family="Arial" font-size="9">0.694</text>
+<rect x="1040" y="185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="205" font-family="Arial" font-size="9">0.698</text>
+<rect x="1250" y="185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="205" font-family="Arial" font-size="9">NA</text>
+<rect x="1460" y="185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="205" font-family="Arial" font-size="9">NA</text>
+<rect x="1670" y="185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="205" font-family="Arial" font-size="9">NA</text>
+<rect x="1880" y="185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="205" font-family="Arial" font-size="9">0.634</text>
+<rect x="2090" y="185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="205" font-family="Arial" font-size="9">0.643</text>
+<rect x="2300" y="185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="205" font-family="Arial" font-size="9">0.633</text>
+<rect x="2510" y="185" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="205" font-family="Arial" font-size="9">fixed_default_no_validation</text>
+<rect x="24" y="216" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="236" font-family="Arial" font-size="9"></text>
+<rect x="78" y="216" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="236" font-family="Arial" font-size="9">Random Forest</text>
+<rect x="200" y="216" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="236" font-family="Arial" font-size="9">max_features=sqrt;max_depth=4;min_samples_leaf=2</text>
+<rect x="620" y="216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="236" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="830" y="216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="236" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1040" y="216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="236" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1250" y="216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="236" font-family="Arial" font-size="9">NA +/- NA [NA, NA]</text>
+<rect x="1460" y="216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="236" font-family="Arial" font-size="9">NA +/- NA [NA, NA]</text>
+<rect x="1670" y="216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="236" font-family="Arial" font-size="9">NA +/- NA [NA, NA]</text>
+<rect x="1880" y="216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="236" font-family="Arial" font-size="9">0.910 +/- 0.004 [0.905, 0.916]</text>
+<rect x="2090" y="216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="236" font-family="Arial" font-size="9">0.915 +/- 0.004 [0.910, 0.920]</text>
+<rect x="2300" y="216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="236" font-family="Arial" font-size="9">0.915 +/- 0.004 [0.910, 0.920]</text>
+<rect x="2510" y="216" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="236" font-family="Arial" font-size="9">fixed_default_no_validation</text>
+<rect x="24" y="247" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="267" font-family="Arial" font-size="9"></text>
+<rect x="78" y="247" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="267" font-family="Arial" font-size="9">RBF SVM</text>
+<rect x="200" y="247" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="267" font-family="Arial" font-size="9">C=1.0;gamma=scale</text>
+<rect x="620" y="247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="267" font-family="Arial" font-size="9">0.867</text>
+<rect x="830" y="247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="267" font-family="Arial" font-size="9">0.889</text>
+<rect x="1040" y="247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="267" font-family="Arial" font-size="9">0.865</text>
+<rect x="1250" y="247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="267" font-family="Arial" font-size="9">NA</text>
+<rect x="1460" y="247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="267" font-family="Arial" font-size="9">NA</text>
+<rect x="1670" y="247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="267" font-family="Arial" font-size="9">NA</text>
+<rect x="1880" y="247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="267" font-family="Arial" font-size="9">0.714</text>
+<rect x="2090" y="247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="267" font-family="Arial" font-size="9">0.725</text>
+<rect x="2300" y="247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="267" font-family="Arial" font-size="9">0.722</text>
+<rect x="2510" y="247" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="267" font-family="Arial" font-size="9">fixed_default_no_validation</text>
+<rect x="24" y="278" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="298" font-family="Arial" font-size="9"></text>
+<rect x="78" y="278" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="298" font-family="Arial" font-size="9">MLP</text>
+<rect x="200" y="278" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="298" font-family="Arial" font-size="9">hidden_layer_sizes=(32, 16);alpha=0.0001;learning_rate_init=0.01</text>
+<rect x="620" y="278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="298" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="830" y="278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="298" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1040" y="278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="298" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1250" y="278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="298" font-family="Arial" font-size="9">NA +/- NA [NA, NA]</text>
+<rect x="1460" y="278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="298" font-family="Arial" font-size="9">NA +/- NA [NA, NA]</text>
+<rect x="1670" y="278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="298" font-family="Arial" font-size="9">NA +/- NA [NA, NA]</text>
+<rect x="1880" y="278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="298" font-family="Arial" font-size="9">0.758 +/- 0.036 [0.729, 0.799]</text>
+<rect x="2090" y="278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="298" font-family="Arial" font-size="9">0.762 +/- 0.035 [0.733, 0.802]</text>
+<rect x="2300" y="278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="298" font-family="Arial" font-size="9">0.761 +/- 0.036 [0.725, 0.799]</text>
+<rect x="2510" y="278" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="298" font-family="Arial" font-size="9">fixed_default_no_validation</text>
+<rect x="24" y="309" width="2866" height="14" fill="#ffffff" stroke="none"/>
+<rect x="24" y="323" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="343" font-family="Arial" font-size="9">S2</text>
+<rect x="78" y="323" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="343" font-family="Arial" font-size="9">LDA</text>
+<rect x="200" y="323" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="343" font-family="Arial" font-size="9">shrinkage=0.5</text>
+<rect x="620" y="323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="343" font-family="Arial" font-size="9">0.867</text>
+<rect x="830" y="323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="343" font-family="Arial" font-size="9">0.861</text>
+<rect x="1040" y="323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="343" font-family="Arial" font-size="9">0.860</text>
+<rect x="1250" y="323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="343" font-family="Arial" font-size="9">0.800</text>
+<rect x="1460" y="323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="343" font-family="Arial" font-size="9">0.833</text>
+<rect x="1670" y="323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="343" font-family="Arial" font-size="9">0.822</text>
+<rect x="1880" y="323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="343" font-family="Arial" font-size="9">0.744</text>
+<rect x="2090" y="323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="343" font-family="Arial" font-size="9">0.742</text>
+<rect x="2300" y="323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="343" font-family="Arial" font-size="9">0.739</text>
+<rect x="2510" y="323" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="343" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="354" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="374" font-family="Arial" font-size="9"></text>
+<rect x="78" y="354" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="374" font-family="Arial" font-size="9">Logistic Regression</text>
+<rect x="200" y="354" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="374" font-family="Arial" font-size="9">C=10.0</text>
+<rect x="620" y="354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="374" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="374" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="374" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="374" font-family="Arial" font-size="9">1.000</text>
+<rect x="1460" y="354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="374" font-family="Arial" font-size="9">1.000</text>
+<rect x="1670" y="354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="374" font-family="Arial" font-size="9">1.000</text>
+<rect x="1880" y="354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="374" font-family="Arial" font-size="9">0.817</text>
+<rect x="2090" y="354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="374" font-family="Arial" font-size="9">0.817</text>
+<rect x="2300" y="354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="374" font-family="Arial" font-size="9">0.823</text>
+<rect x="2510" y="354" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="374" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="385" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="405" font-family="Arial" font-size="9"></text>
+<rect x="78" y="385" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="405" font-family="Arial" font-size="9">kNN</text>
+<rect x="200" y="385" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="405" font-family="Arial" font-size="9">n_neighbors=1</text>
+<rect x="620" y="385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="405" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="405" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="405" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="405" font-family="Arial" font-size="9">0.800</text>
+<rect x="1460" y="385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="405" font-family="Arial" font-size="9">0.833</text>
+<rect x="1670" y="385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="405" font-family="Arial" font-size="9">0.822</text>
+<rect x="1880" y="385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="405" font-family="Arial" font-size="9">0.648</text>
+<rect x="2090" y="385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="405" font-family="Arial" font-size="9">0.653</text>
+<rect x="2300" y="385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="405" font-family="Arial" font-size="9">0.655</text>
+<rect x="2510" y="385" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="405" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="416" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="436" font-family="Arial" font-size="9"></text>
+<rect x="78" y="416" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="436" font-family="Arial" font-size="9">Random Forest</text>
+<rect x="200" y="416" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="436" font-family="Arial" font-size="9">max_features=sqrt;max_depth=2;min_samples_leaf=1</text>
+<rect x="620" y="416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="436" font-family="Arial" font-size="9">0.907 +/- 0.015 [0.900, 0.933]</text>
+<rect x="830" y="416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="436" font-family="Arial" font-size="9">0.922 +/- 0.012 [0.917, 0.944]</text>
+<rect x="1040" y="416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="436" font-family="Arial" font-size="9">0.921 +/- 0.013 [0.915, 0.944]</text>
+<rect x="1250" y="416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="436" font-family="Arial" font-size="9">0.800 +/- 0.000 [0.800, 0.800]</text>
+<rect x="1460" y="416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="436" font-family="Arial" font-size="9">0.833 +/- 0.000 [0.833, 0.833]</text>
+<rect x="1670" y="416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="436" font-family="Arial" font-size="9">0.822 +/- 0.000 [0.822, 0.822]</text>
+<rect x="1880" y="416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="436" font-family="Arial" font-size="9">0.899 +/- 0.012 [0.886, 0.916]</text>
+<rect x="2090" y="416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="436" font-family="Arial" font-size="9">0.904 +/- 0.011 [0.892, 0.920]</text>
+<rect x="2300" y="416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="436" font-family="Arial" font-size="9">0.904 +/- 0.011 [0.892, 0.920]</text>
+<rect x="2510" y="416" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="436" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="447" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="467" font-family="Arial" font-size="9"></text>
+<rect x="78" y="447" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="467" font-family="Arial" font-size="9">RBF SVM</text>
+<rect x="200" y="447" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="467" font-family="Arial" font-size="9">C=0.1;gamma=scale</text>
+<rect x="620" y="447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="467" font-family="Arial" font-size="9">0.833</text>
+<rect x="830" y="447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="467" font-family="Arial" font-size="9">0.861</text>
+<rect x="1040" y="447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="467" font-family="Arial" font-size="9">0.834</text>
+<rect x="1250" y="447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="467" font-family="Arial" font-size="9">0.800</text>
+<rect x="1460" y="447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="467" font-family="Arial" font-size="9">0.833</text>
+<rect x="1670" y="447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="467" font-family="Arial" font-size="9">0.822</text>
+<rect x="1880" y="447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="467" font-family="Arial" font-size="9">0.685</text>
+<rect x="2090" y="447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="467" font-family="Arial" font-size="9">0.696</text>
+<rect x="2300" y="447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="467" font-family="Arial" font-size="9">0.694</text>
+<rect x="2510" y="447" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="467" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="478" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="498" font-family="Arial" font-size="9"></text>
+<rect x="78" y="478" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="498" font-family="Arial" font-size="9">MLP</text>
+<rect x="200" y="478" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="498" font-family="Arial" font-size="9">hidden_layer_sizes=(32, 16);alpha=0.0001;learning_rate_init=0.01</text>
+<rect x="620" y="478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="498" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="830" y="478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="498" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1040" y="478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="498" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1250" y="478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="498" font-family="Arial" font-size="9">0.600 +/- 0.000 [0.600, 0.600]</text>
+<rect x="1460" y="478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="498" font-family="Arial" font-size="9">0.667 +/- 0.000 [0.667, 0.667]</text>
+<rect x="1670" y="478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="498" font-family="Arial" font-size="9">0.611 +/- 0.000 [0.611, 0.611]</text>
+<rect x="1880" y="478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="498" font-family="Arial" font-size="9">0.758 +/- 0.036 [0.729, 0.799]</text>
+<rect x="2090" y="478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="498" font-family="Arial" font-size="9">0.762 +/- 0.035 [0.733, 0.802]</text>
+<rect x="2300" y="478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="498" font-family="Arial" font-size="9">0.761 +/- 0.036 [0.725, 0.799]</text>
+<rect x="2510" y="478" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="498" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="509" width="2866" height="14" fill="#ffffff" stroke="none"/>
+<rect x="24" y="523" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="543" font-family="Arial" font-size="9">S3</text>
+<rect x="78" y="523" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="543" font-family="Arial" font-size="9">LDA</text>
+<rect x="200" y="523" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="543" font-family="Arial" font-size="9">shrinkage=0.5</text>
+<rect x="620" y="523" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="543" font-family="Arial" font-size="9">0.867</text>
+<rect x="830" y="523" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="543" font-family="Arial" font-size="9">0.861</text>
+<rect x="1040" y="523" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="543" font-family="Arial" font-size="9">0.860</text>
+<rect x="1250" y="523" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="543" font-family="Arial" font-size="9">0.800</text>
+<rect x="1460" y="523" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="543" font-family="Arial" font-size="9">0.833</text>
+<rect x="1670" y="523" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="543" font-family="Arial" font-size="9">0.785</text>
+<rect x="1880" y="523" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="543" font-family="Arial" font-size="9">0.744</text>
+<rect x="2090" y="523" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="543" font-family="Arial" font-size="9">0.742</text>
+<rect x="2300" y="523" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="543" font-family="Arial" font-size="9">0.739</text>
+<rect x="2510" y="523" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="543" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="554" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="574" font-family="Arial" font-size="9"></text>
+<rect x="78" y="554" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="574" font-family="Arial" font-size="9">Logistic Regression</text>
+<rect x="200" y="554" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="574" font-family="Arial" font-size="9">C=0.1</text>
+<rect x="620" y="554" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="574" font-family="Arial" font-size="9">0.867</text>
+<rect x="830" y="554" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="574" font-family="Arial" font-size="9">0.889</text>
+<rect x="1040" y="554" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="574" font-family="Arial" font-size="9">0.864</text>
+<rect x="1250" y="554" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="574" font-family="Arial" font-size="9">0.700</text>
+<rect x="1460" y="554" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="574" font-family="Arial" font-size="9">0.667</text>
+<rect x="1670" y="554" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="574" font-family="Arial" font-size="9">0.656</text>
+<rect x="1880" y="554" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="574" font-family="Arial" font-size="9">0.846</text>
+<rect x="2090" y="554" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="574" font-family="Arial" font-size="9">0.846</text>
+<rect x="2300" y="554" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="574" font-family="Arial" font-size="9">0.849</text>
+<rect x="2510" y="554" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="574" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="585" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="605" font-family="Arial" font-size="9"></text>
+<rect x="78" y="585" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="605" font-family="Arial" font-size="9">kNN</text>
+<rect x="200" y="585" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="605" font-family="Arial" font-size="9">n_neighbors=7</text>
+<rect x="620" y="585" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="605" font-family="Arial" font-size="9">0.733</text>
+<rect x="830" y="585" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="605" font-family="Arial" font-size="9">0.694</text>
+<rect x="1040" y="585" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="605" font-family="Arial" font-size="9">0.707</text>
+<rect x="1250" y="585" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="605" font-family="Arial" font-size="9">0.700</text>
+<rect x="1460" y="585" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="605" font-family="Arial" font-size="9">0.667</text>
+<rect x="1670" y="585" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="605" font-family="Arial" font-size="9">0.656</text>
+<rect x="1880" y="585" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="605" font-family="Arial" font-size="9">0.663</text>
+<rect x="2090" y="585" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="605" font-family="Arial" font-size="9">0.668</text>
+<rect x="2300" y="585" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="605" font-family="Arial" font-size="9">0.659</text>
+<rect x="2510" y="585" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="605" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="616" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="636" font-family="Arial" font-size="9"></text>
+<rect x="78" y="616" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="636" font-family="Arial" font-size="9">Random Forest</text>
+<rect x="200" y="616" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="636" font-family="Arial" font-size="9">max_features=sqrt;max_depth=2;min_samples_leaf=1</text>
+<rect x="620" y="616" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="636" font-family="Arial" font-size="9">0.920 +/- 0.018 [0.900, 0.933]</text>
+<rect x="830" y="616" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="636" font-family="Arial" font-size="9">0.933 +/- 0.015 [0.917, 0.944]</text>
+<rect x="1040" y="616" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="636" font-family="Arial" font-size="9">0.933 +/- 0.016 [0.915, 0.944]</text>
+<rect x="1250" y="616" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="636" font-family="Arial" font-size="9">0.700 +/- 0.000 [0.700, 0.700]</text>
+<rect x="1460" y="616" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="636" font-family="Arial" font-size="9">0.750 +/- 0.000 [0.750, 0.750]</text>
+<rect x="1670" y="616" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="636" font-family="Arial" font-size="9">0.694 +/- 0.000 [0.694, 0.694]</text>
+<rect x="1880" y="616" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="636" font-family="Arial" font-size="9">0.903 +/- 0.011 [0.890, 0.919]</text>
+<rect x="2090" y="616" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="636" font-family="Arial" font-size="9">0.908 +/- 0.010 [0.896, 0.924]</text>
+<rect x="2300" y="616" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="636" font-family="Arial" font-size="9">0.908 +/- 0.010 [0.896, 0.924]</text>
+<rect x="2510" y="616" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="636" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="647" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="667" font-family="Arial" font-size="9"></text>
+<rect x="78" y="647" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="667" font-family="Arial" font-size="9">RBF SVM</text>
+<rect x="200" y="647" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="667" font-family="Arial" font-size="9">C=10.0;gamma=scale</text>
+<rect x="620" y="647" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="667" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="647" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="667" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="647" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="667" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="647" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="667" font-family="Arial" font-size="9">0.700</text>
+<rect x="1460" y="647" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="667" font-family="Arial" font-size="9">0.667</text>
+<rect x="1670" y="647" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="667" font-family="Arial" font-size="9">0.667</text>
+<rect x="1880" y="647" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="667" font-family="Arial" font-size="9">0.821</text>
+<rect x="2090" y="647" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="667" font-family="Arial" font-size="9">0.823</text>
+<rect x="2300" y="647" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="667" font-family="Arial" font-size="9">0.827</text>
+<rect x="2510" y="647" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="667" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="678" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="698" font-family="Arial" font-size="9"></text>
+<rect x="78" y="678" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="698" font-family="Arial" font-size="9">MLP</text>
+<rect x="200" y="678" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="698" font-family="Arial" font-size="9">hidden_layer_sizes=(32, 16);alpha=0.0001;learning_rate_init=0.01</text>
+<rect x="620" y="678" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="698" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="830" y="678" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="698" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1040" y="678" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="698" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1250" y="678" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="698" font-family="Arial" font-size="9">0.620 +/- 0.045 [0.600, 0.700]</text>
+<rect x="1460" y="678" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="698" font-family="Arial" font-size="9">0.600 +/- 0.037 [0.583, 0.667]</text>
+<rect x="1670" y="678" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="698" font-family="Arial" font-size="9">0.589 +/- 0.035 [0.574, 0.652]</text>
+<rect x="1880" y="678" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="698" font-family="Arial" font-size="9">0.758 +/- 0.036 [0.729, 0.799]</text>
+<rect x="2090" y="678" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="698" font-family="Arial" font-size="9">0.762 +/- 0.035 [0.733, 0.802]</text>
+<rect x="2300" y="678" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="698" font-family="Arial" font-size="9">0.761 +/- 0.036 [0.725, 0.799]</text>
+<rect x="2510" y="678" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="698" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="709" width="2866" height="14" fill="#ffffff" stroke="none"/>
+<rect x="24" y="723" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="743" font-family="Arial" font-size="9">S4</text>
+<rect x="78" y="723" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="743" font-family="Arial" font-size="9">LDA</text>
+<rect x="200" y="723" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="743" font-family="Arial" font-size="9">shrinkage=0.5</text>
+<rect x="620" y="723" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="743" font-family="Arial" font-size="9">0.931</text>
+<rect x="830" y="723" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="743" font-family="Arial" font-size="9">0.939</text>
+<rect x="1040" y="723" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="743" font-family="Arial" font-size="9">0.928</text>
+<rect x="1250" y="723" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="743" font-family="Arial" font-size="9">0.857</text>
+<rect x="1460" y="723" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="743" font-family="Arial" font-size="9">0.850</text>
+<rect x="1670" y="723" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="743" font-family="Arial" font-size="9">0.852</text>
+<rect x="1880" y="723" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="743" font-family="Arial" font-size="9">0.882</text>
+<rect x="2090" y="723" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="743" font-family="Arial" font-size="9">0.884</text>
+<rect x="2300" y="723" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="743" font-family="Arial" font-size="9">0.880</text>
+<rect x="2510" y="723" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="743" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="754" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="774" font-family="Arial" font-size="9"></text>
+<rect x="78" y="754" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="774" font-family="Arial" font-size="9">Logistic Regression</text>
+<rect x="200" y="754" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="774" font-family="Arial" font-size="9">C=10.0</text>
+<rect x="620" y="754" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="774" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="754" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="774" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="754" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="774" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="754" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="774" font-family="Arial" font-size="9">0.893</text>
+<rect x="1460" y="754" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="774" font-family="Arial" font-size="9">0.883</text>
+<rect x="1670" y="754" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="774" font-family="Arial" font-size="9">0.891</text>
+<rect x="1880" y="754" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="774" font-family="Arial" font-size="9">0.918</text>
+<rect x="2090" y="754" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="774" font-family="Arial" font-size="9">0.920</text>
+<rect x="2300" y="754" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="774" font-family="Arial" font-size="9">0.922</text>
+<rect x="2510" y="754" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="774" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="785" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="805" font-family="Arial" font-size="9"></text>
+<rect x="78" y="785" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="805" font-family="Arial" font-size="9">kNN</text>
+<rect x="200" y="785" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="805" font-family="Arial" font-size="9">n_neighbors=7</text>
+<rect x="620" y="785" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="805" font-family="Arial" font-size="9">0.845</text>
+<rect x="830" y="785" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="805" font-family="Arial" font-size="9">0.855</text>
+<rect x="1040" y="785" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="805" font-family="Arial" font-size="9">0.844</text>
+<rect x="1250" y="785" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="805" font-family="Arial" font-size="9">0.786</text>
+<rect x="1460" y="785" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="805" font-family="Arial" font-size="9">0.800</text>
+<rect x="1670" y="785" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="805" font-family="Arial" font-size="9">0.798</text>
+<rect x="1880" y="785" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="805" font-family="Arial" font-size="9">0.735</text>
+<rect x="2090" y="785" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="805" font-family="Arial" font-size="9">0.746</text>
+<rect x="2300" y="785" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="805" font-family="Arial" font-size="9">0.731</text>
+<rect x="2510" y="785" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="805" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="816" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="836" font-family="Arial" font-size="9"></text>
+<rect x="78" y="816" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="836" font-family="Arial" font-size="9">Random Forest</text>
+<rect x="200" y="816" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="836" font-family="Arial" font-size="9">max_features=log2;max_depth=3;min_samples_leaf=2</text>
+<rect x="620" y="816" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="836" font-family="Arial" font-size="9">0.966 +/- 0.012 [0.948, 0.983]</text>
+<rect x="830" y="816" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="836" font-family="Arial" font-size="9">0.970 +/- 0.011 [0.955, 0.985]</text>
+<rect x="1040" y="816" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="836" font-family="Arial" font-size="9">0.970 +/- 0.011 [0.955, 0.985]</text>
+<rect x="1250" y="816" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="836" font-family="Arial" font-size="9">0.750 +/- 0.000 [0.750, 0.750]</text>
+<rect x="1460" y="816" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="836" font-family="Arial" font-size="9">0.767 +/- 0.000 [0.767, 0.767]</text>
+<rect x="1670" y="816" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="836" font-family="Arial" font-size="9">0.734 +/- 0.000 [0.734, 0.734]</text>
+<rect x="1880" y="816" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="836" font-family="Arial" font-size="9">0.824 +/- 0.010 [0.812, 0.837]</text>
+<rect x="2090" y="816" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="836" font-family="Arial" font-size="9">0.833 +/- 0.009 [0.822, 0.845]</text>
+<rect x="2300" y="816" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="836" font-family="Arial" font-size="9">0.821 +/- 0.011 [0.808, 0.836]</text>
+<rect x="2510" y="816" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="836" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="847" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="867" font-family="Arial" font-size="9"></text>
+<rect x="78" y="847" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="867" font-family="Arial" font-size="9">RBF SVM</text>
+<rect x="200" y="847" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="867" font-family="Arial" font-size="9">C=10.0;gamma=0.01</text>
+<rect x="620" y="847" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="867" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="847" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="867" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="847" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="867" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="847" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="867" font-family="Arial" font-size="9">0.964</text>
+<rect x="1460" y="847" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="867" font-family="Arial" font-size="9">0.967</text>
+<rect x="1670" y="847" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="867" font-family="Arial" font-size="9">0.967</text>
+<rect x="1880" y="847" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="867" font-family="Arial" font-size="9">0.906</text>
+<rect x="2090" y="847" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="867" font-family="Arial" font-size="9">0.907</text>
+<rect x="2300" y="847" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="867" font-family="Arial" font-size="9">0.910</text>
+<rect x="2510" y="847" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="867" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="878" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="898" font-family="Arial" font-size="9"></text>
+<rect x="78" y="878" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="898" font-family="Arial" font-size="9">MLP</text>
+<rect x="200" y="878" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="898" font-family="Arial" font-size="9">hidden_layer_sizes=(32, 16);alpha=0.0001;learning_rate_init=0.01</text>
+<rect x="620" y="878" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="898" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="830" y="878" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="898" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1040" y="878" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="898" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1250" y="878" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="898" font-family="Arial" font-size="9">0.814 +/- 0.053 [0.750, 0.893]</text>
+<rect x="1460" y="878" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="898" font-family="Arial" font-size="9">0.822 +/- 0.053 [0.758, 0.900]</text>
+<rect x="1670" y="878" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="898" font-family="Arial" font-size="9">0.810 +/- 0.053 [0.750, 0.891]</text>
+<rect x="1880" y="878" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="898" font-family="Arial" font-size="9">0.823 +/- 0.021 [0.792, 0.841]</text>
+<rect x="2090" y="878" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="898" font-family="Arial" font-size="9">0.828 +/- 0.019 [0.798, 0.845]</text>
+<rect x="2300" y="878" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="898" font-family="Arial" font-size="9">0.819 +/- 0.023 [0.785, 0.840]</text>
+<rect x="2510" y="878" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="898" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="909" width="2866" height="14" fill="#ffffff" stroke="none"/>
+<rect x="24" y="923" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="943" font-family="Arial" font-size="9">S5</text>
+<rect x="78" y="923" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="943" font-family="Arial" font-size="9">LDA</text>
+<rect x="200" y="923" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="943" font-family="Arial" font-size="9">shrinkage=0.1</text>
+<rect x="620" y="923" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="943" font-family="Arial" font-size="9">0.958</text>
+<rect x="830" y="923" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="943" font-family="Arial" font-size="9">0.963</text>
+<rect x="1040" y="923" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="943" font-family="Arial" font-size="9">0.955</text>
+<rect x="1250" y="923" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="943" font-family="Arial" font-size="9">0.808</text>
+<rect x="1460" y="923" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="943" font-family="Arial" font-size="9">0.833</text>
+<rect x="1670" y="923" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="943" font-family="Arial" font-size="9">0.802</text>
+<rect x="1880" y="923" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="943" font-family="Arial" font-size="9">0.883</text>
+<rect x="2090" y="923" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="943" font-family="Arial" font-size="9">0.883</text>
+<rect x="2300" y="923" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="943" font-family="Arial" font-size="9">0.886</text>
+<rect x="2510" y="923" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="943" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="954" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="974" font-family="Arial" font-size="9"></text>
+<rect x="78" y="954" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="974" font-family="Arial" font-size="9">Logistic Regression</text>
+<rect x="200" y="954" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="974" font-family="Arial" font-size="9">C=1.0</text>
+<rect x="620" y="954" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="974" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="954" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="974" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="954" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="974" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="954" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="974" font-family="Arial" font-size="9">0.962</text>
+<rect x="1460" y="954" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="974" font-family="Arial" font-size="9">0.967</text>
+<rect x="1670" y="954" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="974" font-family="Arial" font-size="9">0.967</text>
+<rect x="1880" y="954" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="974" font-family="Arial" font-size="9">0.931</text>
+<rect x="2090" y="954" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="974" font-family="Arial" font-size="9">0.932</text>
+<rect x="2300" y="954" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="974" font-family="Arial" font-size="9">0.933</text>
+<rect x="2510" y="954" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="974" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="985" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="1005" font-family="Arial" font-size="9"></text>
+<rect x="78" y="985" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="1005" font-family="Arial" font-size="9">kNN</text>
+<rect x="200" y="985" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="1005" font-family="Arial" font-size="9">n_neighbors=1</text>
+<rect x="620" y="985" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="1005" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="985" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="1005" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="985" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="1005" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="985" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="1005" font-family="Arial" font-size="9">0.692</text>
+<rect x="1460" y="985" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="1005" font-family="Arial" font-size="9">0.733</text>
+<rect x="1670" y="985" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="1005" font-family="Arial" font-size="9">0.731</text>
+<rect x="1880" y="985" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="1005" font-family="Arial" font-size="9">0.840</text>
+<rect x="2090" y="985" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="1005" font-family="Arial" font-size="9">0.838</text>
+<rect x="2300" y="985" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="1005" font-family="Arial" font-size="9">0.843</text>
+<rect x="2510" y="985" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="1005" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1016" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="1036" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1016" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="1036" font-family="Arial" font-size="9">Random Forest</text>
+<rect x="200" y="1016" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="1036" font-family="Arial" font-size="9">max_features=sqrt;max_depth=2;min_samples_leaf=1</text>
+<rect x="620" y="1016" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="1036" font-family="Arial" font-size="9">0.931 +/- 0.000 [0.931, 0.931]</text>
+<rect x="830" y="1016" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="1036" font-family="Arial" font-size="9">0.938 +/- 0.000 [0.938, 0.938]</text>
+<rect x="1040" y="1016" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="1036" font-family="Arial" font-size="9">0.938 +/- 0.000 [0.938, 0.938]</text>
+<rect x="1250" y="1016" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="1036" font-family="Arial" font-size="9">0.831 +/- 0.021 [0.808, 0.846]</text>
+<rect x="1460" y="1016" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="1036" font-family="Arial" font-size="9">0.853 +/- 0.018 [0.833, 0.867]</text>
+<rect x="1670" y="1016" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="1036" font-family="Arial" font-size="9">0.846 +/- 0.021 [0.822, 0.861]</text>
+<rect x="1880" y="1016" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="1036" font-family="Arial" font-size="9">0.895 +/- 0.002 [0.892, 0.896]</text>
+<rect x="2090" y="1016" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="1036" font-family="Arial" font-size="9">0.900 +/- 0.002 [0.897, 0.901]</text>
+<rect x="2300" y="1016" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="1036" font-family="Arial" font-size="9">0.899 +/- 0.002 [0.895, 0.899]</text>
+<rect x="2510" y="1016" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="1036" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="1047" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="1067" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1047" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="1067" font-family="Arial" font-size="9">RBF SVM</text>
+<rect x="200" y="1047" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="1067" font-family="Arial" font-size="9">C=10.0;gamma=scale</text>
+<rect x="620" y="1047" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="1067" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="1047" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="1067" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="1047" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="1067" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="1047" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="1067" font-family="Arial" font-size="9">1.000</text>
+<rect x="1460" y="1047" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="1067" font-family="Arial" font-size="9">1.000</text>
+<rect x="1670" y="1047" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="1067" font-family="Arial" font-size="9">1.000</text>
+<rect x="1880" y="1047" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="1067" font-family="Arial" font-size="9">0.913</text>
+<rect x="2090" y="1047" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="1067" font-family="Arial" font-size="9">0.914</text>
+<rect x="2300" y="1047" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="1067" font-family="Arial" font-size="9">0.917</text>
+<rect x="2510" y="1047" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="1067" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1078" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="1098" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1078" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="1098" font-family="Arial" font-size="9">MLP</text>
+<rect x="200" y="1078" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="1098" font-family="Arial" font-size="9">hidden_layer_sizes=(32, 16);alpha=0.0001;learning_rate_init=0.01</text>
+<rect x="620" y="1078" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="1098" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="830" y="1078" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="1098" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1040" y="1078" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="1098" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1250" y="1078" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="1098" font-family="Arial" font-size="9">0.831 +/- 0.058 [0.769, 0.923]</text>
+<rect x="1460" y="1078" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="1098" font-family="Arial" font-size="9">0.853 +/- 0.051 [0.800, 0.933]</text>
+<rect x="1670" y="1078" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="1098" font-family="Arial" font-size="9">0.825 +/- 0.062 [0.758, 0.923]</text>
+<rect x="1880" y="1078" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="1098" font-family="Arial" font-size="9">0.880 +/- 0.009 [0.866, 0.887]</text>
+<rect x="2090" y="1078" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="1098" font-family="Arial" font-size="9">0.882 +/- 0.009 [0.869, 0.891]</text>
+<rect x="2300" y="1078" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="1098" font-family="Arial" font-size="9">0.880 +/- 0.009 [0.866, 0.887]</text>
+<rect x="2510" y="1078" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="1098" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="1109" width="2866" height="14" fill="#ffffff" stroke="none"/>
+<rect x="24" y="1123" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="1143" font-family="Arial" font-size="9">S6</text>
+<rect x="78" y="1123" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="1143" font-family="Arial" font-size="9">LDA</text>
+<rect x="200" y="1123" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="1143" font-family="Arial" font-size="9">shrinkage=0.5</text>
+<rect x="620" y="1123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="1143" font-family="Arial" font-size="9">0.929</text>
+<rect x="830" y="1123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="1143" font-family="Arial" font-size="9">0.937</text>
+<rect x="1040" y="1123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="1143" font-family="Arial" font-size="9">0.924</text>
+<rect x="1250" y="1123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="1143" font-family="Arial" font-size="9">0.925</text>
+<rect x="1460" y="1123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="1143" font-family="Arial" font-size="9">0.933</text>
+<rect x="1670" y="1123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="1143" font-family="Arial" font-size="9">0.922</text>
+<rect x="1880" y="1123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="1143" font-family="Arial" font-size="9">0.902</text>
+<rect x="2090" y="1123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="1143" font-family="Arial" font-size="9">0.903</text>
+<rect x="2300" y="1123" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="1143" font-family="Arial" font-size="9">0.902</text>
+<rect x="2510" y="1123" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="1143" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1154" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="1174" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1154" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="1174" font-family="Arial" font-size="9">Logistic Regression</text>
+<rect x="200" y="1154" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="1174" font-family="Arial" font-size="9">C=0.1</text>
+<rect x="620" y="1154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="1174" font-family="Arial" font-size="9">0.969</text>
+<rect x="830" y="1154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="1174" font-family="Arial" font-size="9">0.973</text>
+<rect x="1040" y="1154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="1174" font-family="Arial" font-size="9">0.968</text>
+<rect x="1250" y="1154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="1174" font-family="Arial" font-size="9">0.950</text>
+<rect x="1460" y="1154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="1174" font-family="Arial" font-size="9">0.956</text>
+<rect x="1670" y="1154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="1174" font-family="Arial" font-size="9">0.955</text>
+<rect x="1880" y="1154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="1174" font-family="Arial" font-size="9">0.971</text>
+<rect x="2090" y="1154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="1174" font-family="Arial" font-size="9">0.971</text>
+<rect x="2300" y="1154" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="1174" font-family="Arial" font-size="9">0.971</text>
+<rect x="2510" y="1154" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="1174" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1185" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="1205" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1185" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="1205" font-family="Arial" font-size="9">kNN</text>
+<rect x="200" y="1185" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="1205" font-family="Arial" font-size="9">n_neighbors=1</text>
+<rect x="620" y="1185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="1205" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="1185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="1205" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="1185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="1205" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="1185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="1205" font-family="Arial" font-size="9">0.875</text>
+<rect x="1460" y="1185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="1205" font-family="Arial" font-size="9">0.878</text>
+<rect x="1670" y="1185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="1205" font-family="Arial" font-size="9">0.874</text>
+<rect x="1880" y="1185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="1205" font-family="Arial" font-size="9">0.868</text>
+<rect x="2090" y="1185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="1205" font-family="Arial" font-size="9">0.868</text>
+<rect x="2300" y="1185" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="1205" font-family="Arial" font-size="9">0.873</text>
+<rect x="2510" y="1185" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="1205" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1216" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="1236" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1216" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="1236" font-family="Arial" font-size="9">Random Forest</text>
+<rect x="200" y="1216" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="1236" font-family="Arial" font-size="9">max_features=sqrt;max_depth=2;min_samples_leaf=4</text>
+<rect x="620" y="1216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="1236" font-family="Arial" font-size="9">0.916 +/- 0.005 [0.908, 0.918]</text>
+<rect x="830" y="1216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="1236" font-family="Arial" font-size="9">0.926 +/- 0.004 [0.919, 0.928]</text>
+<rect x="1040" y="1216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="1236" font-family="Arial" font-size="9">0.926 +/- 0.004 [0.919, 0.928]</text>
+<rect x="1250" y="1216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="1236" font-family="Arial" font-size="9">0.800 +/- 0.000 [0.800, 0.800]</text>
+<rect x="1460" y="1216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="1236" font-family="Arial" font-size="9">0.822 +/- 0.000 [0.822, 0.822]</text>
+<rect x="1670" y="1216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="1236" font-family="Arial" font-size="9">0.809 +/- 0.000 [0.809, 0.809]</text>
+<rect x="1880" y="1216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="1236" font-family="Arial" font-size="9">0.917 +/- 0.000 [0.917, 0.917]</text>
+<rect x="2090" y="1216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="1236" font-family="Arial" font-size="9">0.920 +/- 0.000 [0.920, 0.920]</text>
+<rect x="2300" y="1216" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="1236" font-family="Arial" font-size="9">0.919 +/- 0.000 [0.919, 0.919]</text>
+<rect x="2510" y="1216" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="1236" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="1247" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="1267" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1247" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="1267" font-family="Arial" font-size="9">RBF SVM</text>
+<rect x="200" y="1247" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="1267" font-family="Arial" font-size="9">C=10.0;gamma=0.01</text>
+<rect x="620" y="1247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="1267" font-family="Arial" font-size="9">0.990</text>
+<rect x="830" y="1247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="1267" font-family="Arial" font-size="9">0.991</text>
+<rect x="1040" y="1247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="1267" font-family="Arial" font-size="9">0.991</text>
+<rect x="1250" y="1247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="1267" font-family="Arial" font-size="9">0.950</text>
+<rect x="1460" y="1247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="1267" font-family="Arial" font-size="9">0.956</text>
+<rect x="1670" y="1247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="1267" font-family="Arial" font-size="9">0.956</text>
+<rect x="1880" y="1247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="1267" font-family="Arial" font-size="9">0.961</text>
+<rect x="2090" y="1247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="1267" font-family="Arial" font-size="9">0.961</text>
+<rect x="2300" y="1247" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="1267" font-family="Arial" font-size="9">0.962</text>
+<rect x="2510" y="1247" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="1267" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1278" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="1298" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1278" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="1298" font-family="Arial" font-size="9">MLP</text>
+<rect x="200" y="1278" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="1298" font-family="Arial" font-size="9">hidden_layer_sizes=(32, 16);alpha=0.0001;learning_rate_init=0.01</text>
+<rect x="620" y="1278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="1298" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="830" y="1278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="1298" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1040" y="1278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="1298" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1250" y="1278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="1298" font-family="Arial" font-size="9">0.830 +/- 0.041 [0.775, 0.875]</text>
+<rect x="1460" y="1278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="1298" font-family="Arial" font-size="9">0.849 +/- 0.037 [0.800, 0.889]</text>
+<rect x="1670" y="1278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="1298" font-family="Arial" font-size="9">0.825 +/- 0.047 [0.764, 0.878]</text>
+<rect x="1880" y="1278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="1298" font-family="Arial" font-size="9">0.945 +/- 0.011 [0.927, 0.956]</text>
+<rect x="2090" y="1278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="1298" font-family="Arial" font-size="9">0.944 +/- 0.012 [0.924, 0.954]</text>
+<rect x="2300" y="1278" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="1298" font-family="Arial" font-size="9">0.945 +/- 0.011 [0.927, 0.956]</text>
+<rect x="2510" y="1278" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="1298" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="1309" width="2866" height="14" fill="#ffffff" stroke="none"/>
+<rect x="24" y="1323" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="1343" font-family="Arial" font-size="9">S7</text>
+<rect x="78" y="1323" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="1343" font-family="Arial" font-size="9">LDA</text>
+<rect x="200" y="1323" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="1343" font-family="Arial" font-size="9">shrinkage=0.25</text>
+<rect x="620" y="1323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="1343" font-family="Arial" font-size="9">0.939</text>
+<rect x="830" y="1323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="1343" font-family="Arial" font-size="9">0.946</text>
+<rect x="1040" y="1323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="1343" font-family="Arial" font-size="9">0.935</text>
+<rect x="1250" y="1323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="1343" font-family="Arial" font-size="9">0.923</text>
+<rect x="1460" y="1323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="1343" font-family="Arial" font-size="9">0.933</text>
+<rect x="1670" y="1323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="1343" font-family="Arial" font-size="9">0.921</text>
+<rect x="1880" y="1323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="1343" font-family="Arial" font-size="9">0.927</text>
+<rect x="2090" y="1323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="1343" font-family="Arial" font-size="9">0.927</text>
+<rect x="2300" y="1323" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="1343" font-family="Arial" font-size="9">0.927</text>
+<rect x="2510" y="1323" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="1343" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1354" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="1374" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1354" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="1374" font-family="Arial" font-size="9">Logistic Regression</text>
+<rect x="200" y="1354" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="1374" font-family="Arial" font-size="9">C=0.1</text>
+<rect x="620" y="1354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="1374" font-family="Arial" font-size="9">0.969</text>
+<rect x="830" y="1354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="1374" font-family="Arial" font-size="9">0.973</text>
+<rect x="1040" y="1354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="1374" font-family="Arial" font-size="9">0.968</text>
+<rect x="1250" y="1354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="1374" font-family="Arial" font-size="9">0.923</text>
+<rect x="1460" y="1354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="1374" font-family="Arial" font-size="9">0.933</text>
+<rect x="1670" y="1354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="1374" font-family="Arial" font-size="9">0.933</text>
+<rect x="1880" y="1354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="1374" font-family="Arial" font-size="9">0.971</text>
+<rect x="2090" y="1354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="1374" font-family="Arial" font-size="9">0.971</text>
+<rect x="2300" y="1354" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="1374" font-family="Arial" font-size="9">0.971</text>
+<rect x="2510" y="1354" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="1374" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1385" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="1405" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1385" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="1405" font-family="Arial" font-size="9">kNN</text>
+<rect x="200" y="1385" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="1405" font-family="Arial" font-size="9">n_neighbors=3</text>
+<rect x="620" y="1385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="1405" font-family="Arial" font-size="9">0.878</text>
+<rect x="830" y="1385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="1405" font-family="Arial" font-size="9">0.882</text>
+<rect x="1040" y="1385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="1405" font-family="Arial" font-size="9">0.878</text>
+<rect x="1250" y="1385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="1405" font-family="Arial" font-size="9">0.885</text>
+<rect x="1460" y="1385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="1405" font-family="Arial" font-size="9">0.900</text>
+<rect x="1670" y="1385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="1405" font-family="Arial" font-size="9">0.890</text>
+<rect x="1880" y="1385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="1405" font-family="Arial" font-size="9">0.898</text>
+<rect x="2090" y="1385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="1405" font-family="Arial" font-size="9">0.899</text>
+<rect x="2300" y="1385" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="1405" font-family="Arial" font-size="9">0.900</text>
+<rect x="2510" y="1385" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="1405" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1416" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="1436" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1416" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="1436" font-family="Arial" font-size="9">Random Forest</text>
+<rect x="200" y="1416" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="1436" font-family="Arial" font-size="9">max_features=sqrt;max_depth=2;min_samples_leaf=2</text>
+<rect x="620" y="1416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="1436" font-family="Arial" font-size="9">0.918 +/- 0.000 [0.918, 0.918]</text>
+<rect x="830" y="1416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="1436" font-family="Arial" font-size="9">0.928 +/- 0.000 [0.928, 0.928]</text>
+<rect x="1040" y="1416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="1436" font-family="Arial" font-size="9">0.928 +/- 0.000 [0.928, 0.928]</text>
+<rect x="1250" y="1416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="1436" font-family="Arial" font-size="9">0.885 +/- 0.000 [0.885, 0.885]</text>
+<rect x="1460" y="1416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="1436" font-family="Arial" font-size="9">0.900 +/- 0.000 [0.900, 0.900]</text>
+<rect x="1670" y="1416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="1436" font-family="Arial" font-size="9">0.900 +/- 0.000 [0.900, 0.900]</text>
+<rect x="1880" y="1416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="1436" font-family="Arial" font-size="9">0.917 +/- 0.000 [0.917, 0.917]</text>
+<rect x="2090" y="1416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="1436" font-family="Arial" font-size="9">0.920 +/- 0.000 [0.920, 0.920]</text>
+<rect x="2300" y="1416" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="1436" font-family="Arial" font-size="9">0.919 +/- 0.000 [0.919, 0.919]</text>
+<rect x="2510" y="1416" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="1436" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<rect x="24" y="1447" width="54" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="29" y="1467" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1447" width="122" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="83" y="1467" font-family="Arial" font-size="9">RBF SVM</text>
+<rect x="200" y="1447" width="420" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="205" y="1467" font-family="Arial" font-size="9">C=10.0;gamma=scale</text>
+<rect x="620" y="1447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="625" y="1467" font-family="Arial" font-size="9">1.000</text>
+<rect x="830" y="1447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="835" y="1467" font-family="Arial" font-size="9">1.000</text>
+<rect x="1040" y="1447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1045" y="1467" font-family="Arial" font-size="9">1.000</text>
+<rect x="1250" y="1447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1255" y="1467" font-family="Arial" font-size="9">0.885</text>
+<rect x="1460" y="1447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1465" y="1467" font-family="Arial" font-size="9">0.900</text>
+<rect x="1670" y="1447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1675" y="1467" font-family="Arial" font-size="9">0.900</text>
+<rect x="1880" y="1447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="1885" y="1467" font-family="Arial" font-size="9">0.966</text>
+<rect x="2090" y="1447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2095" y="1467" font-family="Arial" font-size="9">0.965</text>
+<rect x="2300" y="1447" width="210" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2305" y="1467" font-family="Arial" font-size="9">0.966</text>
+<rect x="2510" y="1447" width="380" height="31" fill="#ffffff" stroke="#d8dee8"/>
+<text x="2515" y="1467" font-family="Arial" font-size="9">validation_macro_f1_balanced_accuracy_accuracy</text>
+<rect x="24" y="1478" width="54" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="29" y="1498" font-family="Arial" font-size="9"></text>
+<rect x="78" y="1478" width="122" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="83" y="1498" font-family="Arial" font-size="9">MLP</text>
+<rect x="200" y="1478" width="420" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="205" y="1498" font-family="Arial" font-size="9">hidden_layer_sizes=(32, 16);alpha=0.0001;learning_rate_init=0.01</text>
+<rect x="620" y="1478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="625" y="1498" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="830" y="1478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="835" y="1498" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1040" y="1478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1045" y="1498" font-family="Arial" font-size="9">1.000 +/- 0.000 [1.000, 1.000]</text>
+<rect x="1250" y="1478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1255" y="1498" font-family="Arial" font-size="9">0.885 +/- 0.038 [0.846, 0.923]</text>
+<rect x="1460" y="1478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1465" y="1498" font-family="Arial" font-size="9">0.900 +/- 0.033 [0.867, 0.933]</text>
+<rect x="1670" y="1478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1675" y="1498" font-family="Arial" font-size="9">0.890 +/- 0.040 [0.839, 0.933]</text>
+<rect x="1880" y="1478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="1885" y="1498" font-family="Arial" font-size="9">0.945 +/- 0.011 [0.927, 0.956]</text>
+<rect x="2090" y="1478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2095" y="1498" font-family="Arial" font-size="9">0.944 +/- 0.012 [0.924, 0.954]</text>
+<rect x="2300" y="1478" width="210" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2305" y="1498" font-family="Arial" font-size="9">0.945 +/- 0.011 [0.927, 0.956]</text>
+<rect x="2510" y="1478" width="380" height="31" fill="#fbfcfe" stroke="#d8dee8"/>
+<text x="2515" y="1498" font-family="Arial" font-size="9">validation_metrics_mean_over_fixed_seeds</text>
+<text x="24" y="1531" font-family="Arial" font-size="12" fill="#555">S1: Train Period I only; no validation; test every current later-day sample.</text>
+<text x="24" y="1548" font-family="Arial" font-size="12" fill="#555">S2: Train 25 and validate 5 fixed Period I samples; test every current later-day sample.</text>
+<text x="24" y="1565" font-family="Arial" font-size="12" fill="#555">S3: Train 20 and validate 10 fixed Period I samples; test every current later-day sample.</text>
+<text x="24" y="1582" font-family="Arial" font-size="12" fill="#555">S4: Train Period I; validate target Day1-Day2; test every target sample from Day3 onward.</text>
+<text x="24" y="1599" font-family="Arial" font-size="12" fill="#555">S5: Train Period I plus labeled target Day1; validate Day2-Day3; test Day4 onward.</text>
+<text x="24" y="1616" font-family="Arial" font-size="12" fill="#555">S6: Train Period I plus labeled target Day1-Day2; validate Day3-Day5; test Day6 onward.</text>
+<text x="24" y="1633" font-family="Arial" font-size="12" fill="#555">S7: Train Period I plus labeled target Day1-Day3; validate Day4-Day5; test Day6 onward.</text>
+<text x="24" y="1650" font-family="Arial" font-size="12" fill="#555">Random Forest and MLP are reported as mean +/- sample SD across fixed seeds 0-4; deterministic models are single fits. Random seeds are not hyperparameters.</text>
+</svg>

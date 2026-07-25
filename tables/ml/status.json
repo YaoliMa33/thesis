@@ -1,0 +1,21 @@
+{
+  "framework": "ml",
+  "status": "failed",
+  "pid": 3516,
+  "started_at": "2026-06-29T16:27:55.461128+00:00",
+  "finished_at": "2026-06-29T16:29:15.754167+00:00",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\yaoli\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "D:\\thesis\\code\\training\\run_manifest_da_baseline_splits.py"
+      ],
+      "started_at": "2026-06-29T16:27:55.466689+00:00",
+      "finished_at": "2026-06-29T16:29:15.746384+00:00",
+      "exit_code": 1
+    }
+  ],
+  "output_files": [],
+  "error_type": "RuntimeError",
+  "error": "ml command failed with exit code 1: ['run_manifest_da_baseline_splits.py']"
+}

@@ -1,0 +1,66 @@
+{
+  "features": 54,
+  "classes": [
+    "air",
+    "alcohol",
+    "acetone"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 400,
+  "architectures": {
+    "one-layer": [
+      16
+    ],
+    "two-layer": [
+      32,
+      16
+    ]
+  },
+  "requested_methods": [
+    "c-dann",
+    "cdan",
+    "cdan+c-dann"
+  ],
+  "requested_modes": [
+    "uda",
+    "semi"
+  ],
+  "requested_splits": [
+    "S1_train_I_test_all",
+    "S2_train_I_internal_val_test_all",
+    "S3_train_I_internal_20_10_test_all",
+    "S4_train_I_val_D1_2",
+    "S5_train_I_D1_val_D2_3",
+    "S6_train_I_D1_2_val_D3_5",
+    "S7_train_I_D1_3_val_D4_5"
+  ],
+  "label_policy": {
+    "uda": "source gas labels only; target gas labels prohibited from training and model selection",
+    "semi": "source plus explicitly labeled target training data; target validation joins Source+Target refit",
+    "test": "gas labels evaluation-only"
+  },
+  "selection": "validation macro-F1, balanced accuracy, accuracy; fixed defaults when admissible validation is absent",
+  "mmd": {
+    "kernel": "multi-kernel Gaussian",
+    "alphas": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "estimator": "quadratic unequal-size empirical MMD"
+  },
+  "provenance": {
+    "dann": "existing run_dann_multi_splits.py",
+    "deep-coral": "existing run_deep_coral_multi_splits.py; VisionLearningGroup/CORAL",
+    "mk-mmd": "THU Transfer-Learning-Library tllib/alignment/dan.py and tllib/modules/kernels.py",
+    "c-dann": "existing class-conditional centroid alignment plus DANN domain loss",
+    "cdan": "existing run_cdan_multi_splits.py official-style multilinear condition T(h,g)",
+    "cdan+c-dann": "existing run_cdan_hybrid_report.py"
+  }
+}

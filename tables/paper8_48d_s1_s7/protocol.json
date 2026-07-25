@@ -1,0 +1,53 @@
+{
+  "paper_features": {
+    "citation": "Vergara et al., Sensors and Actuators B 166-167 (2012), Table 3",
+    "per_sensor": [
+      "DeltaR",
+      "DeltaR/minR",
+      "rise EMA max x3",
+      "decay EMA min x3"
+    ],
+    "alphas": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "sensors": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ],
+    "dimensions": 48
+  },
+  "phase_mapping": "established project exposure mask=rising; recovery mask=decaying",
+  "classes": [
+    "air",
+    "alcohol",
+    "acetone"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 400,
+  "requested_models": [
+    "logistic-regression",
+    "random-forest",
+    "rbf-svm",
+    "linear48-dann",
+    "fusion48-mk-mmd"
+  ],
+  "requested_splits": [
+    "S1_train_I_test_all",
+    "S4_train_I_val_D1_2",
+    "S7_train_I_D1_3_val_D4_5"
+  ],
+  "DA_protocol": "original S1-S7 transductive; target-test features unlabeled in target_domain",
+  "target_test_labels": "evaluation-only"
+}

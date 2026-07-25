@@ -1,0 +1,7 @@
+space,axis,feature
+s1_s4_s5,x,normDeltaR_s1
+s1_s4_s5,y,normDeltaR_s4
+s1_s4_s5,z,normDeltaR_s5
+s2_s4_s5,x,normDeltaR_s2
+s2_s4_s5,y,normDeltaR_s4
+s2_s4_s5,z,normDeltaR_s5

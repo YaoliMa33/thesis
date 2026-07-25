@@ -1,0 +1,16 @@
+split,task,partition,n,class_counts,period_days,batches,test_batch,fit_scope
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,train,25,air:5; alcohol:10; acetone:10,Period_I Day1-Day3,Period_I,batch1,fixed_period_i_all_batches
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,validation,5,air:1; alcohol:2; acetone:2,Period_I Day1-Day3,Period_I,batch1,fixed_period_i_all_batches
+PB1_train_period_i_internal_val_test_batch1,three_class_with_air,test,28,air:8; alcohol:10; acetone:10,Period_II Day1-Day2,batch1,batch1,fixed_period_i_all_batches
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,train,25,air:5; alcohol:10; acetone:10,Period_I Day1-Day3,Period_I,batch2,fixed_period_i_all_batches
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,validation,5,air:1; alcohol:2; acetone:2,Period_I Day1-Day3,Period_I,batch2,fixed_period_i_all_batches
+PB2_train_period_i_internal_val_test_batch2,three_class_with_air,test,84,air:18; alcohol:33; acetone:33,Period_II Day3-Day9,batch2,batch2,fixed_period_i_all_batches
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,train,25,air:5; alcohol:10; acetone:10,Period_I Day1-Day3,Period_I,batch3,fixed_period_i_all_batches
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,validation,5,air:1; alcohol:2; acetone:2,Period_I Day1-Day3,Period_I,batch3,fixed_period_i_all_batches
+PB3_train_period_i_internal_val_test_batch3,three_class_with_air,test,81,air:31; alcohol:25; acetone:25,Period_II Day10-Day17,batch3,batch3,fixed_period_i_all_batches
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,train,25,air:5; alcohol:10; acetone:10,Period_I Day1-Day3,Period_I,batch4,fixed_period_i_all_batches
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,validation,5,air:1; alcohol:2; acetone:2,Period_I Day1-Day3,Period_I,batch4,fixed_period_i_all_batches
+PB4_train_period_i_internal_val_test_batch4,three_class_with_air,test,46,air:14; alcohol:16; acetone:16,Period_III Day18-Day21,batch4,batch4,fixed_period_i_all_batches
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,train,25,air:5; alcohol:10; acetone:10,Period_I Day1-Day3,Period_I,batch5,fixed_period_i_all_batches
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,validation,5,air:1; alcohol:2; acetone:2,Period_I Day1-Day3,Period_I,batch5,fixed_period_i_all_batches
+PB5_train_period_i_internal_val_test_batch5,three_class_with_air,test,34,air:10; alcohol:12; acetone:12,Period_IV Day22-Day24,batch5,batch5,fixed_period_i_all_batches

@@ -1,0 +1,841 @@
+split,task,model,partition,random_state,label,support,predicted_n,precision,recall,f1
+S1_train_I_test_all,three_class_with_air,LDA,train,,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,LDA,train,,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,LDA,train,,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,LDA,test,,air,81,86,0.7325581395348837,0.7777777777777778,0.7544910179640718
+S1_train_I_test_all,three_class_with_air,LDA,test,,alcohol,96,179,0.5363128491620112,1.0,0.6981818181818182
+S1_train_I_test_all,three_class_with_air,LDA,test,,acetone,96,8,0.875,0.07291666666666667,0.1346153846153846
+S1_train_I_test_all,three_class_with_air,Logistic Regression,train,,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Logistic Regression,train,,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Logistic Regression,train,,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Logistic Regression,test,,air,81,67,0.9850746268656716,0.8148148148148148,0.8918918918918919
+S1_train_I_test_all,three_class_with_air,Logistic Regression,test,,alcohol,96,141,0.6666666666666666,0.9791666666666666,0.7932489451476793
+S1_train_I_test_all,three_class_with_air,Logistic Regression,test,,acetone,96,65,0.9846153846153847,0.6666666666666666,0.7950310559006211
+S1_train_I_test_all,three_class_with_air,kNN,train,,air,6,5,0.6,0.5,0.5454545454545454
+S1_train_I_test_all,three_class_with_air,kNN,train,,alcohol,12,13,0.7692307692307693,0.8333333333333334,0.8
+S1_train_I_test_all,three_class_with_air,kNN,train,,acetone,12,12,0.75,0.75,0.75
+S1_train_I_test_all,three_class_with_air,kNN,test,,air,81,99,0.6666666666666666,0.8148148148148148,0.7333333333333333
+S1_train_I_test_all,three_class_with_air,kNN,test,,alcohol,96,79,0.5949367088607594,0.4895833333333333,0.5371428571428571
+S1_train_I_test_all,three_class_with_air,kNN,test,,acetone,96,95,0.631578947368421,0.625,0.6282722513089005
+S1_train_I_test_all,three_class_with_air,Random Forest,train,0.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,0.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,0.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,0.0,air,81,81,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,0.0,alcohol,96,97,0.865979381443299,0.875,0.8704663212435233
+S1_train_I_test_all,three_class_with_air,Random Forest,test,0.0,acetone,96,95,0.8736842105263158,0.8645833333333334,0.8691099476439791
+S1_train_I_test_all,three_class_with_air,Random Forest,train,1.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,1.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,1.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,1.0,air,81,81,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,1.0,alcohol,96,104,0.8461538461538461,0.9166666666666666,0.88
+S1_train_I_test_all,three_class_with_air,Random Forest,test,1.0,acetone,96,88,0.9090909090909091,0.8333333333333334,0.8695652173913043
+S1_train_I_test_all,three_class_with_air,Random Forest,train,2.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,2.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,2.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,2.0,air,81,81,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,2.0,alcohol,96,103,0.8543689320388349,0.9166666666666666,0.8844221105527639
+S1_train_I_test_all,three_class_with_air,Random Forest,test,2.0,acetone,96,89,0.9101123595505618,0.84375,0.8756756756756757
+S1_train_I_test_all,three_class_with_air,Random Forest,train,3.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,3.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,3.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,3.0,air,81,81,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,3.0,alcohol,96,99,0.8585858585858586,0.8854166666666666,0.8717948717948718
+S1_train_I_test_all,three_class_with_air,Random Forest,test,3.0,acetone,96,93,0.8817204301075269,0.8541666666666666,0.8677248677248677
+S1_train_I_test_all,three_class_with_air,Random Forest,train,4.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,4.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,train,4.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,4.0,air,81,81,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,Random Forest,test,4.0,alcohol,96,100,0.85,0.8854166666666666,0.8673469387755102
+S1_train_I_test_all,three_class_with_air,Random Forest,test,4.0,acetone,96,92,0.8804347826086957,0.84375,0.8617021276595744
+S1_train_I_test_all,three_class_with_air,RBF SVM,train,,air,6,8,0.75,1.0,0.8571428571428571
+S1_train_I_test_all,three_class_with_air,RBF SVM,train,,alcohol,12,13,0.8461538461538461,0.9166666666666666,0.88
+S1_train_I_test_all,three_class_with_air,RBF SVM,train,,acetone,12,9,1.0,0.75,0.8571428571428571
+S1_train_I_test_all,three_class_with_air,RBF SVM,test,,air,81,85,0.8823529411764706,0.9259259259259259,0.9036144578313253
+S1_train_I_test_all,three_class_with_air,RBF SVM,test,,alcohol,96,102,0.6078431372549019,0.6458333333333334,0.6262626262626263
+S1_train_I_test_all,three_class_with_air,RBF SVM,test,,acetone,96,86,0.6744186046511628,0.6041666666666666,0.6373626373626373
+S1_train_I_test_all,three_class_with_air,MLP,train,0.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,0.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,0.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,test,0.0,air,81,89,0.7865168539325843,0.8641975308641975,0.8235294117647058
+S1_train_I_test_all,three_class_with_air,MLP,test,0.0,alcohol,96,92,0.7934782608695652,0.7604166666666666,0.776595744680851
+S1_train_I_test_all,three_class_with_air,MLP,test,0.0,acetone,96,92,0.8152173913043478,0.78125,0.7978723404255319
+S1_train_I_test_all,three_class_with_air,MLP,train,1.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,1.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,1.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,test,1.0,air,81,73,0.9315068493150684,0.8395061728395061,0.8831168831168831
+S1_train_I_test_all,three_class_with_air,MLP,test,1.0,alcohol,96,137,0.656934306569343,0.9375,0.7725321888412017
+S1_train_I_test_all,three_class_with_air,MLP,test,1.0,acetone,96,63,0.9365079365079365,0.6145833333333334,0.7421383647798742
+S1_train_I_test_all,three_class_with_air,MLP,train,2.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,2.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,2.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,test,2.0,air,81,85,0.788235294117647,0.8271604938271605,0.8072289156626506
+S1_train_I_test_all,three_class_with_air,MLP,test,2.0,alcohol,96,100,0.68,0.7083333333333334,0.6938775510204082
+S1_train_I_test_all,three_class_with_air,MLP,test,2.0,acetone,96,88,0.7386363636363636,0.6770833333333334,0.7065217391304348
+S1_train_I_test_all,three_class_with_air,MLP,train,3.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,3.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,3.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,test,3.0,air,81,90,0.7333333333333333,0.8148148148148148,0.7719298245614035
+S1_train_I_test_all,three_class_with_air,MLP,test,3.0,alcohol,96,120,0.675,0.84375,0.75
+S1_train_I_test_all,three_class_with_air,MLP,test,3.0,acetone,96,63,0.8253968253968254,0.5416666666666666,0.6540880503144654
+S1_train_I_test_all,three_class_with_air,MLP,train,4.0,air,6,6,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,4.0,alcohol,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,train,4.0,acetone,12,12,1.0,1.0,1.0
+S1_train_I_test_all,three_class_with_air,MLP,test,4.0,air,81,73,0.9178082191780822,0.8271604938271605,0.8701298701298701
+S1_train_I_test_all,three_class_with_air,MLP,test,4.0,alcohol,96,112,0.6160714285714286,0.71875,0.6634615384615384
+S1_train_I_test_all,three_class_with_air,MLP,test,4.0,acetone,96,88,0.7272727272727273,0.6666666666666666,0.6956521739130435
+S2_train_I_internal_val_test_all,three_class_with_air,LDA,train,,air,6,6,0.8333333333333334,0.8333333333333334,0.8333333333333334
+S2_train_I_internal_val_test_all,three_class_with_air,LDA,train,,alcohol,12,15,0.8,1.0,0.8888888888888888
+S2_train_I_internal_val_test_all,three_class_with_air,LDA,train,,acetone,12,9,1.0,0.75,0.8571428571428571
+S2_train_I_internal_val_test_all,three_class_with_air,LDA,validation,,air,1,1,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,LDA,validation,,alcohol,2,3,0.6666666666666666,1.0,0.8
+S2_train_I_internal_val_test_all,three_class_with_air,LDA,validation,,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,LDA,test,,air,81,75,0.76,0.7037037037037037,0.7307692307692307
+S2_train_I_internal_val_test_all,three_class_with_air,LDA,test,,alcohol,96,143,0.6433566433566433,0.9583333333333334,0.7698744769874477
+S2_train_I_internal_val_test_all,three_class_with_air,LDA,test,,acetone,96,55,0.9818181818181818,0.5625,0.7152317880794702
+S2_train_I_internal_val_test_all,three_class_with_air,Logistic Regression,train,,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Logistic Regression,train,,alcohol,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Logistic Regression,train,,acetone,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Logistic Regression,validation,,air,1,1,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Logistic Regression,validation,,alcohol,2,2,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Logistic Regression,validation,,acetone,2,2,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Logistic Regression,test,,air,81,66,1.0,0.8148148148148148,0.8979591836734694
+S2_train_I_internal_val_test_all,three_class_with_air,Logistic Regression,test,,alcohol,96,144,0.6597222222222222,0.9895833333333334,0.7916666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,Logistic Regression,test,,acetone,96,63,0.9841269841269841,0.6458333333333334,0.779874213836478
+S2_train_I_internal_val_test_all,three_class_with_air,kNN,train,,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,kNN,train,,alcohol,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,kNN,train,,acetone,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,kNN,validation,,air,1,1,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,kNN,validation,,alcohol,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,kNN,validation,,acetone,2,3,0.6666666666666666,1.0,0.8
+S2_train_I_internal_val_test_all,three_class_with_air,kNN,test,,air,81,70,0.8571428571428571,0.7407407407407407,0.7947019867549668
+S2_train_I_internal_val_test_all,three_class_with_air,kNN,test,,alcohol,96,84,0.5476190476190477,0.4791666666666667,0.5111111111111111
+S2_train_I_internal_val_test_all,three_class_with_air,kNN,test,,acetone,96,119,0.5966386554621849,0.7395833333333334,0.6604651162790698
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,0.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,0.0,alcohol,12,15,0.8,1.0,0.8888888888888888
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,0.0,acetone,12,9,1.0,0.75,0.8571428571428571
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,0.0,air,1,1,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,0.0,alcohol,2,3,0.6666666666666666,1.0,0.8
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,0.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,0.0,air,81,81,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,0.0,alcohol,96,100,0.85,0.8854166666666666,0.8673469387755102
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,0.0,acetone,96,92,0.8804347826086957,0.84375,0.8617021276595744
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,1.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,1.0,alcohol,12,14,0.8571428571428571,1.0,0.9230769230769231
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,1.0,acetone,12,10,1.0,0.8333333333333334,0.9090909090909091
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,1.0,air,1,1,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,1.0,alcohol,2,3,0.6666666666666666,1.0,0.8
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,1.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,1.0,air,81,81,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,1.0,alcohol,96,94,0.851063829787234,0.8333333333333334,0.8421052631578947
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,1.0,acetone,96,98,0.8367346938775511,0.8541666666666666,0.845360824742268
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,2.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,2.0,alcohol,12,15,0.8,1.0,0.8888888888888888
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,2.0,acetone,12,9,1.0,0.75,0.8571428571428571
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,2.0,air,1,1,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,2.0,alcohol,2,3,0.6666666666666666,1.0,0.8
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,2.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,2.0,air,81,81,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,2.0,alcohol,96,98,0.8469387755102041,0.8645833333333334,0.8556701030927835
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,2.0,acetone,96,94,0.8617021276595744,0.84375,0.8526315789473684
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,3.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,3.0,alcohol,12,15,0.8,1.0,0.8888888888888888
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,3.0,acetone,12,9,1.0,0.75,0.8571428571428571
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,3.0,air,1,1,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,3.0,alcohol,2,3,0.6666666666666666,1.0,0.8
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,3.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,3.0,air,81,81,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,3.0,alcohol,96,101,0.8613861386138614,0.90625,0.883248730964467
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,3.0,acetone,96,91,0.9010989010989011,0.8541666666666666,0.8770053475935828
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,4.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,4.0,alcohol,12,15,0.8,1.0,0.8888888888888888
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,train,4.0,acetone,12,9,1.0,0.75,0.8571428571428571
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,4.0,air,1,1,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,4.0,alcohol,2,3,0.6666666666666666,1.0,0.8
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,validation,4.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,4.0,air,81,81,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,4.0,alcohol,96,93,0.8494623655913979,0.8229166666666666,0.8359788359788359
+S2_train_I_internal_val_test_all,three_class_with_air,Random Forest,test,4.0,acetone,96,99,0.8282828282828283,0.8541666666666666,0.841025641025641
+S2_train_I_internal_val_test_all,three_class_with_air,RBF SVM,train,,air,6,8,0.75,1.0,0.8571428571428571
+S2_train_I_internal_val_test_all,three_class_with_air,RBF SVM,train,,alcohol,12,14,0.7857142857142857,0.9166666666666666,0.8461538461538461
+S2_train_I_internal_val_test_all,three_class_with_air,RBF SVM,train,,acetone,12,8,1.0,0.6666666666666666,0.8
+S2_train_I_internal_val_test_all,three_class_with_air,RBF SVM,validation,,air,1,1,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,RBF SVM,validation,,alcohol,2,3,0.6666666666666666,1.0,0.8
+S2_train_I_internal_val_test_all,three_class_with_air,RBF SVM,validation,,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,RBF SVM,test,,air,81,79,0.9240506329113924,0.9012345679012346,0.9125
+S2_train_I_internal_val_test_all,three_class_with_air,RBF SVM,test,,alcohol,96,126,0.5476190476190477,0.71875,0.6216216216216216
+S2_train_I_internal_val_test_all,three_class_with_air,RBF SVM,test,,acetone,96,68,0.6617647058823529,0.46875,0.5487804878048781
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,0.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,0.0,alcohol,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,0.0,acetone,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,0.0,air,1,3,0.3333333333333333,1.0,0.5
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,0.0,alcohol,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,0.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,0.0,air,81,89,0.7865168539325843,0.8641975308641975,0.8235294117647058
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,0.0,alcohol,96,92,0.7934782608695652,0.7604166666666666,0.776595744680851
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,0.0,acetone,96,92,0.8152173913043478,0.78125,0.7978723404255319
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,1.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,1.0,alcohol,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,1.0,acetone,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,1.0,air,1,3,0.3333333333333333,1.0,0.5
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,1.0,alcohol,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,1.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,1.0,air,81,73,0.9315068493150684,0.8395061728395061,0.8831168831168831
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,1.0,alcohol,96,137,0.656934306569343,0.9375,0.7725321888412017
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,1.0,acetone,96,63,0.9365079365079365,0.6145833333333334,0.7421383647798742
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,2.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,2.0,alcohol,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,2.0,acetone,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,2.0,air,1,3,0.3333333333333333,1.0,0.5
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,2.0,alcohol,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,2.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,2.0,air,81,85,0.788235294117647,0.8271604938271605,0.8072289156626506
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,2.0,alcohol,96,100,0.68,0.7083333333333334,0.6938775510204082
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,2.0,acetone,96,88,0.7386363636363636,0.6770833333333334,0.7065217391304348
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,3.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,3.0,alcohol,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,3.0,acetone,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,3.0,air,1,3,0.3333333333333333,1.0,0.5
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,3.0,alcohol,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,3.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,3.0,air,81,90,0.7333333333333333,0.8148148148148148,0.7719298245614035
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,3.0,alcohol,96,120,0.675,0.84375,0.75
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,3.0,acetone,96,63,0.8253968253968254,0.5416666666666666,0.6540880503144654
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,4.0,air,6,6,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,4.0,alcohol,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,train,4.0,acetone,12,12,1.0,1.0,1.0
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,4.0,air,1,2,0.5,1.0,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,4.0,alcohol,2,2,0.5,0.5,0.5
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,validation,4.0,acetone,2,1,1.0,0.5,0.6666666666666666
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,4.0,air,81,73,0.9178082191780822,0.8271604938271605,0.8701298701298701
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,4.0,alcohol,96,112,0.6160714285714286,0.71875,0.6634615384615384
+S2_train_I_internal_val_test_all,three_class_with_air,MLP,test,4.0,acetone,96,88,0.7272727272727273,0.6666666666666666,0.6956521739130435
+S3_train_I_internal_20_10_test_all,three_class_with_air,LDA,train,,air,6,6,0.8333333333333334,0.8333333333333334,0.8333333333333334
+S3_train_I_internal_20_10_test_all,three_class_with_air,LDA,train,,alcohol,12,15,0.8,1.0,0.8888888888888888
+S3_train_I_internal_20_10_test_all,three_class_with_air,LDA,train,,acetone,12,9,1.0,0.75,0.8571428571428571
+S3_train_I_internal_20_10_test_all,three_class_with_air,LDA,validation,,air,2,3,0.6666666666666666,1.0,0.8
+S3_train_I_internal_20_10_test_all,three_class_with_air,LDA,validation,,alcohol,4,5,0.8,1.0,0.8888888888888888
+S3_train_I_internal_20_10_test_all,three_class_with_air,LDA,validation,,acetone,4,2,1.0,0.5,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,LDA,test,,air,81,75,0.76,0.7037037037037037,0.7307692307692307
+S3_train_I_internal_20_10_test_all,three_class_with_air,LDA,test,,alcohol,96,143,0.6433566433566433,0.9583333333333334,0.7698744769874477
+S3_train_I_internal_20_10_test_all,three_class_with_air,LDA,test,,acetone,96,55,0.9818181818181818,0.5625,0.7152317880794702
+S3_train_I_internal_20_10_test_all,three_class_with_air,Logistic Regression,train,,air,6,8,0.75,1.0,0.8571428571428571
+S3_train_I_internal_20_10_test_all,three_class_with_air,Logistic Regression,train,,alcohol,12,12,0.9166666666666666,0.9166666666666666,0.9166666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Logistic Regression,train,,acetone,12,10,0.9,0.75,0.8181818181818182
+S3_train_I_internal_20_10_test_all,three_class_with_air,Logistic Regression,validation,,air,2,2,0.5,0.5,0.5
+S3_train_I_internal_20_10_test_all,three_class_with_air,Logistic Regression,validation,,alcohol,4,6,0.6666666666666666,1.0,0.8
+S3_train_I_internal_20_10_test_all,three_class_with_air,Logistic Regression,validation,,acetone,4,2,1.0,0.5,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Logistic Regression,test,,air,81,74,0.918918918918919,0.8395061728395061,0.8774193548387097
+S3_train_I_internal_20_10_test_all,three_class_with_air,Logistic Regression,test,,alcohol,96,119,0.7394957983193278,0.9166666666666666,0.8186046511627907
+S3_train_I_internal_20_10_test_all,three_class_with_air,Logistic Regression,test,,acetone,96,80,0.9375,0.78125,0.8522727272727273
+S3_train_I_internal_20_10_test_all,three_class_with_air,kNN,train,,air,6,4,0.75,0.5,0.6
+S3_train_I_internal_20_10_test_all,three_class_with_air,kNN,train,,alcohol,12,17,0.6470588235294118,0.9166666666666666,0.7586206896551724
+S3_train_I_internal_20_10_test_all,three_class_with_air,kNN,train,,acetone,12,9,0.8888888888888888,0.6666666666666666,0.7619047619047619
+S3_train_I_internal_20_10_test_all,three_class_with_air,kNN,validation,,air,2,2,0.5,0.5,0.5
+S3_train_I_internal_20_10_test_all,three_class_with_air,kNN,validation,,alcohol,4,6,0.6666666666666666,1.0,0.8
+S3_train_I_internal_20_10_test_all,three_class_with_air,kNN,validation,,acetone,4,2,1.0,0.5,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,kNN,test,,air,81,64,0.953125,0.7530864197530864,0.8413793103448276
+S3_train_I_internal_20_10_test_all,three_class_with_air,kNN,test,,alcohol,96,170,0.5176470588235295,0.9166666666666666,0.6616541353383458
+S3_train_I_internal_20_10_test_all,three_class_with_air,kNN,test,,acetone,96,39,0.8205128205128205,0.3333333333333333,0.4740740740740741
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,0.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,0.0,alcohol,12,15,0.8,1.0,0.8888888888888888
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,0.0,acetone,12,9,1.0,0.75,0.8571428571428571
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,0.0,air,2,4,0.5,1.0,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,0.0,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,0.0,acetone,4,2,1.0,0.5,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,0.0,air,81,81,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,0.0,alcohol,96,100,0.87,0.90625,0.8877551020408163
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,0.0,acetone,96,92,0.9021739130434783,0.8645833333333334,0.8829787234042553
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,1.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,1.0,alcohol,12,14,0.8571428571428571,1.0,0.9230769230769231
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,1.0,acetone,12,10,1.0,0.8333333333333334,0.9090909090909091
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,1.0,air,2,4,0.5,1.0,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,1.0,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,1.0,acetone,4,2,1.0,0.5,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,1.0,air,81,81,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,1.0,alcohol,96,102,0.8431372549019608,0.8958333333333334,0.8686868686868687
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,1.0,acetone,96,90,0.8888888888888888,0.8333333333333334,0.8602150537634409
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,2.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,2.0,alcohol,12,15,0.8,1.0,0.8888888888888888
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,2.0,acetone,12,9,1.0,0.75,0.8571428571428571
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,2.0,air,2,4,0.5,1.0,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,2.0,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,2.0,acetone,4,2,1.0,0.5,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,2.0,air,81,81,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,2.0,alcohol,96,96,0.84375,0.84375,0.84375
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,2.0,acetone,96,96,0.84375,0.84375,0.84375
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,3.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,3.0,alcohol,12,14,0.8571428571428571,1.0,0.9230769230769231
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,3.0,acetone,12,10,1.0,0.8333333333333334,0.9090909090909091
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,3.0,air,2,4,0.5,1.0,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,3.0,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,3.0,acetone,4,2,1.0,0.5,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,3.0,air,81,81,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,3.0,alcohol,96,96,0.8541666666666666,0.8541666666666666,0.8541666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,3.0,acetone,96,96,0.8541666666666666,0.8541666666666666,0.8541666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,4.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,4.0,alcohol,12,14,0.8571428571428571,1.0,0.9230769230769231
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,train,4.0,acetone,12,10,1.0,0.8333333333333334,0.9090909090909091
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,4.0,air,2,4,0.5,1.0,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,4.0,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,validation,4.0,acetone,4,2,1.0,0.5,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,4.0,air,81,81,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,4.0,alcohol,96,106,0.8301886792452831,0.9166666666666666,0.8712871287128713
+S3_train_I_internal_20_10_test_all,three_class_with_air,Random Forest,test,4.0,acetone,96,86,0.9069767441860465,0.8125,0.8571428571428571
+S3_train_I_internal_20_10_test_all,three_class_with_air,RBF SVM,train,,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,RBF SVM,train,,alcohol,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,RBF SVM,train,,acetone,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,RBF SVM,validation,,air,2,2,0.5,0.5,0.5
+S3_train_I_internal_20_10_test_all,three_class_with_air,RBF SVM,validation,,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,RBF SVM,validation,,acetone,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,RBF SVM,test,,air,81,73,0.958904109589041,0.8641975308641975,0.9090909090909091
+S3_train_I_internal_20_10_test_all,three_class_with_air,RBF SVM,test,,alcohol,96,111,0.7297297297297297,0.84375,0.782608695652174
+S3_train_I_internal_20_10_test_all,three_class_with_air,RBF SVM,test,,acetone,96,89,0.8202247191011236,0.7604166666666666,0.7891891891891892
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,0.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,0.0,alcohol,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,0.0,acetone,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,0.0,air,2,3,0.3333333333333333,0.5,0.4
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,0.0,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,0.0,acetone,4,3,0.6666666666666666,0.5,0.5714285714285714
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,0.0,air,81,89,0.7865168539325843,0.8641975308641975,0.8235294117647058
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,0.0,alcohol,96,92,0.7934782608695652,0.7604166666666666,0.776595744680851
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,0.0,acetone,96,92,0.8152173913043478,0.78125,0.7978723404255319
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,1.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,1.0,alcohol,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,1.0,acetone,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,1.0,air,2,3,0.3333333333333333,0.5,0.4
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,1.0,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,1.0,acetone,4,3,0.6666666666666666,0.5,0.5714285714285714
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,1.0,air,81,73,0.9315068493150684,0.8395061728395061,0.8831168831168831
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,1.0,alcohol,96,137,0.656934306569343,0.9375,0.7725321888412017
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,1.0,acetone,96,63,0.9365079365079365,0.6145833333333334,0.7421383647798742
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,2.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,2.0,alcohol,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,2.0,acetone,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,2.0,air,2,3,0.3333333333333333,0.5,0.4
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,2.0,alcohol,4,5,0.8,1.0,0.8888888888888888
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,2.0,acetone,4,2,1.0,0.5,0.6666666666666666
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,2.0,air,81,85,0.788235294117647,0.8271604938271605,0.8072289156626506
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,2.0,alcohol,96,100,0.68,0.7083333333333334,0.6938775510204082
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,2.0,acetone,96,88,0.7386363636363636,0.6770833333333334,0.7065217391304348
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,3.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,3.0,alcohol,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,3.0,acetone,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,3.0,air,2,3,0.3333333333333333,0.5,0.4
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,3.0,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,3.0,acetone,4,3,0.6666666666666666,0.5,0.5714285714285714
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,3.0,air,81,90,0.7333333333333333,0.8148148148148148,0.7719298245614035
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,3.0,alcohol,96,120,0.675,0.84375,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,3.0,acetone,96,63,0.8253968253968254,0.5416666666666666,0.6540880503144654
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,4.0,air,6,6,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,4.0,alcohol,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,train,4.0,acetone,12,12,1.0,1.0,1.0
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,4.0,air,2,3,0.3333333333333333,0.5,0.4
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,4.0,alcohol,4,4,0.75,0.75,0.75
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,validation,4.0,acetone,4,3,0.6666666666666666,0.5,0.5714285714285714
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,4.0,air,81,73,0.9178082191780822,0.8271604938271605,0.8701298701298701
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,4.0,alcohol,96,112,0.6160714285714286,0.71875,0.6634615384615384
+S3_train_I_internal_20_10_test_all,three_class_with_air,MLP,test,4.0,acetone,96,88,0.7272727272727273,0.6666666666666666,0.6956521739130435
+S4_train_I_val_D1_2,three_class_with_air,LDA,train,,air,14,17,0.8235294117647058,1.0,0.9032258064516129
+S4_train_I_val_D1_2,three_class_with_air,LDA,train,,alcohol,22,22,0.9545454545454546,0.9545454545454546,0.9545454545454546
+S4_train_I_val_D1_2,three_class_with_air,LDA,train,,acetone,22,19,1.0,0.8636363636363636,0.926829268292683
+S4_train_I_val_D1_2,three_class_with_air,LDA,validation,,air,8,8,0.75,0.75,0.75
+S4_train_I_val_D1_2,three_class_with_air,LDA,validation,,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S4_train_I_val_D1_2,three_class_with_air,LDA,validation,,acetone,10,9,1.0,0.9,0.9473684210526315
+S4_train_I_val_D1_2,three_class_with_air,LDA,test,,air,73,80,0.85,0.9315068493150684,0.8888888888888888
+S4_train_I_val_D1_2,three_class_with_air,LDA,test,,alcohol,86,101,0.8316831683168316,0.9767441860465116,0.8983957219251337
+S4_train_I_val_D1_2,three_class_with_air,LDA,test,,acetone,86,64,1.0,0.7441860465116279,0.8533333333333334
+S4_train_I_val_D1_2,three_class_with_air,Logistic Regression,train,,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Logistic Regression,train,,alcohol,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Logistic Regression,train,,acetone,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Logistic Regression,validation,,air,8,6,1.0,0.75,0.8571428571428571
+S4_train_I_val_D1_2,three_class_with_air,Logistic Regression,validation,,alcohol,10,13,0.7692307692307693,1.0,0.8695652173913043
+S4_train_I_val_D1_2,three_class_with_air,Logistic Regression,validation,,acetone,10,9,1.0,0.9,0.9473684210526315
+S4_train_I_val_D1_2,three_class_with_air,Logistic Regression,test,,air,73,69,1.0,0.9452054794520548,0.971830985915493
+S4_train_I_val_D1_2,three_class_with_air,Logistic Regression,test,,alcohol,86,106,0.8113207547169812,1.0,0.8958333333333334
+S4_train_I_val_D1_2,three_class_with_air,Logistic Regression,test,,acetone,86,70,1.0,0.813953488372093,0.8974358974358975
+S4_train_I_val_D1_2,three_class_with_air,kNN,train,,air,14,17,0.7647058823529411,0.9285714285714286,0.8387096774193549
+S4_train_I_val_D1_2,three_class_with_air,kNN,train,,alcohol,22,20,0.85,0.7727272727272727,0.8095238095238095
+S4_train_I_val_D1_2,three_class_with_air,kNN,train,,acetone,22,21,0.9047619047619048,0.8636363636363636,0.8837209302325582
+S4_train_I_val_D1_2,three_class_with_air,kNN,validation,,air,8,8,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,kNN,validation,,alcohol,10,8,0.75,0.6,0.6666666666666666
+S4_train_I_val_D1_2,three_class_with_air,kNN,validation,,acetone,10,12,0.6666666666666666,0.8,0.7272727272727273
+S4_train_I_val_D1_2,three_class_with_air,kNN,test,,air,73,98,0.7142857142857143,0.958904109589041,0.8187134502923976
+S4_train_I_val_D1_2,three_class_with_air,kNN,test,,alcohol,86,95,0.6736842105263158,0.7441860465116279,0.7071823204419889
+S4_train_I_val_D1_2,three_class_with_air,kNN,test,,acetone,86,52,0.8846153846153846,0.5348837209302325,0.6666666666666666
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,0.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,0.0,alcohol,22,22,0.9545454545454546,0.9545454545454546,0.9545454545454546
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,0.0,acetone,22,22,0.9545454545454546,0.9545454545454546,0.9545454545454546
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,0.0,air,8,8,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,0.0,alcohol,10,3,1.0,0.3,0.46153846153846156
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,0.0,acetone,10,17,0.5882352941176471,1.0,0.7407407407407407
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,0.0,air,73,73,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,0.0,alcohol,86,131,0.6564885496183206,1.0,0.7926267281105991
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,0.0,acetone,86,41,1.0,0.47674418604651164,0.6456692913385826
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,1.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,1.0,alcohol,22,23,0.9565217391304348,1.0,0.9777777777777777
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,1.0,acetone,22,21,1.0,0.9545454545454546,0.9767441860465116
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,1.0,air,8,8,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,1.0,alcohol,10,3,1.0,0.3,0.46153846153846156
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,1.0,acetone,10,17,0.5882352941176471,1.0,0.7407407407407407
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,1.0,air,73,73,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,1.0,alcohol,86,128,0.671875,1.0,0.8037383177570093
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,1.0,acetone,86,44,1.0,0.5116279069767442,0.676923076923077
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,2.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,2.0,alcohol,22,23,0.9130434782608695,0.9545454545454546,0.9333333333333333
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,2.0,acetone,22,21,0.9523809523809523,0.9090909090909091,0.9302325581395349
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,2.0,air,8,8,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,2.0,alcohol,10,3,1.0,0.3,0.46153846153846156
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,2.0,acetone,10,17,0.5882352941176471,1.0,0.7407407407407407
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,2.0,air,73,73,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,2.0,alcohol,86,126,0.6825396825396826,1.0,0.8113207547169812
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,2.0,acetone,86,46,1.0,0.5348837209302325,0.696969696969697
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,3.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,3.0,alcohol,22,22,0.9545454545454546,0.9545454545454546,0.9545454545454546
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,3.0,acetone,22,22,0.9545454545454546,0.9545454545454546,0.9545454545454546
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,3.0,air,8,8,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,3.0,alcohol,10,3,1.0,0.3,0.46153846153846156
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,3.0,acetone,10,17,0.5882352941176471,1.0,0.7407407407407407
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,3.0,air,73,73,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,3.0,alcohol,86,129,0.6666666666666666,1.0,0.8
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,3.0,acetone,86,43,1.0,0.5,0.6666666666666666
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,4.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,4.0,alcohol,22,22,0.9545454545454546,0.9545454545454546,0.9545454545454546
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,train,4.0,acetone,22,22,0.9545454545454546,0.9545454545454546,0.9545454545454546
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,4.0,air,8,8,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,4.0,alcohol,10,3,1.0,0.3,0.46153846153846156
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,validation,4.0,acetone,10,17,0.5882352941176471,1.0,0.7407407407407407
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,4.0,air,73,73,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,4.0,alcohol,86,132,0.6515151515151515,1.0,0.7889908256880734
+S4_train_I_val_D1_2,three_class_with_air,Random Forest,test,4.0,acetone,86,40,1.0,0.46511627906976744,0.6349206349206349
+S4_train_I_val_D1_2,three_class_with_air,RBF SVM,train,,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,RBF SVM,train,,alcohol,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,RBF SVM,train,,acetone,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,RBF SVM,validation,,air,8,8,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,RBF SVM,validation,,alcohol,10,9,1.0,0.9,0.9473684210526315
+S4_train_I_val_D1_2,three_class_with_air,RBF SVM,validation,,acetone,10,11,0.9090909090909091,1.0,0.9523809523809523
+S4_train_I_val_D1_2,three_class_with_air,RBF SVM,test,,air,73,67,1.0,0.9178082191780822,0.9571428571428572
+S4_train_I_val_D1_2,three_class_with_air,RBF SVM,test,,alcohol,86,105,0.8,0.9767441860465116,0.8795811518324608
+S4_train_I_val_D1_2,three_class_with_air,RBF SVM,test,,acetone,86,73,0.9726027397260274,0.8255813953488372,0.8930817610062893
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,0.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,0.0,alcohol,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,0.0,acetone,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,0.0,air,8,9,0.8888888888888888,1.0,0.9411764705882353
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,0.0,alcohol,10,5,1.0,0.5,0.6666666666666666
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,0.0,acetone,10,14,0.7142857142857143,1.0,0.8333333333333334
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,0.0,air,73,82,0.8170731707317073,0.9178082191780822,0.864516129032258
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,0.0,alcohol,86,109,0.7706422018348624,0.9767441860465116,0.8615384615384616
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,0.0,acetone,86,54,1.0,0.627906976744186,0.7714285714285715
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,1.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,1.0,alcohol,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,1.0,acetone,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,1.0,air,8,9,0.8888888888888888,1.0,0.9411764705882353
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,1.0,alcohol,10,7,1.0,0.7,0.8235294117647058
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,1.0,acetone,10,12,0.8333333333333334,1.0,0.9090909090909091
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,1.0,air,73,75,0.9066666666666666,0.9315068493150684,0.918918918918919
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,1.0,alcohol,86,117,0.7264957264957265,0.9883720930232558,0.8374384236453202
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,1.0,acetone,86,53,1.0,0.6162790697674418,0.762589928057554
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,2.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,2.0,alcohol,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,2.0,acetone,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,2.0,air,8,8,0.875,0.875,0.875
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,2.0,alcohol,10,6,0.8333333333333334,0.5,0.625
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,2.0,acetone,10,14,0.7142857142857143,1.0,0.8333333333333334
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,2.0,air,73,82,0.8170731707317073,0.9178082191780822,0.864516129032258
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,2.0,alcohol,86,118,0.6949152542372882,0.9534883720930233,0.803921568627451
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,2.0,acetone,86,45,1.0,0.5232558139534884,0.6870229007633588
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,3.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,3.0,alcohol,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,3.0,acetone,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,3.0,air,8,8,0.875,0.875,0.875
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,3.0,alcohol,10,6,0.8333333333333334,0.5,0.625
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,3.0,acetone,10,14,0.6428571428571429,0.9,0.75
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,3.0,air,73,82,0.8292682926829268,0.9315068493150684,0.8774193548387097
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,3.0,alcohol,86,117,0.7264957264957265,0.9883720930232558,0.8374384236453202
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,3.0,acetone,86,46,1.0,0.5348837209302325,0.696969696969697
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,4.0,air,14,14,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,4.0,alcohol,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,train,4.0,acetone,22,22,1.0,1.0,1.0
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,4.0,air,8,8,0.875,0.875,0.875
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,4.0,alcohol,10,6,1.0,0.6,0.75
+S4_train_I_val_D1_2,three_class_with_air,MLP,validation,4.0,acetone,10,14,0.7142857142857143,1.0,0.8333333333333334
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,4.0,air,73,74,0.8918918918918919,0.9041095890410958,0.8979591836734694
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,4.0,alcohol,86,118,0.7203389830508474,0.9883720930232558,0.8333333333333334
+S4_train_I_val_D1_2,three_class_with_air,MLP,test,4.0,acetone,86,53,1.0,0.6162790697674418,0.762589928057554
+S5_train_I_D1_val_D2_3,three_class_with_air,LDA,train,,air,18,21,0.8571428571428571,1.0,0.9230769230769231
+S5_train_I_D1_val_D2_3,three_class_with_air,LDA,train,,alcohol,27,25,1.0,0.9259259259259259,0.9615384615384616
+S5_train_I_D1_val_D2_3,three_class_with_air,LDA,train,,acetone,27,26,1.0,0.9629629629629629,0.9811320754716981
+S5_train_I_D1_val_D2_3,three_class_with_air,LDA,validation,,air,6,9,0.6666666666666666,1.0,0.8
+S5_train_I_D1_val_D2_3,three_class_with_air,LDA,validation,,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S5_train_I_D1_val_D2_3,three_class_with_air,LDA,validation,,acetone,10,6,1.0,0.6,0.75
+S5_train_I_D1_val_D2_3,three_class_with_air,LDA,test,,air,69,64,0.953125,0.8840579710144928,0.9172932330827067
+S5_train_I_D1_val_D2_3,three_class_with_air,LDA,test,,alcohol,81,99,0.7777777777777778,0.9506172839506173,0.8555555555555555
+S5_train_I_D1_val_D2_3,three_class_with_air,LDA,test,,acetone,81,68,0.9705882352941176,0.8148148148148148,0.8859060402684564
+S5_train_I_D1_val_D2_3,three_class_with_air,Logistic Regression,train,,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Logistic Regression,train,,alcohol,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Logistic Regression,train,,acetone,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Logistic Regression,validation,,air,6,6,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Logistic Regression,validation,,alcohol,10,11,0.9090909090909091,1.0,0.9523809523809523
+S5_train_I_D1_val_D2_3,three_class_with_air,Logistic Regression,validation,,acetone,10,9,1.0,0.9,0.9473684210526315
+S5_train_I_D1_val_D2_3,three_class_with_air,Logistic Regression,test,,air,69,67,0.9850746268656716,0.9565217391304348,0.9705882352941176
+S5_train_I_D1_val_D2_3,three_class_with_air,Logistic Regression,test,,alcohol,81,95,0.8421052631578947,0.9876543209876543,0.9090909090909091
+S5_train_I_D1_val_D2_3,three_class_with_air,Logistic Regression,test,,acetone,81,69,1.0,0.8518518518518519,0.92
+S5_train_I_D1_val_D2_3,three_class_with_air,kNN,train,,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,kNN,train,,alcohol,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,kNN,train,,acetone,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,kNN,validation,,air,6,6,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,kNN,validation,,alcohol,10,8,0.625,0.5,0.5555555555555556
+S5_train_I_D1_val_D2_3,three_class_with_air,kNN,validation,,acetone,10,12,0.5833333333333334,0.7,0.6363636363636364
+S5_train_I_D1_val_D2_3,three_class_with_air,kNN,test,,air,69,61,0.9180327868852459,0.8115942028985508,0.8615384615384616
+S5_train_I_D1_val_D2_3,three_class_with_air,kNN,test,,alcohol,81,103,0.7281553398058253,0.9259259259259259,0.8152173913043478
+S5_train_I_D1_val_D2_3,three_class_with_air,kNN,test,,acetone,81,67,0.9402985074626866,0.7777777777777778,0.8513513513513513
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,0.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,0.0,alcohol,27,30,0.8666666666666667,0.9629629629629629,0.9122807017543859
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,0.0,acetone,27,24,0.9583333333333334,0.8518518518518519,0.9019607843137255
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,0.0,air,6,6,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,0.0,alcohol,10,15,0.6666666666666666,1.0,0.8
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,0.0,acetone,10,5,1.0,0.5,0.6666666666666666
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,0.0,air,69,69,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,0.0,alcohol,81,103,0.7766990291262136,0.9876543209876543,0.8695652173913043
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,0.0,acetone,81,59,0.9830508474576272,0.7160493827160493,0.8285714285714286
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,1.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,1.0,alcohol,27,30,0.8666666666666667,0.9629629629629629,0.9122807017543859
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,1.0,acetone,27,24,0.9583333333333334,0.8518518518518519,0.9019607843137255
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,1.0,air,6,6,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,1.0,alcohol,10,15,0.6666666666666666,1.0,0.8
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,1.0,acetone,10,5,1.0,0.5,0.6666666666666666
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,1.0,air,69,69,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,1.0,alcohol,81,103,0.7766990291262136,0.9876543209876543,0.8695652173913043
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,1.0,acetone,81,59,0.9830508474576272,0.7160493827160493,0.8285714285714286
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,2.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,2.0,alcohol,27,30,0.8666666666666667,0.9629629629629629,0.9122807017543859
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,2.0,acetone,27,24,0.9583333333333334,0.8518518518518519,0.9019607843137255
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,2.0,air,6,6,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,2.0,alcohol,10,14,0.7142857142857143,1.0,0.8333333333333334
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,2.0,acetone,10,6,1.0,0.6,0.75
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,2.0,air,69,69,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,2.0,alcohol,81,103,0.7766990291262136,0.9876543209876543,0.8695652173913043
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,2.0,acetone,81,59,0.9830508474576272,0.7160493827160493,0.8285714285714286
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,3.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,3.0,alcohol,27,30,0.8666666666666667,0.9629629629629629,0.9122807017543859
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,3.0,acetone,27,24,0.9583333333333334,0.8518518518518519,0.9019607843137255
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,3.0,air,6,6,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,3.0,alcohol,10,14,0.7142857142857143,1.0,0.8333333333333334
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,3.0,acetone,10,6,1.0,0.6,0.75
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,3.0,air,69,69,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,3.0,alcohol,81,103,0.7766990291262136,0.9876543209876543,0.8695652173913043
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,3.0,acetone,81,59,0.9830508474576272,0.7160493827160493,0.8285714285714286
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,4.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,4.0,alcohol,27,30,0.8666666666666667,0.9629629629629629,0.9122807017543859
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,train,4.0,acetone,27,24,0.9583333333333334,0.8518518518518519,0.9019607843137255
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,4.0,air,6,6,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,4.0,alcohol,10,14,0.7142857142857143,1.0,0.8333333333333334
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,validation,4.0,acetone,10,6,1.0,0.6,0.75
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,4.0,air,69,69,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,4.0,alcohol,81,104,0.7692307692307693,0.9876543209876543,0.8648648648648649
+S5_train_I_D1_val_D2_3,three_class_with_air,Random Forest,test,4.0,acetone,81,58,0.9827586206896551,0.7037037037037037,0.8201438848920863
+S5_train_I_D1_val_D2_3,three_class_with_air,RBF SVM,train,,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,RBF SVM,train,,alcohol,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,RBF SVM,train,,acetone,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,RBF SVM,validation,,air,6,6,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,RBF SVM,validation,,alcohol,10,10,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,RBF SVM,validation,,acetone,10,10,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,RBF SVM,test,,air,69,64,1.0,0.927536231884058,0.9624060150375939
+S5_train_I_D1_val_D2_3,three_class_with_air,RBF SVM,test,,alcohol,81,97,0.8144329896907216,0.9753086419753086,0.8876404494382022
+S5_train_I_D1_val_D2_3,three_class_with_air,RBF SVM,test,,acetone,81,70,0.9714285714285714,0.8395061728395061,0.9006622516556292
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,0.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,0.0,alcohol,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,0.0,acetone,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,0.0,air,6,11,0.5454545454545454,1.0,0.7058823529411765
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,0.0,alcohol,10,9,1.0,0.9,0.9473684210526315
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,0.0,acetone,10,6,1.0,0.6,0.75
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,0.0,air,69,72,0.9166666666666666,0.9565217391304348,0.9361702127659575
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,0.0,alcohol,81,101,0.801980198019802,1.0,0.8901098901098901
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,0.0,acetone,81,58,1.0,0.7160493827160493,0.8345323741007195
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,1.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,1.0,alcohol,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,1.0,acetone,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,1.0,air,6,9,0.6666666666666666,1.0,0.8
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,1.0,alcohol,10,10,0.9,0.9,0.9
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,1.0,acetone,10,7,1.0,0.7,0.8235294117647058
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,1.0,air,69,68,0.9264705882352942,0.9130434782608695,0.9197080291970803
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,1.0,alcohol,81,104,0.7788461538461539,1.0,0.8756756756756757
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,1.0,acetone,81,59,1.0,0.7283950617283951,0.8428571428571429
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,2.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,2.0,alcohol,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,2.0,acetone,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,2.0,air,6,11,0.5454545454545454,1.0,0.7058823529411765
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,2.0,alcohol,10,9,1.0,0.9,0.9473684210526315
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,2.0,acetone,10,6,1.0,0.6,0.75
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,2.0,air,69,71,0.9014084507042254,0.927536231884058,0.9142857142857143
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,2.0,alcohol,81,102,0.7745098039215687,0.9753086419753086,0.8633879781420765
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,2.0,acetone,81,58,0.9827586206896551,0.7037037037037037,0.8201438848920863
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,3.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,3.0,alcohol,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,3.0,acetone,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,3.0,air,6,10,0.6,1.0,0.75
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,3.0,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,3.0,acetone,10,5,1.0,0.5,0.6666666666666666
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,3.0,air,69,70,0.9142857142857143,0.927536231884058,0.920863309352518
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,3.0,alcohol,81,101,0.801980198019802,1.0,0.8901098901098901
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,3.0,acetone,81,60,1.0,0.7407407407407407,0.851063829787234
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,4.0,air,18,18,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,4.0,alcohol,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,train,4.0,acetone,27,27,1.0,1.0,1.0
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,4.0,air,6,7,0.8571428571428571,1.0,0.9230769230769231
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,4.0,alcohol,10,10,0.9,0.9,0.9
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,validation,4.0,acetone,10,9,1.0,0.9,0.9473684210526315
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,4.0,air,69,69,0.927536231884058,0.927536231884058,0.927536231884058
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,4.0,alcohol,81,103,0.7766990291262136,0.9876543209876543,0.8695652173913043
+S5_train_I_D1_val_D2_3,three_class_with_air,MLP,test,4.0,acetone,81,59,1.0,0.7283950617283951,0.8428571428571429
+S6_train_I_D1_2_val_D3_5,three_class_with_air,LDA,train,,air,24,31,0.7741935483870968,1.0,0.8727272727272727
+S6_train_I_D1_2_val_D3_5,three_class_with_air,LDA,train,,alcohol,37,34,1.0,0.918918918918919,0.9577464788732394
+S6_train_I_D1_2_val_D3_5,three_class_with_air,LDA,train,,acetone,37,33,1.0,0.8918918918918919,0.9428571428571428
+S6_train_I_D1_2_val_D3_5,three_class_with_air,LDA,validation,,air,10,12,0.8333333333333334,1.0,0.9090909090909091
+S6_train_I_D1_2_val_D3_5,three_class_with_air,LDA,validation,,alcohol,15,16,0.9375,1.0,0.967741935483871
+S6_train_I_D1_2_val_D3_5,three_class_with_air,LDA,validation,,acetone,15,12,1.0,0.8,0.8888888888888888
+S6_train_I_D1_2_val_D3_5,three_class_with_air,LDA,test,,air,63,68,0.8529411764705882,0.9206349206349206,0.8854961832061069
+S6_train_I_D1_2_val_D3_5,three_class_with_air,LDA,test,,alcohol,71,78,0.8717948717948718,0.9577464788732394,0.912751677852349
+S6_train_I_D1_2_val_D3_5,three_class_with_air,LDA,test,,acetone,71,59,1.0,0.8309859154929577,0.9076923076923077
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Logistic Regression,train,,air,24,26,0.9230769230769231,1.0,0.96
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Logistic Regression,train,,alcohol,37,38,0.9736842105263158,1.0,0.9866666666666667
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Logistic Regression,train,,acetone,37,34,1.0,0.918918918918919,0.9577464788732394
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Logistic Regression,validation,,air,10,10,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Logistic Regression,validation,,alcohol,15,17,0.8823529411764706,1.0,0.9375
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Logistic Regression,validation,,acetone,15,13,1.0,0.8666666666666667,0.9285714285714286
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Logistic Regression,test,,air,63,63,0.9841269841269841,0.9841269841269841,0.9841269841269841
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Logistic Regression,test,,alcohol,71,75,0.9333333333333333,0.9859154929577465,0.958904109589041
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Logistic Regression,test,,acetone,71,67,1.0,0.9436619718309859,0.9710144927536232
+S6_train_I_D1_2_val_D3_5,three_class_with_air,kNN,train,,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,kNN,train,,alcohol,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,kNN,train,,acetone,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,kNN,validation,,air,10,11,0.8181818181818182,0.9,0.8571428571428571
+S6_train_I_D1_2_val_D3_5,three_class_with_air,kNN,validation,,alcohol,15,17,0.8235294117647058,0.9333333333333333,0.875
+S6_train_I_D1_2_val_D3_5,three_class_with_air,kNN,validation,,acetone,15,12,1.0,0.8,0.8888888888888888
+S6_train_I_D1_2_val_D3_5,three_class_with_air,kNN,test,,air,63,55,1.0,0.873015873015873,0.9322033898305084
+S6_train_I_D1_2_val_D3_5,three_class_with_air,kNN,test,,alcohol,71,84,0.7738095238095238,0.9154929577464789,0.8387096774193549
+S6_train_I_D1_2_val_D3_5,three_class_with_air,kNN,test,,acetone,71,66,0.8787878787878788,0.8169014084507042,0.8467153284671532
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,0.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,0.0,alcohol,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,0.0,acetone,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,0.0,air,10,10,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,0.0,alcohol,15,23,0.6521739130434783,1.0,0.7894736842105263
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,0.0,acetone,15,7,1.0,0.4666666666666667,0.6363636363636364
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,0.0,air,63,63,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,0.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,0.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,1.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,1.0,alcohol,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,1.0,acetone,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,1.0,air,10,10,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,1.0,alcohol,15,23,0.6521739130434783,1.0,0.7894736842105263
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,1.0,acetone,15,7,1.0,0.4666666666666667,0.6363636363636364
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,1.0,air,63,63,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,1.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,1.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,2.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,2.0,alcohol,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,2.0,acetone,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,2.0,air,10,10,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,2.0,alcohol,15,23,0.6521739130434783,1.0,0.7894736842105263
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,2.0,acetone,15,7,1.0,0.4666666666666667,0.6363636363636364
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,2.0,air,63,63,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,2.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,2.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,3.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,3.0,alcohol,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,3.0,acetone,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,3.0,air,10,10,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,3.0,alcohol,15,23,0.6521739130434783,1.0,0.7894736842105263
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,3.0,acetone,15,7,1.0,0.4666666666666667,0.6363636363636364
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,3.0,air,63,63,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,3.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,3.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,4.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,4.0,alcohol,37,38,0.868421052631579,0.8918918918918919,0.88
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,train,4.0,acetone,37,36,0.8888888888888888,0.8648648648648649,0.8767123287671232
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,4.0,air,10,10,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,4.0,alcohol,15,23,0.6521739130434783,1.0,0.7894736842105263
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,validation,4.0,acetone,15,7,1.0,0.4666666666666667,0.6363636363636364
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,4.0,air,63,63,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,4.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S6_train_I_D1_2_val_D3_5,three_class_with_air,Random Forest,test,4.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S6_train_I_D1_2_val_D3_5,three_class_with_air,RBF SVM,train,,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,RBF SVM,train,,alcohol,37,38,0.9736842105263158,1.0,0.9866666666666667
+S6_train_I_D1_2_val_D3_5,three_class_with_air,RBF SVM,train,,acetone,37,36,1.0,0.972972972972973,0.9863013698630136
+S6_train_I_D1_2_val_D3_5,three_class_with_air,RBF SVM,validation,,air,10,10,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,RBF SVM,validation,,alcohol,15,15,0.9333333333333333,0.9333333333333333,0.9333333333333333
+S6_train_I_D1_2_val_D3_5,three_class_with_air,RBF SVM,validation,,acetone,15,15,0.9333333333333333,0.9333333333333333,0.9333333333333333
+S6_train_I_D1_2_val_D3_5,three_class_with_air,RBF SVM,test,,air,63,60,1.0,0.9523809523809523,0.975609756097561
+S6_train_I_D1_2_val_D3_5,three_class_with_air,RBF SVM,test,,alcohol,71,79,0.8987341772151899,1.0,0.9466666666666667
+S6_train_I_D1_2_val_D3_5,three_class_with_air,RBF SVM,test,,acetone,71,66,1.0,0.9295774647887324,0.9635036496350365
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,0.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,0.0,alcohol,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,0.0,acetone,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,0.0,air,10,13,0.7692307692307693,1.0,0.8695652173913043
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,0.0,alcohol,15,18,0.8333333333333334,1.0,0.9090909090909091
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,0.0,acetone,15,9,1.0,0.6,0.75
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,0.0,air,63,56,0.9642857142857143,0.8571428571428571,0.907563025210084
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,0.0,alcohol,71,84,0.8452380952380952,1.0,0.9161290322580645
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,0.0,acetone,71,65,1.0,0.9154929577464789,0.9558823529411765
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,1.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,1.0,alcohol,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,1.0,acetone,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,1.0,air,10,11,0.9090909090909091,1.0,0.9523809523809523
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,1.0,alcohol,15,19,0.7894736842105263,1.0,0.8823529411764706
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,1.0,acetone,15,10,1.0,0.6666666666666666,0.8
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,1.0,air,63,60,0.9666666666666667,0.9206349206349206,0.943089430894309
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,1.0,alcohol,71,78,0.9102564102564102,1.0,0.9530201342281879
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,1.0,acetone,71,67,0.9850746268656716,0.9295774647887324,0.9565217391304348
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,2.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,2.0,alcohol,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,2.0,acetone,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,2.0,air,10,14,0.7142857142857143,1.0,0.8333333333333334
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,2.0,alcohol,15,19,0.7368421052631579,0.9333333333333333,0.8235294117647058
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,2.0,acetone,15,7,1.0,0.4666666666666667,0.6363636363636364
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,2.0,air,63,59,0.9661016949152542,0.9047619047619048,0.9344262295081968
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,2.0,alcohol,71,80,0.8875,1.0,0.9403973509933775
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,2.0,acetone,71,66,1.0,0.9295774647887324,0.9635036496350365
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,3.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,3.0,alcohol,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,3.0,acetone,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,3.0,air,10,13,0.7692307692307693,1.0,0.8695652173913043
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,3.0,alcohol,15,20,0.75,1.0,0.8571428571428571
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,3.0,acetone,15,7,1.0,0.4666666666666667,0.6363636363636364
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,3.0,air,63,57,1.0,0.9047619047619048,0.95
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,3.0,alcohol,71,77,0.922077922077922,1.0,0.9594594594594594
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,3.0,acetone,71,71,0.9577464788732394,0.9577464788732394,0.9577464788732394
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,4.0,air,24,24,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,4.0,alcohol,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,train,4.0,acetone,37,37,1.0,1.0,1.0
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,4.0,air,10,11,0.9090909090909091,1.0,0.9523809523809523
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,4.0,alcohol,15,20,0.75,1.0,0.8571428571428571
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,validation,4.0,acetone,15,9,1.0,0.6,0.75
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,4.0,air,63,58,0.9827586206896551,0.9047619047619048,0.9421487603305785
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,4.0,alcohol,71,81,0.8765432098765432,1.0,0.9342105263157895
+S6_train_I_D1_2_val_D3_5,three_class_with_air,MLP,test,4.0,acetone,71,66,1.0,0.9295774647887324,0.9635036496350365
+S7_train_I_D1_3_val_D4_5,three_class_with_air,LDA,train,,air,24,30,0.8,1.0,0.8888888888888888
+S7_train_I_D1_3_val_D4_5,three_class_with_air,LDA,train,,alcohol,37,34,1.0,0.918918918918919,0.9577464788732394
+S7_train_I_D1_3_val_D4_5,three_class_with_air,LDA,train,,acetone,37,34,1.0,0.918918918918919,0.9577464788732394
+S7_train_I_D1_3_val_D4_5,three_class_with_air,LDA,validation,,air,6,7,0.8571428571428571,1.0,0.9230769230769231
+S7_train_I_D1_3_val_D4_5,three_class_with_air,LDA,validation,,alcohol,10,11,0.9090909090909091,1.0,0.9523809523809523
+S7_train_I_D1_3_val_D4_5,three_class_with_air,LDA,validation,,acetone,10,8,1.0,0.8,0.8888888888888888
+S7_train_I_D1_3_val_D4_5,three_class_with_air,LDA,test,,air,63,66,0.8939393939393939,0.9365079365079365,0.9147286821705426
+S7_train_I_D1_3_val_D4_5,three_class_with_air,LDA,test,,alcohol,71,76,0.8947368421052632,0.9577464788732394,0.9251700680272109
+S7_train_I_D1_3_val_D4_5,three_class_with_air,LDA,test,,acetone,71,63,1.0,0.8873239436619719,0.9402985074626866
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Logistic Regression,train,,air,24,26,0.9230769230769231,1.0,0.96
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Logistic Regression,train,,alcohol,37,38,0.9736842105263158,1.0,0.9866666666666667
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Logistic Regression,train,,acetone,37,34,1.0,0.918918918918919,0.9577464788732394
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Logistic Regression,validation,,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Logistic Regression,validation,,alcohol,10,12,0.8333333333333334,1.0,0.9090909090909091
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Logistic Regression,validation,,acetone,10,8,1.0,0.8,0.8888888888888888
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Logistic Regression,test,,air,63,63,0.9841269841269841,0.9841269841269841,0.9841269841269841
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Logistic Regression,test,,alcohol,71,75,0.9333333333333333,0.9859154929577465,0.958904109589041
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Logistic Regression,test,,acetone,71,67,1.0,0.9436619718309859,0.9710144927536232
+S7_train_I_D1_3_val_D4_5,three_class_with_air,kNN,train,,air,24,26,0.8461538461538461,0.9166666666666666,0.88
+S7_train_I_D1_3_val_D4_5,three_class_with_air,kNN,train,,alcohol,37,38,0.868421052631579,0.8918918918918919,0.88
+S7_train_I_D1_3_val_D4_5,three_class_with_air,kNN,train,,acetone,37,34,0.9117647058823529,0.8378378378378378,0.8732394366197183
+S7_train_I_D1_3_val_D4_5,three_class_with_air,kNN,validation,,air,6,7,0.8571428571428571,1.0,0.9230769230769231
+S7_train_I_D1_3_val_D4_5,three_class_with_air,kNN,validation,,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S7_train_I_D1_3_val_D4_5,three_class_with_air,kNN,validation,,acetone,10,8,1.0,0.8,0.8888888888888888
+S7_train_I_D1_3_val_D4_5,three_class_with_air,kNN,test,,air,63,62,0.9516129032258065,0.9365079365079365,0.944
+S7_train_I_D1_3_val_D4_5,three_class_with_air,kNN,test,,alcohol,71,83,0.8072289156626506,0.9436619718309859,0.8701298701298701
+S7_train_I_D1_3_val_D4_5,three_class_with_air,kNN,test,,acetone,71,60,0.9666666666666667,0.8169014084507042,0.8854961832061069
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,0.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,0.0,alcohol,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,0.0,acetone,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,0.0,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,0.0,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,0.0,acetone,10,9,0.8888888888888888,0.8,0.8421052631578947
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,0.0,air,63,63,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,0.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,0.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,1.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,1.0,alcohol,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,1.0,acetone,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,1.0,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,1.0,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,1.0,acetone,10,9,0.8888888888888888,0.8,0.8421052631578947
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,1.0,air,63,63,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,1.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,1.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,2.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,2.0,alcohol,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,2.0,acetone,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,2.0,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,2.0,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,2.0,acetone,10,9,0.8888888888888888,0.8,0.8421052631578947
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,2.0,air,63,63,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,2.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,2.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,3.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,3.0,alcohol,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,3.0,acetone,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,3.0,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,3.0,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,3.0,acetone,10,9,0.8888888888888888,0.8,0.8421052631578947
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,3.0,air,63,63,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,3.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,3.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,4.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,4.0,alcohol,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,train,4.0,acetone,37,37,0.8918918918918919,0.8918918918918919,0.8918918918918919
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,4.0,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,4.0,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,validation,4.0,acetone,10,9,0.8888888888888888,0.8,0.8421052631578947
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,4.0,air,63,63,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,4.0,alcohol,71,88,0.8068181818181818,1.0,0.8930817610062893
+S7_train_I_D1_3_val_D4_5,three_class_with_air,Random Forest,test,4.0,acetone,71,54,1.0,0.7605633802816901,0.864
+S7_train_I_D1_3_val_D4_5,three_class_with_air,RBF SVM,train,,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,RBF SVM,train,,alcohol,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,RBF SVM,train,,acetone,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,RBF SVM,validation,,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,RBF SVM,validation,,alcohol,10,11,0.8181818181818182,0.9,0.8571428571428571
+S7_train_I_D1_3_val_D4_5,three_class_with_air,RBF SVM,validation,,acetone,10,9,0.8888888888888888,0.8,0.8421052631578947
+S7_train_I_D1_3_val_D4_5,three_class_with_air,RBF SVM,test,,air,63,59,1.0,0.9365079365079365,0.9672131147540983
+S7_train_I_D1_3_val_D4_5,three_class_with_air,RBF SVM,test,,alcohol,71,78,0.9102564102564102,1.0,0.9530201342281879
+S7_train_I_D1_3_val_D4_5,three_class_with_air,RBF SVM,test,,acetone,71,68,1.0,0.9577464788732394,0.9784172661870504
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,0.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,0.0,alcohol,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,0.0,acetone,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,0.0,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,0.0,alcohol,10,14,0.7142857142857143,1.0,0.8333333333333334
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,0.0,acetone,10,6,1.0,0.6,0.75
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,0.0,air,63,56,0.9642857142857143,0.8571428571428571,0.907563025210084
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,0.0,alcohol,71,84,0.8452380952380952,1.0,0.9161290322580645
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,0.0,acetone,71,65,1.0,0.9154929577464789,0.9558823529411765
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,1.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,1.0,alcohol,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,1.0,acetone,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,1.0,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,1.0,alcohol,10,13,0.7692307692307693,1.0,0.8695652173913043
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,1.0,acetone,10,7,1.0,0.7,0.8235294117647058
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,1.0,air,63,60,0.9666666666666667,0.9206349206349206,0.943089430894309
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,1.0,alcohol,71,78,0.9102564102564102,1.0,0.9530201342281879
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,1.0,acetone,71,67,0.9850746268656716,0.9295774647887324,0.9565217391304348
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,2.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,2.0,alcohol,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,2.0,acetone,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,2.0,air,6,7,0.8571428571428571,1.0,0.9230769230769231
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,2.0,alcohol,10,11,0.9090909090909091,1.0,0.9523809523809523
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,2.0,acetone,10,8,1.0,0.8,0.8888888888888888
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,2.0,air,63,59,0.9661016949152542,0.9047619047619048,0.9344262295081968
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,2.0,alcohol,71,80,0.8875,1.0,0.9403973509933775
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,2.0,acetone,71,66,1.0,0.9295774647887324,0.9635036496350365
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,3.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,3.0,alcohol,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,3.0,acetone,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,3.0,air,6,6,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,3.0,alcohol,10,12,0.8333333333333334,1.0,0.9090909090909091
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,3.0,acetone,10,8,1.0,0.8,0.8888888888888888
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,3.0,air,63,57,1.0,0.9047619047619048,0.95
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,3.0,alcohol,71,77,0.922077922077922,1.0,0.9594594594594594
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,3.0,acetone,71,71,0.9577464788732394,0.9577464788732394,0.9577464788732394
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,4.0,air,24,24,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,4.0,alcohol,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,train,4.0,acetone,37,37,1.0,1.0,1.0
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,4.0,air,6,8,0.75,1.0,0.8571428571428571
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,4.0,alcohol,10,12,0.8333333333333334,1.0,0.9090909090909091
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,validation,4.0,acetone,10,6,1.0,0.6,0.75
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,4.0,air,63,58,0.9827586206896551,0.9047619047619048,0.9421487603305785
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,4.0,alcohol,71,81,0.8765432098765432,1.0,0.9342105263157895
+S7_train_I_D1_3_val_D4_5,three_class_with_air,MLP,test,4.0,acetone,71,66,1.0,0.9295774647887324,0.9635036496350365

@@ -1,0 +1,5 @@
+n_samples: 198
+class_counts: {'air': 52, 'alcohol': 73, 'acetone': 73}
+max_original_points_per_sensor: 720
+processing: baseline correction only; no exposure/recovery feature extraction; no resampling
+variable_length_handling: shorter recordings are padded with NaN; masked classifiers compare only observed original point columns

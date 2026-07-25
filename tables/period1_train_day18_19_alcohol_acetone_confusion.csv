@@ -1,0 +1,21 @@
+model,true_label,predicted_label,count
+LDA,alcohol,alcohol,7
+LDA,alcohol,acetone,0
+LDA,acetone,alcohol,7
+LDA,acetone,acetone,0
+Logistic Regression,alcohol,alcohol,7
+Logistic Regression,alcohol,acetone,0
+Logistic Regression,acetone,alcohol,0
+Logistic Regression,acetone,acetone,7
+kNN,alcohol,alcohol,7
+kNN,alcohol,acetone,0
+kNN,acetone,alcohol,1
+kNN,acetone,acetone,6
+Random Forest,alcohol,alcohol,3
+Random Forest,alcohol,acetone,4
+Random Forest,acetone,alcohol,1
+Random Forest,acetone,acetone,6
+RBF LS-SVM,alcohol,alcohol,7
+RBF LS-SVM,alcohol,acetone,0
+RBF LS-SVM,acetone,alcohol,1
+RBF LS-SVM,acetone,acetone,6

@@ -1,0 +1,2 @@
+feature_extractor_layers,feature_extractor_architecture,latent_dimension,epochs,learning_rate,weight_decay,seeds,lambda_candidates,base_implementation
+1,54 -> 16 -> ReLU -> Dropout(0.05),16,400,0.01,0.0001,"0,1,2,3,4","0.05,0.2,0.5",D:\thesis\code\training\run_dann_multi_splits.py

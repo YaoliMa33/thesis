@@ -1,0 +1,58 @@
+{
+  "experiments": [
+    "feature-fusion",
+    "residual-mkmmd",
+    "local-mkmmd"
+  ],
+  "modes": [
+    "uda",
+    "semi"
+  ],
+  "splits": [
+    "S1_train_I_test_all",
+    "S2_train_I_internal_val_test_all",
+    "S3_train_I_internal_20_10_test_all",
+    "S4_train_I_val_D1_2",
+    "S5_train_I_D1_val_D2_3",
+    "S6_train_I_D1_2_val_D3_5",
+    "S7_train_I_D1_3_val_D4_5"
+  ],
+  "features": 54,
+  "classes": [
+    "air",
+    "alcohol",
+    "acetone"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 400,
+  "LR": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "solver": "lbfgs",
+    "max_iter": 2000
+  },
+  "DA_alignment_grid": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "DA_fixed_default_without_validation": 0.1,
+  "selection": "validation macro-F1, balanced accuracy, accuracy; test labels prohibited",
+  "label_policy": {
+    "uda": "source gas labels only; target labels prohibited from training and selection",
+    "semi": "source plus target labels explicitly assigned by the split",
+    "test": "evaluation-only"
+  },
+  "provenance": {
+    "feature-fusion": "raw standardized x concatenated with existing CDAN+C-DANN h",
+    "residual-mkmmd": "residual representation plus DAN-style global MK-MMD",
+    "local-mkmmd": "DSAN-style class-wise MMD; detached probabilities in UDA and known training labels in Semi"
+  },
+  "exploratory_status": "These are follow-up experiments motivated by prior observed test results; independent confirmation is required."
+}

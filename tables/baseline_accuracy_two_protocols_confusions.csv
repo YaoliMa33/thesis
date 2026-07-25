@@ -1,0 +1,91 @@
+protocol,model,true_label,predicted_label,count
+P1_train_1_15_test_16_17,LDA,air,air,8
+P1_train_1_15_test_16_17,LDA,air,alcohol,0
+P1_train_1_15_test_16_17,LDA,air,acetone,0
+P1_train_1_15_test_16_17,LDA,alcohol,air,0
+P1_train_1_15_test_16_17,LDA,alcohol,alcohol,10
+P1_train_1_15_test_16_17,LDA,alcohol,acetone,0
+P1_train_1_15_test_16_17,LDA,acetone,air,0
+P1_train_1_15_test_16_17,LDA,acetone,alcohol,0
+P1_train_1_15_test_16_17,LDA,acetone,acetone,10
+P2_train_1_10_val_11_15_test_16_17,LDA,air,air,8
+P2_train_1_10_val_11_15_test_16_17,LDA,air,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,LDA,air,acetone,0
+P2_train_1_10_val_11_15_test_16_17,LDA,alcohol,air,0
+P2_train_1_10_val_11_15_test_16_17,LDA,alcohol,alcohol,10
+P2_train_1_10_val_11_15_test_16_17,LDA,alcohol,acetone,0
+P2_train_1_10_val_11_15_test_16_17,LDA,acetone,air,0
+P2_train_1_10_val_11_15_test_16_17,LDA,acetone,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,LDA,acetone,acetone,10
+P1_train_1_15_test_16_17,Logistic Regression,air,air,8
+P1_train_1_15_test_16_17,Logistic Regression,air,alcohol,0
+P1_train_1_15_test_16_17,Logistic Regression,air,acetone,0
+P1_train_1_15_test_16_17,Logistic Regression,alcohol,air,0
+P1_train_1_15_test_16_17,Logistic Regression,alcohol,alcohol,10
+P1_train_1_15_test_16_17,Logistic Regression,alcohol,acetone,0
+P1_train_1_15_test_16_17,Logistic Regression,acetone,air,0
+P1_train_1_15_test_16_17,Logistic Regression,acetone,alcohol,0
+P1_train_1_15_test_16_17,Logistic Regression,acetone,acetone,10
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,air,air,8
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,air,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,air,acetone,0
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,alcohol,air,0
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,alcohol,alcohol,10
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,alcohol,acetone,0
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,acetone,air,0
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,acetone,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,Logistic Regression,acetone,acetone,10
+P1_train_1_15_test_16_17,kNN,air,air,8
+P1_train_1_15_test_16_17,kNN,air,alcohol,0
+P1_train_1_15_test_16_17,kNN,air,acetone,0
+P1_train_1_15_test_16_17,kNN,alcohol,air,0
+P1_train_1_15_test_16_17,kNN,alcohol,alcohol,10
+P1_train_1_15_test_16_17,kNN,alcohol,acetone,0
+P1_train_1_15_test_16_17,kNN,acetone,air,0
+P1_train_1_15_test_16_17,kNN,acetone,alcohol,0
+P1_train_1_15_test_16_17,kNN,acetone,acetone,10
+P2_train_1_10_val_11_15_test_16_17,kNN,air,air,8
+P2_train_1_10_val_11_15_test_16_17,kNN,air,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,kNN,air,acetone,0
+P2_train_1_10_val_11_15_test_16_17,kNN,alcohol,air,0
+P2_train_1_10_val_11_15_test_16_17,kNN,alcohol,alcohol,10
+P2_train_1_10_val_11_15_test_16_17,kNN,alcohol,acetone,0
+P2_train_1_10_val_11_15_test_16_17,kNN,acetone,air,0
+P2_train_1_10_val_11_15_test_16_17,kNN,acetone,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,kNN,acetone,acetone,10
+P1_train_1_15_test_16_17,Random Forest,air,air,8
+P1_train_1_15_test_16_17,Random Forest,air,alcohol,0
+P1_train_1_15_test_16_17,Random Forest,air,acetone,0
+P1_train_1_15_test_16_17,Random Forest,alcohol,air,0
+P1_train_1_15_test_16_17,Random Forest,alcohol,alcohol,10
+P1_train_1_15_test_16_17,Random Forest,alcohol,acetone,0
+P1_train_1_15_test_16_17,Random Forest,acetone,air,0
+P1_train_1_15_test_16_17,Random Forest,acetone,alcohol,0
+P1_train_1_15_test_16_17,Random Forest,acetone,acetone,10
+P2_train_1_10_val_11_15_test_16_17,Random Forest,air,air,8
+P2_train_1_10_val_11_15_test_16_17,Random Forest,air,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,Random Forest,air,acetone,0
+P2_train_1_10_val_11_15_test_16_17,Random Forest,alcohol,air,0
+P2_train_1_10_val_11_15_test_16_17,Random Forest,alcohol,alcohol,10
+P2_train_1_10_val_11_15_test_16_17,Random Forest,alcohol,acetone,0
+P2_train_1_10_val_11_15_test_16_17,Random Forest,acetone,air,0
+P2_train_1_10_val_11_15_test_16_17,Random Forest,acetone,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,Random Forest,acetone,acetone,10
+P1_train_1_15_test_16_17,RBF LS-SVM,air,air,8
+P1_train_1_15_test_16_17,RBF LS-SVM,air,alcohol,0
+P1_train_1_15_test_16_17,RBF LS-SVM,air,acetone,0
+P1_train_1_15_test_16_17,RBF LS-SVM,alcohol,air,0
+P1_train_1_15_test_16_17,RBF LS-SVM,alcohol,alcohol,10
+P1_train_1_15_test_16_17,RBF LS-SVM,alcohol,acetone,0
+P1_train_1_15_test_16_17,RBF LS-SVM,acetone,air,0
+P1_train_1_15_test_16_17,RBF LS-SVM,acetone,alcohol,0
+P1_train_1_15_test_16_17,RBF LS-SVM,acetone,acetone,10
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,air,air,8
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,air,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,air,acetone,0
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,alcohol,air,0
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,alcohol,alcohol,10
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,alcohol,acetone,0
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,acetone,air,0
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,acetone,alcohol,0
+P2_train_1_10_val_11_15_test_16_17,RBF LS-SVM,acetone,acetone,10

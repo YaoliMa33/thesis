@@ -1,0 +1,991 @@
+architecture,split,variant,method,mode,seed,C,validation_kind,validation_accuracy,validation_balanced_accuracy,validation_macro_f1
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,0,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,0,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,0,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,1,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,1,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,1,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,2,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,2,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,2,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,3,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,3,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,3,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,4,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,4,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,4,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,0,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,0,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,0,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,1,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,1,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,1,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,2,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,2,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,2,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,3,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,3,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,3,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,4,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,4,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,4,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,0.1,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,1.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,10.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,0,0.1,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,0,1.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,0,10.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,1,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,1,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,1,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,2,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,2,1.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,2,10.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,3,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,3,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,3,10.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,4,0.1,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,4,1.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,4,10.0,source_val,1.0,1.0,1.0
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,2,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,2,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,2,10.0,source_val,0.8,0.75,0.7486772486772487
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,3,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,2,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,2,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,2,10.0,source_val,0.8,0.75,0.7486772486772487
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,3,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,10.0,source_val,0.8,0.75,0.7486772486772487
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,2,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,2,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,2,10.0,source_val,0.8,0.75,0.7486772486772487
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,3,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,0,0.1,target_val,0.8571428571428571,0.8583333333333334,0.8602254428341385
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,0,1.0,target_val,0.8928571428571429,0.8916666666666666,0.8948431685273791
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,0,10.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,1,0.1,target_val,0.8571428571428571,0.8583333333333334,0.8539562289562289
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,1,1.0,target_val,0.8571428571428571,0.8583333333333334,0.8539562289562289
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,1,10.0,target_val,0.8571428571428571,0.8583333333333334,0.8539562289562289
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,2,0.1,target_val,0.8928571428571429,0.9,0.8912655971479501
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,2,1.0,target_val,0.8214285714285714,0.8166666666666668,0.8157809983896941
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,2,10.0,target_val,0.8571428571428571,0.85,0.8507936507936508
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,3,0.1,target_val,1.0,1.0,1.0
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,3,1.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,3,10.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,4,0.1,target_val,0.8928571428571429,0.9,0.8976982097186701
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,4,1.0,target_val,0.8571428571428571,0.8583333333333334,0.8633986928104574
+one-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,4,10.0,target_val,0.8571428571428571,0.8583333333333334,0.8633986928104574
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,0,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,0,1.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,0,10.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,1,0.1,target_val,0.8571428571428571,0.8583333333333334,0.8539562289562289
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,1,1.0,target_val,0.8928571428571429,0.8916666666666666,0.8898287385129491
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,1,10.0,target_val,0.9285714285714286,0.9333333333333332,0.9274821039526921
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,2,0.1,target_val,0.8928571428571429,0.8916666666666666,0.8948431685273791
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,2,1.0,target_val,0.8928571428571429,0.8916666666666666,0.8948431685273791
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,2,10.0,target_val,0.8928571428571429,0.8916666666666666,0.8948431685273791
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,3,0.1,target_val,0.8928571428571429,0.9,0.8976982097186701
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,3,1.0,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,3,10.0,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,4,0.1,target_val,0.8928571428571429,0.9,0.8976982097186701
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,4,1.0,target_val,0.8571428571428571,0.8583333333333334,0.8633986928104574
+one-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,4,10.0,target_val,0.8571428571428571,0.8583333333333334,0.8633986928104574
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,0,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,0,1.0,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,0,10.0,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,1,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,1,1.0,target_val,0.8928571428571429,0.8916666666666666,0.8898287385129491
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,1,10.0,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,2,0.1,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,2,1.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,2,10.0,target_val,0.8571428571428571,0.85,0.85518341307815
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,3,0.1,target_val,1.0,1.0,1.0
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,3,1.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,3,10.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,4,0.1,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,4,1.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,4,10.0,target_val,0.9285714285714286,0.9166666666666666,0.9220779220779219
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,0,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,0,1.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,0,10.0,target_val,0.9285714285714286,0.9166666666666666,0.9220779220779219
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,1,0.1,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,1,1.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,1,10.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,2,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,2,1.0,target_val,0.8928571428571429,0.8833333333333333,0.8887445887445887
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,2,10.0,target_val,0.8928571428571429,0.8833333333333333,0.8887445887445887
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,3,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,3,1.0,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,3,10.0,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,4,0.1,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,4,1.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,4,10.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,0,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,0,1.0,target_val,0.8846153846153846,0.9,0.882010582010582
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,0,10.0,target_val,0.8461538461538461,0.8666666666666666,0.8411764705882353
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,1,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9172932330827068
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,1,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9172932330827068
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,1,10.0,target_val,0.8461538461538461,0.8666666666666666,0.8402992776057792
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,3,0.1,target_val,0.8846153846153846,0.9,0.882010582010582
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,3,1.0,target_val,0.8461538461538461,0.8666666666666666,0.8411764705882353
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,3,10.0,target_val,0.8461538461538461,0.8666666666666666,0.8411764705882353
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,4,0.1,target_val,0.9230769230769231,0.9111111111111111,0.9111111111111111
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,4,1.0,target_val,0.8846153846153846,0.8777777777777778,0.8792815371762742
+one-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,4,10.0,target_val,0.8076923076923077,0.8111111111111112,0.7983193277310926
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,0,0.1,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,0,1.0,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,0,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,1,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,1,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,1,10.0,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,2,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,2,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,2,10.0,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,3,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,3,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,3,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,4,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,4,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,0,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,0,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,0,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,1,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,1,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,1,10.0,target_val,0.8461538461538461,0.8666666666666666,0.8411764705882353
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,2,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,3,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,3,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,3,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,4,0.1,target_val,0.9230769230769231,0.9111111111111111,0.9111111111111111
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,4,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,4,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,0,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,0,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,0,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,1,0.1,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,1,1.0,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,1,10.0,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,2,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9333333333333332
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9333333333333332
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,3,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,3,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,3,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,4,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,4,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,4,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9333333333333332
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,0,0.1,target_val,0.9,0.9,0.9062034170393304
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,0,1.0,target_val,0.9,0.9,0.9062034170393304
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,0,10.0,target_val,0.9,0.9111111111111111,0.9095022624434389
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,1,0.1,target_val,0.9,0.9111111111111111,0.9095022624434389
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,1,1.0,target_val,0.9,0.9111111111111111,0.9095022624434389
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,1,10.0,target_val,0.9,0.9111111111111111,0.9095022624434389
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,2,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,2,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,2,10.0,target_val,0.925,0.9333333333333332,0.9326599326599326
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,3,0.1,target_val,0.9,0.9111111111111111,0.9095022624434389
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,3,1.0,target_val,0.925,0.9333333333333332,0.9326599326599326
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,3,10.0,target_val,0.925,0.9333333333333332,0.9326599326599326
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,4,0.1,target_val,0.925,0.9333333333333332,0.9326599326599326
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,4,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,4,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,0,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,0,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,0,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,1,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,1,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,1,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,2,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,2,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,2,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,3,0.1,target_val,0.9,0.9,0.9062034170393304
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,3,1.0,target_val,0.925,0.9222222222222222,0.928343586238323
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,3,10.0,target_val,0.9,0.9,0.9063067150635208
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,4,0.1,target_val,0.925,0.9333333333333332,0.9326599326599326
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,4,1.0,target_val,0.925,0.9333333333333332,0.9326599326599326
+one-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,4,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,0,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,0,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,0,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,1,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,1,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,1,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,2,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,2,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,2,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,3,0.1,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,3,1.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,3,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,4,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,4,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,4,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,0,0.1,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,0,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,0,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,1,0.1,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,1,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,1,10.0,target_val,0.925,0.9333333333333332,0.9262566137566138
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,2,0.1,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,2,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,2,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,3,0.1,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,3,1.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,3,10.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,4,0.1,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,4,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,4,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,0,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,0,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,0,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,1,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,1,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,1,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,3,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9214489214489214
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,3,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,3,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,4,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,4,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,0,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,0,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,0,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,1,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,1,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,1,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,3,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,3,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,3,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,4,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,4,10.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,0,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,0,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,0,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,1,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,1,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,1,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,3,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,3,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,3,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,4,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,4,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,0,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,0,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,0,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,1,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,1,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,1,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,2,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,2,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,2,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,3,0.1,target_val,1.0,1.0,1.0
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,3,1.0,target_val,1.0,1.0,1.0
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,3,10.0,target_val,1.0,1.0,1.0
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,4,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,4,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,0,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,0,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,0,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,1,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,1,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,1,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,2,0.1,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,2,1.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,2,10.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,3,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,3,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,3,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,4,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,4,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,C-DANN-UDA,c-dann,uda,4,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,0,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,0,1.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,0,10.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,1,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,1,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,1,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,2,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,2,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,2,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,3,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,3,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,3,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,4,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,4,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN-UDA,cdan,uda,4,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,0,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,0,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,0,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,1,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,1,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,1,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,2,0.1,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,2,1.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,2,10.0,source_val,1.0,1.0,1.0
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,3,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,3,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,3,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,4,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,4,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+one-layer,S2_train_I_internal_val_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,4,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,2,0.1,source_val,0.6,0.5833333333333334,0.5333333333333333
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,2,1.0,source_val,0.5,0.5,0.46666666666666656
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,2,10.0,source_val,0.5,0.5,0.46666666666666656
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,3,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,C-DANN-UDA,c-dann,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,2,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,2,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,2,10.0,source_val,0.8,0.75,0.7486772486772487
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,3,10.0,source_val,0.6,0.5833333333333334,0.5738095238095239
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN-UDA,cdan,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,0,10.0,source_val,0.6,0.5833333333333334,0.5793650793650794
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,2,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,2,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,2,10.0,source_val,0.6,0.5833333333333334,0.5738095238095239
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,3,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S3_train_I_internal_20_10_test_all,CDAN+C-DANN-UDA,cdan+c-dann,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6555555555555556
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,0,0.1,target_val,0.9642857142857143,0.9666666666666667,0.9665831244778613
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,0,1.0,target_val,0.9642857142857143,0.9666666666666667,0.9665831244778613
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,0,10.0,target_val,0.9642857142857143,0.9666666666666667,0.9628482972136223
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,1,0.1,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,1,1.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,1,10.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,2,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,2,1.0,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,2,10.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,3,0.1,target_val,0.9642857142857143,0.9666666666666667,0.9628482972136223
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,3,1.0,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,3,10.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,4,0.1,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,4,1.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,C-DANN-SEMI,c-dann,semi,4,10.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,0,0.1,target_val,0.8571428571428571,0.8583333333333334,0.8539562289562289
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,0,1.0,target_val,0.8928571428571429,0.8916666666666666,0.8898287385129491
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,0,10.0,target_val,0.8928571428571429,0.8916666666666666,0.8898287385129491
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,1,0.1,target_val,0.9285714285714286,0.9333333333333332,0.9326599326599326
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,1,1.0,target_val,0.9285714285714286,0.9333333333333332,0.9326599326599326
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,1,10.0,target_val,0.8928571428571429,0.8916666666666666,0.8948431685273791
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,2,0.1,target_val,0.8571428571428571,0.85,0.8507936507936508
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,2,1.0,target_val,0.8571428571428571,0.85,0.8507936507936508
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,2,10.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,3,0.1,target_val,0.9642857142857143,0.9666666666666667,0.9665831244778613
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,3,1.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,3,10.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,4,0.1,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,4,1.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,CDAN-SEMI,cdan,semi,4,10.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,1.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,10.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,0.1,target_val,0.9285714285714286,0.9166666666666666,0.9220779220779219
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,1.0,target_val,0.9285714285714286,0.9166666666666666,0.9220779220779219
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,10.0,target_val,0.9285714285714286,0.9166666666666666,0.9220779220779219
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,1.0,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,10.0,target_val,0.9285714285714286,0.9249999999999999,0.9285714285714285
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,0.1,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,1.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,10.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,0.1,target_val,0.8571428571428571,0.85,0.8507936507936508
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,1.0,target_val,0.8571428571428571,0.85,0.8507936507936508
+one-layer,S4_train_I_val_D1_2,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,10.0,target_val,0.8571428571428571,0.85,0.8507936507936508
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,0,0.1,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,0,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,0,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,1,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,1,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,1,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,2,0.1,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,2,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,2,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,3,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,3,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,3,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,4,0.1,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,4,1.0,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,C-DANN-SEMI,c-dann,semi,4,10.0,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,0,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,0,1.0,target_val,0.8846153846153846,0.9,0.882010582010582
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,0,10.0,target_val,0.8461538461538461,0.8666666666666666,0.8411764705882353
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,1,0.1,target_val,0.8461538461538461,0.8666666666666666,0.8411764705882353
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,1,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,1,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,3,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,3,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,3,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,4,0.1,target_val,0.9230769230769231,0.9111111111111111,0.9111111111111111
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,4,1.0,target_val,0.9230769230769231,0.9111111111111111,0.9111111111111111
+one-layer,S5_train_I_D1_val_D2_3,CDAN-SEMI,cdan,semi,4,10.0,target_val,0.9230769230769231,0.9111111111111111,0.9111111111111111
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9172932330827068
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,10.0,target_val,0.8846153846153846,0.9,0.882010582010582
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,0.1,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,1.0,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,10.0,target_val,1.0,1.0,1.0
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S5_train_I_D1_val_D2_3,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,0,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,0,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,0,10.0,target_val,1.0,1.0,1.0
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,1,0.1,target_val,0.925,0.9222222222222222,0.928343586238323
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,1,1.0,target_val,0.925,0.9222222222222222,0.928343586238323
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,1,10.0,target_val,0.925,0.9222222222222222,0.928343586238323
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,2,0.1,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,2,1.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,2,10.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,3,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,3,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,3,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,4,0.1,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,4,1.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,C-DANN-SEMI,c-dann,semi,4,10.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,0,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,0,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,0,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,1,0.1,target_val,0.875,0.8888888888888888,0.8857142857142858
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,1,1.0,target_val,0.875,0.8888888888888888,0.8857142857142858
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,1,10.0,target_val,0.875,0.8888888888888888,0.8857142857142858
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,2,0.1,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,2,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,2,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,3,0.1,target_val,0.925,0.9333333333333332,0.9326599326599326
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,3,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,3,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,4,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,4,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN-SEMI,cdan,semi,4,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,0.1,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,1.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,10.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,0.1,target_val,0.925,0.9333333333333332,0.9326599326599326
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,1.0,target_val,0.95,0.9555555555555556,0.9495647721454173
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,10.0,target_val,0.95,0.9555555555555556,0.9495647721454173
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,0.1,target_val,0.925,0.9222222222222222,0.928343586238323
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,0.1,target_val,0.925,0.9222222222222222,0.928343586238323
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,1.0,target_val,0.925,0.9222222222222222,0.928343586238323
+one-layer,S6_train_I_D1_2_val_D3_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,10.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,0,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,0,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,0,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,1,0.1,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,1,1.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,1,10.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,3,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,3,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,3,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,4,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,4,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,C-DANN-SEMI,c-dann,semi,4,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,0,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,0,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,0,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,1,0.1,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,1,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,1,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,2,10.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,3,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,3,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,3,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,4,0.1,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,4,1.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN-SEMI,cdan,semi,4,10.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,0,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,1.0,target_val,1.0,1.0,1.0
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,1,10.0,target_val,1.0,1.0,1.0
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,0.1,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,1.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,2,10.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,3,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+one-layer,S7_train_I_D1_3_val_D4_5,CDAN+C-DANN-SEMI,cdan+c-dann,semi,4,10.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,0,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,0,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,0,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,1,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,1,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,1,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,2,0.1,source_val,0.8,0.8333333333333334,0.8222222222222223
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,2,1.0,source_val,0.8,0.8333333333333334,0.8222222222222223
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,2,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,3,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,3,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,3,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,4,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,4,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,MLP Source-only,source-only,uda,4,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,0,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,0,1.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,0,10.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,1,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,1,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,1,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,2,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,2,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,2,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,3,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,3,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,3,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,4,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,4,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,DANN-UDA,dann,uda,4,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,0.1,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,1.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,10.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,1.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,0.1,source_val,0.8,0.8333333333333334,0.8222222222222223
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,1.0,source_val,0.8,0.8333333333333334,0.8222222222222223
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,10.0,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,0.1,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,1.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,10.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,0.1,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,1.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,10.0,source_val,0.6,0.6666666666666666,0.611111111111111
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,0,0.1,source_val,0.8,0.8333333333333334,0.8222222222222223
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,0,1.0,source_val,0.8,0.8333333333333334,0.8222222222222223
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,0,10.0,source_val,0.8,0.8333333333333334,0.8222222222222223
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,1,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,1,1.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,1,10.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,2,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,2,1.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,2,10.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,3,0.1,source_val,0.8,0.8333333333333334,0.7777777777777777
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,3,1.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,3,10.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,4,0.1,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,4,1.0,source_val,1.0,1.0,1.0
+two-layer,S2_train_I_internal_val_test_all,MK-MMD-UDA,mk-mmd,uda,4,10.0,source_val,1.0,1.0,1.0
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,2,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,2,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,2,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,3,10.0,source_val,0.6,0.5833333333333334,0.5738095238095239
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MLP Source-only,source-only,uda,4,10.0,source_val,0.6,0.5833333333333334,0.5833333333333334
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,2,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,2,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,2,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,3,10.0,source_val,0.6,0.5833333333333334,0.5738095238095239
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DANN-UDA,dann,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,2,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,0.1,source_val,0.6,0.5833333333333334,0.5738095238095239
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,1.0,source_val,0.6,0.5833333333333334,0.5738095238095239
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,3,10.0,source_val,0.7,0.6666666666666666,0.6666666666666666
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,DEEP-CORAL-UDA,deep-coral,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,0,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,0,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,0,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,1,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,1,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,1,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,2,0.1,source_val,0.6,0.5833333333333334,0.5738095238095239
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,2,1.0,source_val,0.6,0.5833333333333334,0.5738095238095239
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,2,10.0,source_val,0.6,0.5833333333333334,0.5738095238095239
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,3,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,3,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,3,10.0,source_val,0.6,0.5833333333333334,0.5738095238095239
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,4,0.1,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,4,1.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S3_train_I_internal_20_10_test_all,MK-MMD-UDA,mk-mmd,uda,4,10.0,source_val,0.7,0.6666666666666666,0.6518518518518519
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,0,0.1,target_val,0.7857142857142857,0.7833333333333333,0.7917748917748918
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,0,1.0,target_val,0.8571428571428571,0.8583333333333334,0.8634920634920635
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,0,10.0,target_val,0.8928571428571429,0.9,0.899749373433584
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,1,0.1,target_val,0.8928571428571429,0.8916666666666666,0.8948431685273791
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,1,1.0,target_val,0.8928571428571429,0.8916666666666666,0.8972624798711756
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,1,10.0,target_val,0.8928571428571429,0.8916666666666666,0.8972624798711756
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,2,0.1,target_val,0.9285714285714286,0.9333333333333332,0.9274821039526921
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,2,1.0,target_val,0.9285714285714286,0.9333333333333332,0.9274821039526921
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,2,10.0,target_val,0.9285714285714286,0.9333333333333332,0.9274821039526921
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,3,0.1,target_val,0.8571428571428571,0.85,0.8554112554112554
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,3,1.0,target_val,0.8571428571428571,0.85,0.8554112554112554
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,3,10.0,target_val,0.8571428571428571,0.85,0.8554112554112554
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,4,0.1,target_val,0.8214285714285714,0.8250000000000001,0.8194444444444443
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,4,1.0,target_val,0.8214285714285714,0.8250000000000001,0.8194444444444443
+two-layer,S4_train_I_val_D1_2,MLP Source+Target,source-only,semi,4,10.0,target_val,0.8214285714285714,0.8250000000000001,0.8194444444444443
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,0,0.1,target_val,0.7857142857142857,0.7833333333333333,0.7857142857142856
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,0,1.0,target_val,0.7857142857142857,0.7833333333333333,0.7857142857142856
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,0,10.0,target_val,0.7857142857142857,0.7833333333333333,0.7857142857142856
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,1,0.1,target_val,0.7857142857142857,0.7833333333333333,0.7787439613526569
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,1,1.0,target_val,0.7857142857142857,0.7833333333333333,0.7787439613526569
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,1,10.0,target_val,0.7857142857142857,0.7833333333333333,0.7787439613526569
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,2,0.1,target_val,0.8214285714285714,0.8250000000000001,0.8194444444444443
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,2,1.0,target_val,0.8214285714285714,0.8250000000000001,0.8194444444444443
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,2,10.0,target_val,0.8214285714285714,0.8250000000000001,0.8194444444444443
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,3,0.1,target_val,0.8571428571428571,0.8416666666666667,0.8465978465978466
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,3,1.0,target_val,0.8571428571428571,0.8416666666666667,0.8465978465978466
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,3,10.0,target_val,0.8571428571428571,0.8416666666666667,0.8465978465978466
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,4,0.1,target_val,0.8214285714285714,0.8333333333333334,0.8137254901960785
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,4,1.0,target_val,0.8571428571428571,0.8666666666666667,0.8535805626598464
+two-layer,S4_train_I_val_D1_2,DANN-SEMI,dann,semi,4,10.0,target_val,0.8571428571428571,0.8666666666666667,0.8535805626598464
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,0,0.1,target_val,0.9285714285714286,0.9166666666666666,0.9220779220779219
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,0,1.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,0,10.0,target_val,0.9642857142857143,0.9583333333333334,0.9619047619047619
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,1,0.1,target_val,0.9642857142857143,0.9666666666666667,0.9628482972136223
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,1,1.0,target_val,0.9642857142857143,0.9666666666666667,0.9628482972136223
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,1,10.0,target_val,0.9642857142857143,0.9666666666666667,0.9628482972136223
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,2,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,2,1.0,target_val,0.8928571428571429,0.8916666666666666,0.8898287385129491
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,2,10.0,target_val,0.8928571428571429,0.8916666666666666,0.8898287385129491
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,3,0.1,target_val,0.9285714285714286,0.9249999999999999,0.9249999999999999
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,3,1.0,target_val,0.9642857142857143,0.9666666666666667,0.9628482972136223
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,3,10.0,target_val,0.9642857142857143,0.9666666666666667,0.9628482972136223
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,4,0.1,target_val,0.9285714285714286,0.9333333333333332,0.9278752436647174
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,4,1.0,target_val,0.9285714285714286,0.9333333333333332,0.9278752436647174
+two-layer,S4_train_I_val_D1_2,DEEP-CORAL-SEMI,deep-coral,semi,4,10.0,target_val,0.9285714285714286,0.9333333333333332,0.9278752436647174
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,0,0.1,target_val,0.8571428571428571,0.8583333333333334,0.8539562289562289
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,0,1.0,target_val,0.8571428571428571,0.8583333333333334,0.8539562289562289
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,0,10.0,target_val,0.8928571428571429,0.9,0.8912655971479501
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,1,0.1,target_val,0.9285714285714286,0.9166666666666666,0.9220779220779219
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,1,1.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,1,10.0,target_val,0.8928571428571429,0.8833333333333333,0.8887445887445887
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,2,0.1,target_val,0.9642857142857143,0.9666666666666667,0.9665831244778613
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,2,1.0,target_val,0.9642857142857143,0.9666666666666667,0.9665831244778613
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,2,10.0,target_val,0.9642857142857143,0.9666666666666667,0.9665831244778613
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,3,0.1,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,3,1.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,3,10.0,target_val,0.8928571428571429,0.8833333333333333,0.888888888888889
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,4,0.1,target_val,0.8571428571428571,0.85,0.8507936507936508
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,4,1.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+two-layer,S4_train_I_val_D1_2,MK-MMD-SEMI,mk-mmd,semi,4,10.0,target_val,0.8928571428571429,0.8833333333333333,0.8857142857142857
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,0,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,0,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,0,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,1,0.1,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,1,1.0,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,1,10.0,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,2,1.0,target_val,0.8846153846153846,0.9,0.8897028897028897
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,2,10.0,target_val,0.8461538461538461,0.8666666666666666,0.8549293843411491
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,3,0.1,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,3,1.0,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,3,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,4,0.1,target_val,0.8846153846153846,0.9,0.882010582010582
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,4,1.0,target_val,0.8846153846153846,0.9,0.882010582010582
+two-layer,S5_train_I_D1_val_D2_3,MLP Source+Target,source-only,semi,4,10.0,target_val,0.8846153846153846,0.9,0.882010582010582
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,0,0.1,target_val,0.9230769230769231,0.9111111111111111,0.9111111111111111
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,0,1.0,target_val,0.9230769230769231,0.9111111111111111,0.9111111111111111
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,0,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,1,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,1,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,1,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,2,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,2,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,2,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,3,0.1,target_val,0.8461538461538461,0.8666666666666667,0.861111111111111
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,3,1.0,target_val,0.8461538461538461,0.8666666666666667,0.861111111111111
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,3,10.0,target_val,0.8461538461538461,0.8666666666666667,0.861111111111111
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,4,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+two-layer,S5_train_I_D1_val_D2_3,DANN-SEMI,dann,semi,4,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9234817813765183
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,0,0.1,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,0,1.0,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,0,10.0,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,1,0.1,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,1,1.0,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,1,10.0,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,2,0.1,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,2,1.0,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,2,10.0,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,3,0.1,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,3,1.0,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,3,10.0,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,4,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,4,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,DEEP-CORAL-SEMI,deep-coral,semi,4,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098516
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,0,0.1,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,0,1.0,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,0,10.0,target_val,0.9615384615384616,0.9444444444444445,0.9538239538239538
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,1,0.1,target_val,0.9230769230769231,0.9111111111111111,0.9204906204906204
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,1,1.0,target_val,0.9230769230769231,0.9111111111111111,0.9204906204906204
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,1,10.0,target_val,0.9230769230769231,0.9111111111111111,0.9204906204906204
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,2,0.1,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,2,1.0,target_val,0.9230769230769231,0.9111111111111111,0.9218500797448166
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,2,10.0,target_val,0.9230769230769231,0.9111111111111111,0.9218500797448166
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,3,0.1,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,3,1.0,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,3,10.0,target_val,1.0,1.0,1.0
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,4,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,4,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S5_train_I_D1_val_D2_3,MK-MMD-SEMI,mk-mmd,semi,4,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,0,0.1,target_val,0.9,0.9111111111111111,0.9095022624434389
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,0,1.0,target_val,0.9,0.9111111111111111,0.9095022624434389
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,0,10.0,target_val,0.9,0.9111111111111111,0.9095022624434389
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,1,0.1,target_val,0.9,0.9111111111111111,0.9095022624434389
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,1,1.0,target_val,0.9,0.9111111111111111,0.9095022624434389
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,1,10.0,target_val,0.9,0.9111111111111111,0.9095022624434389
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,2,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,2,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,2,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,3,0.1,target_val,0.925,0.9333333333333332,0.9326599326599326
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,3,1.0,target_val,0.925,0.9333333333333332,0.9326599326599326
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,3,10.0,target_val,0.925,0.9333333333333332,0.9326599326599326
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,4,0.1,target_val,0.85,0.8666666666666667,0.861111111111111
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,4,1.0,target_val,0.85,0.8666666666666667,0.861111111111111
+two-layer,S6_train_I_D1_2_val_D3_5,MLP Source+Target,source-only,semi,4,10.0,target_val,0.85,0.8666666666666667,0.861111111111111
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,0,0.1,target_val,0.95,0.9444444444444443,0.9501285541439807
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,0,1.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,0,10.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,1,0.1,target_val,1.0,1.0,1.0
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,1,1.0,target_val,1.0,1.0,1.0
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,1,10.0,target_val,1.0,1.0,1.0
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,2,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,2,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,2,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,3,0.1,target_val,0.925,0.9222222222222222,0.928343586238323
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,3,1.0,target_val,0.925,0.9222222222222222,0.928343586238323
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,3,10.0,target_val,0.925,0.9222222222222222,0.928343586238323
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,4,0.1,target_val,0.925,0.9333333333333332,0.9326599326599326
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,4,1.0,target_val,0.925,0.9333333333333332,0.9326599326599326
+two-layer,S6_train_I_D1_2_val_D3_5,DANN-SEMI,dann,semi,4,10.0,target_val,0.925,0.9333333333333332,0.9326599326599326
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,0,0.1,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,0,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,0,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,1,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,1,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,1,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,2,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,2,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,2,10.0,target_val,0.925,0.9333333333333332,0.9326599326599326
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,3,0.1,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,3,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,3,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,4,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,4,1.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,DEEP-CORAL-SEMI,deep-coral,semi,4,10.0,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,0,0.1,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,0,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,0,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,1,0.1,target_val,1.0,1.0,1.0
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,1,1.0,target_val,1.0,1.0,1.0
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,1,10.0,target_val,1.0,1.0,1.0
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,2,0.1,target_val,0.95,0.9555555555555556,0.9553571428571429
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,2,1.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,2,10.0,target_val,0.975,0.9777777777777779,0.9777530589543938
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,3,0.1,target_val,0.95,0.9444444444444443,0.9501285541439807
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,3,1.0,target_val,0.95,0.9444444444444443,0.9501285541439807
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,3,10.0,target_val,0.975,0.9666666666666667,0.9717034521788342
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,4,0.1,target_val,1.0,1.0,1.0
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,4,1.0,target_val,1.0,1.0,1.0
+two-layer,S6_train_I_D1_2_val_D3_5,MK-MMD-SEMI,mk-mmd,semi,4,10.0,target_val,0.975,0.9666666666666667,0.9717034521788342
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,0,0.1,target_val,0.8846153846153846,0.9,0.8976982097186701
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,0,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,0,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,1,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,1,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,1,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,3,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,3,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,3,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,4,0.1,target_val,0.8846153846153846,0.9,0.8976982097186701
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MLP Source+Target,source-only,semi,4,10.0,target_val,0.8846153846153846,0.9,0.8976982097186701
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,0,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,0,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,0,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,1,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,1,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,1,10.0,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,2,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,2,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,2,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,3,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,3,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,3,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,4,0.1,target_val,0.8846153846153846,0.9,0.882010582010582
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9214489214489214
+two-layer,S7_train_I_D1_3_val_D4_5,DANN-SEMI,dann,semi,4,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9568151147098515
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,0,0.1,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,0,1.0,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,0,10.0,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,1,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,1,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,1,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,2,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,2,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,2,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,3,0.1,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,3,1.0,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,3,10.0,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,4,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,DEEP-CORAL-SEMI,deep-coral,semi,4,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,0,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,0,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,0,10.0,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,1,0.1,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,1,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,1,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,2,0.1,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,2,1.0,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,2,10.0,target_val,1.0,1.0,1.0
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,3,0.1,target_val,0.9230769230769231,0.9333333333333332,0.9326599326599326
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,3,1.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,3,10.0,target_val,0.9615384615384616,0.9666666666666667,0.9665831244778613
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,4,0.1,target_val,0.8846153846153846,0.9,0.8852324146441793
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,4,1.0,target_val,0.9230769230769231,0.9333333333333332,0.9214489214489214
+two-layer,S7_train_I_D1_3_val_D4_5,MK-MMD-SEMI,mk-mmd,semi,4,10.0,target_val,0.9230769230769231,0.9333333333333332,0.9214489214489214
