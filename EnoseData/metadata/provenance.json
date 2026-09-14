@@ -1,0 +1,13 @@
+{
+  "dataset": "short-term e-nose three-class 54D time-phase experiment",
+  "samples": 303,
+  "raw_files": 303,
+  "classes": {"air": 87, "alcohol": 108, "acetone": 108},
+  "feature_columns": 54,
+  "source_manifest_sha256": "19ea06c4975fda3813dc37767076586c10f7c105be5286c5c5fb9c371f7b89e0",
+  "phase_audit_sha256": "e64fc95c64ab74f49711cab9492c4f94d6960eef8a7654c3064bd048ba1e1d59",
+  "features_54d_sha256": "9cffb38785e54937871c9fe7f61f3b785c352dcdf8d11b9c88aea251294e72f6",
+  "feature_extraction_protocol": "label-independent-acquisition-time-54d-v1",
+  "model_training_seeds_change_split_membership": false,
+  "target_test_labels_available_to_training": false
+}

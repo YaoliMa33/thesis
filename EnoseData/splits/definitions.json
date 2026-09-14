@@ -1,0 +1,389 @@
+{
+  "source_holdout_seed": 42,
+  "source_holdout_rule": "per-class numpy.default_rng(42 + sum Unicode code points in label), natural-sort target_file before permutation",
+  "model_seeds_affect_membership": false,
+  "raw_to_paper_batch": {
+    "source": "Batch1",
+    "batch1": "Batch2",
+    "batch2": "Batch3",
+    "batch3": "Batch4",
+    "batch4": "Batch5",
+    "batch5": "Batch6"
+  },
+  "S1_S7": {
+    "S1": {
+      "selection": "fixed_epoch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 273,
+        "target_val": 0,
+        "target_test": 273
+      }
+    },
+    "S2": {
+      "selection": "source_validation",
+      "counts": {
+        "source_train": 25,
+        "source_val": 5,
+        "target_labeled_train": 0,
+        "target_domain": 273,
+        "target_val": 0,
+        "target_test": 273
+      }
+    },
+    "S3": {
+      "selection": "source_validation",
+      "counts": {
+        "source_train": 20,
+        "source_val": 10,
+        "target_labeled_train": 0,
+        "target_domain": 273,
+        "target_val": 0,
+        "target_test": 273
+      }
+    },
+    "S4": {
+      "selection": "target_validation",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 245,
+        "target_val": 28,
+        "target_test": 245
+      }
+    },
+    "S5": {
+      "selection": "target_validation",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 16,
+        "target_domain": 231,
+        "target_val": 26,
+        "target_test": 231
+      }
+    },
+    "S6": {
+      "selection": "target_validation",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 28,
+        "target_domain": 205,
+        "target_val": 40,
+        "target_test": 205
+      }
+    },
+    "S7": {
+      "selection": "target_validation",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 42,
+        "target_domain": 205,
+        "target_val": 26,
+        "target_test": 205
+      }
+    }
+  },
+  "ABCD": {
+    "A1": {
+      "protocol": "A",
+      "adaptation_batches": [
+        "Batch2"
+      ],
+      "evaluation_batches": [
+        "Batch2"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 28,
+        "target_val": 0,
+        "target_test": 28
+      }
+    },
+    "A2": {
+      "protocol": "A",
+      "adaptation_batches": [
+        "Batch3"
+      ],
+      "evaluation_batches": [
+        "Batch3"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 84,
+        "target_val": 0,
+        "target_test": 84
+      }
+    },
+    "A3": {
+      "protocol": "A",
+      "adaptation_batches": [
+        "Batch4"
+      ],
+      "evaluation_batches": [
+        "Batch4"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 81,
+        "target_val": 0,
+        "target_test": 81
+      }
+    },
+    "A4": {
+      "protocol": "A",
+      "adaptation_batches": [
+        "Batch5"
+      ],
+      "evaluation_batches": [
+        "Batch5"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 46,
+        "target_val": 0,
+        "target_test": 46
+      }
+    },
+    "A5": {
+      "protocol": "A",
+      "adaptation_batches": [
+        "Batch6"
+      ],
+      "evaluation_batches": [
+        "Batch6"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 34,
+        "target_val": 0,
+        "target_test": 34
+      }
+    },
+    "B1": {
+      "protocol": "B",
+      "adaptation_batches": [
+        "Batch2"
+      ],
+      "evaluation_batches": [
+        "Batch3"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 28,
+        "target_val": 0,
+        "target_test": 84
+      }
+    },
+    "B2": {
+      "protocol": "B",
+      "adaptation_batches": [
+        "Batch2",
+        "Batch3"
+      ],
+      "evaluation_batches": [
+        "Batch4"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 112,
+        "target_val": 0,
+        "target_test": 81
+      }
+    },
+    "B3": {
+      "protocol": "B",
+      "adaptation_batches": [
+        "Batch2",
+        "Batch3",
+        "Batch4"
+      ],
+      "evaluation_batches": [
+        "Batch5"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 193,
+        "target_val": 0,
+        "target_test": 46
+      }
+    },
+    "B4": {
+      "protocol": "B",
+      "adaptation_batches": [
+        "Batch2",
+        "Batch3",
+        "Batch4",
+        "Batch5"
+      ],
+      "evaluation_batches": [
+        "Batch6"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 239,
+        "target_val": 0,
+        "target_test": 34
+      }
+    },
+    "C1": {
+      "protocol": "C",
+      "adaptation_batches": [
+        "Batch2"
+      ],
+      "evaluation_batches": [
+        "Batch2"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 28,
+        "target_val": 0,
+        "target_test": 28
+      }
+    },
+    "C2": {
+      "protocol": "C",
+      "adaptation_batches": [
+        "Batch2",
+        "Batch3"
+      ],
+      "evaluation_batches": [
+        "Batch3"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 112,
+        "target_val": 0,
+        "target_test": 84
+      }
+    },
+    "C3": {
+      "protocol": "C",
+      "adaptation_batches": [
+        "Batch2",
+        "Batch3",
+        "Batch4"
+      ],
+      "evaluation_batches": [
+        "Batch4"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 193,
+        "target_val": 0,
+        "target_test": 81
+      }
+    },
+    "C4": {
+      "protocol": "C",
+      "adaptation_batches": [
+        "Batch2",
+        "Batch3",
+        "Batch4",
+        "Batch5"
+      ],
+      "evaluation_batches": [
+        "Batch5"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 239,
+        "target_val": 0,
+        "target_test": 46
+      }
+    },
+    "C5": {
+      "protocol": "C",
+      "adaptation_batches": [
+        "Batch2",
+        "Batch3",
+        "Batch4",
+        "Batch5",
+        "Batch6"
+      ],
+      "evaluation_batches": [
+        "Batch6"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 273,
+        "target_val": 0,
+        "target_test": 34
+      }
+    },
+    "D": {
+      "protocol": "D",
+      "adaptation_batches": [
+        "Batch2",
+        "Batch3",
+        "Batch4",
+        "Batch5",
+        "Batch6"
+      ],
+      "evaluation_batches": [
+        "Batch2",
+        "Batch3",
+        "Batch4",
+        "Batch5",
+        "Batch6"
+      ],
+      "alignment_unit": "per_batch",
+      "counts": {
+        "source_train": 30,
+        "source_val": 0,
+        "target_labeled_train": 0,
+        "target_domain": 273,
+        "target_val": 0,
+        "target_test": 273
+      }
+    }
+  },
+  "target_test_labels_are_training_inputs": false
+}

@@ -1,0 +1,304 @@
+sample_id,label,period,day,day_num,day_label,record_date,batch,paper_batch,source_kind,target_file,duration_s,profile,baseline_start_s,baseline_end_s,exposure_start_s,exposure_end_s,recovery_start_s,recovery_end_s,actual_last_s,baseline_n,exposure_n,recovery_n,observation_n
+air_1,air,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,air\air_1.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+baseline_1,air,Period_I,baseline,0,Period I baseline,,source,Batch1,baseline_as_air,air\baseline_1.csv,302.034,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,302.034,237,237,237,711
+reference_1,air,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,reference_as_air,air\reference_1.csv,60.0,programme_60,0.0,30.0,30.0,40.0,40.0,62.066,62.066,119,39,88,246
+air_2,air,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,air\air_2.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+reference_2,air,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,reference_as_air,air\reference_2.csv,60.0,programme_60,0.0,30.0,30.0,40.0,40.0,62.072,62.072,119,39,88,246
+air_3,air,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,air\air_3.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.184,237,237,237,711
+baseline_3,air,Period_I,baseline,0,Period I baseline,,source,Batch1,baseline_as_air,air\baseline_3.csv,302.016,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,302.016,237,237,237,711
+reference_3,air,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,reference_as_air,air\reference_3.csv,60.0,programme_60,0.0,30.0,30.0,40.0,40.0,62.085,62.085,119,39,88,246
+air_4,air,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,air\air_4.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.945,237,237,237,711
+baseline_4,air,Period_I,baseline,0,Period I baseline,,source,Batch1,baseline_as_air,air\baseline_4.csv,302.034,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,302.034,237,237,237,711
+reference_4,air,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,reference_as_air,air\reference_4.csv,60.0,programme_60,0.0,30.0,30.0,40.0,40.0,62.084,62.084,119,39,88,246
+air_5,air,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,air\air_5.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+baseline_5,air,Period_I,baseline,0,Period I baseline,,source,Batch1,baseline_as_air,air\baseline_5.csv,301.995,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,301.995,237,237,237,711
+reference_5,air,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,reference_as_air,air\reference_5.csv,60.0,programme_60,0.0,30.0,30.0,40.0,40.0,62.071,62.071,119,39,88,246
+air_6,air,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,air\air_6.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+baseline_6,air,Period_I,baseline,0,Period I baseline,,source,Batch1,baseline_as_air,air\baseline_6.csv,302.034,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,302.034,237,237,237,711
+reference_6,air,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,reference_as_air,air\reference_6.csv,60.0,programme_60,0.0,30.0,30.0,40.0,40.0,61.825,61.825,119,39,87,245
+air_7,air,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,air\air_7.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.945,237,237,237,711
+baseline_7,air,Period_I,baseline,0,Period I baseline,,source,Batch1,baseline_as_air,air\baseline_7.csv,302.035,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,302.035,237,237,237,711
+reference_7,air,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,reference_as_air,air\reference_7.csv,60.0,programme_60,0.0,30.0,30.0,40.0,40.0,61.827,61.827,119,39,87,245
+air_8,air,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,air\air_8.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+reference_8,air,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,reference_as_air,air\reference_8.csv,60.0,programme_60,0.0,30.0,30.0,40.0,40.0,61.831,61.831,119,39,87,245
+air_9,air,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,air\air_9.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+reference_9,air,Period_II,Day 8,8,Period II Day 8,24.05.2026,batch2,Batch3,reference_as_air,air\reference_9.csv,60.0,programme_60,0.0,30.0,30.0,40.0,40.0,61.826,61.826,119,39,87,245
+air_10,air,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,air\air_10.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+air_11,air,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,air\air_11.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+air_12,air,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,air\air_12.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+air_13,air,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,air\air_13.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_14,air,Period_II,Day 8,8,Period II Day 8,24.05.2026,batch2,Batch3,new,air\air_14.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_15,air,Period_II,Day 8,8,Period II Day 8,24.05.2026,batch2,Batch3,new,air\air_15.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+air_16,air,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,air\air_16.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.013,132.013,237,40,245,522
+air_17,air,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,air\air_17.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.025,132.025,237,40,245,522
+air_18,air,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,air\air_18.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.014,132.014,237,40,245,522
+air_19,air,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,air\air_19.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.025,132.025,237,40,245,522
+air_20,air,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,air\air_20.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,127.183,127.183,237,20,246,503
+air_21,air,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,air\air_21.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,126.945,126.945,237,20,245,502
+air_22,air,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,air\air_22.csv,180.0,manual_180_air_22,0.0,60.0,60.0,70.0,70.0,111.224,111.224,237,40,163,440
+air_23,air,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,air\air_23.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,180.643,237,237,237,711
+air_24,air,Period_II,Day 13,13,Period II Day 13,30.05.2026,batch3,Batch4,new,air\air_24.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+air_25,air,Period_II,Day 13,13,Period II Day 13,30.05.2026,batch3,Batch4,new,air\air_25.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.909,237,237,237,711
+air_26,air,Period_II,Day 13,13,Period II Day 13,30.05.2026,batch3,Batch4,new,air\air_26.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.928,237,237,237,711
+air_27,air,Period_II,Day 13,13,Period II Day 13,30.05.2026,batch3,Batch4,new,air\air_27.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+air_28,air,Period_II,Day 13,13,Period II Day 13,30.05.2026,batch3,Batch4,new,air\air_28.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+air_29,air,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,air\air_29.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_30,air,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,air\air_30.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+air_31,air,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,air\air_31.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_32,air,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,air\air_32.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+air_33,air,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,air\air_33.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.2,237,237,237,711
+air_34,air,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,air\air_34.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+air_35,air,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,air\air_35.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.91,237,237,237,711
+air_36,air,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,air\air_36.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.91,237,237,237,711
+air_37,air,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,air\air_37.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.676,237,237,237,711
+air_38,air,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,air\air_38.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.91,237,237,237,711
+air_39,air,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,air\air_39.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+air_40,air,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,air\air_40.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+air_41,air,Period_II,Day 16,16,Period II Day 16,02.06.2026,batch3,Batch4,new,air\air_41.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.909,237,237,237,711
+air_42,air,Period_II,Day 16,16,Period II Day 16,02.06.2026,batch3,Batch4,new,air\air_42.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.911,237,237,237,711
+air_43,air,Period_II,Day 16,16,Period II Day 16,02.06.2026,batch3,Batch4,new,air\air_43.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.163,237,237,237,711
+air_44,air,Period_II,Day 16,16,Period II Day 16,02.06.2026,batch3,Batch4,new,air\air_44.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+air_45,air,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,air\air_45.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.182,237,237,237,711
+air_46,air,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,air\air_46.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+air_47,air,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,air\air_47.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.184,237,237,237,711
+air_48,air,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,air\air_48.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,159.125,159.125,237,237,155,629
+air_49,air,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,air\air_49.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+air_50,air,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,air\air_50.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_51,air,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,air\air_51.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_52,air,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,air\air_52.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_53,air,Period_III,Day 19,19,Period III Day 19,13.06.2026,batch4,Batch5,new,air\air_53.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.914,237,237,237,711
+air_54,air,Period_III,Day 19,19,Period III Day 19,13.06.2026,batch4,Batch5,new,air\air_54.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_55,air,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,air\air_55.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.931,237,237,237,711
+air_56,air,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,air\air_56.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.931,237,237,237,711
+air_57,air,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,air\air_57.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+air_58,air,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,air\air_58.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.201,237,237,237,711
+air_59,air,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,air\air_59.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+air_60,air,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,air\air_60.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.182,237,237,237,711
+air_61,air,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,air\air_61.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_62,air,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,air\air_62.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_63,air,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,air\air_63.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.182,237,237,237,711
+air_64,air,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,air\air_64.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+air_65,air,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,air\air_65.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+air_66,air,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,air\air_66.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+air_67,air,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,air\air_67.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+air_68,air,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,air\air_68.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.927,237,237,237,711
+air_69,air,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,air\air_69.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.182,237,237,237,711
+air_70,air,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,air\air_70.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.171,237,237,237,711
+air_71,air,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,air\air_71.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+air_72,air,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,air\air_72.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_1,alcohol,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,alcohol\alcohol_1.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_o1,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,,source,Batch1,old,alcohol\alcohol_o1.csv,181.903,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.903,237,237,237,711
+alcohol_2,alcohol,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,alcohol\alcohol_2.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_o2,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,,source,Batch1,old,alcohol\alcohol_o2.csv,181.91,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.91,237,237,237,711
+alcohol_3,alcohol,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,alcohol\alcohol_3.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_o3,alcohol,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,,source,Batch1,old,alcohol\alcohol_o3.csv,181.929,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_4,alcohol,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,alcohol\alcohol_4.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.2,237,237,237,711
+alcohol_o4,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,,source,Batch1,old,alcohol\alcohol_o4.csv,181.93,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_5,alcohol,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,alcohol\alcohol_5.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.2,237,237,237,711
+alcohol_o5,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,,source,Batch1,old,alcohol\alcohol_o5.csv,182.183,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_6,alcohol,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,alcohol\alcohol_6.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_o6,alcohol,Period_I,Day 2 noon,2,Period I Day 2 noon,,source,Batch1,old,alcohol\alcohol_o6.csv,182.182,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.182,237,237,237,711
+alcohol_7,alcohol,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,alcohol\alcohol_7.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_o7,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,,source,Batch1,old,alcohol\alcohol_o7.csv,181.929,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_8,alcohol,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,alcohol\alcohol_8.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_o8,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,,source,Batch1,old,alcohol\alcohol_o8.csv,181.929,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_9,alcohol,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,alcohol\alcohol_9.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+alcohol_o9,alcohol,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,,source,Batch1,old,alcohol\alcohol_o9.csv,181.93,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_10,alcohol,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,alcohol\alcohol_10.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+alcohol_o10,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,,source,Batch1,old,alcohol\alcohol_o10.csv,182.164,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.164,237,237,237,711
+alcohol_11,alcohol,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,alcohol\alcohol_11.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_o11,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,,source,Batch1,old,alcohol\alcohol_o11.csv,181.929,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_12,alcohol,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,alcohol\alcohol_12.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_o12,alcohol,Period_I,Day 3 noon,3,Period I Day 3 noon,,source,Batch1,old,alcohol\alcohol_o12.csv,182.182,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.182,237,237,237,711
+alcohol_13,alcohol,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,alcohol\alcohol_13.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_14,alcohol,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,alcohol\alcohol_14.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_15,alcohol,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,alcohol\alcohol_15.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_16,alcohol,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,alcohol\alcohol_16.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+alcohol_17,alcohol,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,alcohol\alcohol_17.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.2,237,237,237,711
+alcohol_18,alcohol,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,alcohol\alcohol_18.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.199,237,237,237,711
+alcohol_19,alcohol,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,alcohol\alcohol_19.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+alcohol_20,alcohol,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,alcohol\alcohol_20.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+alcohol_21,alcohol,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,alcohol\alcohol_21.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_22,alcohol,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,alcohol\alcohol_22.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+alcohol_23,alcohol,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,alcohol\alcohol_23.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+alcohol_24,alcohol,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,alcohol\alcohol_24.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+alcohol_25,alcohol,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,alcohol\alcohol_25.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+alcohol_26,alcohol,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,alcohol\alcohol_26.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.945,237,237,237,711
+alcohol_27,alcohol,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,alcohol\alcohol_27.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.162,237,237,237,711
+alcohol_28,alcohol,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,alcohol\alcohol_28.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_29,alcohol,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,alcohol\alcohol_29.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_30,alcohol,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,alcohol\alcohol_30.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_31,alcohol,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,alcohol\alcohol_31.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.2,237,237,237,711
+alcohol_32,alcohol,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,alcohol\alcohol_32.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.91,237,237,237,711
+alcohol_33,alcohol,Period_II,Day 7,7,Period II Day 7,23.05.2026,batch2,Batch3,new,alcohol\alcohol_33.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_34,alcohol,Period_II,Day 7,7,Period II Day 7,23.05.2026,batch2,Batch3,new,alcohol\alcohol_34.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_35,alcohol,Period_II,Day 7,7,Period II Day 7,23.05.2026,batch2,Batch3,new,alcohol\alcohol_35.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_36,alcohol,Period_II,Day 8,8,Period II Day 8,24.05.2026,batch2,Batch3,new,alcohol\alcohol_36.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_37,alcohol,Period_II,Day 8,8,Period II Day 8,24.05.2026,batch2,Batch3,new,alcohol\alcohol_37.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_38,alcohol,Period_II,Day 8,8,Period II Day 8,24.05.2026,batch2,Batch3,new,alcohol\alcohol_38.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.185,237,237,237,711
+alcohol_39,alcohol,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,alcohol\alcohol_39.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.013,132.013,237,40,245,522
+alcohol_40,alcohol,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,alcohol\alcohol_40.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,131.998,131.998,237,40,245,522
+alcohol_41,alcohol,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,alcohol\alcohol_41.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.013,132.013,237,40,245,522
+alcohol_42,alcohol,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,alcohol\alcohol_42.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.024,132.024,237,40,245,522
+alcohol_43,alcohol,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,alcohol\alcohol_43.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.026,132.026,237,40,245,522
+alcohol_44,alcohol,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,alcohol\alcohol_44.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.013,132.013,237,40,245,522
+alcohol_45,alcohol,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,alcohol\alcohol_45.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.013,132.013,237,40,245,522
+alcohol_46,alcohol,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,alcohol\alcohol_46.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.014,132.014,237,40,245,522
+alcohol_47,alcohol,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,alcohol\alcohol_47.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,131.76,131.76,237,40,244,521
+alcohol_48,alcohol,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,alcohol\alcohol_48.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,127.185,127.185,237,20,246,503
+alcohol_49,alcohol,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,alcohol\alcohol_49.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,126.945,126.945,237,20,245,502
+alcohol_50,alcohol,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,alcohol\alcohol_50.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,127.185,127.185,237,20,246,503
+alcohol_51,alcohol,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,alcohol\alcohol_51.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,126.933,126.933,237,20,245,502
+alcohol_52,alcohol,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,alcohol\alcohol_52.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.909,237,237,237,711
+alcohol_53,alcohol,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,alcohol\alcohol_53.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.18,237,237,237,711
+alcohol_54,alcohol,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,alcohol\alcohol_54.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_55,alcohol,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,alcohol\alcohol_55.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.182,237,237,237,711
+alcohol_56,alcohol,Period_II,Day 13,13,Period II Day 13,30.05.2026,batch3,Batch4,new,alcohol\alcohol_56.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.909,237,237,237,711
+alcohol_57,alcohol,Period_II,Day 13,13,Period II Day 13,30.05.2026,batch3,Batch4,new,alcohol\alcohol_57.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_58,alcohol,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,alcohol\alcohol_58.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_59,alcohol,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,alcohol\alcohol_59.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_60,alcohol,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,alcohol\alcohol_60.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+alcohol_61,alcohol,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,alcohol\alcohol_61.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_62,alcohol,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,alcohol\alcohol_62.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_63,alcohol,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,alcohol\alcohol_63.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.2,237,237,237,711
+alcohol_64,alcohol,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,alcohol\alcohol_64.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_65,alcohol,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,alcohol\alcohol_65.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_66,alcohol,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,alcohol\alcohol_66.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_67,alcohol,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,alcohol\alcohol_67.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.163,237,237,237,711
+alcohol_68,alcohol,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,alcohol\alcohol_68.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.91,237,237,237,711
+alcohol_69,alcohol,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,alcohol\alcohol_69.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_70,alcohol,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,alcohol\alcohol_70.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_71,alcohol,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,alcohol\alcohol_71.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.184,237,237,237,711
+alcohol_72,alcohol,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,alcohol\alcohol_72.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_73,alcohol,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,alcohol\alcohol_73.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_74,alcohol,Period_III,Day 19,19,Period III Day 19,13.06.2026,batch4,Batch5,new,alcohol\alcohol_74.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.901,237,237,237,711
+alcohol_75,alcohol,Period_III,Day 19,19,Period III Day 19,13.06.2026,batch4,Batch5,new,alcohol\alcohol_75.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.91,237,237,237,711
+alcohol_76,alcohol,Period_III,Day 19,19,Period III Day 19,13.06.2026,batch4,Batch5,new,alcohol\alcohol_76.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.909,237,237,237,711
+alcohol_77,alcohol,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,alcohol\alcohol_77.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.184,237,237,237,711
+alcohol_78,alcohol,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,alcohol\alcohol_78.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_79,alcohol,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,alcohol\alcohol_79.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_80,alcohol,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,alcohol\alcohol_80.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_81,alcohol,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,alcohol\alcohol_81.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_82,alcohol,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,alcohol\alcohol_82.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_83,alcohol,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,alcohol\alcohol_83.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_84,alcohol,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,alcohol\alcohol_84.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.931,237,237,237,711
+alcohol_85,alcohol,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,alcohol\alcohol_85.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_86,alcohol,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,alcohol\alcohol_86.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_87,alcohol,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,alcohol\alcohol_87.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_88,alcohol,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,alcohol\alcohol_88.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+alcohol_89,alcohol,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,alcohol\alcohol_89.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.184,237,237,237,711
+alcohol_90,alcohol,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,alcohol\alcohol_90.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.184,237,237,237,711
+alcohol_91,alcohol,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,alcohol\alcohol_91.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+alcohol_92,alcohol,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,alcohol\alcohol_92.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.184,237,237,237,711
+alcohol_93,alcohol,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,alcohol\alcohol_93.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_94,alcohol,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,alcohol\alcohol_94.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+alcohol_95,alcohol,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,alcohol\alcohol_95.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.928,237,237,237,711
+alcohol_96,alcohol,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,alcohol\alcohol_96.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_1,acetone,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,acetone\acetone_1.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_o1,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,,source,Batch1,old,acetone\acetone_o1.csv,181.929,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_2,acetone,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,acetone\acetone_2.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_o2,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,,source,Batch1,old,acetone\acetone_o2.csv,182.183,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_3,acetone,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,acetone\acetone_3.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_o3,acetone,Period_I,Day 1 afternoon,1,Period I Day 1 afternoon,,source,Batch1,old,acetone\acetone_o3.csv,181.908,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.908,237,237,237,711
+acetone_4,acetone,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,acetone\acetone_4.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_o4,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,,source,Batch1,old,acetone\acetone_o4.csv,182.183,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_5,acetone,Period_II,Day 1,1,Period II Day 1,14.05.2026,batch1,Batch2,new,acetone\acetone_5.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.945,237,237,237,711
+acetone_o5,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,,source,Batch1,old,acetone\acetone_o5.csv,181.93,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_6,acetone,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,acetone\acetone_6.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_o6,acetone,Period_I,Day 2 noon,2,Period I Day 2 noon,,source,Batch1,old,acetone\acetone_o6.csv,181.929,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_7,acetone,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,acetone\acetone_7.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_o7,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,,source,Batch1,old,acetone\acetone_o7.csv,181.929,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_8,acetone,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,acetone\acetone_8.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_o8,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,,source,Batch1,old,acetone\acetone_o8.csv,181.929,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_9,acetone,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,acetone\acetone_9.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+acetone_o9,acetone,Period_I,Day 2 afternoon,2,Period I Day 2 afternoon,,source,Batch1,old,acetone\acetone_o9.csv,181.93,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_10,acetone,Period_II,Day 2,2,Period II Day 2,15.05.2026,batch1,Batch2,new,acetone\acetone_10.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+acetone_o10,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,,source,Batch1,old,acetone\acetone_o10.csv,181.93,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_11,acetone,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,acetone\acetone_11.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_o11,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,,source,Batch1,old,acetone\acetone_o11.csv,181.93,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_12,acetone,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,acetone\acetone_12.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_o12,acetone,Period_I,Day 3 noon,3,Period I Day 3 noon,,source,Batch1,old,acetone\acetone_o12.csv,181.93,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_13,acetone,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,acetone\acetone_13.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_14,acetone,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,acetone\acetone_14.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_15,acetone,Period_II,Day 3,3,Period II Day 3,19.05.2026,batch2,Batch3,new,acetone\acetone_15.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_16,acetone,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,acetone\acetone_16.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+acetone_17,acetone,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,acetone\acetone_17.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+acetone_18,acetone,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,acetone\acetone_18.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+acetone_19,acetone,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,acetone\acetone_19.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.201,237,237,237,711
+acetone_20,acetone,Period_II,Day 4,4,Period II Day 4,20.05.2026,batch2,Batch3,new,acetone\acetone_20.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,180.172,237,237,237,711
+acetone_21,acetone,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,acetone\acetone_21.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.2,237,237,237,711
+acetone_22,acetone,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,acetone\acetone_22.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+acetone_23,acetone,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,acetone\acetone_23.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+acetone_24,acetone,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,acetone\acetone_24.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.932,237,237,237,711
+acetone_25,acetone,Period_II,Day 5,5,Period II Day 5,21.05.2026,batch2,Batch3,new,acetone\acetone_25.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+acetone_26,acetone,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,acetone\acetone_26.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.199,237,237,237,711
+acetone_27,acetone,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,acetone\acetone_27.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_28,acetone,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,acetone\acetone_28.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_29,acetone,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,acetone\acetone_29.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_30,acetone,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,acetone\acetone_30.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_31,acetone,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,acetone\acetone_31.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+acetone_32,acetone,Period_II,Day 6,6,Period II Day 6,22.05.2026,batch2,Batch3,new,acetone\acetone_32.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.909,237,237,237,711
+acetone_33,acetone,Period_II,Day 7,7,Period II Day 7,23.05.2026,batch2,Batch3,new,acetone\acetone_33.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_34,acetone,Period_II,Day 7,7,Period II Day 7,23.05.2026,batch2,Batch3,new,acetone\acetone_34.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,169.26,169.26,237,237,195,669
+acetone_35,acetone,Period_II,Day 7,7,Period II Day 7,23.05.2026,batch2,Batch3,new,acetone\acetone_35.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_36,acetone,Period_II,Day 8,8,Period II Day 8,24.05.2026,batch2,Batch3,new,acetone\acetone_36.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_37,acetone,Period_II,Day 8,8,Period II Day 8,24.05.2026,batch2,Batch3,new,acetone\acetone_37.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.184,237,237,237,711
+acetone_38,acetone,Period_II,Day 8,8,Period II Day 8,24.05.2026,batch2,Batch3,new,acetone\acetone_38.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.947,237,237,237,711
+acetone_39,acetone,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,acetone\acetone_39.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,131.735,131.735,237,40,244,521
+acetone_40,acetone,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,acetone\acetone_40.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,131.998,131.998,237,40,245,522
+acetone_41,acetone,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,acetone\acetone_41.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,131.999,131.999,237,40,245,522
+acetone_42,acetone,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,acetone\acetone_42.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.025,132.025,237,40,245,522
+acetone_43,acetone,Period_II,Day 9,9,Period II Day 9,25.05.2026,batch2,Batch3,new,acetone\acetone_43.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.024,132.024,237,40,245,522
+acetone_44,acetone,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,acetone\acetone_44.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,131.761,131.761,237,40,244,521
+acetone_45,acetone,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,acetone\acetone_45.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.013,132.013,237,40,245,522
+acetone_46,acetone,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,acetone\acetone_46.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.025,132.025,237,40,245,522
+acetone_47,acetone,Period_II,Day 10,10,Period II Day 10,27.05.2026,batch3,Batch4,new,acetone\acetone_47.csv,130.0,programme_130,0.0,60.0,60.0,70.0,70.0,132.025,132.025,237,40,245,522
+acetone_48,acetone,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,acetone\acetone_48.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,126.945,126.945,237,20,245,502
+acetone_49,acetone,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,acetone\acetone_49.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,126.945,126.945,237,20,245,502
+acetone_50,acetone,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,acetone\acetone_50.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,126.946,126.946,237,20,245,502
+acetone_51,acetone,Period_II,Day 11,11,Period II Day 11,28.05.2026,batch3,Batch4,new,acetone\acetone_51.csv,125.0,programme_125,0.0,60.0,60.0,65.0,65.0,126.945,126.945,237,20,245,502
+acetone_52,acetone,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,acetone\acetone_52.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_53,acetone,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,acetone\acetone_53.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_54,acetone,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,acetone\acetone_54.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_55,acetone,Period_II,Day 12,12,Period II Day 12,29.05.2026,batch3,Batch4,new,acetone\acetone_55.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_56,acetone,Period_II,Day 13,13,Period II Day 13,30.05.2026,batch3,Batch4,new,acetone\acetone_56.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.163,237,237,237,711
+acetone_57,acetone,Period_II,Day 13,13,Period II Day 13,30.05.2026,batch3,Batch4,new,acetone\acetone_57.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_58,acetone,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,acetone\acetone_58.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_59,acetone,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,acetone\acetone_59.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_60,acetone,Period_II,Day 14,14,Period II Day 14,31.05.2026,batch3,Batch4,new,acetone\acetone_60.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.946,237,237,237,711
+acetone_61,acetone,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,acetone\acetone_61.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_62,acetone,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,acetone\acetone_62.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.91,237,237,237,711
+acetone_63,acetone,Period_II,Day 15,15,Period II Day 15,01.06.2026,batch3,Batch4,new,acetone\acetone_63.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.2,237,237,237,711
+acetone_64,acetone,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,acetone\acetone_64.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_65,acetone,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,acetone\acetone_65.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_66,acetone,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,acetone\acetone_66.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.931,237,237,237,711
+acetone_67,acetone,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,acetone\acetone_67.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_68,acetone,Period_II,Day 17,17,Period II Day 17,04.06.2026,batch3,Batch4,new,acetone\acetone_68.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_69,acetone,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,acetone\acetone_69.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.171,237,237,237,711
+acetone_70,acetone,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,acetone\acetone_70.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.184,237,237,237,711
+acetone_71,acetone,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,acetone\acetone_71.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_72,acetone,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,acetone\acetone_72.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.182,237,237,237,711
+acetone_73,acetone,Period_III,Day 18,18,Period III Day 18,12.06.2026,batch4,Batch5,new,acetone\acetone_73.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_74,acetone,Period_III,Day 19,19,Period III Day 19,13.06.2026,batch4,Batch5,new,acetone\acetone_74.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.181,237,237,237,711
+acetone_75,acetone,Period_III,Day 19,19,Period III Day 19,13.06.2026,batch4,Batch5,new,acetone\acetone_75.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_76,acetone,Period_III,Day 19,19,Period III Day 19,13.06.2026,batch4,Batch5,new,acetone\acetone_76.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_77,acetone,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,acetone\acetone_77.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_78,acetone,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,acetone\acetone_78.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_79,acetone,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,acetone\acetone_79.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_80,acetone,Period_III,Day 20,20,Period III Day 20,14.06.2026,batch4,Batch5,new,acetone\acetone_80.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.2,237,237,237,711
+acetone_81,acetone,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,acetone\acetone_81.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_82,acetone,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,acetone\acetone_82.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_83,acetone,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,acetone\acetone_83.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
+acetone_84,acetone,Period_III,Day 21,21,Period III Day 21,15.06.2026,batch4,Batch5,new,acetone\acetone_84.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.931,237,237,237,711
+acetone_85,acetone,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,acetone\acetone_85.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_86,acetone,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,acetone\acetone_86.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_87,acetone,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,acetone\acetone_87.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_88,acetone,Period_IV,Day 22,22,Period IV Day 22,20.06.2026,batch5,Batch6,new,acetone\acetone_88.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.931,237,237,237,711
+acetone_89,acetone,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,acetone\acetone_89.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.93,237,237,237,711
+acetone_90,acetone,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,acetone\acetone_90.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.183,237,237,237,711
+acetone_91,acetone,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,acetone\acetone_91.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.909,237,237,237,711
+acetone_92,acetone,Period_IV,Day 23,23,Period IV Day 23,21.06.2026,batch5,Batch6,new,acetone\acetone_92.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,182.163,237,237,237,711
+acetone_93,acetone,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,acetone\acetone_93.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.909,237,237,237,711
+acetone_94,acetone,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,acetone\acetone_94.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.91,237,237,237,711
+acetone_95,acetone,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,acetone\acetone_95.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.928,237,237,237,711
+acetone_96,acetone,Period_IV,Day 24,24,Period IV Day 24,22.06.2026,batch5,Batch6,new,acetone\acetone_96.csv,180.0,programme_180_window,0.0,60.0,60.0,120.0,120.0,180.0,181.929,237,237,237,711
